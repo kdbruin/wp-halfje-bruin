@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Project Name" default="deploy">
+    <property name="username" value="kdb"/>
+    <property name="host" value="filevault.localdomain"/>
+    <property name="path" value="/usr/local/www/sites/Halfje-Bruin"/>
+    <property name="exclude" value=".rsync-excludes"/>
+
+    <target name="deploy">
+        <exec dir="." executable="rsync" failonerror="true">
+            <arg value="-a"/>
+	    <arg value="--no-perms"/>
+	    <arg value="--no-group"/>
+	    <arg value="--no-times"/>
+	    <arg value="--omit-dir-times"/>
+	    <arg value="--delete-during"/>
+	    <arg value="--exclude-from=${exclude}"/>
+	    <arg value="--rsh=ssh"/>
+            <arg value="."/>
+            <arg value="${username}@${host}:${path}"/>
+        </exec>
+    </target>
+</project>

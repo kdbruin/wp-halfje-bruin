@@ -1,0 +1,12 @@
+# exclude any files that should not be uploaded to the webserver
+- .DS_Store
+- .listing
+- .git*
+- .rsync-excludes
+- build.ant
+- composer.json
+- composer.lock
+- nbproject
+- vendor
+- wp-content/upgrade
+- wp-content/uploads

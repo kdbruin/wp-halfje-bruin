@@ -1,0 +1,17 @@
+# Ignore Composer installed files
+vendor
+wp
+
+# Uploads, etc
+wp-content/uploads
+wp-content/upgrade
+
+# Plugins
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+
+# Themes
+wp-content/themes/*
+!wp-content/themes/.gitkeep
+!wp-content/themes/halfje-bruin
+!wp-content/themes/twentyfourteen
