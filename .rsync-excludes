@@ -3,10 +3,10 @@
 - .listing
 - .git*
 - .rsync-excludes
+- .env*
 - build.ant
 - composer.json
 - composer.lock
 - nbproject
-- vendor
-- wp-content/upgrade
-- wp-content/uploads
+- app/upgrade
+- app/uploads

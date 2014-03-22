@@ -1,17 +1,20 @@
+# NetBeans project private files
+nbproject/private
+
 # Ignore Composer installed files
 vendor
 wp
 
 # Uploads, etc
-wp-content/uploads
-wp-content/upgrade
+app/uploads
+app/upgrade
 
 # Plugins
-wp-content/plugins/*
-!wp-content/plugins/.gitkeep
+app/plugins/*
+!app/plugins/.gitkeep
 
 # Themes
-wp-content/themes/*
-!wp-content/themes/.gitkeep
-!wp-content/themes/halfje-bruin
-!wp-content/themes/twentyfourteen
+app/themes/*
+!app/themes/.gitkeep
+!app/themes/halfje-bruin
+!app/themes/twentyfourteen
