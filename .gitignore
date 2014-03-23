@@ -16,5 +16,7 @@ app/plugins/*
 # Themes
 app/themes/*
 !app/themes/.gitkeep
+!app/themes/base-wp
+!app/themes/cazuela
 !app/themes/halfje-bruin
 !app/themes/twentyfourteen
