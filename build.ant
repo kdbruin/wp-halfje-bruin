@@ -9,7 +9,8 @@
         <exec dir="." executable="rsync" failonerror="true">
             <arg value="--archive"/>
             <arg value="--checksum"/>
-	    <arg value="--no-perms"/>
+            <arg value="--chmod=ug+rw,o-rwx"/>
+	    <arg value="--perms"/>
 	    <arg value="--no-group"/>
 	    <arg value="--no-times"/>
 	    <arg value="--omit-dir-times"/>
@@ -18,22 +19,6 @@
 	    <arg value="--rsh=ssh"/>
             <arg value="."/>
             <arg value="${username}@${host}:${path}"/>
-        </exec>
-    </target>
-
-    <target name="restore">
-        <exec dir="." executable="rsync" failonerror="true">
-            <arg value="--archive"/>
-            <arg value="--checksum"/>
-	    <arg value="--no-perms"/>
-	    <arg value="--no-group"/>
-	    <arg value="--no-times"/>
-	    <arg value="--omit-dir-times"/>
-	    <arg value="--delete-during"/>
-	    <arg value="--exclude-from=${exclude}"/>
-	    <arg value="--rsh=ssh"/>
-            <arg value="${username}@${host}:${path}"/>
-            <arg value="."/>
         </exec>
     </target>
 </project>

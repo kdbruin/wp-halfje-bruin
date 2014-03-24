@@ -35,9 +35,6 @@ $table_prefix = 'wp_';
 
 /**
  * WordPress Localized Language
- * Default: English
- *
- * A corresponding MO file for the chosen language must be installed to app/languages
  */
 define('WPLANG', 'nl_NL');
 
@@ -52,6 +49,11 @@ define('AUTH_SALT',        getenv('AUTH_SALT'));
 define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('NONCE_SALT'));
+
+/**
+ * WordPress Upgrade Constants
+ */
+define('FS_METHOD', getenv('FS_METHOD') ? getenv('FS_METHOD') : 'direct');
 
 /**
  * Custom Settings
