@@ -13,3 +13,20 @@ Text Domain: halfje-bruin
 */
 
 @import url("../cazuela/style.css");
+
+/* Updated style for block quotes */
+figure.quote blockquote {
+	background: url(../cazuela/images/quote.png) top left no-repeat;
+	margin: 0 1em 2em; padding-left: 2.5em;
+}
+figure.quote blockquote > :last-child {
+	margin-bottom: 0;
+}
+figure.quote figcaption {
+	display: block;
+	text-align: right;
+	margin-top: 1em;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
