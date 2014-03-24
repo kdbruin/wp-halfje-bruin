@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Project Name" default="deploy">
-    <property name="username" value="kdb"/>
+    <property name="username" value="www"/>
     <property name="host" value="filevault.localdomain"/>
     <property name="path" value="/usr/local/www/sites/Halfje-Bruin"/>
     <property name="exclude" value=".rsync-excludes"/>
