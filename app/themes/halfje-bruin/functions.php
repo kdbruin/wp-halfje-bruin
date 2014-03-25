@@ -19,5 +19,6 @@ function hb_theme_setup()
 /**
  * Other modifications
  */
+require_once('inc/image.php');
 require_once('inc/gallery.php');
 
