@@ -16,3 +16,8 @@ function hb_theme_setup()
     load_child_theme_textdomain('halfje-bruin', get_stylesheet_directory() . '/languages');
 }
 
+/**
+ * Other modifications
+ */
+require_once('inc/gallery.php');
+

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "614df1e824d7c0111c2d47bddcc03a45",
+    "hash": "dce210273899283403f9c560cefde9b5",
     "packages": [
         {
             "name": "composer/installers",
@@ -190,6 +190,26 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist/carousel-without-jetpack",
+            "version": "0.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/carousel-without-jetpack/",
+                "reference": "tags/0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/carousel-without-jetpack.0.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/carousel-without-jetpack/"
         },
         {
             "name": "wpackagist/codestyling-localization",

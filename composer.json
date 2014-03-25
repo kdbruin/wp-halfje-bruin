@@ -26,6 +26,7 @@
     "fancyguy/webroot-installer": "1.1.0",
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist/codestyling-localization": "1.99.30",
+    "wpackagist/carousel-without-jetpack": "0.6",
     "wpackagist/series": "0.2.0",
     "wpackagist/post-snippets": "2.3.2",
     "wpackagist/force-regenerate-thumbnails": "2.0.3"
