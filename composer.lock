@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "dce210273899283403f9c560cefde9b5",
+    "hash": "788ab81e1ddda63293bdce7a9887d95d",
     "packages": [
         {
             "name": "composer/installers",
@@ -250,6 +250,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/force-regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist/get-the-image",
+            "version": "0.9.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/get-the-image/",
+                "reference": "tags/0.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/get-the-image.0.9.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/get-the-image/"
         },
         {
             "name": "wpackagist/post-snippets",
