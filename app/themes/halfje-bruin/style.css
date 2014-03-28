@@ -14,19 +14,44 @@ Text Domain: halfje-bruin
 
 @import url("../cazuela/style.css");
 
-/* Updated style for block quotes */
-figure.quote blockquote {
-	background: url(../cazuela/images/quote.png) top left no-repeat;
-	margin: 0 1em 2em; padding-left: 2.5em;
+/* Short gallery styling */
+#content .hb-short-gallery {
+    margin: auto;
+    margin-bottom: 1.5em;
 }
-figure.quote blockquote > :last-child {
-	margin-bottom: 0;
+#content .hb-short-gallery .gallery-item {
+    margin: 0 0 1.5em !important;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 33%;
 }
-figure.quote figcaption {
-	display: block;
-	text-align: right;
-	margin-top: 1em;
-	font-size: 14px;
-	font-size: 1.4rem;
+#content .hb-short-gallery a img {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    margin-bottom: 0.25em;
+}
+#content .hb-short-gallery img {
+    border: 2px solid #cfcfcf;
+}
+#content .hb-short-gallery dd {
+    margin: 0;
 }
 
+/* Updated style for block quotes */
+figure.quote blockquote {
+    background: url(../cazuela/images/quote.png) top left no-repeat;
+    margin: 0 1em 2em; padding-left: 2.5em;
+}
+figure.quote blockquote > :last-child {
+    margin-bottom: 0;
+}
+figure.quote figcaption {
+    display: block;
+    text-align: right;
+    margin-top: 1em;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
