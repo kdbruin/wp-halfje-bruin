@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "450c460bbed95395502f2d1d097eedf6",
+    "hash": "1530d3e2a7e46ebb919f6eb960a8ef03",
     "packages": [
         {
             "name": "composer/installers",
@@ -270,26 +270,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/get-the-image/"
-        },
-        {
-            "name": "wpackagist/googleanalytics",
-            "version": "1.0.5",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/googleanalytics/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/googleanalytics.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/googleanalytics/"
         },
         {
             "name": "wpackagist/post-snippets",
