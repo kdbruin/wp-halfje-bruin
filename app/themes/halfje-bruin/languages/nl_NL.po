@@ -8,39 +8,39 @@ msgstr ""
 "Project-Id-Version: Halfje-Bruin Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-06 13:34+0200\n"
-"PO-Revision-Date: 2014-04-06 13:38+0100\n"
+"PO-Revision-Date: 2014-04-06 13:40+0100\n"
 "Last-Translator: Kees de Bruin <halfje.bruin@gmail.com>\n"
 "Language-Team: \n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.4\n"
+"Language: nl_NL\n"
 
 #: ../partials/content-single.php:18
 msgid "<span>Pages:</span>"
-msgstr ""
+msgstr "<span>Pagina's:</span>"
 
 #: ../partials/content-gallery.php:19
 msgid "Pages:"
-msgstr ""
+msgstr "Pagina's:"
 
 #: ../partials/post-header.php:15
 #, php-format
 msgid "Permalink to %s"
-msgstr ""
+msgstr "Permalink naar %s"
 
 #: ../taxonomy.php:33
 #, php-format
 msgid "Series Archives: %s"
-msgstr ""
+msgstr "Serie Archief: %s"
 
 #: ../inc/gallery.php:71
 msgid "Show full gallery"
-msgstr ""
+msgstr "Toon volledig album"
 
 #: ../inc/series.php:70
 #, php-format
 msgid "This is part %d of %d in the series \"%s\""
-msgstr ""
+msgstr "Dit is deel %d van %d in de serie \"%s\""
