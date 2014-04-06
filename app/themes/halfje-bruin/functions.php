@@ -21,6 +21,7 @@ function hb_theme_setup()
  */
 require_once('inc/image.php');
 require_once('inc/gallery.php');
+require_once('inc/series.php');
 
 /**
  * Google analytics

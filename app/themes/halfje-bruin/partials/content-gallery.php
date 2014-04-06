@@ -1,6 +1,7 @@
 <?php
 /**
  * @package Cazuela
+ * @subpackage Halfje-Bruin
  * @since Cazuela 1.0
  */
 ?>
