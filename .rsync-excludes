@@ -3,6 +3,7 @@
 - .listing
 - .git*
 - .rsync-excludes
+- .lftp-mirror
 - .env*
 - build.ant
 - composer.json

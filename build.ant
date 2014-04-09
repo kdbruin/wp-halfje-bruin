@@ -4,6 +4,7 @@
     <property name="host" value="filevault.localdomain"/>
     <property name="path" value="/usr/local/www/sites/Halfje-Bruin"/>
     <property name="exclude" value=".rsync-excludes"/>
+    <property name="lftpscript" value=".lftp-mirror"/>
 
     <target name="deploy">
         <exec dir="." executable="rsync" failonerror="true">
@@ -21,4 +22,12 @@
             <arg value="${username}@${host}:${path}"/>
         </exec>
     </target>
+
+    <target name="deploy-prod">
+        <exec dir="." executable="lftp" failonerror="true">
+            <arg value="-f"/>
+            <arg value="${lftpscript}"/>
+        </exec>
+    </target>
+
 </project>
