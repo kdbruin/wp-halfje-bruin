@@ -169,12 +169,7 @@ function optionscheck_display_sidebar() { ?>
             <h3>Upgrade to premium version</h3>
                 <div class="inside">
                     <p>Upgrade to the premium version to get access to advanced options.</p>
-                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="TBQRFHBL5SZ8Y">
-<input type="image" src="http://www.iografica.it/wp/wp-content/uploads/2014/03/base-wp-premium-buynowbutton.jpg" border="0" name="submit" alt="PayPal - Il metodo rapido, affidabile e innovativo per pagare e farsi pagare.">
-<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-</form>
+                    <a href="http://iografica.fetchapp.com/sell/peimeyoh" target="_blank"><img src="http://www.iografica.it/wp/wp-content/uploads/2014/03/base-wp-premium-buynowbutton.jpg" alt="Pay with PayPal" /></a>
 <p>With premium version you have access to priority support and lifetime upgrade.</br>
 We offer a 7 day full refund if you're not happy with your purchase.</p>
                 </div>

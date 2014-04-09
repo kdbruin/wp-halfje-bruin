@@ -26,5 +26,13 @@ Changelog
 * Minor bug fix.
 
 #### 1.07
-* Fix css bug on serch page.
+* Fix css bug on search page.
 * Add upload favicon option.
+
+#### 1.08
+* Fix search page display issue.
+* Add better order process for premium version.
+
+#### 1.09
+* Fix display error in breadcrumb.
+* Fix submenu display error.

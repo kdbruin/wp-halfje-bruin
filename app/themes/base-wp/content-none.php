@@ -8,7 +8,7 @@
  */
 ?>
 
-<section class="no-results not-found">
+<section class="no-results not-found twelve columns">
 	<header class="page-header">
 		<h1 class="page-title"><?php _e( 'Nothing Found', 'base' ); ?></h1>
 	</header><!-- .page-header -->

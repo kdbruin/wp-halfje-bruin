@@ -320,7 +320,7 @@ function BaseBreadcrumb() {
         echo 'Home';
         echo "</a> &#187; ";
         if (is_category() || is_single()) {
-            the_category('title_li=');
+            the_category(' &#187; ');
             if (is_single()) {
                 echo " &#187; ";
                 the_title();

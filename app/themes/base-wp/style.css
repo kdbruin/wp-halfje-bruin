@@ -4,7 +4,7 @@ Theme URI: http://www.iografica.it/prodotto/base-wp/
 Author: Iografica.it
 Author URI: http://iografica.it/
 Description: A basic blog or business WordPress theme, based on _s with integration of skeleton 960 grid.
-Version: 1.07
+Version: 1.09
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: base
@@ -433,7 +433,8 @@ a:active {
 }
 .main-navigation ul ul ul {
 	left: 100%;
-	top: 0;
+	top:100%;
+	margin-top:-57px;
 }
 .main-navigation ul ul a {
 	width: 200px;
