@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cd2e11d2a3bdb282077002505e212997",
+    "hash": "5e99abc487a31c6e5c32bb54c4569c75",
     "packages": [
         {
             "name": "composer/installers",
@@ -290,6 +290,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/image-watermark/"
+        },
+        {
+            "name": "wpackagist/portfolio-post-type",
+            "version": "0.8.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/portfolio-post-type/",
+                "reference": "tags/0.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/portfolio-post-type.0.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/portfolio-post-type/"
         },
         {
             "name": "wpackagist/post-snippets",
