@@ -19,4 +19,5 @@ app/themes/*
 !app/themes/base-wp
 !app/themes/cazuela
 !app/themes/halfje-bruin
+!app/themes/portfolio-press
 !app/themes/twentyfourteen
