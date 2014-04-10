@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Archive pages.
+ * The template for displaying Series pages.
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
@@ -30,7 +30,7 @@ get_header(); ?>
 					<h1 class="page-title">
 						<?php
 							$term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
-							printf( __( 'Series Archives: %s', 'halfje-bruin' ), '<span>' . $term->name . '</span>' );
+							printf( __( 'Series: %s', 'halfje-bruin' ), '<span>' . $term->name . '</span>' );
 						?>
 					</h1>
 				</header><!-- .page-header -->

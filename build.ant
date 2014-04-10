@@ -8,6 +8,7 @@
 
     <target name="deploy">
         <exec dir="." executable="rsync" failonerror="true">
+            <arg value="--verbose"/>
             <arg value="--archive"/>
             <arg value="--checksum"/>
             <arg value="--chmod=ug+rw,o-rwx"/>

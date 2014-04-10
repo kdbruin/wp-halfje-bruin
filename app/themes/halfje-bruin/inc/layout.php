@@ -9,9 +9,10 @@ function hb_current_layout($layout)
 {
     global $post;
 
-    if (get_post_format() == 'image')
+    if (is_page_template('page-templates/template-portfolio.php'))
     {
-        $layout['default_layout'] = 'layout-cp';
+	// full width portfolio index page
+        $layout['default_layout'] = 'layout-c';
     }
 
     return $layout;
