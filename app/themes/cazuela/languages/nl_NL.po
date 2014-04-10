@@ -1,598 +1,1217 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Cazuela 1.0\n"
+"Project-Id-Version: Cazuela v1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-12 12:53+0100\n"
-"PO-Revision-Date: 2014-04-09 20:36+0100\n"
+"PO-Revision-Date: 2014-04-10 12:04:26+0000\n"
 "Last-Translator: \n"
 "Language-Team: ThematoSoup <contact@thematosoup.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.6.4\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
 "X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: nl_NL\n"
+"X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: ..\n"
-"X-Poedit-SearchPath-1: ../inc\n"
-"X-Poedit-SearchPath-2: ../page-templates\n"
+"X-Textdomain-Support: yes"
 
-#: ../404.php:21
+#: 404.php:21
+#@ cazuela
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Helaas! Die pagina bestaat niet."
 
-#: ../404.php:25
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below?"
+#: 404.php:25
+#@ cazuela
+msgid "It looks like nothing was found at this location. Maybe try one of the links below?"
 msgstr "Er is hier niets gevonden. Misschien onderstaande links proberen?"
 
-#: ../404.php:30
+#: 404.php:30
+#@ cazuela
 msgid "Most Used Categories"
 msgstr "Meest Gebruikte Categorieën"
 
-#: ../archive.php:27
+#: archive.php:27
 #, php-format
+#@ cazuela
 msgid "Category Archives: %s"
 msgstr "Categorie Archief: %s"
 
-#: ../archive.php:30
+#: archive.php:30
 #, php-format
+#@ cazuela
 msgid "Tag Archives: %s"
 msgstr "Tag Archief: %s"
 
-#: ../archive.php:37
+#: archive.php:37
 #, php-format
+#@ cazuela
 msgid "Author Archives: %s"
 msgstr "Auteur Archief: %s"
 
-#: ../archive.php:45
+#: archive.php:45
 #, php-format
+#@ cazuela
 msgid "Daily Archives: %s"
 msgstr "Dag Archief: %s"
 
-#: ../archive.php:48
+#: archive.php:48
 #, php-format
+#@ cazuela
 msgid "Monthly Archives: %s"
 msgstr "Maand Archief: %s"
 
-#: ../archive.php:51
+#: archive.php:51
 #, php-format
+#@ cazuela
 msgid "Yearly Archives: %s"
 msgstr "Jaar Archief: %s"
 
-#: ../archive.php:54 ../sidebar.php:24
+#: archive.php:54
+#: sidebar.php:24
+#@ cazuela
 msgid "Archives"
 msgstr "Archieven"
 
-#: ../comments.php:40 ../comments.php:60
+#: comments.php:40
+#: comments.php:60
+#@ cazuela
 msgid "Comment navigation"
 msgstr "Reactie navigatie"
 
-#: ../comments.php:41 ../comments.php:61
+#: comments.php:41
+#: comments.php:61
+#@ cazuela
 msgid "&larr; Older Comments"
 msgstr "&larr; Oudere Reacties"
 
-#: ../comments.php:42 ../comments.php:62
+#: comments.php:42
+#: comments.php:62
+#@ cazuela
 msgid "Newer Comments &rarr;"
 msgstr "Nieuwere Reacties &rarr;"
 
-#: ../comments.php:72
+#: comments.php:72
+#@ cazuela
 msgid "Comments are closed."
 msgstr "Reacties niet mogelijk."
 
-#: ../content-page.php:18 ../content-single.php:16 ../image.php:92
+#: image.php:92
+#: partials/content-page.php:18
+#: partials/content-single.php:16
+#@ cazuela
 msgid "<span>Pages:</span>"
 msgstr "<span>Pagina's:</span>"
 
-#: ../content-page.php:19 ../image.php:45 ../image.php:109
-#: ../post-footer.php:50 ../page-templates/template-authors.php:76
-#: ../page-templates/template-sitemap.php:53
+#: image.php:45
+#: image.php:109
+#: page-templates/template-authors.php:76
+#: page-templates/template-sitemap.php:53
+#: partials/content-page.php:19
+#: partials/post-footer.php:50
+#@ cazuela
 msgid "Edit"
 msgstr "Bewerken"
 
-#: ../content.php:22
+#: partials/content.php:22
+#@ cazuela
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Verder lezen <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../content.php:23
+#: partials/content.php:23
+#@ cazuela
 msgid "Pages:"
 msgstr "Pagina's:"
 
-#: ../footer.php:41
+#: footer.php:41
+#@ cazuela
 msgid "http://thematosoup.com/themes/cazuela/"
 msgstr "http://thematosoup.com/themes/cazuela/"
 
-#: ../footer.php:41
+#: footer.php:41
+#@ cazuela
 msgid "Cazuela theme"
 msgstr "Cazuela thema"
 
-#: ../footer.php:41
+#: footer.php:41
+#@ cazuela
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
-#: ../footer.php:41
+#: footer.php:41
+#@ cazuela
 msgid "WordPress"
 msgstr "WordPress"
 
-#: ../functions.php:155
+#: functions.php:160
+#@ cazuela
 msgid "Main Menu"
 msgstr "Hoofd Menu"
 
-#: ../functions.php:156
+#: functions.php:161
+#@ cazuela
 msgid "Footer Menu"
-msgstr ""
+msgstr "Footer Menu"
 
-#: ../functions.php:176
+#: functions.php:181
+#@ cazuela
 msgid "Primary Sidebar"
-msgstr ""
+msgstr "Primaire Sidebar"
 
-#: ../functions.php:184
+#: functions.php:189
+#@ cazuela
 msgid "Secondary Sidebar"
-msgstr ""
+msgstr "Secondaire Sidebar"
 
-#: ../functions.php:192
+#: functions.php:197
+#@ cazuela
 msgid "Footer Widget Area"
-msgstr ""
+msgstr "Footer Widget Ruimte"
 
-#: ../functions.php:200
+#: functions.php:205
+#@ cazuela
 msgid "Homepage Widget Area"
-msgstr ""
+msgstr "Homepage Widget Ruimte"
 
-#: ../functions.php:201
+#: functions.php:206
+#@ cazuela
 msgid "This widget area is used in \"Widgetized Homepage\" page template"
-msgstr ""
+msgstr "Deze widget ruimte wordt gebruikt door de \"Widgetized Homepage\" pagina template"
 
-#: ../functions.php:210
+#: functions.php:215
+#@ cazuela
 msgid "Before Header"
 msgstr ""
 
-#: ../functions.php:218
+#: functions.php:223
+#@ cazuela
 msgid "After Header"
 msgstr ""
 
-#: ../functions.php:227
+#: functions.php:232
+#@ cazuela
 msgid "Before Content"
 msgstr ""
 
-#: ../functions.php:235
+#: functions.php:240
+#@ cazuela
 msgid "After Content"
 msgstr ""
 
-#: ../functions.php:244
+#: functions.php:249
+#@ cazuela
 msgid "Before Footer"
 msgstr ""
 
-#: ../functions.php:252
+#: functions.php:257
+#@ cazuela
 msgid "After Footer"
 msgstr ""
 
-#: ../functions.php:437
+#: functions.php:442
+#@ cazuela
 msgid "Theme Customizer"
 msgstr ""
 
-#: ../functions.php:469
+#: functions.php:474
+#@ cazuela
 msgid "Color scheme"
 msgstr ""
 
-#: ../functions.php:473
+#: functions.php:478
+#@ cazuela
 msgid "Black"
 msgstr ""
 
-#: ../functions.php:477
+#: functions.php:482
+#@ cazuela
 msgid "White"
 msgstr ""
 
-#: ../functions.php:481
+#: functions.php:486
+#@ cazuela
 msgid "Blue"
 msgstr ""
 
-#: ../functions.php:485
+#: functions.php:490
+#@ cazuela
 msgid "Brown"
 msgstr ""
 
-#: ../functions.php:489
+#: functions.php:494
+#@ cazuela
 msgid "Candy red"
 msgstr ""
 
-#: ../functions.php:493
+#: functions.php:498
+#@ cazuela
 msgid "Cobalt"
 msgstr ""
 
-#: ../functions.php:497
+#: functions.php:502
+#@ cazuela
 msgid "Grey"
 msgstr ""
 
-#: ../functions.php:501
+#: functions.php:506
+#@ cazuela
 msgid "Lime green"
 msgstr ""
 
-#: ../functions.php:505
+#: functions.php:510
+#@ cazuela
 msgid "Orange"
 msgstr ""
 
-#: ../functions.php:509
+#: functions.php:514
+#@ cazuela
 msgid "Plum purple"
 msgstr ""
 
-#: ../functions.php:513
+#: functions.php:518
+#@ cazuela
 msgid "Red"
 msgstr ""
 
-#: ../functions.php:529
+#: functions.php:534
+#@ cazuela
 msgid "Header gradient"
 msgstr ""
 
-#: ../functions.php:543
+#: functions.php:548
+#@ cazuela
 msgid "Links color"
 msgstr ""
 
-#: ../functions.php:565
+#: functions.php:570
+#@ cazuela
 msgid "Logo"
 msgstr ""
 
-#: ../functions.php:588
+#: functions.php:593
+#@ cazuela
 msgid "Navigation above posts"
 msgstr ""
 
-#: ../functions.php:602
+#: functions.php:607
+#@ cazuela
 msgid "Navigation below posts"
 msgstr ""
 
-#: ../functions.php:616
+#: functions.php:621
+#@ cazuela
 msgid "Layout"
 msgstr ""
 
-#: ../functions.php:617
+#: functions.php:622
+#@ cazuela
 msgid "Set default page layout"
 msgstr ""
 
-#: ../functions.php:630
+#: functions.php:635
+#@ cazuela
 msgid "Layout type"
 msgstr ""
 
-#: ../functions.php:634
+#: functions.php:639
+#: inc/documentation.php:92
+#@ cazuela
 msgid "Full width"
 msgstr ""
 
-#: ../functions.php:638
+#: functions.php:643
+#: inc/documentation.php:91
+#@ cazuela
 msgid "Boxed"
 msgstr ""
 
-#: ../functions.php:654
+#: functions.php:659
+#@ cazuela
 msgid "Default layout"
 msgstr ""
 
-#: ../functions.php:658
+#: functions.php:663
+#@ cazuela
 msgid "Content"
 msgstr ""
 
-#: ../functions.php:662
+#: functions.php:667
+#@ cazuela
 msgid "Content - Primary Sidebar"
 msgstr ""
 
-#: ../functions.php:666
+#: functions.php:671
+#@ cazuela
 msgid "Primary Sidebar - Content"
 msgstr ""
 
-#: ../functions.php:670
+#: functions.php:675
+#@ cazuela
 msgid "Content - Primary Sidebar - Secondary Sidebar"
 msgstr ""
 
-#: ../functions.php:674
+#: functions.php:679
+#@ cazuela
 msgid "Primary Sidebar - Secondary Sidebar - Content"
 msgstr ""
 
-#: ../functions.php:678
+#: functions.php:683
+#@ cazuela
 msgid "Primary Sidebar - Content - Secondary Sidebar"
 msgstr ""
 
-#: ../functions.php:694
+#: functions.php:699
+#: inc/documentation.php:132
+#@ cazuela
 msgid "Typography"
 msgstr ""
 
-#: ../functions.php:695
+#: functions.php:700
+#@ cazuela
 msgid "Select fonts"
 msgstr ""
 
-#: ../functions.php:708
+#: functions.php:713
+#@ cazuela
 msgid "Body font"
 msgstr ""
 
-#: ../functions.php:754
+#: functions.php:759
+#@ cazuela
 msgid "Heading font"
 msgstr ""
 
-#: ../header.php:62
+#: header.php:62
+#@ cazuela
 msgid "<span>&#9776;</span> Menu"
 msgstr ""
 
-#: ../header.php:63
+#: header.php:63
+#@ cazuela
 msgid "Skip to content"
 msgstr ""
 
-#: ../image.php:23
+#: image.php:23
+#@ cazuela
 msgid "&larr; Previous"
 msgstr ""
 
-#: ../image.php:24
+#: image.php:24
+#@ cazuela
 msgid "Next &rarr;"
 msgstr ""
 
-#: ../image.php:35
+#: image.php:35
 #, php-format
-msgid ""
-"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
-"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
-"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
-"\" rel=\"gallery\">%7$s</a>"
+#@ cazuela
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
 msgstr ""
 
-#: ../image.php:100 ../post-footer.php:41
+#: image.php:100
+#: partials/post-footer.php:41
 #, php-format
-msgid ""
-"Bookmark the <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark"
-"\">permalink</a>."
+#@ cazuela
+msgid "Bookmark the <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: ../no-results.php:14
+#: partials/no-results.php:14
+#@ cazuela
 msgid "Nothing Found"
 msgstr ""
 
-#: ../no-results.php:20
+#: partials/no-results.php:20
 #, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#@ cazuela
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: ../no-results.php:24
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+#: partials/no-results.php:24
+#@ cazuela
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: ../no-results.php:29
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+#: partials/no-results.php:29
+#@ cazuela
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: ../post-footer.php:14 ../post-footer.php:25
+#. translators: used between list items, there is a space after the comma
+#: partials/post-footer.php:14
+#: partials/post-footer.php:25
+#@ cazuela
 msgid ", "
 msgstr ""
 
-#: ../post-footer.php:18
+#: partials/post-footer.php:18
 #, php-format
+#@ cazuela
 msgid "Posted in %1$s"
 msgstr ""
 
-#: ../post-footer.php:29
+#: partials/post-footer.php:29
 #, php-format
+#@ cazuela
 msgid "Tagged %1$s"
 msgstr ""
 
-#: ../post-footer.php:35
+#: partials/post-footer.php:35
+#@ cazuela
 msgid "Leave a comment"
 msgstr ""
 
-#: ../post-footer.php:35
+#: partials/post-footer.php:35
+#@ cazuela
 msgid "1 Comment"
 msgstr ""
 
-#: ../post-footer.php:35
+#: partials/post-footer.php:35
+#@ cazuela
 msgid "% Comments"
 msgstr ""
 
-#: ../post-header.php:14 ../inc/template-tags.php:198
-#: ../page-templates/template-masonry.php:54
+#: inc/template-tags.php:198
+#: page-templates/template-masonry.php:54
+#: partials/post-header.php:14
 #, php-format
+#@ cazuela
 msgid "Permalink to %s"
 msgstr ""
 
-#: ../search.php:22
+#: search.php:22
 #, php-format
+#@ cazuela
 msgid "Search Results for: %s"
 msgstr ""
 
-#: ../searchform.php:11
+#: searchform.php:11
+#: searchform.php:13
+#@ cazuela
 msgid "Search"
 msgstr ""
 
-#: ../sidebar.php:44
+#: sidebar.php:44
+#@ cazuela
 msgid "Meta"
 msgstr ""
 
-#: ../inc/extras.php:265
+#: inc/extras.php:265
 #, php-format
+#@ cazuela
 msgid "Page %s"
 msgstr ""
 
-#: ../inc/post-meta-box.php:13
+#: inc/post-meta-box.php:13
+#@ cazuela
 msgid "Post Options"
 msgstr ""
 
-#: ../inc/post-meta-box.php:22
+#: inc/post-meta-box.php:22
+#@ cazuela
 msgid "Page Options"
 msgstr ""
 
-#: ../inc/post-meta-box.php:63
+#: inc/post-meta-box.php:63
+#@ cazuela
 msgid "Post/page layout"
 msgstr ""
 
-#: ../inc/post-meta-box.php:64
+#: inc/post-meta-box.php:64
+#@ cazuela
 msgid "You can override default layout set in theme settings"
 msgstr ""
 
-#: ../inc/post-meta-box.php:82
+#: inc/post-meta-box.php:82
+#@ cazuela
 msgid "Post/page color scheme"
 msgstr ""
 
-#: ../inc/post-meta-box.php:83
+#: inc/post-meta-box.php:83
+#@ cazuela
 msgid "You can override default color scheme set in theme settings"
 msgstr ""
 
-#: ../inc/post-meta-box.php:103
+#: inc/post-meta-box.php:103
+#@ cazuela
 msgid "Author template settings"
 msgstr ""
 
-#: ../inc/post-meta-box.php:106
+#: inc/post-meta-box.php:106
+#@ cazuela
 msgid "Order authors by:"
 msgstr ""
 
-#: ../inc/post-meta-box.php:110
+#: inc/post-meta-box.php:110
+#@ cazuela
 msgid "Display name"
 msgstr ""
 
-#: ../inc/post-meta-box.php:116
+#: inc/post-meta-box.php:116
+#@ cazuela
 msgid "Post count"
 msgstr ""
 
-#: ../inc/post-meta-box.php:122
+#: inc/post-meta-box.php:122
+#@ cazuela
 msgid "Order:"
 msgstr ""
 
-#: ../inc/post-meta-box.php:126
+#: inc/post-meta-box.php:126
+#@ cazuela
 msgid "Ascending"
 msgstr ""
 
-#: ../inc/post-meta-box.php:132
+#: inc/post-meta-box.php:132
+#@ cazuela
 msgid "Descending"
 msgstr ""
 
-#: ../inc/post-meta-box.php:138
+#: inc/post-meta-box.php:138
+#@ cazuela
 msgid "User roles to include (Cmd/Ctrl + click to select multiple roles):"
 msgstr ""
 
-#: ../inc/post-meta-box.php:157
-msgid ""
-"Please note that if you select only certain user roles, sorting you "
-"specified above will still work, but will be applied per role. For example, "
-"Administrator users would go first, sorted, then Editors and so on&hellip;"
+#: inc/post-meta-box.php:157
+#@ cazuela
+msgid "Please note that if you select only certain user roles, sorting you specified above will still work, but will be applied per role. For example, Administrator users would go first, sorted, then Editors and so on&hellip;"
 msgstr ""
 
-#: ../inc/post-meta-box.php:167
+#: inc/post-meta-box.php:167
+#@ cazuela
 msgid "Masonry template settings"
 msgstr ""
 
-#: ../inc/post-meta-box.php:170
+#: inc/post-meta-box.php:170
+#@ cazuela
 msgid "Categories to include (Cmd/Ctrl + click to select multiple categories):"
 msgstr ""
 
-#: ../inc/post-meta-box.php:190
+#: inc/post-meta-box.php:190
+#@ cazuela
 msgid "Number of posts per page in this template:"
 msgstr ""
 
-#: ../inc/post-meta-box.php:203
+#: inc/post-meta-box.php:203
+#@ cazuela
 msgid "If you'd like to show all posts set number of posts per page to -1"
 msgstr ""
 
-#: ../inc/post-meta-box.php:215
+#: inc/post-meta-box.php:215
+#@ cazuela
 msgid "Widgetized homepage template settings"
 msgstr ""
 
-#: ../inc/post-meta-box.php:218
+#: inc/post-meta-box.php:218
+#@ cazuela
 msgid "Widgetized homepage aside:"
 msgstr ""
 
-#: ../inc/post-meta-box.php:222
+#: inc/post-meta-box.php:222
+#@ cazuela
 msgid "Featured image"
 msgstr ""
 
-#: ../inc/post-meta-box.php:228
+#: inc/post-meta-box.php:228
+#@ cazuela
 msgid "Slider (all attachments from this page)"
 msgstr ""
 
-#: ../inc/post-meta-box.php:234
+#: inc/post-meta-box.php:234
+#@ cazuela
 msgid "None (full-width text)"
 msgstr ""
 
-#: ../inc/post-meta-box.php:239
+#: inc/post-meta-box.php:239
+#@ cazuela
 msgid "Captions:"
 msgstr ""
 
-#: ../inc/post-meta-box.php:243
+#: inc/post-meta-box.php:243
+#@ cazuela
 msgid "Show slider images captions?"
 msgstr ""
 
-#: ../inc/post-meta-box.php:247
-msgid ""
-"Captions option is only applied if you select attachments slider for "
-"widgetized homepage aside. You can set title and description for each image "
-"in Media Library."
+#: inc/post-meta-box.php:247
+#@ cazuela
+msgid "Captions option is only applied if you select attachments slider for widgetized homepage aside. You can set title and description for each image in Media Library."
 msgstr ""
 
-#: ../inc/post-meta-box.php:406
-msgid ""
-"You chose attachments slider as aside for this page, please make sure the "
-"page has some attachments."
+#: inc/post-meta-box.php:406
+#@ cazuela
+msgid "You chose attachments slider as aside for this page, please make sure the page has some attachments."
 msgstr ""
 
-#: ../inc/post-meta-box.php:418
-msgid ""
-"You chose featured image as aside for this page, please make sure featured "
-"image is set."
+#: inc/post-meta-box.php:418
+#@ cazuela
+msgid "You chose featured image as aside for this page, please make sure featured image is set."
 msgstr ""
 
-#: ../inc/template-tags.php:53
+#: inc/template-tags.php:53
+#@ cazuela
 msgid "Post navigation"
 msgstr ""
 
-#: ../inc/template-tags.php:69
+#: inc/template-tags.php:69
+#@ cazuela
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr ""
 
-#: ../inc/template-tags.php:73
+#: inc/template-tags.php:73
+#@ cazuela
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: ../inc/template-tags.php:103
+#: inc/template-tags.php:103
+#@ cazuela
 msgid "Pingback:"
 msgstr ""
 
-#: ../inc/template-tags.php:103 ../inc/template-tags.php:133
+#: inc/template-tags.php:103
+#: inc/template-tags.php:133
+#@ cazuela
 msgid "(Edit)"
 msgstr ""
 
-#: ../inc/template-tags.php:114
+#: inc/template-tags.php:114
 #, php-format
+#@ cazuela
 msgid "%s <span class=\"says\">says:</span>"
 msgstr ""
 
-#: ../inc/template-tags.php:123
+#: inc/template-tags.php:123
+#@ cazuela
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: ../inc/template-tags.php:131
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:131
 #, php-format
+#@ cazuela
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ../inc/template-tags.php:157
+#: inc/template-tags.php:157
 #, php-format
-msgid ""
-"Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class="
-"\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline"
-"\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" "
-"title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+#@ cazuela
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 msgstr ""
 
-#: ../inc/template-tags.php:163
+#: inc/template-tags.php:163
 #, php-format
+#@ cazuela
 msgid "View all posts by %s"
 msgstr ""
 
-#: ../inc/template-tags.php:195
+#: inc/template-tags.php:195
+#@ cazuela
 msgid "Latest posts"
 msgstr ""
 
-#: ../page-templates/template-sitemap.php:31
+#: page-templates/template-sitemap.php:31
+#@ cazuela
 msgid "Pages"
 msgstr ""
 
-#: ../page-templates/template-sitemap.php:34
+#: page-templates/template-sitemap.php:34
+#@ cazuela
 msgid "Categories"
 msgstr ""
 
-#: ../page-templates/template-sitemap.php:37
+#: page-templates/template-sitemap.php:37
+#@ cazuela
 msgid "Latest Posts"
 msgstr ""
+
+#: comments.php:31
+#, php-format
+#@ cazuela
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:41
+#@ cazuela
+msgid "Cazuela &mdash; free, responsive WordPress theme"
+msgstr ""
+
+#: footer.php:41
+#@ cazuela
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: inc/documentation.php:24
+#: inc/documentation.php:25
+#@ cazuela
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/documentation.php:43
+#@ cazuela
+msgid "Cazuela Theme Documentation"
+msgstr ""
+
+#: inc/documentation.php:45
+#@ cazuela
+msgid "Cazuela is amazingly flexible and powerful free theme. It comes with 6 different page layouts and 9 widgetized areas. Clean code and latest WordPress quality guidelines make it secure and very light."
+msgstr ""
+
+#: inc/documentation.php:53
+#@ cazuela
+msgid "Features"
+msgstr ""
+
+#: inc/documentation.php:54
+#@ cazuela
+msgid "FAQ"
+msgstr ""
+
+#: inc/documentation.php:85
+#@ cazuela
+msgid "Every feature you want to enable or disable is in one place - Theme Customizer, so whenever you change something you get an instant preview. Theme customizer is a native WordPress feature which makes it very easy to adjust the theme to your liking."
+msgstr ""
+
+#: inc/documentation.php:86
+#@ cazuela
+msgid "Cazuela is carefully thought through and gives you much flexibility for you to sway it into anything you need."
+msgstr ""
+
+#: inc/documentation.php:88
+#@ cazuela
+msgid "Layouts"
+msgstr ""
+
+#: inc/documentation.php:89
+#@ cazuela
+msgid "Cazuela lets you choose between <strong>2 layout types</strong>:"
+msgstr ""
+
+#: inc/documentation.php:94
+#@ cazuela
+msgid "In addition to this you have the option of <strong>6 page layouts</strong>:"
+msgstr ""
+
+#: inc/documentation.php:96
+#@ cazuela
+msgid "One column"
+msgstr ""
+
+#: inc/documentation.php:97
+#@ cazuela
+msgid "Two columns (right sidebar)"
+msgstr ""
+
+#: inc/documentation.php:98
+#@ cazuela
+msgid "Two columns (left sidebar)"
+msgstr ""
+
+#: inc/documentation.php:99
+#@ cazuela
+msgid "Three columns (two right sidebars)"
+msgstr ""
+
+#: inc/documentation.php:100
+#@ cazuela
+msgid "Three columns (two left sidebars)"
+msgstr ""
+
+#: inc/documentation.php:101
+#@ cazuela
+msgid "Three columns (left primary sidebar, right secondary sidebar)"
+msgstr ""
+
+#: inc/documentation.php:104
+#@ cazuela
+msgid "Page Templates"
+msgstr ""
+
+#: inc/documentation.php:105
+#@ cazuela
+msgid "<strong>4 different templates</strong> (with more to come) let you choose the best possible way to present your content:"
+msgstr ""
+
+#: inc/documentation.php:107
+#@ cazuela
+msgid "Widgetized Homepage (Widget area below content)"
+msgstr ""
+
+#: inc/documentation.php:108
+#@ cazuela
+msgid "Authors (Sortable list of subscribers, contributors, authors, editors and administrators)"
+msgstr ""
+
+#: inc/documentation.php:109
+#@ cazuela
+msgid "Masonry (Pinterest-like template)"
+msgstr ""
+
+#: inc/documentation.php:110
+#@ cazuela
+msgid "Sitemap (Pages, categories and 25 of your latest posts)"
+msgstr ""
+
+#: inc/documentation.php:113
+#@ cazuela
+msgid "Widget Areas"
+msgstr ""
+
+#: inc/documentation.php:114
+#@ cazuela
+msgid "There are <strong>3 main widget areas:</strong>"
+msgstr ""
+
+#: inc/documentation.php:116
+#@ cazuela
+msgid "Primary"
+msgstr ""
+
+#: inc/documentation.php:117
+#@ cazuela
+msgid "Secondary"
+msgstr ""
+
+#: inc/documentation.php:118
+#@ cazuela
+msgid "Footer"
+msgstr ""
+
+#: inc/documentation.php:120
+#@ cazuela
+msgid "Most of you will use these three, but some will have the need for inserting banners, AdSense ads, calls-to-action and other content and have more control over positioning."
+msgstr ""
+
+#: inc/documentation.php:121
+#@ cazuela
+msgid "Cazuela has one <strong>Homepage widget area</strong> below all your content where you can insert three widgets per row in unlimited number of columns."
+msgstr ""
+
+#: inc/documentation.php:122
+#@ cazuela
+msgid "In addition to this you control <strong>6 more widget areas</strong>:"
+msgstr ""
+
+#: inc/documentation.php:124
+#@ cazuela
+msgid "Before header"
+msgstr ""
+
+#: inc/documentation.php:125
+#@ cazuela
+msgid "After header"
+msgstr ""
+
+#: inc/documentation.php:126
+#@ cazuela
+msgid "Before content"
+msgstr ""
+
+#: inc/documentation.php:127
+#@ cazuela
+msgid "After content"
+msgstr ""
+
+#: inc/documentation.php:128
+#@ cazuela
+msgid "Before footer"
+msgstr ""
+
+#: inc/documentation.php:129
+#@ cazuela
+msgid "After footer"
+msgstr ""
+
+#: inc/documentation.php:133
+#@ cazuela
+msgid "Typography is what makes every website usable, readable and also beautiful or not. You can choose from <strong>8 Body and 7 Header fonts</strong>."
+msgstr ""
+
+#: inc/documentation.php:134
+#@ cazuela
+msgid "Body fonts:"
+msgstr ""
+
+#: inc/documentation.php:136
+#@ cazuela
+msgid "Arial"
+msgstr ""
+
+#: inc/documentation.php:137
+#@ cazuela
+msgid "Helvetica"
+msgstr ""
+
+#: inc/documentation.php:138
+#: inc/documentation.php:148
+#@ cazuela
+msgid "Open Sans"
+msgstr ""
+
+#: inc/documentation.php:139
+#: inc/documentation.php:149
+#@ cazuela
+msgid "Lato"
+msgstr ""
+
+#: inc/documentation.php:140
+#@ cazuela
+msgid "PT Sans"
+msgstr ""
+
+#: inc/documentation.php:141
+#@ cazuela
+msgid "Gudea"
+msgstr ""
+
+#: inc/documentation.php:142
+#@ cazuela
+msgid "Lora"
+msgstr ""
+
+#: inc/documentation.php:143
+#@ cazuela
+msgid "Istok Web"
+msgstr ""
+
+#: inc/documentation.php:145
+#@ cazuela
+msgid "Heading fonts:"
+msgstr ""
+
+#: inc/documentation.php:147
+#@ cazuela
+msgid "Georgia"
+msgstr ""
+
+#: inc/documentation.php:150
+#@ cazuela
+msgid "Oswald"
+msgstr ""
+
+#: inc/documentation.php:151
+#@ cazuela
+msgid "Bitter"
+msgstr ""
+
+#: inc/documentation.php:152
+#@ cazuela
+msgid "Merriweather"
+msgstr ""
+
+#: inc/documentation.php:153
+#@ cazuela
+msgid "Droid Serif"
+msgstr ""
+
+#: inc/documentation.php:156
+#@ cazuela
+msgid "Site Title and Tagline"
+msgstr ""
+
+#: inc/documentation.php:157
+#@ cazuela
+msgid "Site title and tagline are your standard WordPress features. They are placed in the header area. Site title is substituted by logo if you upload one."
+msgstr ""
+
+#: inc/documentation.php:159
+#@ cazuela
+msgid "Colors"
+msgstr ""
+
+#: inc/documentation.php:160
+#@ cazuela
+msgid "Cazuela comes with <strong>11 predefined color schemes</strong>. You can tweak any color scheme to your liking by choosing its link color and background color which applies only for boxed layout."
+msgstr ""
+
+#: inc/documentation.php:162
+#@ cazuela
+msgid "Background Image"
+msgstr ""
+
+#: inc/documentation.php:163
+#@ cazuela
+msgid "You have the option of setting a custom background image or a pattern. This will only be visible if you select boxed layout. A custom background color will be overridden by a background image."
+msgstr ""
+
+#: inc/documentation.php:165
+#@ cazuela
+msgid "WordPress Menus"
+msgstr ""
+
+#: inc/documentation.php:166
+#@ cazuela
+msgid "Cazuela lets you select your menus from within theme customizer, as well. You also have the option of showing your navigation above or below posts."
+msgstr ""
+
+#: inc/documentation.php:168
+#@ cazuela
+msgid "Front Page"
+msgstr ""
+
+#: inc/documentation.php:169
+#@ cazuela
+msgid "Static Front Page is where you choose what to show on your home page, as well as which page will serve as your blogroll."
+msgstr ""
+
+#: inc/documentation.php:173
+#@ cazuela
+msgid "Q: Where is my Theme Options page?"
+msgstr ""
+
+#: inc/documentation.php:174
+#@ cazuela
+msgid "All options and theme features are controlled via <a href=\"customize.php\">Theme Customizer</a>."
+msgstr ""
+
+#: inc/documentation.php:176
+#@ cazuela
+msgid "Q: How can I switch layouts?"
+msgstr ""
+
+#: inc/documentation.php:177
+#@ cazuela
+msgid "There are 2 main layout types (boxed and full-width) and 6 layout types you can choose from. You can find them in Layout section of <a href=\"customize.php\">Theme Customizer</a>."
+msgstr ""
+
+#: inc/documentation.php:179
+#@ cazuela
+msgid "Q: What about changing fonts?"
+msgstr ""
+
+#: inc/documentation.php:180
+#@ cazuela
+msgid "Open Typography section in <a href=\"customize.php\">Theme Customizer</a> and choose from 8 different body fonts and 7 header font."
+msgstr ""
+
+#: inc/documentation.php:182
+#@ cazuela
+msgid "Q: How can I set title, tagline and logo?"
+msgstr ""
+
+#: inc/documentation.php:183
+#@ cazuela
+msgid "You can set all this in Site Title & Tagline section of <a href=\"customize.php\">Theme Customizer</a>. Logo file upload field allows you to upload a logo which will replace your site title."
+msgstr ""
+
+#: inc/documentation.php:185
+#@ cazuela
+msgid "Q: How can I select a color scheme?"
+msgstr ""
+
+#: inc/documentation.php:186
+#@ cazuela
+msgid "<a href=\"customize.php\">Theme Customizer</a> Colors section holds is the place where you'll find all your color related settings. You can choose from 10 different color-schemes and manually set your links and background color."
+msgstr ""
+
+#: inc/documentation.php:188
+#@ cazuela
+msgid "Q: Can I use a custom background image?"
+msgstr ""
+
+#: inc/documentation.php:189
+#@ cazuela
+msgid "Yes. Once you click on the drop-down menu in <a href=\"customize.php\">Theme Customizer</a> Background Image section, you'll be able to upload a custom background image. Layout style must be set to boxed for background image to be shown."
+msgstr ""
+
+#: inc/documentation.php:191
+#@ cazuela
+msgid "Q: How do I use navigation menus?"
+msgstr ""
+
+#: inc/documentation.php:192
+#@ cazuela
+msgid "First you need to create one or more menus in Appearance > Menus and add some links to them. Once you do this head over to <a href=\"customize.php\">Theme Customizer</a> Navigation section, where you can set where menus you created should be shown."
+msgstr ""
+
+#: inc/documentation.php:194
+#@ cazuela
+msgid "Q: Can I toggle navigation above and below the posts?"
+msgstr ""
+
+#: inc/documentation.php:195
+#@ cazuela
+msgid "Sure. Head over to <a href=\"customize.php\">Theme Customizer</a> Navigation section. There you'll find the option for displaying previous/next post links above or below your posts."
+msgstr ""
+
+#: inc/documentation.php:197
+#@ cazuela
+msgid "Q: How can I set a custom front page?"
+msgstr ""
+
+#: inc/documentation.php:198
+#@ cazuela
+msgid "Static Front Page section in <a href=\"customize.php\">Theme Customizer</a> is where you set what your front page displays (static page or your latest posts) and which page holds your blogroll."
+msgstr ""
+
+#: inc/documentation.php:200
+#@ cazuela
+msgid "Q: How can I create <a href=\"http://demo.thematosoup.com/cazuela/pagetemplates/widgetized-homepage-slider/\">page with slider aside</a>?"
+msgstr ""
+
+#: inc/documentation.php:201
+#@ cazuela
+msgid "Prepare your images. Size should be at least 500px and ideally 660px wide. Bear in mind that images are not cropped vertically."
+msgstr ""
+
+#: inc/documentation.php:202
+#@ cazuela
+msgid "Go to edit the page you want slider to show on and upload your cropped images using Media > Add New. Last uploaded image will show first in your slider. Don\\t click \"Insert into Page\". Just populate fields - title, caption, alt text, description and exit \"Media uploader\"."
+msgstr ""
+
+#: inc/documentation.php:203
+#: inc/documentation.php:212
+#@ cazuela
+msgid "Edit the page, by selecting:"
+msgstr ""
+
+#: inc/documentation.php:205
+#: inc/documentation.php:214
+#@ cazuela
+msgid "Template: Widgetized Homepage"
+msgstr ""
+
+#: inc/documentation.php:206
+#@ cazuela
+msgid "Widgetized homepage aside: Slider (all attachments from this page)"
+msgstr ""
+
+#: inc/documentation.php:209
+#@ cazuela
+msgid "Q: How can I create <a href=\"http://demo.thematosoup.com/cazuela/pagetemplates/widgetized-homepage-featured-image/\">page with featured image aside</a>?"
+msgstr ""
+
+#: inc/documentation.php:210
+#@ cazuela
+msgid "Prepare your image. Image should be at least 660px wide. Bear in mind that height of images is never cropped, so if you don't do it adjust height manually, your images may look weirdly tall."
+msgstr ""
+
+#: inc/documentation.php:211
+#@ cazuela
+msgid "Click \"Set featured image\" and upload the image. Once you do that set the following:"
+msgstr ""
+
+#: inc/documentation.php:215
+#@ cazuela
+msgid "Widgetized homepage aside: Featured Image"
+msgstr ""
+
+#: inc/template-tags.php:57
+#@ cazuela
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:58
+#@ cazuela
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: searchform.php:12
+#@ cazuela
+msgid "Search&hellip;"
+msgstr ""
+
