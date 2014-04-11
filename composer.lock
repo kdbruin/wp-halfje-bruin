@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5e99abc487a31c6e5c32bb54c4569c75",
+    "hash": "9c957277cbcf3c6b69a65386baea8ab2",
     "packages": [
         {
             "name": "composer/installers",
@@ -230,6 +230,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/codestyling-localization/"
+        },
+        {
+            "name": "wpackagist/font-awesome-4-menus",
+            "version": "4.0.3.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/font-awesome-4-menus/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/font-awesome-4-menus.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/font-awesome-4-menus/"
         },
         {
             "name": "wpackagist/force-regenerate-thumbnails",
