@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1e6515e8aff1b877d10aa1d0d2824a51",
+    "hash": "97c90d90355f4e2cb55a390c3250572a",
     "packages": [
         {
             "name": "composer/installers",
@@ -354,15 +354,15 @@
         },
         {
             "name": "wpackagist-plugin/post-snippets",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/post-snippets/",
-                "reference": "tags/2.3.2"
+                "reference": "tags/2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/post-snippets.2.3.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/post-snippets.2.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
