@@ -12,7 +12,7 @@
         "version": "3.8.3",
         "dist": {
           "type": "zip",
-          "url": "http://nl.wordpress.org/wordpress-3.8.3-nl_NL.zip"
+          "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.8.3.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.1.0"
@@ -26,7 +26,7 @@
     "fancyguy/webroot-installer": "1.1.0",
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist-plugin/codestyling-localization": "1.99.30",
-    "wpackagist-plugin/carousel-without-jetpack": "0.6",
+    "wpackagist-plugin/carousel-without-jetpack": "0.7",
     "wpackagist-plugin/font-awesome-4-menus": "4.0.3.0",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.0.3",
     "wpackagist-plugin/get-the-image": "0.9.0",
