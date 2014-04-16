@@ -41,11 +41,11 @@ get_header(); ?>
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<div class="archive-post">
+					<div class="hb-portfolio-archive">
 					<?php
 						get_template_part( '/partials/portfolio', 'thumbnail' );
 					?>
-					</div><!-- .archive-post -->
+					</div><!-- .hb-portfolio-archive -->
 
 				<?php endwhile; ?>
 
@@ -65,5 +65,4 @@ get_header(); ?>
 			</div><!-- #content .site-content -->
 		</section><!-- #primary .content-area -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
