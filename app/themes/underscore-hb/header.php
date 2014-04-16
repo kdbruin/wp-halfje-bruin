@@ -27,12 +27,32 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', 'underscore-hb' ); ?></h1>
-			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'underscore-hb' ); ?></a>
-
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
+<nav class='navbar navbar-default'>
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class='navbar-header'>
+    <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-main-collapse'>
+      <span class='sr-only'>Toggle navigation</span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+    </button>
+    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+  </div>
+ 
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class='collapse navbar-collapse navbar-main-collapse'>
+      <?php wp_nav_menu( array(
+           'menu'              => 'primary',
+           'theme_location'    => 'primary',
+           'depth'             => 2,
+           'menu_class'        => 'nav navbar-nav',
+           'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+           'walker'            => new wp_bootstrap_navwalker())
+       );
+     ?>
+  </div><!-- /.navbar-collapse -->
+</nav>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="container">
+		<div class="row">

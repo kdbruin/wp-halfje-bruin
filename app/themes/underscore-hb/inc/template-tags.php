@@ -19,17 +19,17 @@ function underscore_hb_paging_nav() {
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'underscore-hb' ); ?></h1>
-		<div class="nav-links">
+		<ul class="pager">
 
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'underscore-hb' ) ); ?></div>
+			<li class="previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'underscore-hb' ) ); ?></li>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'underscore-hb' ) ); ?></div>
+			<li class="next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'underscore-hb' ) ); ?></li>
 			<?php endif; ?>
 
-		</div><!-- .nav-links -->
+		</ul><!-- .pager -->
 	</nav><!-- .navigation -->
 	<?php
 }
@@ -50,12 +50,12 @@ function underscore_hb_post_nav() {
 	?>
 	<nav class="navigation post-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'underscore-hb' ); ?></h1>
-		<div class="nav-links">
+		<ul class="pager">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span> %title', 'Previous post link', 'underscore-hb' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title <span class="meta-nav">&rarr;</span>', 'Next post link',     'underscore-hb' ) );
+				previous_post_link( '<li class="previous">%link</li>', _x( '<span class="meta-nav">&larr;</span> %title', 'Previous post link', 'underscore-hb' ) );
+				next_post_link(     '<li class="next">%link</li>',     _x( '%title <span class="meta-nav">&rarr;</span>', 'Next post link',     'underscore-hb' ) );
 			?>
-		</div><!-- .nav-links -->
+		</ul><!-- .pager -->
 	</nav><!-- .navigation -->
 	<?php
 }

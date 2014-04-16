@@ -7,12 +7,12 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area col-xs-12 col-md-8">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'single' ); ?>
+			<?php get_template_part( 'partial/content', 'single' ); ?>
 
 			<?php underscore_hb_post_nav(); ?>
 
