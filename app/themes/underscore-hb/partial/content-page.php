@@ -13,12 +13,7 @@
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'underscore-hb' ),
-				'after'  => '</div>',
-			) );
-		?>
+		<?php underscore_hb_page_nav(); ?>
 	</div><!-- .entry-content -->
 	<?php edit_post_link( __( 'Edit', 'underscore-hb' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->

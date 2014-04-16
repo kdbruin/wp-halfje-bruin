@@ -114,6 +114,7 @@ add_action( 'wp_enqueue_scripts', 'underscore_hb_scripts' );
  */
 require_once get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
 require_once get_template_directory() . '/inc/wp_bootstrap_gallery.php';
+require_once get_template_directory() . '/inc/wp_bootstrap_link_pages.php';
 
 /**
  * Do not auto-insert line breaks

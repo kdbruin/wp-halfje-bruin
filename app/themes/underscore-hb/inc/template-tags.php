@@ -61,6 +61,33 @@ function underscore_hb_post_nav() {
 }
 endif;
 
+if ( ! function_exists( 'underscore_hb_page_nav' ) ) :
+/**
+ * Display navigation for the individual pages of a page
+ */
+function underscore_hb_page_nav() {
+	// Don't print empty markup if there's nowhere to navigate.
+	?>
+	<nav class="navigation page-navigation" role="navigation">
+		<h1 class="screen-reader-text"><?php _e( 'Page navigation', 'underscore-hb' ); ?></h1>
+		<?php
+                        $args = array(
+                                'before' => '<div><ul class="pagination">',
+                                'after' => '</ul></div>',
+                                'before_link' => '<li>',
+                                'after_link' => '</li>',
+                                'current_before' => '<li class="active">',
+                                'current_after' => '</li>',
+                                'previouspagelink' => '&laquo;',
+                                'nextpagelink' => '&raquo;'
+                        );
+                        bootstrap_link_pages( $args );
+		?>
+	</nav><!-- .navigation -->
+	<?php
+}
+endif;
+
 if ( ! function_exists( 'underscore_hb_posted_on' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time and author.
