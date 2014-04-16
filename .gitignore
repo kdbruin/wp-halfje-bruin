@@ -17,3 +17,4 @@ app/plugins/*
 app/themes/*
 !app/themes/.gitkeep
 !app/themes/halfje-bruin
+!app/themes/underscore-hb
