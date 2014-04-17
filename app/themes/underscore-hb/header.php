@@ -23,6 +23,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 <nav class='navbar navbar-default navbar-fixed-top'>
+  <div class='container'>
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class='navbar-header'>
     <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-main-collapse'>
@@ -55,13 +56,16 @@
         </div>
       </form>
   </div>
-  </div><!-- /.navbar-collapse -->
+  </div><!-- .navbar-collapse -->
+  </div><!-- .container -->
 </nav>
 
+	<div class='container'>
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</div>
+		</div><!-- .site-branding -->
+	</div><!-- .container -->
 
 	</header><!-- #masthead -->
 
