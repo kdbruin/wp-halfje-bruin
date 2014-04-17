@@ -22,12 +22,7 @@
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</div>
-
-<nav class='navbar navbar-default'>
+<nav class='navbar navbar-default navbar-fixed-top'>
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class='navbar-header'>
     <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-main-collapse'>
@@ -50,8 +45,24 @@
            'walker'            => new wp_bootstrap_navwalker())
        );
      ?>
+  <div class="col-sm-3 col-md-3 pull-right">
+      <form class="navbar-form" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+        <div class="input-group">
+            <input type="search" class="form-control" placeholder="<?php _e( 'Search &hellip;', 'underscore-hb' ); ?>" name="s">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+      </form>
+  </div>
   </div><!-- /.navbar-collapse -->
 </nav>
+
+		<div class="site-branding">
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		</div>
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="container">
