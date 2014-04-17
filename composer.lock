@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2e109d4353c57f0e6ccb16021f117a95",
+    "hash": "4f61f230ee849e2f7ebb4f2d7d16b9b9",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,10 +179,10 @@
         },
         {
             "name": "wordpressNL",
-            "version": "3.8.3",
+            "version": "3.9",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.8.3.zip",
+                "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -193,15 +193,15 @@
         },
         {
             "name": "wpackagist-plugin/carousel-without-jetpack",
-            "version": "0.7",
+            "version": "0.7.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/carousel-without-jetpack/",
-                "reference": "tags/0.7"
+                "reference": "tags/0.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/carousel-without-jetpack.0.7.zip",
+                "url": "http://downloads.wordpress.org/plugin/carousel-without-jetpack.0.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
