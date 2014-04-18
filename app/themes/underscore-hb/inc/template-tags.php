@@ -67,6 +67,8 @@ if ( ! function_exists( 'underscore_hb_page_nav' ) ) :
  */
 function underscore_hb_page_nav() {
 	// Don't print empty markup if there's nowhere to navigate.
+	global $multipage;
+	if (! $multipage ) return;
 	?>
 	<nav class="navigation page-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Page navigation', 'underscore-hb' ); ?></h1>

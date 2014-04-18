@@ -1,9 +1,9 @@
-body {
-	margin-top: 100px;
+html, body {
+	height: 100%;
 }
 
-footer {
-	margin: 50px 0;
+body {
+	margin-top: 100px;
 }
 
 /* Push the navigation bar below the admin bar.
@@ -11,6 +11,30 @@ footer {
  */
 body.admin-bar .navbar-fixed-top {
 	top: 32px !important;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	/* negative indent footer by its height */
+	margin: 0 auto -120px;
+	/* pad bottom by footer height */
+	padding: 0 0 120px;
+}
+.push {
+	height: 120px;
+}
+
+footer.entry-footer {
+	margin: 50px 0px;
+}
+
+footer.site-footer {
+	clear: both;
+	background: #333333;
+	height: 120px;
+}
+footer.site-footer .site-info {
 }
 
 .navbar-default {
