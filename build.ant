@@ -6,6 +6,25 @@
     <property name="exclude" value=".rsync-excludes"/>
     <property name="lftpscript" value=".lftp-mirror"/>
 
+    <property name="less_input" value="less/underscore-hb.less"/>
+    <property name="css_output" value="css/bootstrap.css"/>
+    <property name="minified_css_output" value="css/bootstrap.min.css"/>
+    <property name="source_map" value="${css_output}.map"/>
+
+    <target name="buildcss">
+	<exec dir="./app/themes/underscore-hb/bootstrap" executable="lessc" failonerror="true">
+            <arg value="--verbose"/>
+	    <arg value="--source-map=${source_map}"/>
+	    <arg value="${less_input}"/>
+	    <arg value="${css_output}"/>
+	</exec>
+	<exec dir="./app/themes/underscore-hb/bootstrap" executable="lessc" failonerror="true">
+            <arg value="--verbose"/>
+	    <arg value="${less_input}"/>
+	    <arg value="${minified_css_output}"/>
+	</exec>
+    </target>
+
     <target name="deploy">
         <exec dir="." executable="rsync" failonerror="true">
             <arg value="--verbose"/>

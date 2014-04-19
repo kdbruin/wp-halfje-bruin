@@ -120,6 +120,22 @@ function underscore_hb_posted_on() {
 }
 endif;
 
+if ( !function_exists( 'underscore_hb_post_title' ) ) :
+/**
+ * Prints the post title prefixed with the proper glyphicon for the post format.
+ */
+function underscore_hb_post_title() {
+    $format = get_post_format();
+    $glyphicon = 'align-left';
+    if ( $format == 'image') {
+	$glyphicon = 'picture';
+    } else if ( $format == 'gallery') {
+	$glyphicon = 'th';
+    }
+    printf( '<span class="small glyphicon glyphicon-%s"></span>%s', $glyphicon, get_the_title());
+}
+endif;
+
 /**
  * Returns true if a blog has more than 1 category.
  *

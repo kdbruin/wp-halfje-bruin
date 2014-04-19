@@ -9,5 +9,6 @@
 - composer.json
 - composer.lock
 - nbproject
+- app/themes/underscore-hb/bootstrap/less
 - app/upgrade
 - app/uploads

@@ -115,7 +115,7 @@ function wp_bootstrap_gallery( $content, $attr ) {
 			list($src, $width, $height) = $image_src;
 
 			$output .= '<div class="' . $column_class . '">';
-			$output .= '<a href="' . $image_link . '" class="thumbnail"><img src="' . $src . '" /></a>';
+			$output .= '<a href="' . $image_link . '" class="thumbnail" rel="lightbox[' . $post->ID . ']"><img src="' . $src . '" /></a>';
 			$output .= '</div>';
 		}
 	}
