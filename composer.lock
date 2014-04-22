@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4f61f230ee849e2f7ebb4f2d7d16b9b9",
+    "hash": "bf2535fcdea3b04a6eb2f9bee27239ea",
     "packages": [
         {
             "name": "composer/installers",
@@ -190,6 +190,29 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/agnosia-bootstrap-carousel",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/agnosia-bootstrap-carousel/",
+                "reference": "tags/1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/agnosia-bootstrap-carousel.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/agnosia-bootstrap-carousel": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/agnosia-bootstrap-carousel/"
         },
         {
             "name": "wpackagist-plugin/carousel-without-jetpack",
@@ -397,6 +420,29 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/series/"
+        },
+        {
+            "name": "wpackagist-plugin/twitter-bootstrap-galleries",
+            "version": "1.0.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/twitter-bootstrap-galleries/",
+                "reference": "tags/1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/twitter-bootstrap-galleries.1.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/twitter-bootstrap-galleries": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/twitter-bootstrap-galleries/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
