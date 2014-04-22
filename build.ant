@@ -6,22 +6,38 @@
     <property name="exclude" value=".rsync-excludes"/>
     <property name="lftpscript" value=".lftp-mirror"/>
 
-    <property name="less_input" value="less/underscore-hb.less"/>
-    <property name="css_output" value="css/bootstrap.css"/>
-    <property name="minified_css_output" value="css/bootstrap.min.css"/>
-    <property name="source_map" value="${css_output}.map"/>
+    <property name="bootstrap_input" value="bootstrap/less/underscore-hb.less"/>
+    <property name="bootstrap_output" value="bootstrap/css/bootstrap.css"/>
+    <property name="bootstrap_min_output" value="bootstrap/css/bootstrap.min.css"/>
+    <property name="bootstrap_source_map" value="${bootstrap_output}.map"/>
+
+    <property name="cust_css_input" value="css/custom.less"/>
+    <property name="cust_css_output" value="css/custom.css"/>
+    <property name="cust_css_min_output" value="css/custom.min.css"/>
+    <property name="cust_css_source_map" value="${cust_css_output}.map"/>
 
     <target name="buildcss">
-	<exec dir="./app/themes/underscore-hb/bootstrap" executable="lessc" failonerror="true">
+	<exec dir="./app/themes/underscore-hb" executable="lessc" failonerror="true">
             <arg value="--verbose"/>
-	    <arg value="--source-map=${source_map}"/>
-	    <arg value="${less_input}"/>
-	    <arg value="${css_output}"/>
+	    <arg value="--source-map=${bootstrap_source_map}"/>
+	    <arg value="${bootstrap_input}"/>
+	    <arg value="${bootstrap_output}"/>
 	</exec>
-	<exec dir="./app/themes/underscore-hb/bootstrap" executable="lessc" failonerror="true">
+	<exec dir="./app/themes/underscore-hb" executable="lessc" failonerror="true">
             <arg value="--verbose"/>
-	    <arg value="${less_input}"/>
-	    <arg value="${minified_css_output}"/>
+	    <arg value="${bootstrap_input}"/>
+	    <arg value="${bootstrap_min_output}"/>
+	</exec>
+	<exec dir="./app/themes/underscore-hb" executable="lessc" failonerror="true">
+            <arg value="--verbose"/>
+	    <arg value="--source-map=${cust_css_source_map}"/>
+	    <arg value="${cust_css_input}"/>
+	    <arg value="${cust_css_output}"/>
+	</exec>
+	<exec dir="./app/themes/underscore-hb" executable="lessc" failonerror="true">
+            <arg value="--verbose"/>
+	    <arg value="${cust_css_input}"/>
+	    <arg value="${cust_css_min_output}"/>
 	</exec>
     </target>
 

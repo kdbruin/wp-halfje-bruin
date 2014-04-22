@@ -483,15 +483,15 @@
         },
         {
             "name": "wpackagist-theme/twentyfourteen",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/twentyfourteen/",
-                "reference": "1.0"
+                "reference": "1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/twentyfourteen.1.0.zip",
+                "url": "http://wordpress.org/themes/download/twentyfourteen.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
