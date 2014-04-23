@@ -1,3 +1,8 @@
+// Core variables and mixins from Bootstrap
+@import "../bootstrap/less/variables.less";
+@import "../bootstrap/less/app-variables.less";
+@import "../bootstrap/less/mixins.less";
+
 html, body {
     height: 100%;
 }
@@ -8,7 +13,7 @@ body {
 
 body.admin-bar {
     .navbar-fixed-top {
-        /* reserve space for the admin bar */
+        // reserve space for the admin bar
         top: 32px !important;
     }
 }
@@ -23,11 +28,48 @@ footer.site-footer {
 }
 
 .navbar-default {
-    /* disable rounded corners on the navbar */
+    // disable rounded corners on the navbar
     border-radius: 0px;
 }
 
 header.entry-header {
     margin-bottom: 10px;
+}
+
+// Gallery
+.gallery {
+	margin: auto;
+
+	.gallery-item {
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.gallery-icon {
+		display: block;
+		padding: @thumbnail-padding;
+		margin-bottom: @line-height-computed;
+		line-height: @line-height-base;
+		background-color: @thumbnail-bg;
+		border: 1px solid @thumbnail-border;
+		border-radius: @thumbnail-border-radius;
+		.transition(all .2s ease-in-out);
+
+		> img, a > img {
+			&:extend(.img-responsive);
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		// Add a hover state for linked versions only
+		&:hover, &:focus, &.active {
+			border-color: @link-color;
+		}
+	}
+
+	.gallery-caption {
+		padding: @thumbnail-caption-padding;
+		color: @thumbnail-caption-color;
+	}
 }
 

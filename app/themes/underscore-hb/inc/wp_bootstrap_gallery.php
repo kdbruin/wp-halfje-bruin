@@ -103,9 +103,9 @@ function wp_bootstrap_gallery( $content, $attr ) {
 
 	$selector	=	"gallery-{$instance}";
 	$size_class	=	sanitize_html_class( $size );
-	$output		=	"<div class='row' id='$selector'>";
+	$output		=	"<div class='row gallery galleryid-$id gallery-size-$size' id='$selector'>";
 
-	$column_class	=	"col-xs-6 col-md-3";
+	$column_class	=	"gallery-item col-xs-12 col-sm-6 col-md-3";
 
 	foreach ( $attachments as $id => $attachment ) {
 
@@ -114,13 +114,14 @@ function wp_bootstrap_gallery( $content, $attr ) {
 		if ($image_src) {
 			list($src, $width, $height) = $image_src;
 
-			$output .= '<div class="' . $column_class . '">';
-			$output .= '<a href="' . $image_link . '" class="thumbnail" rel="lightbox[' . $post->ID . ']"><img src="' . $src . '" /></a>';
-			$output .= '</div>';
+			$output .= "\n" . '<figure class="' . $column_class . '">';
+			$output .= '<div class="gallery-icon">';
+			$output .= "\n\t" . '<a href="' . $image_link . '" class="thumbnail"><img src="' . $src . '" class="img-responsive attachment-thumbnail" /></a>';
+			$output .= "\n" . '</div></figure>';
 		}
 	}
 
-	$output .= "</div>\n";
+	$output .= "\n</div>\n";
 
 	return $output;
 }

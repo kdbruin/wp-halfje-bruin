@@ -6,7 +6,6 @@ body {
   margin-top: 100px;
 }
 body.admin-bar .navbar-fixed-top {
-  /* reserve space for the admin bar */
   top: 32px !important;
 }
 footer.entry-footer {
@@ -17,9 +16,40 @@ footer.site-footer {
   margin: 50px 0px;
 }
 .navbar-default {
-  /* disable rounded corners on the navbar */
   border-radius: 0px;
 }
 header.entry-header {
   margin-bottom: 10px;
+}
+.gallery {
+  margin: auto;
+}
+.gallery .gallery-item {
+  margin-top: 10px;
+  text-align: center;
+}
+.gallery .gallery-icon {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.gallery .gallery-icon > img,
+.gallery .gallery-icon a > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery .gallery-icon:hover,
+.gallery .gallery-icon:focus,
+.gallery .gallery-icon.active {
+  border-color: #158cba;
+}
+.gallery .gallery-caption {
+  padding: 9px;
+  color: #555555;
 }

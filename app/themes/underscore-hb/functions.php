@@ -117,6 +117,11 @@ require_once get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
 require_once get_template_directory() . '/inc/wp_bootstrap_link_pages.php';
 
 /**
+ * Suppress inline gallery styles
+ */
+add_filter( 'use_default_gallery_style', '__return_false' );
+
+/**
  * Do not auto-insert line breaks
  */
 remove_filter( 'the_content', 'wpautop' );
