@@ -469,15 +469,15 @@
         },
         {
             "name": "wpackagist-theme/base-wp",
-            "version": "1.11",
+            "version": "1.12",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/base-wp/",
-                "reference": "1.11"
+                "reference": "1.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/base-wp.1.11.zip",
+                "url": "http://wordpress.org/themes/download/base-wp.1.12.zip",
                 "reference": null,
                 "shasum": null
             },
