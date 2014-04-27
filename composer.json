@@ -27,7 +27,7 @@
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist-plugin/agnosia-bootstrap-carousel": "1.1",
     "wpackagist-plugin/codestyling-localization": "1.99.30",
-    "wpackagist-plugin/carousel-without-jetpack": "0.7.1",
+    "wpackagist-plugin/carousel-without-jetpack": "0.7.2",
     "wpackagist-plugin/font-awesome-4-menus": "4.0.3.0",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.0.3",
     "wpackagist-plugin/get-the-image": "0.9.0",
