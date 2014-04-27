@@ -9,26 +9,18 @@
  *
  * @package Underscore HB
  */
+// enqueue some JavaScript in the footer
+wp_enqueue_script('front-page-js', get_template_directory_uri() . '/js/front-page.js', array('bootstrap-js'), '20140427', true);
 
-get_header( 'front-page' ); ?>
+get_header('front-page');
+?>
 
-	<div id="primary" class="content-area col-md-12">
-		<main id="main" class="site-main" role="main">
+<div id="primary" class="content-area col-md-12">
+    <main id="main" class="site-main" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+        <?php underscore_hb_frontpage_carousel(); ?>
 
-				<?php get_template_part( 'partial/content', 'page' ); ?>
+    </main><!-- #main -->
+</div><!-- #primary -->
 
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || '0' != get_comments_number() ) :
-						comments_template();
-					endif;
-				?>
-
-			<?php endwhile; // end of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_footer( 'front-page' ); ?>
+<?php get_footer('front-page'); ?>

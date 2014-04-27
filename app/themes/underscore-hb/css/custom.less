@@ -23,8 +23,11 @@ footer.entry-footer {
 }
 
 footer.site-footer {
-    clear: both;
     margin: 50px 0px;
+
+    .site-info {
+        text-align: center;
+    }
 }
 
 .navbar-default {
@@ -32,16 +35,29 @@ footer.site-footer {
     border-radius: 0px;
 }
 
+// Front page
 header.front-page-header {
-	.site-branding {
-		h1 {
-			font-size: floor((@font-size-base * 4.0));
-		}
-		h2 {
-			font-size: floor((@font-size-base * 2.6));
-		}
-	}
+    h1.site-title {
+        font-size: floor((@font-size-base * 4.0));
+        text-align: center;
+    }
+    h2.site-description {
+        font-size: floor((@font-size-base * 2.0));
+        text-align: center;
+    }
 }
+
+//#front-page-carousel {
+//    .carousel-control.right {
+//       left: auto;
+//        right: -50px;
+//    }
+//
+//    .carousel-control.left {
+//        left: -50px;
+//        right: auto;
+//    }
+//}
 
 header.entry-header {
     margin-bottom: 10px;
@@ -49,38 +65,38 @@ header.entry-header {
 
 // Gallery
 .gallery {
-	margin: auto;
+    margin: auto;
 
-	.gallery-item {
-		margin-top: 10px;
-		text-align: center;
-	}
+    .gallery-item {
+        margin-top: 10px;
+        text-align: center;
+    }
 
-	.gallery-icon {
-		display: block;
-		padding: @thumbnail-padding;
-		margin-bottom: @line-height-computed;
-		line-height: @line-height-base;
-		background-color: @thumbnail-bg;
-		border: 1px solid @thumbnail-border;
-		border-radius: @thumbnail-border-radius;
-		.transition(all .2s ease-in-out);
+    .gallery-icon {
+        display: block;
+        padding: @thumbnail-padding;
+        margin-bottom: @line-height-computed;
+        line-height: @line-height-base;
+        background-color: @thumbnail-bg;
+        border: 1px solid @thumbnail-border;
+        border-radius: @thumbnail-border-radius;
+        .transition(all .2s ease-in-out);
 
-		> img, a > img {
-			&:extend(.img-responsive);
-			margin-left: auto;
-			margin-right: auto;
-		}
+        > img, a > img {
+            &:extend(.img-responsive);
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-		// Add a hover state for linked versions only
-		&:hover, &:focus, &.active {
-			border-color: @link-color;
-		}
-	}
+        // Add a hover state for linked versions only
+        &:hover, &:focus, &.active {
+            border-color: @link-color;
+        }
+    }
 
-	.gallery-caption {
-		padding: @thumbnail-caption-padding;
-		color: @thumbnail-caption-color;
-	}
+    .gallery-caption {
+        padding: @thumbnail-caption-padding;
+        color: @thumbnail-caption-color;
+    }
 }
 

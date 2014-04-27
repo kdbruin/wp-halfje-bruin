@@ -12,17 +12,21 @@ footer.entry-footer {
   margin: 50px 0px;
 }
 footer.site-footer {
-  clear: both;
   margin: 50px 0px;
+}
+footer.site-footer .site-info {
+  text-align: center;
 }
 .navbar-default {
   border-radius: 0px;
 }
-header.front-page-header .site-branding h1 {
+header.front-page-header h1.site-title {
   font-size: 56px;
+  text-align: center;
 }
-header.front-page-header .site-branding h2 {
-  font-size: 36px;
+header.front-page-header h2.site-description {
+  font-size: 28px;
+  text-align: center;
 }
 header.entry-header {
   margin-bottom: 10px;
