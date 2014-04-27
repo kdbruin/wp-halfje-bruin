@@ -18,6 +18,12 @@ footer.site-footer {
 .navbar-default {
   border-radius: 0px;
 }
+header.front-page-header .site-branding h1 {
+  font-size: 56px;
+}
+header.front-page-header .site-branding h2 {
+  font-size: 36px;
+}
 header.entry-header {
   margin-bottom: 10px;
 }

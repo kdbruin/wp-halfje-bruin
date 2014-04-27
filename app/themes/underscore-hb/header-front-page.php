@@ -20,8 +20,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-<div id="wrap">
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="front-page-header" role="banner">
 <nav class='navbar navbar-default navbar-fixed-top'>
   <div class='container'>
   <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,30 +31,19 @@
       <span class='icon-bar'></span>
       <span class='icon-bar'></span>
     </button>
-    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
   </div>
  
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class='collapse navbar-collapse navbar-main-collapse'>
       <?php wp_nav_menu( array(
-           'menu'              => 'primary',
-           'theme_location'    => 'primary',
+           'menu'              => 'frontpage',
+           'theme_location'    => 'frontpage',
            'depth'             => 2,
-           'menu_class'        => 'nav navbar-nav',
+           'menu_class'        => 'nav navbar-nav navbar-right',
            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
            'walker'            => new wp_bootstrap_navwalker())
        );
      ?>
-  <div class="col-sm-3 col-md-3 pull-right">
-      <form class="navbar-form" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-        <div class="input-group">
-            <input type="search" class="form-control" placeholder="<?php _e( 'Search &hellip;', 'underscore-hb' ); ?>" name="s">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-            </div>
-        </div>
-      </form>
-  </div>
   </div><!-- .navbar-collapse -->
   </div><!-- .container -->
 </nav>

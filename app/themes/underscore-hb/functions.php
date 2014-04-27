@@ -42,6 +42,7 @@ function underscore_hb_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
+		'frontpage' => __( 'Front Page Menu', 'underscore-hb' ),
 		'primary' => __( 'Primary Menu', 'underscore-hb' ),
 	) );
 

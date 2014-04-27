@@ -10,8 +10,6 @@
 
 		</div><!-- row -->
 	</div><!-- #content container -->
-	<div class="push"></div>
-	</div><!-- #wrap -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
