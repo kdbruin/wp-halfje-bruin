@@ -164,7 +164,7 @@ if (!function_exists('underscore_hb_frontpage_carousel')) :
                 $query->the_post();
                 
                 // check the orientation of the image
-                $image = wp_get_attachment_image_src($query->post->ID, 'full');
+                $image = wp_get_attachment_image_src(get_post_thumbnail_id($query->post->ID), 'full');
                 if ($image[1] < $image[2]) continue;
                 
                 // add indicator
@@ -176,7 +176,9 @@ if (!function_exists('underscore_hb_frontpage_carousel')) :
                 $slides .= "\n" . '<div class="item';
                 if ($slide_count == 0) $slides .= ' active';
                 $slides .= '">';
-                $slides .= "\n" . get_the_post_thumbnail($query->post->ID, 'front-page-slide');
+                $slides .= "\n" . '<a href="' . get_the_permalink() . '">';
+                $slides .= "\n" . get_the_post_thumbnail($query->post->ID, 'front-page-slide', array('class' => 'img-responsive'));
+                $slides .= "\n" . '</a>';
                 $slides .= "\n" . '<div class="carousel-caption"><h3>' . get_the_title() . '</h3></div>';
                 $slides .= "\n" . '</div>';
                 
@@ -191,8 +193,8 @@ if (!function_exists('underscore_hb_frontpage_carousel')) :
                 echo '<div id="front-page-carousel" class="carousel slide" data-ride="carousel">';
                 echo "\n" . $indicators;
                 echo "\n" . $slides;
-                echo "\n" . '<a class="left carousel-control" href="#front-page-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>';
-                echo "\n" . '<a class="right carousel-control" href="#front-page-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>';
+                echo "\n" . '<a class="left carousel-control" href="#front-page-carousel" data-slide="prev"><span class="glyphicon glyphicon-arrow-left"></span></a>';
+                echo "\n" . '<a class="right carousel-control" href="#front-page-carousel" data-slide="next"><span class="glyphicon glyphicon-arrow-right"></span></a>';
                 echo "\n" . '</div>';
             }
         }
