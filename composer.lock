@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7729d03d685cba9f7076778ac515e915",
+    "hash": "205061fceb71f688d4ee9ccebff1d23c",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,10 +179,10 @@
         },
         {
             "name": "wordpressNL",
-            "version": "3.9",
+            "version": "3.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.9.zip",
+                "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -469,15 +469,15 @@
         },
         {
             "name": "wpackagist-theme/base-wp",
-            "version": "1.12",
+            "version": "1.13",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/base-wp/",
-                "reference": "1.12"
+                "reference": "1.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/base-wp.1.12.zip",
+                "url": "http://wordpress.org/themes/download/base-wp.1.13.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -509,15 +509,15 @@
         },
         {
             "name": "wpackagist-theme/portfolio-press",
-            "version": "2.1",
+            "version": "2.2",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/portfolio-press/",
-                "reference": "2.1"
+                "reference": "2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/portfolio-press.2.1.zip",
+                "url": "http://wordpress.org/themes/download/portfolio-press.2.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -546,22 +546,34 @@
             },
             "type": "wordpress-theme",
             "homepage": "http://wordpress.org/themes/twentyfourteen/"
+        },
+        {
+            "name": "wpackagist-theme/writr",
+            "version": "1.0.8",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/writr/",
+                "reference": "1.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/themes/download/writr.1.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "http://wordpress.org/themes/writr/"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
     "platform": {
         "php": ">=5.3.0"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

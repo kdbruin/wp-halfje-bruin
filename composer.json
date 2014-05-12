@@ -9,10 +9,10 @@
       "package": {
         "name": "wordpressNL",
         "type": "webroot",
-        "version": "3.9",
+        "version": "3.9.1",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.9.zip"
+          "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-3.9.1.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.1.0"
@@ -22,7 +22,7 @@
   ],
   "require": {
     "php": ">=5.3.0",
-    "wordpressNL": "3.9",
+    "wordpressNL": "3.9.1",
     "fancyguy/webroot-installer": "1.1.0",
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist-plugin/agnosia-bootstrap-carousel": "1.1",
@@ -40,7 +40,8 @@
     "wpackagist-theme/base-wp": "*",
     "wpackagist-theme/cazuela": "*",
     "wpackagist-theme/portfolio-press": "*",
-    "wpackagist-theme/twentyfourteen": "*"
+    "wpackagist-theme/twentyfourteen": "*",
+    "wpackagist-theme/writr": "*"
   },
   "extra": {
     "installer-paths": {
