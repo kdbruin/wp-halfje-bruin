@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "205061fceb71f688d4ee9ccebff1d23c",
+    "hash": "dc5b59c1cccfffcdb9120097a0067ba5",
     "packages": [
         {
             "name": "composer/installers",
@@ -263,7 +263,7 @@
         },
         {
             "name": "wpackagist-plugin/font-awesome-4-menus",
-            "version": "4.0.3.0",
+            "version": "4.1.0.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/font-awesome-4-menus/",
