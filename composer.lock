@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dc5b59c1cccfffcdb9120097a0067ba5",
+    "hash": "77527dcf6a1c72ebfa49c5e9cbadda2f",
     "packages": [
         {
             "name": "composer/installers",
@@ -507,6 +507,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "http://wordpress.org/themes/cazuela/"
+        },
+        {
+            "name": "wpackagist-theme/fictive",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/fictive/",
+                "reference": "1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/themes/download/fictive.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "http://wordpress.org/themes/fictive/"
         },
         {
             "name": "wpackagist-theme/portfolio-press",

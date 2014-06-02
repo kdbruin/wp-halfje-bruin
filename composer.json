@@ -39,6 +39,7 @@
     "wpackagist-plugin/wordpress-importer": "0.6.1",
     "wpackagist-theme/base-wp": "*",
     "wpackagist-theme/cazuela": "*",
+    "wpackagist-theme/fictive": "*",
     "wpackagist-theme/portfolio-press": "*",
     "wpackagist-theme/twentyfourteen": "*",
     "wpackagist-theme/writr": "*"
