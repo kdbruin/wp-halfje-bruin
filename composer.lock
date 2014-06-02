@@ -1,7 +1,8 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "205061fceb71f688d4ee9ccebff1d23c",
     "packages": [
@@ -469,15 +470,15 @@
         },
         {
             "name": "wpackagist-theme/base-wp",
-            "version": "1.13",
+            "version": "1.15",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/base-wp/",
-                "reference": "1.13"
+                "reference": "1.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/base-wp.1.13.zip",
+                "url": "http://wordpress.org/themes/download/base-wp.1.15.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -509,15 +510,15 @@
         },
         {
             "name": "wpackagist-theme/portfolio-press",
-            "version": "2.2",
+            "version": "2.3",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/portfolio-press/",
-                "reference": "2.2"
+                "reference": "2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/portfolio-press.2.2.zip",
+                "url": "http://wordpress.org/themes/download/portfolio-press.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
