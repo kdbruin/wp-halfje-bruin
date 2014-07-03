@@ -4,28 +4,29 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "77527dcf6a1c72ebfa49c5e9cbadda2f",
+    "hash": "a54d94fec358ecd9653cea727aff7bad",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.13",
+            "version": "v1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff"
+                "reference": "8e6a72a78f6cfd537fde3350720dfdc9ae3c5621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
-                "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+                "url": "https://api.github.com/repos/composer/installers/zipball/8e6a72a78f6cfd537fde3350720dfdc9ae3c5621",
+                "reference": "8e6a72a78f6cfd537fde3350720dfdc9ae3c5621",
                 "shasum": ""
             },
             "replace": {
+                "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.1.*"
             },
             "type": "composer-installer",
             "extra": {
@@ -55,12 +56,14 @@
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
                 "Craft",
+                "Dolibarr",
                 "Hurad",
                 "MODX Evo",
                 "OXID",
                 "WolfCMS",
                 "agl",
                 "annotatecms",
+                "bitrix",
                 "cakephp",
                 "codeigniter",
                 "concrete5",
@@ -77,9 +80,11 @@
                 "mako",
                 "mediawiki",
                 "modulework",
+                "moodle",
                 "phpbb",
                 "piwik",
                 "ppi",
+                "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
@@ -88,7 +93,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-04-09 16:12:43"
+            "time": "2014-06-23 16:25:28"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -193,29 +198,6 @@
             "type": "webroot"
         },
         {
-            "name": "wpackagist-plugin/agnosia-bootstrap-carousel",
-            "version": "1.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/agnosia-bootstrap-carousel/",
-                "reference": "tags/1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/agnosia-bootstrap-carousel.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/agnosia-bootstrap-carousel": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/agnosia-bootstrap-carousel/"
-        },
-        {
             "name": "wpackagist-plugin/carousel-without-jetpack",
             "version": "0.7.2",
             "source": {
@@ -260,29 +242,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/codestyling-localization/"
-        },
-        {
-            "name": "wpackagist-plugin/font-awesome-4-menus",
-            "version": "4.1.0.0",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/font-awesome-4-menus/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/font-awesome-4-menus.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/font-awesome-4-menus": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/font-awesome-4-menus/"
         },
         {
             "name": "wpackagist-plugin/force-regenerate-thumbnails",
@@ -331,52 +290,6 @@
             "homepage": "http://wordpress.org/plugins/get-the-image/"
         },
         {
-            "name": "wpackagist-plugin/image-watermark",
-            "version": "1.3.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/image-watermark/",
-                "reference": "tags/1.3.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/image-watermark.1.3.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/image-watermark": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/image-watermark/"
-        },
-        {
-            "name": "wpackagist-plugin/portfolio-post-type",
-            "version": "0.8.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/portfolio-post-type/",
-                "reference": "tags/0.8.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/portfolio-post-type.0.8.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/portfolio-post-type": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/portfolio-post-type/"
-        },
-        {
             "name": "wpackagist-plugin/post-snippets",
             "version": "2.3.3",
             "source": {
@@ -423,29 +336,6 @@
             "homepage": "http://wordpress.org/plugins/series/"
         },
         {
-            "name": "wpackagist-plugin/twitter-bootstrap-galleries",
-            "version": "1.0.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/twitter-bootstrap-galleries/",
-                "reference": "tags/1.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/twitter-bootstrap-galleries.1.0.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/twitter-bootstrap-galleries": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/twitter-bootstrap-galleries/"
-        },
-        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.6.1",
             "source": {
@@ -469,26 +359,6 @@
             "homepage": "http://wordpress.org/plugins/wordpress-importer/"
         },
         {
-            "name": "wpackagist-theme/base-wp",
-            "version": "1.15",
-            "source": {
-                "type": "svn",
-                "url": "http://themes.svn.wordpress.org/base-wp/",
-                "reference": "1.15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://wordpress.org/themes/download/base-wp.1.15.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/base-wp/"
-        },
-        {
             "name": "wpackagist-theme/cazuela",
             "version": "1.0.3",
             "source": {
@@ -509,16 +379,16 @@
             "homepage": "http://wordpress.org/themes/cazuela/"
         },
         {
-            "name": "wpackagist-theme/fictive",
-            "version": "1.0",
+            "name": "wpackagist-theme/gumbo",
+            "version": "1.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/fictive/",
-                "reference": "1.0"
+                "url": "http://themes.svn.wordpress.org/gumbo/",
+                "reference": "1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/fictive.1.0.zip",
+                "url": "http://wordpress.org/themes/download/gumbo.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -526,27 +396,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/fictive/"
-        },
-        {
-            "name": "wpackagist-theme/portfolio-press",
-            "version": "2.3",
-            "source": {
-                "type": "svn",
-                "url": "http://themes.svn.wordpress.org/portfolio-press/",
-                "reference": "2.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://wordpress.org/themes/download/portfolio-press.2.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/portfolio-press/"
+            "homepage": "http://wordpress.org/themes/gumbo/"
         },
         {
             "name": "wpackagist-theme/twentyfourteen",
@@ -567,26 +417,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "http://wordpress.org/themes/twentyfourteen/"
-        },
-        {
-            "name": "wpackagist-theme/writr",
-            "version": "1.0.8",
-            "source": {
-                "type": "svn",
-                "url": "http://themes.svn.wordpress.org/writr/",
-                "reference": "1.0.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://wordpress.org/themes/download/writr.1.0.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/writr/"
         }
     ],
     "packages-dev": [],

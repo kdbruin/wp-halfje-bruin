@@ -25,24 +25,16 @@
     "wordpressNL": "3.9.1",
     "fancyguy/webroot-installer": "1.1.0",
     "vlucas/phpdotenv": "1.0.6",
-    "wpackagist-plugin/agnosia-bootstrap-carousel": "1.1",
     "wpackagist-plugin/codestyling-localization": "1.99.30",
     "wpackagist-plugin/carousel-without-jetpack": "0.7.2",
-    "wpackagist-plugin/font-awesome-4-menus": "4.1.0.0",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.0.3",
     "wpackagist-plugin/get-the-image": "0.9.0",
-    "wpackagist-plugin/image-watermark": "1.3.1",
-    "wpackagist-plugin/portfolio-post-type": "0.8.1",
     "wpackagist-plugin/post-snippets": "2.3.3",
-    "wpackagist-plugin/twitter-bootstrap-galleries": "1.0.1",
     "wpackagist-plugin/series": "0.2.0",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
-    "wpackagist-theme/base-wp": "*",
     "wpackagist-theme/cazuela": "*",
-    "wpackagist-theme/fictive": "*",
-    "wpackagist-theme/portfolio-press": "*",
-    "wpackagist-theme/twentyfourteen": "*",
-    "wpackagist-theme/writr": "*"
+    "wpackagist-theme/gumbo": "*",
+    "wpackagist-theme/twentyfourteen": "*"
   },
   "extra": {
     "installer-paths": {
