@@ -5,6 +5,9 @@
 - .rsync-excludes
 - .lftp-mirror
 - .env*
+- .externalToolBuilders
+- .project
+- .settings
 - build.ant
 - composer.json
 - composer.lock

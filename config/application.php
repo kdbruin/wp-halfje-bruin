@@ -36,7 +36,7 @@ $table_prefix = 'wp_';
 /**
  * WordPress Localized Language
  */
-define('WPLANG', 'nl_NL');
+define('WPLANG', getenv('WPLANG'));
 
 /**
  * Authentication Unique Keys and Salts
