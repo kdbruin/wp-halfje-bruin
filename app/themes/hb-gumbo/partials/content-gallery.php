@@ -14,16 +14,9 @@
 	<header class="entry-header">
 		<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'gumbo' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 			<?php 
-			if ( function_exists( 'get_the_image' ) )
-			{
-				$args = array( 'size' => 'thsp-archives-featured', 'echo' => 'false', 'link_to_post' => false, 'image_class' => 'entry-featured' );
-				$image = get_the_image($args);
-				if ( $image ) { echo $image; }
-			}
-			else if ( has_post_thumbnail() )
-			{
+			if ( has_post_thumbnail() ) :
 				the_post_thumbnail( 'thsp-archives-featured', array( 'class' => 'entry-featured') );
-			}
+			endif;	// has_post_thumbnail()
 			?>
 			
 			<?php $count = count( get_post_gallery_images( $post ) ); ?>
