@@ -1,4 +1,4 @@
 open ftp://deb4664@ftp.halfje-bruin.nl/public_html/
-mirror -R --dry-run --delete --no-perms -x build.ant -x composer.json -x composer.lock -x .env -x .rsync-excludes -x .lftp-mirror -x .git -x .settings -x .project -x .DS_Store -x .listing -x app/uploads -x app/upgrade -x nbproject . wpblog
+mirror -R --delete --no-perms -x build.ant -x composer.json -x composer.lock -x .env -x .externalToolBuilders -x .rsync-excludes -x .lftp-mirror -x .git -x .settings -x .project -x .DS_Store -x .listing -x app/uploads -x app/upgrade . blog
 quit 0
 

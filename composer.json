@@ -18,6 +18,10 @@
           "fancyguy/webroot-installer": "1.1.0"
         }
       }
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://filevault.localdomain/home/git/private/hb-plugin.git"
     }
   ],
   "require": {
@@ -32,6 +36,7 @@
     "wpackagist-plugin/post-snippets": "2.3.3",
     "wpackagist-plugin/series": "0.2.0",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
+    "kdb/hb-plugin": "dev-master",
     "wpackagist-theme/cazuela": "*",
     "wpackagist-theme/gumbo": "*",
     "wpackagist-theme/twentyfourteen": "*"

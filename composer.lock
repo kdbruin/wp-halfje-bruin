@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eda167c69b95d2f6c9bf32a354b290f0",
+    "hash": "b48a4f6b2eaf1c449d122b4b53a6917d",
     "packages": [
         {
             "name": "composer/installers",
@@ -138,6 +138,20 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "kdb/hb-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://filevault.localdomain/home/git/private/hb-plugin.git",
+                "reference": "b9801a9fe153867ad47d799c9162571387367edf"
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "wordpress-plugin",
+            "time": "2014-07-13 14:45:17"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "1.0.6",
             "source": {
@@ -171,7 +185,8 @@
                 {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
+                    "homepage": "http://www.vancelucas.com",
+                    "role": "Developer"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -419,12 +434,20 @@
             "homepage": "http://wordpress.org/themes/twentyfourteen/"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kdb/hb-plugin": 20
+    },
     "platform": {
         "php": ">=5.3.0"
     },
-    "platform-dev": []
+    "platform-dev": [
+
+    ]
 }
