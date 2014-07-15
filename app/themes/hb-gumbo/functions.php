@@ -25,10 +25,3 @@ function hb_theme_setup()
 require_once ('inc/gallery.php');
 require_once ('inc/series.php');
 require_once ('inc/template-tags.php');
-
-/**
- * Google analytics
- *
- * Make sure to set the correct Tracking-ID in the include file!
- */
-//require_once('inc/google-analytics.php');
