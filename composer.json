@@ -31,6 +31,8 @@
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist-plugin/codestyling-localization": "1.99.30",
     "wpackagist-plugin/carousel-without-jetpack": "0.7.2",
+    "wpackagist-plugin/foobox-image-lightbox": "1.0.3",
+    "wpackagist-plugin/foogallery": "1.1.7",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.0.3",
     "wpackagist-plugin/get-the-image": "1.0.0",
     "wpackagist-plugin/post-snippets": "2.3.3",
