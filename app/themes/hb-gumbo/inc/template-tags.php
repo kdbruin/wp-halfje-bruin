@@ -7,13 +7,15 @@
 /**
  * Check if a featured image is available.
  */
-function hb_has_post_thumbnail()
+function hb_has_post_thumbnail( $post = null )
 {
-	if ( has_post_thumbnail() ) return true;
+	if ( !$post = get_post( $post ) ) return false;
+
+	if ( has_post_thumbnail( $post->ID ) ) return true;
 
 	if ( class_exists( 'FooGallery_Plugin' ) )
 	{
-		$shortcodes = foogallery_extract_gallery_shortcodes( get_the_content() );
+		$shortcodes = foogallery_extract_gallery_shortcodes( $post->post_content );
 		if ( !empty( $shortcodes) )
 		{
 			$id = array_keys( $shortcodes )[0];
@@ -26,6 +28,7 @@ function hb_has_post_thumbnail()
 	if ( function_exists( 'get_the_image' ) )
 	{
 		$args = array( 
+			'post_id' => $post->ID,
 			'echo' => false, 
 			'link_to_post' => false
 		);
@@ -46,29 +49,34 @@ function hb_the_post_thumbnail( $size = 'post-thumbnail', $attr = '' )
 /**
  * Return the HTML code to display the featured image.
  */
-function hb_get_the_post_thumbnail( $post_id = null, $size = 'post-thumbnail', $attr = '' )
+function hb_get_the_post_thumbnail( $post = null, $size = 'post-thumbnail', $attr = '' )
 {
-	if ( has_post_thumbnail() )
+	if ( !$post = get_post( $post ) ) return false;
+
+	if ( has_post_thumbnail( $post->ID ) )
 	{
-		return get_the_post_thumbnail( $post_id, $size, $attr );
+		return get_the_post_thumbnail( $post->ID, $size, $attr );
 	}
 
 	if ( class_exists( 'FooGallery_Plugin' ) )
 	{
-		$shortcodes = foogallery_extract_gallery_shortcodes( get_the_content() );
+		$shortcodes = foogallery_extract_gallery_shortcodes( $post->post_content );
 		if ( !empty( $shortcodes) )
 		{
 			$id = array_keys( $shortcodes )[0];
 			$fg = FooGallery::get_by_id( $id );
 			$feat_id = $fg->find_featured_attachment_id();
+
+			do_action( 'begin_fetch_post_thumbnail_html', $post->ID, $feat_id, $size );
 			if ( $feat_id && $image = wp_get_attachment_image( $feat_id, $size, false, $attr ) ) return $image;
+			do_action( 'end_fetch_post_thumbnail_html', $post->ID, $feat_id, $size );
 		}
 	}
 
 	if ( function_exists( 'get_the_image' ) )
 	{
 		$args = array( 
-			'post_id' => $post_id ? $post_id : get_the_ID(),
+			'post_id' => $post->ID,
 			'size' => $size,
 			'echo' => false, 
 			'link_to_post' => false
@@ -84,12 +92,11 @@ function hb_get_the_post_thumbnail( $post_id = null, $size = 'post-thumbnail', $
  */
 function hb_count_post_gallery_images( $post )
 {
-	if ( !$post = get_post( $post ) )
-                return 0;
+	if ( !$post = get_post( $post ) ) return 0;
 
 	if ( class_exists( 'FooGallery_Plugin' ) )
 	{
-		$shortcodes = foogallery_extract_gallery_shortcodes( get_the_content() );
+		$shortcodes = foogallery_extract_gallery_shortcodes( $post->post_content );
                 if ( !empty( $shortcodes) )
                 {
                         $id = array_keys( $shortcodes )[0];
@@ -137,11 +144,11 @@ function gumbo_content_nav( $nav_id ) {
 			$previous_post = get_adjacent_post( false, '', true );
 			if ( $previous_post )
 			{
-				$prev_post_class = ( has_post_thumbnail( $previous_post->ID ) ? 'has-image' : '' );
+				$prev_post_class = ( hb_has_post_thumbnail( $previous_post->ID ) ? 'has-image' : '' );
 				echo '<div class="prev prev-post ' . $prev_post_class . '">';
 					echo '<a href="' . get_permalink( $previous_post->ID ) . '" title="' . sprintf( __( 'Previous post: %1$s', 'gumbo' ), esc_attr( get_the_title( $previous_post->ID ) ) ) . '">';
 						echo '<div class="clear">';
-							echo get_the_post_thumbnail( $previous_post->ID, 'thumbnail');
+							echo hb_get_the_post_thumbnail( $previous_post->ID, 'thumbnail');
 							echo '<span class="heading">' . __( 'Previous post', 'gumbo' ) . '</span>';
 							echo '<div class="title previous-title">' . get_the_title( $previous_post->ID ) . '</div>';
 						echo '</div>';
@@ -151,11 +158,11 @@ function gumbo_content_nav( $nav_id ) {
 			$next_post = get_adjacent_post( false, '', false );
 			if ( $next_post )
 			{
-				$next_post_class = ( has_post_thumbnail( $next_post->ID ) ? 'has-image' : '' );
+				$next_post_class = ( hb_has_post_thumbnail( $next_post->ID ) ? 'has-image' : '' );
 				echo '<div class="next next-post ' . $next_post_class . '">';
 					echo '<a href="' . get_permalink( $next_post->ID ) . '" title="' . sprintf( __( 'Next post: %1$s', 'gumbo' ), esc_attr( get_the_title( $next_post->ID ) ) ) . '">';
 						echo '<div class="clear">';
-							echo get_the_post_thumbnail( $next_post->ID, 'thumbnail');
+							echo hb_get_the_post_thumbnail( $next_post->ID, 'thumbnail');
 							echo '<span class="heading">' . __( 'Next post', 'gumbo' ) . '</span>';
 							echo '<div class="title next-title">' . get_the_title( $next_post->ID ) . '</div>';
 						echo '</div>';
