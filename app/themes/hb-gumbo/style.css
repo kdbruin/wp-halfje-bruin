@@ -37,6 +37,11 @@ Text Domain: halfje-bruin
         content: '\f413';
 }
 
+.site-header .site-title,
+.site-header .site-description {
+	white-space: nowrap;
+}
+
 .blog .format-gallery .entry-featured + .entry-title,
 .archive .format-gallery .entry-featured + .entry-title {
         margin: 0;
