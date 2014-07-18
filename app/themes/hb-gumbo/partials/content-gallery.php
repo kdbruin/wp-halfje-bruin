@@ -16,8 +16,6 @@
 			title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'gumbo' ), the_title_attribute( 'echo=0' ) ) ); ?>"
 			rel="bookmark">
 			<?php
-			$count = 0;
-			
 			if ( hb_has_post_thumbnail() )
 			{
 				hb_the_post_thumbnail( 'thsp-archives-featured', array( 
@@ -25,8 +23,7 @@
 				) );
 			}
 			$count = hb_count_post_gallery_images( $post );
-			?>
-			
+			?>			
 			<h1 class="entry-title"><?php the_title(); ?> <span>(<?php echo $count; ?> <?php _e( 'images', 'gumbo' ); ?>)</span>
 			</h1>
 		</a>
