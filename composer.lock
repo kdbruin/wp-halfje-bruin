@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ad504d6fdad467794838e06bf70f1da3",
+    "hash": "e96b65aa63d666f4f2636f783f943c66",
     "packages": [
         {
             "name": "composer/installers",
@@ -210,29 +210,6 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
-        },
-        {
-            "name": "wpackagist-plugin/carousel-without-jetpack",
-            "version": "0.7.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/carousel-without-jetpack/",
-                "reference": "tags/0.7.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/carousel-without-jetpack.0.7.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/carousel-without-jetpack": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/carousel-without-jetpack/"
         },
         {
             "name": "wpackagist-plugin/codestyling-localization",
