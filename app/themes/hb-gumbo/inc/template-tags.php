@@ -18,7 +18,8 @@ function hb_has_post_thumbnail( $post = null )
 		$shortcodes = foogallery_extract_gallery_shortcodes( $post->post_content );
 		if ( !empty( $shortcodes) )
 		{
-			$id = array_keys( $shortcodes )[0];
+			reset( $shortcodes );
+			$id = key( $shortcodes );
 			$fg = FooGallery::get_by_id( $id );
 			$feat_id = $fg->find_featured_attachment_id();
 			if ( $feat_id ) return true;
@@ -63,7 +64,8 @@ function hb_get_the_post_thumbnail( $post = null, $size = 'post-thumbnail', $att
 		$shortcodes = foogallery_extract_gallery_shortcodes( $post->post_content );
 		if ( !empty( $shortcodes) )
 		{
-			$id = array_keys( $shortcodes )[0];
+			reset( $shortcodes );
+			$id = key( $shortcodes );
 			$fg = FooGallery::get_by_id( $id );
 			$feat_id = $fg->find_featured_attachment_id();
 
@@ -99,7 +101,8 @@ function hb_count_post_gallery_images( $post )
 		$shortcodes = foogallery_extract_gallery_shortcodes( $post->post_content );
                 if ( !empty( $shortcodes) )
                 {
-                        $id = array_keys( $shortcodes )[0];
+			reset( $shortcodes );
+                        $id = key( $shortcodes );
                         $fg = FooGallery::get_by_id( $id );
 			return count( $fg->attachments() );
                 }
