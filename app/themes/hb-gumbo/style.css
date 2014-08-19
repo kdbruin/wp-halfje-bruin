@@ -14,12 +14,14 @@ Text Domain: halfje-bruin
 
 @import url("../gumbo/style.css");
 
+#top-navigation #menu-social a[href*="flickr.com"],
 #top-navigation #menu-social a[href*="/feed/"] {
         width: 20px;
         height: 20px;
         display: inline-block;
         overflow: hidden;
 }
+#top-navigation #menu-social a[href*="flickr.com"]:before,
 #top-navigation #menu-social a[href*="/feed/"]:before {
         display: inline-block;
         width: 20px;
@@ -32,6 +34,9 @@ Text Domain: halfje-bruin
         font-weight: normal;
         font-style: normal;
         position: relative;
+}
+#top-navigation #menu-social a[href*="flickr.com"]:before {
+        content: '\f211';
 }
 #top-navigation #menu-social a[href*="/feed/"]:before {
         content: '\f413';
