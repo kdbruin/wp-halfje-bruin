@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3092980ac4afafd61538a6ae1a86914e",
+    "hash": "72e45cc2aaf0c8b4267cc1aa44eff4de",
     "packages": [
         {
             "name": "composer/installers",
@@ -234,6 +234,29 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/codestyling-localization/"
+        },
+        {
+            "name": "wpackagist-plugin/disqus-comment-system",
+            "version": "2.77",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
+                "reference": "tags/2.77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.2.77.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/disqus-comment-system": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/disqus-comment-system/"
         },
         {
             "name": "wpackagist-plugin/easy-fancybox",
