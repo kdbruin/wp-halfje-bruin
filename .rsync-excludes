@@ -8,7 +8,7 @@
 - .externalToolBuilders
 - .project
 - .settings
-- build.ant
+- build.xml
 - composer.json
 - composer.lock
 - app/themes/underscore-hb/**.less
