@@ -33,3 +33,4 @@ add_action( 'init', 'hb_update_actions' );
 require_once ( get_stylesheet_directory() . '/inc/gallery.php' );
 require_once ( get_stylesheet_directory() . '/inc/series.php' );
 require_once ( get_stylesheet_directory() . '/inc/template-tags.php' );
+require_once ( get_stylesheet_directory() . '/inc/widgets.php' );
