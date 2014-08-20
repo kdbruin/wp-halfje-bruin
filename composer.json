@@ -37,6 +37,7 @@
     "wpackagist-plugin/post-snippets": "2.3.3",
     "wpackagist-plugin/series": "0.2.0",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
+    "wpackagist-plugin/wp-db-backup": "2.2.4",
     "kdb/hb-plugin": "dev-master",
     "wpackagist-theme/cazuela": "*",
     "wpackagist-theme/gumbo": "*",

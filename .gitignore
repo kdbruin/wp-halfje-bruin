@@ -1,3 +1,6 @@
+# General files
+composer.lock
+
 # Ignore Composer installed files
 vendor
 wp
