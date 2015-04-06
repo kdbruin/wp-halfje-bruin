@@ -44,8 +44,6 @@
     "kdb/hb-plugin": "dev-master",
     "wpackagist-theme/cazuela": "*",
     "wpackagist-theme/gumbo": "*",
-    "wpackagist-theme/omega": "*",
-    "wpackagist-theme/sumo": "*",
     "wpackagist-theme/twentyfourteen": "*",
     "wpackagist-theme/twentyfifteen": "*"
   },
