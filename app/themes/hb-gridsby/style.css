@@ -12,3 +12,7 @@ Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-
 Text Domain: halfje-bruin
 */
 
+.blog .format-quote .entry-meta,
+.archive .format-quote .entry-meta {
+	margin-top: 1em;
+}
