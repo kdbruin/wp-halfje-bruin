@@ -44,7 +44,7 @@
     "wpackagist-plugin/ricg-responsive-images": "2.2.1",
     "wpackagist-plugin/shortcodes-ultimate": "4.9.6",
     "kdb/hb-plugin": "dev-master",
-    "wpackagist-theme/gridsby": "*",
+    "wpackagist-theme/gridsby": "1.0.34",
     "wpackagist-theme/gumbo": "*",
     "wpackagist-theme/twentyfourteen": "*",
     "wpackagist-theme/twentyfifteen": "*"
