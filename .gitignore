@@ -16,5 +16,5 @@ app/plugins/*
 # Themes
 app/themes/*
 !app/themes/.gitkeep
-!app/themes/hb-gridsby
+!app/themes/halfje-bruin
 !app/themes/hb-gumbo

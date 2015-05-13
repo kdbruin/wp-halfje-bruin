@@ -33,6 +33,7 @@
                 <span class="meta-block"><i class="fa fa-list"></i> <?php the_category(); ?></span>
                 <span class="meta-block"><?php echo get_avatar( get_the_author_meta('email'), get_the_author() ); ?><?php the_author(); ?></span>
                 <span class="meta-block"><i class="fa fa-clock-o"></i> <?php the_time( get_option( 'date_format' ) ); ?></span>
+		<?php echo hb_series_post_meta(); ?>
 			</div><!-- .entry-meta --> 
 
 			<?php endif; ?>

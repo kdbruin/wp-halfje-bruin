@@ -13,3 +13,24 @@ function hb_gridsby_enqueue_styles()
 }
 add_action( 'wp_enqueue_scripts', 'hb_gridsby_enqueue_styles' );
 
+/**
+ * Ascending order on Series acrhive pages.
+ */
+//add_action( 'pre_get_posts', 'hb_reverse_post_order' );
+function hb_reverse_post_order( $query )
+{
+	if ( is_admin() )
+		return;
+	if ( $query->is_main_query() && is_archive() && is_tax( 'series' ) )
+	{
+		$query->set( 'posts_per_page', '2' );
+		$query->set( 'orderby', 'date' );
+		$query->set( 'order', 'ASC' );
+	}
+}
+
+/**
+ * Other stuff
+ */
+require_once( get_stylesheet_directory() . '/inc/series.php' );
+

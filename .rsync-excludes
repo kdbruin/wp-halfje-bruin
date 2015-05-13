@@ -11,8 +11,6 @@
 - build.xml
 - composer.json
 - composer.lock
-- app/plugins/enlighter/cache
-- app/themes/underscore-hb/**.less
-- app/themes/underscore-hb/bootstrap/less
+- app/plugins/crayon-syntax-highlighter/log.txt
 - app/upgrade
 - app/uploads
