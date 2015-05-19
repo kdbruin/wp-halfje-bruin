@@ -14,6 +14,11 @@ function hb_gridsby_enqueue_styles()
 add_action( 'wp_enqueue_scripts', 'hb_gridsby_enqueue_styles' );
 
 /**
+ * Remove this filter!
+ */
+remove_filter( 'pre_get_posts', 'gridsby_posts_cat_gallery' );
+
+/**
  * Ascending order on Series acrhive pages.
  */
 //add_action( 'pre_get_posts', 'hb_reverse_post_order' );
