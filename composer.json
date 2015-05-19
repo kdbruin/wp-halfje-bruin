@@ -40,7 +40,7 @@
     "wpackagist-plugin/wordpress-importer": "0.6.1",
     "wpackagist-plugin/wp-db-backup": "2.2.4",
     "wpackagist-plugin/advanced-custom-fields": "4.4.1",
-    "wpackagist-plugin/ricg-responsive-images": "2.2.1",
+    "wpackagist-plugin/ricg-responsive-images": "2.3.0",
     "wpackagist-plugin/shortcodes-ultimate": "4.9.6",
     "kdb/hb-plugin": "dev-master",
     "wpackagist-theme/gridsby": "*"
