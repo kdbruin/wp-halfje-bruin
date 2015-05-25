@@ -39,9 +39,9 @@
     "wpackagist-plugin/series": "0.2.0",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
     "wpackagist-plugin/wp-db-backup": "2.2.4",
-    "wpackagist-plugin/advanced-custom-fields": "4.4.1",
+    "wpackagist-plugin/advanced-custom-fields": "4.4.2",
     "wpackagist-plugin/ricg-responsive-images": "2.3.0",
-    "wpackagist-plugin/shortcodes-ultimate": "4.9.6",
+    "wpackagist-plugin/shortcodes-ultimate": "4.9.7",
     "kdb/hb-plugin": "dev-master",
     "wpackagist-theme/gridsby": "*"
   },
