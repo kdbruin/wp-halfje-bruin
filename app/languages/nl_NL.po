@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 4.3.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-08-18 13:06:08+0000\n"
+"PO-Revision-Date: 2015-09-30 09:48:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1519,10 +1519,6 @@ msgstr "Vorige media-item aanpassen"
 msgid "Edit next media item"
 msgstr "Volgende media-item aanpassen"
 
-#: wp-includes/media-template.php:430
-msgid "View attachment page"
-msgstr "Bijlagepagina weergeven"
-
 #: wp-includes/class-wp-editor.php:1017
 msgid "Your browser does not support direct access to the clipboard. Please use keyboard shortcuts or your browser&#8217;s edit menu instead."
 msgstr "Je browser ondersteunt geen directe toegang tot het klembord. Gebruik in plaats daarvan een sneltoets of het menu bewerken van je browser."
@@ -1542,6 +1538,10 @@ msgid ""
 msgstr ""
 "Je staat op het punt om deze items permanent te verwijderen.\n"
 "'Annuleren' om te stoppen, 'OK', om te verwijderen."
+
+#: wp-includes/media-template.php:430
+msgid "View attachment page"
+msgstr "Bijlagepagina tonen"
 
 #: wp-includes/class-wp-customize-widgets.php:359
 msgid "Widgets are independent sections of content that can be placed into widgetized areas provided by your theme (commonly called sidebars)."
@@ -3984,13 +3984,13 @@ msgstr "Gebruiker"
 msgid "View Category"
 msgstr "Categorie bekijken"
 
-#: wp-includes/taxonomy.php:505
-msgid "View Tag"
-msgstr "Tag tonen"
-
 #: wp-includes/pluggable.php:1089
 msgid "You should specify a nonce action to be verified by using the first parameter."
 msgstr "Je moet een nonce-actie specificeren die kan worden geverifieerd door gebruik te maken van de eerste parameter."
+
+#: wp-includes/taxonomy.php:505
+msgid "View Tag"
+msgstr "Tag bekijken"
 
 #: wp-activate.php:121
 msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
@@ -4177,12 +4177,12 @@ msgid "No pages found."
 msgstr "Geen pagina&#39;s gevonden."
 
 #: wp-includes/post.php:1656
-msgid "No posts found in Trash."
-msgstr "Geen berichten gevonden in prullenbak."
-
-#: wp-includes/post.php:1656
 msgid "No pages found in Trash."
 msgstr "Geen pagina&#39;s gevonden in de prullenbak."
+
+#: wp-includes/post.php:1656
+msgid "No posts found in Trash."
+msgstr "Geen berichten gevonden in de prullenbak."
 
 #: wp-includes/admin-bar.php:504
 msgid "Shortlink"
