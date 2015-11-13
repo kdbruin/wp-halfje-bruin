@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-09-30 10:30:52+0000\n"
+"PO-Revision-Date: 2015-10-28 15:14:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -194,14 +194,14 @@ msgstr "%s verwijderen"
 msgid "Deactivate %s"
 msgstr "%s deactiveren"
 
-#: wp-admin/install.php:169 wp-admin/user-edit.php:497
-#: wp-admin/user-new.php:431
-msgid "Confirm use of weak password"
-msgstr "Gebruik zwakke wachtwoord bevestigen"
-
 #: wp-admin/user-new.php:417
 msgid "A password reset link will be sent to the user via email."
 msgstr "Een link om het wachtwoord te herstellen wordt verstuurd naar de gebruiker via e-mail."
+
+#: wp-admin/install.php:169 wp-admin/user-edit.php:497
+#: wp-admin/user-new.php:431
+msgid "Confirm use of weak password"
+msgstr "Gebruik van een zwak wachtwoord bevestigen"
 
 #: wp-admin/install.php:165 wp-admin/user-edit.php:493
 #: wp-admin/user-new.php:427
@@ -2898,10 +2898,6 @@ msgstr "Instellingen publiceren"
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
 msgstr "Het titel veld en het grote bericht bewerk gebied zitten nu vast op hun plek, maar je kunt ze wel van positie veranderen via drag en drop. Je kunt ze ook minimaliseren of uitklappen door op de titel regel te klikken van elke box. Gebruikt de Scherminstellingen optie om bepaalde boxes wel of niet te tonen ( Samenvatting, Trackbacks, Extra velden, Reacties, Slug, Auteur) of kies tussen een enkel of twee kolom lay-out voor dit scherm. "
 
-#: wp-admin/custom-background.php:89
-msgid "To use a background image, simply upload it or choose an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
-msgstr "Upload een achtergrondafbeelding, of kies een afbeelding uit de mediabibliotheek door het klikken op de  &#8220;afbeelding kiezen&#8221; knop. Het is mogelijk een enkele afbeelding tonen of deze uittrekken om het scherm te vullen. Een afbeelding kan gefixeerd worden zodat de website inhoud onafhankelijk hiervan verplaatst of de afbeelding kan meescrollen met de website."
-
 #: wp-admin/edit-form-advanced.php:373
 msgid "Several boxes on this screen contain settings for how your content will be published, including:"
 msgstr "Meerdere blokken op dit scherm bevatten instellingen voor de manier waarop je inhoud zal worden gepubliceerd, met inbegrip van:"
@@ -2909,6 +2905,10 @@ msgstr "Meerdere blokken op dit scherm bevatten instellingen voor de manier waar
 #: wp-admin/edit-tags.php:224
 msgid "<strong>Parent</strong> - Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
 msgstr "<strong>Hoofd</strong> - Categorie&#235;n kunnen, in tegenstelling tot tags, een hi&#235;rarchie hebben. Binnen de categorie Muziek zouden de subcategorie&#235;n Classic Rock en Hardrock kunnen bestaan. Dit is volledig optioneel, waarbij het de keuze is aan de gebruiker. Om een subcategorie aan te maken, kies een andere categorie in het Hoofd dropdown menu."
+
+#: wp-admin/custom-background.php:89
+msgid "To use a background image, simply upload it or choose an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
+msgstr "Upload een achtergrondafbeelding, of kies een afbeelding uit de mediabibliotheek door het klikken op de  &#8220;afbeelding kiezen&#8221; knop. Het is mogelijk een enkele afbeelding te tonen of deze uit te rekken om het scherm te vullen. Een afbeelding kan gefixeerd worden zodat de website-inhoud onafhankelijk hiervan verplaatst of de afbeelding kan meescrollen met de website."
 
 #: wp-admin/widgets.php:73
 msgid "When changing themes, there is often some variation in the number and setup of widget areas/sidebars and sometimes these conflicts make the transition a bit less smooth. If you changed themes and seem to be missing widgets, scroll down on this screen to the Inactive Widgets area, where all of your widgets and their settings will have been saved."
@@ -2947,13 +2947,13 @@ msgstr "Kies een achtergrondafbeelding"
 msgid "Choose a Custom Header"
 msgstr "Kies een aangepaste header"
 
-#: wp-admin/custom-background.php:90
-msgid "You can also choose a background color by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
-msgstr "Je kunt ook een achtergrondkleur kiezen door op de &#39;Selecteer een kleur&#39; knop te klikken waarna een kleurenpicker tevoorschijn komt. Een andere manier om een kleur te selecteren is de geldige waarde in te geven zoals &#8220;#ff0000&#8221; voor rood."
-
 #: wp-admin/custom-header.php:117
 msgid "In the Header Text section of this page, you can choose whether to display this text or hide it. You can also choose a color for the text by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
-msgstr "Je kunt kiezen of je de headertekst wilt tonen of verbergen. Je kunt ook een tekstkleur kiezen door op de 'Een kleurknop selecteren' te klikken waarna een kleurenpicker tevoorschijn komt. Een andere manier om een kleur te selecteren is de legitieme waarde in te geven zoals &#8220;#ff0000&#8221; voor rood."
+msgstr "Je kunt kiezen of je de headertekst wilt tonen of verbergen. Je kunt ook een tekstkleur kiezen door op de 'Een kleurknop selecteren' te klikken waarna een kleurenkiezer tevoorschijn komt. Een andere manier om een kleur te selecteren is de legitieme waarde in te geven zoals &#8220;#ff0000&#8221; voor rood."
+
+#: wp-admin/custom-background.php:90
+msgid "You can also choose a background color by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
+msgstr "Je kunt ook een achtergrondkleur kiezen door op de &#39;Een kleur selecteren&#39;-knop te klikken waarna een kleurenkiezer tevoorschijn komt. Een andere manier om een kleur te selecteren is de geldige waarde in te geven zoals &#8220;#ff0000&#8221; voor rood."
 
 #: wp-admin/options-reading.php:63
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen. Note that your privacy is not complete; your site is still visible on the web."
