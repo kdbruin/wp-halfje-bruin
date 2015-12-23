@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-09 07:33:33+0000\n"
+"PO-Revision-Date: 2015-12-22 15:29:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,11 +33,6 @@ msgstr "Termen, reacties en netwerk objecten"
 msgid "Comment query improvements"
 msgstr "Reactie query's verbeteringen"
 
-#. translators: WordPress REST API plugin link
-#: wp-admin/about.php:148
-msgid "Infrastructure is the first part of a multi-stage rollout for the REST API. Inclusion of core endpoints is targeted for an upcoming release. To get a sneak peek of the core endpoints, and for more information on extending the REST API, check out the official %s plugin."
-msgstr "Infrastructuur is het eerste onderdeel van een meer-traps uitrol voor de REST-API. Inbegrip van core endpoints staat gepland voor de volgende release. Voor een sneak-peak van de endpoints, en meer informatie over het uitbreiden van de REST-API, bekijk je de officiële %s plugin."
-
 #. translators: 1: add_term_meta() docs link, 2: get_term_meta() docs link, 3:
 #. update_term_meta() docs link
 #: wp-admin/about.php:159
@@ -47,6 +42,11 @@ msgstr "Terms ondersteunen nu metadata, net als berichten. Zie %1$s, %2$s, en %3
 #: wp-admin/about.php:156
 msgid "Term meta"
 msgstr "Term meta"
+
+#. translators: WordPress REST API plugin link
+#: wp-admin/about.php:148
+msgid "Infrastructure is the first part of a multi-stage rollout for the REST API. Inclusion of core endpoints is targeted for an upcoming release. To get a sneak peek of the core endpoints, and for more information on extending the REST API, check out the official %s plugin."
+msgstr "Infrastructuur is het eerste onderdeel van een meer-traps uitrol voor de REST-API. Inbegrip van core endpoints staat gepland voor de volgende release. Voor een sneak-preview van de endpoints en meer informatie over het uitbreiden van de REST-API, bekijk je de officiële %s plugin."
 
 #: wp-admin/about.php:131
 msgid "Infrastructure for the REST API has been integrated into core, marking a new era in developing with WordPress. The REST API serves to provide developers with a path forward for building and extending RESTful APIs on top of WordPress."
@@ -98,7 +98,7 @@ msgstr "Nieuwe gebruiker een e-mailbericht versturen over hun account."
 
 #: wp-admin/user-new.php:439
 msgid "Send User Notification"
-msgstr "Gebruikersnotificatie versturen"
+msgstr "Gebruikersmelding versturen"
 
 #. translators: %s: menu name
 #: wp-admin/nav-menus.php:806
@@ -114,7 +114,7 @@ msgstr "<strong>Versie %s</strong> heeft een beveiligingsprobleem opgelost."
 #. translators: %s: site link
 #: wp-admin/includes/schema.php:1006 wp-admin/includes/upgrade.php:160
 msgid "Welcome to %s. This is your first post. Edit or delete it, then start blogging!"
-msgstr "Welkom bij %s. Dit is jouw eerste bericht. Het bericht kan je bewerken of verwijderen, dan kan je starten met bloggen!"
+msgstr "Welkom bij %s. Dit is je eerste bericht. Het bericht kun je bewerken of verwijderen, dan kun je starten met bloggen!"
 
 #: wp-admin/user-edit.php:449
 msgid "https://en.gravatar.com/"
@@ -151,7 +151,7 @@ msgstr "WordPress geeft je de mogelijkheid om een aangepaste URL structuur te ma
 
 #: wp-admin/options-permalink.php:29
 msgid "Permalinks can contain useful information, such as the post date, title, or other elements. You can choose from any of the suggested permalink formats, or you can craft your own if you select Custom Structure."
-msgstr "Permalinks kunnen bruikbare informatie bevatten, zoals publicatie datum, titel of andere elementen. Je kan kiezen uit diverse voorgestelde formaten of je kan je eigen aangepaste structuur creëren."
+msgstr "Permalinks kunnen bruikbare informatie bevatten, zoals publicatie datum, titel of andere elementen. Je kunt kiezen uit diverse voorgestelde formaten of je kunt je eigen aangepaste structuur creëren."
 
 #: wp-admin/includes/image-edit.php:187
 msgid "Image preview"
@@ -167,20 +167,20 @@ msgstr "Meer hulp nodig? <a href=\"%s\">We zijn er voor je</a>."
 msgid "Sorry, but I can&#8217;t write the %s file."
 msgstr "Helaas, het is niet mogelijk bestand %s te bewerken."
 
-#. translators: %s: wp-config.php
-#: wp-admin/setup-config.php:346
-msgid "You can create the %s manually and paste the following text into it."
-msgstr "Je kan het bestand %s handmatige creëren en de volgende tekst erin plakken."
-
 #. translators: %s: localhost
 #: wp-admin/setup-config.php:208
 msgid "You should be able to get this info from your web host, if %s doesn&#8217;t work."
 msgstr "Je zou deze informatie van je webhost moeten kunnen krijgen als %s niet werkt."
 
+#. translators: %s: wp-config.php
+#: wp-admin/setup-config.php:346
+msgid "You can create the %s manually and paste the following text into it."
+msgstr "Je kunt het bestand %s handmatige creëren en de volgende tekst erin plakken."
+
 #. translators: 1: wp-config-sample.php, 2: wp-config.php
 #: wp-admin/setup-config.php:161
 msgid "If for any reason this automatic file creation doesn&#8217;t work, don&#8217;t worry. All this does is fill in the database information to a configuration file. You may also simply open %1$s in a text editor, fill in your information, and save it as %2$s."
-msgstr "Als het automatisch aanmaken mislukt, maak je dan geen zorgen. Het enige wat dit proces doet is de database informatie in een configuratiebestand zetten. Je kan ook %1$s in een tekstbewerker openen, de informatie toevoegen en opslaan als %2$s."
+msgstr "Als het automatisch aanmaken mislukt, maak je dan geen zorgen. Het enige wat dit proces doet is de database informatie in een configuratiebestand zetten. Je kunt ook %1$s in een tekstbewerker openen, de informatie toevoegen en opslaan als %2$s."
 
 #. translators: %s: wp-config.php
 #: wp-admin/setup-config.php:155
@@ -197,13 +197,13 @@ msgstr "Standaard is %s"
 msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
 msgstr "Omdat je %1$s gebruikt, moeten de sites in je netwerk subfolders gebruiken. Overweeg %2$s als je subdomeinen wilt gebruiken."
 
-#: wp-admin/includes/network.php:193
-msgid "You cannot change this later."
-msgstr "Je kan dit achteraf niet wijzigen."
-
 #: wp-admin/includes/network.php:192
 msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
 msgstr "Maak een keuze of je sites in je WordPress netwerk als subdomein of subfolder wilt gebruiken."
+
+#: wp-admin/includes/network.php:193
+msgid "You cannot change this later."
+msgstr "Je kunt dit achteraf niet wijzigen."
 
 #. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
 #. search for mod_rewrite
@@ -243,7 +243,7 @@ msgstr "Het %s stylesheet bevat geen geldige thema header."
 
 #: wp-admin/theme-install.php:154
 msgid "If you have marked themes as favorites on WordPress.org, you can browse them here."
-msgstr "Als je thema's als favoriet gemarkeerd hebt op WordPress.org, kan je ze hier bekijken."
+msgstr "Als je thema's als favoriet gemarkeerd hebt op WordPress.org, kun je ze hier bekijken."
 
 #: wp-admin/theme-install.php:142
 msgctxt "themes"
@@ -436,13 +436,13 @@ msgstr "Nieuwe toevoegen"
 msgid "Links list"
 msgstr "Linklijst"
 
-#: wp-admin/includes/update.php:206
-msgid "Get Version %s"
-msgstr "Werk bij naar versie %s"
-
 #: wp-admin/includes/template.php:1031
 msgid "Toggle panel: %s"
 msgstr "Verberg panel %s"
+
+#: wp-admin/includes/update.php:206
+msgid "Get Version %s"
+msgstr "Bijwerken naar versie %s"
 
 #: wp-admin/includes/post.php:1345
 msgid "Edit permalink"
@@ -466,11 +466,6 @@ msgstr "Revisie bewaren&hellip;"
 msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
 msgstr "Voeg het volgende toe aan je %1$s bestand in %2$s, en <strong>vervang</strong> daarmee andere WordPress regels:"
 
-#. translators: 1: wp-config.php
-#: wp-admin/includes/network.php:451
-msgid "These unique authentication keys are also missing from your %s file."
-msgstr "Deze unieke authenticatie sleutels ontbreken ook van je %s bestand."
-
 #: wp-admin/includes/network.php:456
 msgid "To make your installation more secure, you should also add:"
 msgstr "Voeg ook dit toe, om je installatie nog veiliger te maken:"
@@ -484,6 +479,11 @@ msgstr "Voeg het volgende toe aan je %1$s bestand in %2$s <strong>boven</strong>
 #: wp-admin/includes/network.php:445
 msgid "This unique authentication key is also missing from your %s file."
 msgstr "Deze unieke autorisatiesleutel ontbreekt ook in je %s bestand."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:451
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "Deze unieke authenticatiesleutels ontbreken ook van je %s bestand."
 
 #: wp-admin/includes/network.php:375
 msgid "Enabling the Network"
@@ -516,10 +516,6 @@ msgstr "Je e-mailadres."
 msgid "Network Title"
 msgstr "Netwerktitel"
 
-#: wp-admin/includes/network.php:298
-msgid "What would you like to call your network?"
-msgstr "Hoe zou je jouw netwerk willen noemen?"
-
 #: wp-admin/includes/network.php:363
 msgid "An existing WordPress network was detected."
 msgstr "Een bestaande WordPress netwerk was gevonden."
@@ -535,6 +531,10 @@ msgstr "Aangezien je werkt met een bestaande installatie moeten de sites in je W
 #: wp-admin/includes/network.php:358
 msgid "The original configuration steps are shown here for reference."
 msgstr "De originele configuratie stappen worden hier getoond ter referentie."
+
+#: wp-admin/includes/network.php:298
+msgid "What would you like to call your network?"
+msgstr "Hoe zou je je netwerk willen noemen?"
 
 #: wp-admin/includes/network.php:275
 msgid "Sub-domain Install"
@@ -557,15 +557,15 @@ msgstr "Netwerkdetails"
 msgid "Sub-directory Install"
 msgstr "Subdirectory installatie"
 
-#. translators: %s: host name
-#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:287
-msgid "The internet address of your network will be %s."
-msgstr "Het internetadres van jouw netwerk wordt: %s."
-
 #. translators: 1: site url 2: host name 3. www
 #: wp-admin/includes/network.php:227
 msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
 msgstr "Het is aan te bevelen om je siteurl te wijzigen in %1$s voordat het netwerk wordt geactiveerd. Het is nog steeds mogelijk om je site te bezoeken met de %3$s prefix in het adres als %2$s, maar elke link zal de %3$s prefix niet bevatten."
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:287
+msgid "The internet address of your network will be %s."
+msgstr "Het internetadres van je netwerk wordt: %s."
 
 #: wp-admin/includes/network.php:224 wp-admin/includes/network.php:234
 #: wp-admin/includes/network.php:283
@@ -612,7 +612,7 @@ msgstr "Waarschuwing!"
 
 #: wp-admin/includes/network.php:151
 msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
-msgstr "Vul onderstaande informatie in en je bent op weg om een netwerk te creëren met WordPress sites. Wij zullen de configuratie bestanden aanmaken in de volgende stap."
+msgstr "Vul onderstaande informatie in en je bent op weg om een netwerk te creëren met WordPress sites. Wij zullen de configuratie-bestanden aanmaken in de volgende stap."
 
 #: wp-admin/includes/network.php:128
 msgid "Return to Dashboard"
@@ -1153,13 +1153,13 @@ msgstr "Datum en tijd"
 msgid "First page"
 msgstr "Eerste pagina"
 
-#: wp-admin/options-general.php:77
-msgid "Enter the address here if you <a href=\"https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">want your site home page to be different from your WordPress installation directory.</a>"
-msgstr "Voer het adres hier in als je <a href=\"https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">wilt dat jouw site en andere homepage krijgt ten opzicht van de WordPress installatie directory.</a>"
-
 #: wp-admin/includes/meta-boxes.php:607
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress sites, they&#8217;ll be notified automatically using <a href=\"https://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
 msgstr "Trackbacks zijn een manier om blogsystemen te informeren dat je een link naar ze hebt opgenomen. Wanneer je linkt naar andere WordPress sites worden ze automatisch op de hoogte gesteld met <a href=\"https://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>. Geen andere handeling is nodig."
+
+#: wp-admin/options-general.php:77
+msgid "Enter the address here if you <a href=\"https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">want your site home page to be different from your WordPress installation directory.</a>"
+msgstr "Voer het adres hier in als je <a href=\"https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">wilt dat je site een andere homepagina krijgt ten opzicht van de WordPress installatiedirectory.</a>"
 
 #: wp-admin/revision.php:119
 msgid "<a href=\"https://codex.wordpress.org/Revision_Management\" target=\"_blank\">Revisions Management</a>"
@@ -1362,7 +1362,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\">Documen
 
 #: wp-admin/update-core.php:77
 msgid "You can update to <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %2$s</a> automatically or download the package and install it manually:"
-msgstr "Je kan automatisch bijwerken naar <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %2$s</a> of het pakket hier downloaden en handmatig installeren:"
+msgstr "Je kunt automatisch bijwerken naar <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %2$s</a> of het pakket hier downloaden en handmatig installeren:"
 
 #: wp-admin/update-core.php:181
 msgid "<strong>Important:</strong> before updating, please <a href=\"https://codex.wordpress.org/WordPress_Backups\">back up your database and files</a>. For help with updates, visit the <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress</a> Codex page."
@@ -1399,19 +1399,19 @@ msgstr "De instelling %s is niet geregistreerd. Niet-geregistreerde instellingen
 
 #: wp-admin/update-core.php:71 wp-admin/upgrade.php:81
 msgid "You cannot update because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "Het is niet mogelijk om WordPress te updaten naar <a href=\"https://codex.wordpress.org/Version_%1$s\">versie %1$s</a> omdat deze PHP versie %2$s of hoger vereist en MySQL versie %3$s of hoger. Je site draait momenteel op PHP versie %4$s en MySQL versie %5$s."
+msgstr "Bijwerken van WordPress naar <a href=\"https://codex.wordpress.org/Version_%1$s\">versie %1$s</a> is niet mogelijk omdat deze PHP-versie %2$s of hoger vereist en MySQL-versie %3$s of hoger. Je site draait momenteel op PHP-versie %4$s en MySQL-versie %5$s."
 
 #: wp-admin/update-core.php:73 wp-admin/upgrade.php:83
 msgid "You cannot update because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher. You are running version %3$s."
-msgstr "Het bijwerken is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a>  PHP versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s."
+msgstr "Bijwerken is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> PHP-versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s."
 
 #: wp-admin/update-core.php:75 wp-admin/upgrade.php:85
 msgid "You cannot update because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr "Bijwerken is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> MySQL versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s."
+msgstr "Bijwerken is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> MySQL-versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s."
 
 #: wp-admin/install.php:231
 msgid "You cannot install because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "Installeren is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> PHP versie %2$s of hoger en MySQL versie %3$s of hoger vereist. Je maakt gebruik van PHP versie %4$s en MySQL versie %5$s."
+msgstr "Installeren is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> PHP-versie %2$s of hoger en MySQL-versie %3$s of hoger vereist. Je maakt gebruik van PHP-versie %4$s en MySQL-versie %5$s."
 
 #: wp-admin/includes/update.php:234
 msgid "<a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> is available! <a href=\"%2$s\">Please update now</a>."
@@ -1423,11 +1423,11 @@ msgstr "<a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> 
 
 #: wp-admin/install.php:233
 msgid "You cannot install because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher. You are running version %3$s."
-msgstr "Installeren is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> PHP versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s. "
+msgstr "Installeren is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> PHP-versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s. "
 
 #: wp-admin/install.php:235
 msgid "You cannot install because <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr "Installeren is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> MySQL versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s."
+msgstr "Installeren is niet mogelijk omdat <a href=\"https://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> MySQL-versie %2$s of hoger vereist. Je maakt gebruik van versie: %3$s."
 
 #: wp-admin/widgets.php:79
 msgid "The theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href=\"https://codex.wordpress.org/Widgetizing_Themes\">follow these instructions</a>."
@@ -1451,7 +1451,7 @@ msgstr "Als de root directory van je site <a href=\"https://codex.wordpress.org/
 
 #: wp-admin/options-permalink.php:247
 msgid "If your <code>web.config</code> file were <a href=\"https://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this rule inside of the <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element in <code>web.config</code> file."
-msgstr "Als je<code>web.config</code>-bestand <a href=\"https://codex.wordpress.org/Changing_File_Permissions\">beschrijfbaar</a> zou zijn, zouden we dit automatisch kunnen doen. Dit is het niet, dus hier zijn de mod_rewrite regels die in het <code>web.config</code>-bestand moeten staan. Klik in het veld en druk op <kbd>Ctrl + a</kbd> om alles te selecteren. Vervolgens kan de regel ingevoegd worden inhet <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element van het <code>web.config</code> bestand."
+msgstr "Als je<code>web.config</code>-bestand <a href=\"https://codex.wordpress.org/Changing_File_Permissions\">beschrijfbaar</a> zou zijn, zouden we dit automatisch kunnen doen. Dit is het niet, dus hier zijn de mod_rewrite regels die in het <code>web.config</code>-bestand moeten staan. Klik in het veld en druk op <kbd>Ctrl + a</kbd> om alles te selecteren. Vervolgens kan de regel ingevoegd worden in het <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element van het <code>web.config</code> bestand."
 
 #: wp-admin/includes/meta-boxes.php:633
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"https://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
@@ -1481,10 +1481,6 @@ msgstr "Bijvoorbeeld: www.wordpress.org"
 msgid "You can Search for themes by keyword, author, or tag, or can get more specific and search by criteria listed in the feature filter."
 msgstr "Het is mogelijk om te zoeken naar thema's bij sleutelwoord, auteur of tags. Daarnaast kun je specifieker zoeken door de criteria te gebruiken in het filter."
 
-#: wp-admin/theme-install.php:78
-msgid "Alternately, you can browse the themes that are Featured, Popular, or Latest. When you find a theme you like, you can preview it or install it."
-msgstr "Als alternatief kan je bladeren door de thema's via Uitgelicht, Populair of Laatste. Wanneer je een thema leuk vindt kan je het bekijken of installeren."
-
 #: wp-admin/themes.php:78
 msgid "The search for installed themes will search for terms in their name, description, author, or tag."
 msgstr "Het zoeken naar geïnstalleerde thema's maakt gebruikt van termen in de naam, omschrijving, auteur of tags van de thema's."
@@ -1492,6 +1488,10 @@ msgstr "Het zoeken naar geïnstalleerde thema's maakt gebruikt van termen in de 
 #: wp-admin/theme-install.php:52 wp-admin/themes.php:141
 msgid "Number of Themes found: %d"
 msgstr "Aantal gevonden thema's: %d"
+
+#: wp-admin/theme-install.php:78
+msgid "Alternately, you can browse the themes that are Featured, Popular, or Latest. When you find a theme you like, you can preview it or install it."
+msgstr "Als alternatief kun je bladeren door de thema's via Uitgelicht, Populair of Laatste. Wanneer je een thema leuk vindt kun je het bekijken of installeren."
 
 #: wp-admin/options-general.php:245
 msgid "enter a custom date format in the following field"
@@ -1681,10 +1681,6 @@ msgstr "'Press this' openen"
 msgid "You are currently editing the page that shows your latest posts."
 msgstr "Je bent op dit moment een pagina aan het bewerken die de laatste berichten toont."
 
-#: wp-admin/includes/update.php:345
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" class=\"update-link\">update now</a>."
-msgstr "Er is een nieuwe versie beschikbaar van %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">%4$sDetails bekijken</a> of <a href=\"%5$s\" class=\"update-link\">nu bijwerken</a>."
-
 #: wp-admin/upload.php:240
 msgid "Detached %d attachment."
 msgid_plural "Detached %d attachments."
@@ -1737,6 +1733,10 @@ msgstr "Dit thema is nog niet beoordeeld."
 #: wp-admin/update-core.php:398
 msgid "New translations are available."
 msgstr "Er zijn nieuwe vertalingen beschikbaar."
+
+#: wp-admin/includes/update.php:345
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" class=\"update-link\">update now</a>."
+msgstr "Er is een nieuwe versie beschikbaar van %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a> of <a href=\"%5$s\" class=\"update-link\">nu bijwerken</a>."
 
 #: wp-admin/includes/class-wp-upgrader.php:3456
 msgid ""
@@ -1862,10 +1862,6 @@ msgstr ""
 "UPDATE LOG\n"
 "=========="
 
-#: wp-admin/includes/class-wp-press-this.php:1382
-msgid "You should upgrade <a href=\"%s\" target=\"_blank\">your bookmarklet</a> to the latest version!"
-msgstr "Je moet <a href=\"%s\" target=\"_blank\">jouw bookmarklet</a> bijwerken naar de laatste versie!"
-
 #: wp-admin/includes/class-wp-press-this.php:1459
 #: wp-admin/includes/class-wp-press-this.php:1469
 #: wp-admin/includes/class-wp-press-this.php:1478
@@ -1921,6 +1917,10 @@ msgstr "Bron:"
 #: wp-admin/includes/class-wp-press-this.php:1392
 msgid "Post title"
 msgstr "Berichttitel"
+
+#: wp-admin/includes/class-wp-press-this.php:1382
+msgid "You should upgrade <a href=\"%s\" target=\"_blank\">your bookmarklet</a> to the latest version!"
+msgstr "Je moet <a href=\"%s\" target=\"_blank\">je bookmarklet</a> bijwerken naar de laatste versie!"
 
 #. translators: Publish box date format, see http:php.net/date
 #: wp-admin/edit-form-advanced.php:133 wp-admin/edit-form-comment.php:93
@@ -2013,10 +2013,6 @@ msgstr ""
 msgid "You can set the language, and the translation files will be automatically downloaded and installed (available if your filesystem is writable)."
 msgstr "Je kunt de taal instellen, waarna de vertaalbestanden automatisch gedownload en geïnstalleerd worden (beschikbaar als je bestandssysteem beschrijfbaar is)."
 
-#: wp-admin/themes.php:172
-msgid "You cannot delete a theme while it has an active child theme."
-msgstr "Je kan een thema niet verwijderen als deze een actief child thema heeft."
-
 #: wp-admin/install.php:128
 msgid "Usernames can have only alphanumeric characters, spaces, underscores, hyphens, periods, and the @ symbol."
 msgstr "Gebruikersnamen mogen alleen alfanumerieke karakters, spaties, underscores, koppeltekens, punten en het @ symbool bevatten."
@@ -2036,6 +2032,10 @@ msgstr "<strong>WordPress nieuws</strong> - Het laatste nieuws van het officiël
 #: wp-admin/options-discussion.php:223
 msgid "Mystery Person"
 msgstr "Mysterieus persoon"
+
+#: wp-admin/themes.php:172
+msgid "You cannot delete a theme while it has an active child theme."
+msgstr "Je kunt een thema niet verwijderen als deze een actief subthema heeft."
 
 #: wp-admin/includes/class-wp-screen.php:923
 msgid "Enable full-height editor and distraction-free functionality."
@@ -2216,7 +2216,7 @@ msgstr "<strong>Compatibel</strong> met je huidige versie van WordPress"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:551
 msgid "<strong>Incompatible</strong> with your version of WordPress"
-msgstr "<strong>Niet ondersteund</strong> met de huidige versie van WordPress"
+msgstr "<strong>Niet ondersteund</strong> met je huidige versie van WordPress"
 
 #: wp-admin/includes/plugin-install.php:586
 msgid "%d star"
@@ -2467,10 +2467,6 @@ msgstr "Thema's zoeken"
 msgid "Search themes..."
 msgstr "Thema's doorzoeken..."
 
-#: wp-admin/users.php:54
-msgid "Delete brings you to the Delete Users screen for confirmation, where you can permanently remove a user from your site and delete their content. You can also delete multiple users at once by using Bulk Actions."
-msgstr "Verwijderen brengt je naar het 'Gebruikers verwijderen'-scherm, waar je gebruikers en hun inhoud permanent van je site kan verwijderen. Je kunt ook meerdere gebruikers verwijderen door bulk acties te gebruiken."
-
 #: wp-admin/users.php:52
 msgid "Remove allows you to remove a user from your site. It does not delete their content. You can also remove multiple users at once by using Bulk Actions."
 msgstr "Verwijderen laat je een gebruiker verwijderen van je site. Dit verwijdert niet hun content. Je kunt ook meerdere gebruikers verwijderen door gebruik te maken van Bulkacties. "
@@ -2482,6 +2478,10 @@ msgstr "<strong>Boxopties</strong> - Klik op de titelbalk van een box om deze in
 #: wp-admin/edit-tags.php:74
 msgid "You are not allowed to add this item."
 msgstr "Je hebt geen toestemming om dit item toe te voegen."
+
+#: wp-admin/users.php:54
+msgid "Delete brings you to the Delete Users screen for confirmation, where you can permanently remove a user from your site and delete their content. You can also delete multiple users at once by using Bulk Actions."
+msgstr "Verwijderen brengt je naar het 'Gebruikers verwijderen'-scherm, waar je gebruikers en hun inhoud permanent van je site kunt verwijderen. Je kunt ook meerdere gebruikers verwijderen door bulk acties te gebruiken."
 
 #. translators: URL to the Make WordPress 'Get Involved' landing page used on
 #. the credits page
@@ -2545,14 +2545,6 @@ msgstr "Bedankt voor het gebruiken van <a href=\"%s\">WordPress</a>."
 msgid "Search installed themes..."
 msgstr "Geïnstalleerde thema's doorzoeken..."
 
-#: wp-admin/update-core.php:541
-msgid "<strong>Translations</strong> &mdash; The files translating WordPress into your language are updated for you whenever any other updates occur. But if these files are out of date, you can <strong>click the &#8220;Update Translations&#8221;</strong> button."
-msgstr "<strong>Vertalingen</strong> &mdash; De bestanden die ervoor zorgen om WordPress in je eigen taal te tonen worden bijgewerkt zodra er een nieuwe versie van uitkomt. Wanneer de bestanden verouderd zijn, kan je op de <strong>Vertaling bijwerken</strong> knop klikken."
-
-#: wp-admin/update-core.php:529
-msgid "If an update is available, you&#8127;ll see a notification appear in the Toolbar and navigation menu."
-msgstr "Zodra er een update beschikbaar is wordt deze getoond in een notificatie in de toolbar en navigatiemenu."
-
 #: wp-admin/update-core.php:537
 msgid "<strong>WordPress</strong> &mdash; Updating your WordPress installation is a simple one-click procedure: just <strong>click on the &#8220;Update Now&#8221; button</strong> when you are notified that a new version is available."
 msgstr "<strong>WordPress</strong> &mdash; Het bijwerken van de WordPress installatie is een simpele een-kliks handeling: klik op de <strong>&#8220;Nu bijwerken&#8221; knop</strong> zodra je de melding ziet dat er een nieuwe versie beschikbaar is."
@@ -2560,6 +2552,14 @@ msgstr "<strong>WordPress</strong> &mdash; Het bijwerken van de WordPress instal
 #: wp-admin/update-core.php:537
 msgid "In most cases, WordPress will automatically apply maintenance and security updates in the background for you."
 msgstr "In de meeste gevallen zal WordPress zich automatisch bijwerken naar de laatste onderhoud- of beveiligingsupdate op de achtergrond."
+
+#: wp-admin/update-core.php:541
+msgid "<strong>Translations</strong> &mdash; The files translating WordPress into your language are updated for you whenever any other updates occur. But if these files are out of date, you can <strong>click the &#8220;Update Translations&#8221;</strong> button."
+msgstr "<strong>Vertalingen</strong> &mdash; De bestanden die ervoor zorgen om WordPress in je eigen taal te tonen worden bijgewerkt zodra er een nieuwe versie van uitkomt. Wanneer de bestanden verouderd zijn, kun je op de <strong>Vertaling bijwerken</strong> knop klikken."
+
+#: wp-admin/update-core.php:529
+msgid "If an update is available, you&#8127;ll see a notification appear in the Toolbar and navigation menu."
+msgstr "Zodra er een update beschikbaar is wordt deze getoond in een melding in de toolbar en navigatiemenu."
 
 #: wp-admin/update-core.php:538
 msgid "<strong>Themes and Plugins</strong> &mdash; To update individual themes or plugins from this screen, use the checkboxes to make your selection, then <strong>click on the appropriate &#8220;Update&#8221; button</strong>. To update all of your themes or plugins at once, you can check the box at the top of the section to select all before clicking the update button."
@@ -2646,11 +2646,7 @@ msgstr "Toegankelijkheid voorbereid"
 
 #: wp-admin/includes/theme.php:613 wp-admin/themes.php:437
 msgid "This is a child theme of %s."
-msgstr "Dit is een childthema van %s."
-
-#: wp-admin/themes.php:75
-msgid "Click on the theme to see the theme name, version, author, description, tags, and the Delete link"
-msgstr "Klik op het thema om de themanaam, versie, auteur, omschrijving, tags en delete-link te zien."
+msgstr "Dit is een subthema van %s."
 
 #: wp-admin/themes.php:77
 msgid "The current theme is displayed highlighted as the first theme."
@@ -2679,6 +2675,10 @@ msgstr "Bij gebruik op een kleinere monitor kun je op het 'inklappen' icoon link
 #: wp-admin/themes.php:106
 msgid "The theme being previewed is fully interactive &mdash; navigate to different pages to see how the theme handles posts, archives, and other page templates. The settings may differ depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the Save &amp; Activate button above the menu."
 msgstr "De voorvertoning van het thema is volledig interactief &mdash; navigeer naar verschillende pagina's om te zien hoe het thema omgaat met berichten, archieven en andere pagina templates. De instellingen kunnen per thema verschillend zijn op basis van wat het betreffende thema ondersteunt. Om de nieuwe instellingen op te slaan en het thema te activeren klik je op de Opslaan &amp; Activeren knop boven het menu."
+
+#: wp-admin/themes.php:75
+msgid "Click on the theme to see the theme name, version, author, description, tags, and the Delete link"
+msgstr "Klik op het thema om de themanaam, versie, auteur, omschrijving, tags en verwijder-link te zien."
 
 #: wp-admin/widgets.php:390
 msgid "To activate a widget drag it to a sidebar or click on it. To deactivate a widget and delete its settings, drag it back."
@@ -2763,10 +2763,6 @@ msgstr "<strong>Activiteiten</strong> - Toon de ingeplande berichten, recente ge
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
 msgstr "<strong>Scherminstellingen</strong> - Gebruik de scherminstellingen tab om de dashboard secties te selecteren."
 
-#: wp-admin/post.php:72
-msgid "Unable to submit this form, please refresh and try again."
-msgstr "Niet mogelijk om dit formulier te versturen. Ververs het scherm en probeer opnieuw."
-
 #: wp-admin/themes.php:134
 msgid ""
 "Are you sure you want to delete this theme?\n"
@@ -2784,6 +2780,10 @@ msgstr "Vorige thema tonen"
 #: wp-admin/includes/theme.php:592 wp-admin/themes.php:409
 msgid "Show next theme"
 msgstr "Volgende thema tonen"
+
+#: wp-admin/post.php:72
+msgid "Unable to submit this form, please refresh and try again."
+msgstr "Niet mogelijk om dit formulier te versturen. Vernieuw het scherm en probeer opnieuw."
 
 #: wp-admin/includes/class-wp-upgrader.php:3404
 msgid "WordPress site: %s"
@@ -3036,13 +3036,13 @@ msgstr "Bijwerken thema: %s"
 msgid "Updating plugin: %s"
 msgstr "Bijwerken plugin: %s"
 
-#: wp-admin/includes/update-core.php:980
-msgid "There is not enough free disk space to complete the update."
-msgstr "Er is onvoldoende schijfruimte om de update te voltooien."
-
 #: wp-admin/includes/class-wp-upgrader.php:1921
 msgid "Translation update failed."
 msgstr "Vertaling bijwerken is mislukt."
+
+#: wp-admin/includes/update-core.php:980
+msgid "There is not enough free disk space to complete the update."
+msgstr "Er is onvoldoende schijfruimte om het bijwerken te voltooien."
 
 #: wp-admin/options-discussion.php:144
 msgid "Comment must be manually approved"
@@ -3052,13 +3052,13 @@ msgstr "Reactie moet handmatig worden goedgekeurd"
 msgid "Create a brand new user and add them to this site."
 msgstr "Nieuwe gebruiker aanmaken en koppelen aan deze website."
 
-#: wp-admin/theme-editor.php:33
-msgid "Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href=\"%s\" target=\"_blank\">child theme</a> instead."
-msgstr "Bijwerken naar een nieuwere versie van hetzelfde thema zal de wijzigingen hier gemaakt overschrijven. Om dit te voorkomen, overweeg een <a href=\"%s\" target=\"_blank\">child thema</a> te maken."
-
 #: wp-admin/options-media.php:49
 msgid "The sizes listed below determine the maximum dimensions in pixels to use when adding an image to the Media Library."
 msgstr "De aangegeven waardes hieronder geven de maximale afmetingen aan in pixels die worden gebruikt om afbeeldingen aan de mediabibliotheek toe te voegen."
+
+#: wp-admin/theme-editor.php:33
+msgid "Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href=\"%s\" target=\"_blank\">child theme</a> instead."
+msgstr "Bijwerken naar een nieuwere versie van hetzelfde thema zal de wijzigingen hier gemaakt overschrijven. Om dit te voorkomen, overweeg een <a href=\"%s\" target=\"_blank\">subthema</a> te maken."
 
 #: wp-admin/includes/class-wp-upgrader.php:2899
 msgid "WordPress %s"
@@ -3105,12 +3105,6 @@ msgstr "Voorbereidingen gestart om installatie te starten naar de laatste versie
 msgid "The checksum of the file (%1$s) does not match the expected checksum value (%2$s)."
 msgstr "De checksum van de bestanden (%1$s) komt niet overeen met de verwachte checksum waarde (%2$s)."
 
-#: wp-admin/nav-menus.php:515
-msgid "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Custom Menu&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the custom menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the Documentation link to the side."
-msgstr ""
-"Menu's kunnen weergegeven worden op locaties die aangegeven zijn door jouw thema. Ze kunnen zelfs toegevoegd worden aan sidebars door een &#8220;Custom Menu&#8221; widget toe te voegen in het  <a href=\"%1$s\">Widgets</a> scherm.\n"
-"Als jouw thema custom menus niet ondersteund (de standaard themas %2$s en %3$s doen dit wel), kun je dit toevoegen door de documentatie link hiernaast te volgen."
-
 #: wp-admin/install.php:328
 msgid "Your passwords do not match. Please try again."
 msgstr "De wachtwoorden komen niet overeen. Probeer opnieuw."
@@ -3130,6 +3124,12 @@ msgstr "Dit is geen geldig e-mailadres. E-mailadressen zien er als volgt uit: <c
 #: wp-admin/nav-menus.php:538
 msgid "<strong>Clicking the arrow to the right of any menu item</strong> in the editor will reveal a standard group of settings. Additional settings such as link target, CSS classes, link relationships, and link descriptions can be enabled and disabled via the Screen Options tab."
 msgstr "<strong>Een klik op de pijl rechts naast het menu-item</strong> in de editor zal inzage geven in standaard groepsinstellingen. Extra instellingen zoals target link, CSS classes, link relaties en link omschrijvingen kunnen in- en uitgeschakeld worden via de scherminstellingen tab."
+
+#: wp-admin/nav-menus.php:515
+msgid "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Custom Menu&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the custom menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the Documentation link to the side."
+msgstr ""
+"Menu's kunnen weergegeven worden op locaties die aangegeven zijn door je thema. Ze kunnen zelfs toegevoegd worden aan sidebars door een &#8220;Custom Menu&#8221; widget toe te voegen in het <a href=\"%1$s\">Widgets</a> scherm.\n"
+"Als je thema geen custom menus ondersteunt (de standaard thema's %2$s en %3$s doen dit wel), kun je dit toevoegen door de documentatie-link hiernaast te volgen."
 
 #: wp-admin/includes/edit-tag-messages.php:24
 msgid "Category added."
@@ -3672,7 +3672,7 @@ msgstr "Je kunt media (afbeeldingen, audio, documenten, enz.) uploaden en invoeg
 
 #: wp-admin/includes/image-edit.php:165
 msgid "Image rotation is not supported by your web host."
-msgstr "Afbeeldingen roteren wordt niet ondersteund door jouw hosting provider."
+msgstr "Afbeeldingen roteren wordt niet ondersteund door je hosting provider."
 
 #: wp-admin/includes/bookmark.php:312
 msgid "If you are looking to use the link manager, please install the <a href=\"%s\">Link Manager</a> plugin."
@@ -3757,7 +3757,7 @@ msgstr "Je kunt ook een achtergrondkleur kiezen door op de &#39;Een kleur select
 
 #: wp-admin/options-reading.php:32
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen. Note that your privacy is not complete; your site is still visible on the web."
-msgstr "Je kunt kiezen of je site doorzocht mag worden door robots (zoals b.v. Google), ping services en spiders. Als je de services wilt negeren voor je site, klik dan op de knop naast &#8220;Vraag zoekmachines deze site niet te indexeren&#8221; en klik de Wijzigingen bijwerkenknop aan de onderkant van dit scherm. Houd er wel rekening mee dat je privacy niet compleet is. Je site zal nog steeds zichtbaar op het web zijn."
+msgstr "Je kunt kiezen of je site doorzocht mag worden door robots (zoals b.v. Google), ping services en spiders. Als je de services wilt negeren voor je site, klik dan op de knop naast &#8220;Vraag zoekmachines deze site niet te indexeren&#8221; en klik de Wijzigingen bijwerken-knop aan de onderkant van dit scherm. Houd er wel rekening mee dat je privacy niet volledig is. Je site zal nog steeds zichtbaar op het web zijn."
 
 #: wp-admin/includes/dashboard.php:1418
 msgid "More Actions"
@@ -3777,7 +3777,7 @@ msgstr "Bestand URL:"
 
 #: wp-admin/edit-comments.php:158
 msgid "In the <strong>In Response To</strong> column, there are three elements. The text is the name of the post that inspired the comment, and links to the post editor for that entry. The View Post link leads to that post on your live site. The small bubble with the number in it shows the number of approved comments that post has received. If there are pending comments, a red notification circle with the number of pending comments is displayed. Clicking the notification circle will filter the comments screen to show only pending comments on that post."
-msgstr "In de <strong>In antwoord op</strong>-kolom bevinden zich drie elementen. De tekst is de naam van het bericht waarop gereageerd is en linkt naar de berichteditor (waar inhoud wordt gesvhreven). De 'Bericht bekijken'-link verwijst naar het bericht aan de voorkant van je site. Het ballonnetje met een getal erin toont hoeveel reacties op het bericht zijn binnengekomen. Als het ballonnetje grijs is, dan zijn alle reacties gemodereerd. Als het blauw is, zijn er reacties die wachten op moderatie. Klikken op het ballonnetje zal de reacties filteren die alleen op dat bericht gegeven zijn."
+msgstr "In de <strong>In antwoord op</strong>-kolom bevinden zich drie elementen. De tekst is de naam van het bericht waarop gereageerd is en linkt naar de berichteditor (waar inhoud wordt geschreven). De 'Bericht bekijken'-link verwijst naar het bericht aan de voorkant van je site. Het ballonnetje met een getal erin toont hoeveel goedgekeurde reacties op het bericht zijn binnengekomen. Als er reacties wachten op moderatie, dan is er een rood ballonnetje met het aantal wachtende reacties. Klikken op het ballonnetje zal de wachtende reacties tonen die alleen op dat bericht gegeven zijn."
 
 #: wp-admin/users.php:252 wp-admin/users.php:376
 msgid "ID #%1$s: %2$s"
@@ -3905,10 +3905,6 @@ msgstr "Favorieten ophalen"
 msgid "The \"%s\" options group has been removed. Use another settings group."
 msgstr "De \"%s\" optiegroep is verwijderd. Gebruik een andere instellingsgroep."
 
-#: wp-admin/options-reading.php:25
-msgid "You can also control the display of your content in RSS feeds, including the maximum numbers of posts to display and whether to show full text or a summary."
-msgstr "Je kan ook de weergave van de inhoud in RSS feeds instellen, inclusief het maximum aantal berichten om weer te geven en of de gehele tekst zichtbaar is of een samenvatting."
-
 #: wp-admin/plugin-install.php:82
 msgid "If you want to install a plugin that you&#8217;ve downloaded elsewhere, click the Upload link in the upper left. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin."
 msgstr "Bij het installeren van een plugin welke vanaf een andere locatie is gedownload, klik de Uploadlink linksbovenin. Upload een .zipbestand en zodra deze is uitgepakt op de server kan deze worden geactiveerd."
@@ -3945,18 +3941,22 @@ msgstr "Klik vervolgens &#8220;Starten met installeren.&#8221;"
 msgid "If you know what you&#8217;re looking for, Search is your best bet. The Search screen has options to search the WordPress.org Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
 msgstr "Als je weet waar je precies naar op zoek bent dan is Zoeken je beste optie. Het zoekscherm heeft opties om in de WordPress.org Plugin Directory op een specifieke term, auteur of tag te zoeken. Je kunt de directory ook doorzoeken via de populaire tags. Tags betekent in deze context dat meerdere plugins die tag toegevoegd hebben."
 
+#: wp-admin/options-reading.php:25
+msgid "You can also control the display of your content in RSS feeds, including the maximum numbers of posts to display and whether to show full text or a summary."
+msgstr "Je kunt ook de weergave van de inhoud in RSS-feeds instellen, inclusief het maximum aantal berichten om weer te geven en of de gehele tekst zichtbaar is of een samenvatting."
+
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:94
 msgctxt "Plugin Installer"
 msgid "Favorites"
 msgstr "Favorieten"
 
-#: wp-admin/includes/class-wp-themes-list-table.php:238
-msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
-msgstr "Dit <a href=\"%1$s\">child thema</a> heeft het parent thema nodig, %2$s."
-
 #: wp-admin/edit-form-advanced.php:405
 msgid "This screen allows you to edit four fields for metadata in a file within the media library."
 msgstr "Dit scherm geeft de mogelijkheid om vier velden voor bestandsmetadata aan te passen in de mediabibliotheek."
+
+#: wp-admin/includes/class-wp-themes-list-table.php:238
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr "Dit <a href=\"%1$s\">subthema</a> heeft het hoofdthema nodig, %2$s."
 
 #: wp-admin/includes/theme.php:237
 msgid "Flexible Header"
@@ -4376,16 +4376,12 @@ msgstr "<strong>FOUT</strong>: Graag een schermnaam opgeven."
 #: wp-admin/includes/plugin-install.php:267
 #: wp-admin/includes/theme-install.php:67
 msgid "Keyword"
-msgstr "Kernwoord"
+msgstr "Sleutelwoord"
 
 #. translators: 1: theme name, 2: version
 #: wp-admin/includes/class-wp-upgrader.php:1289
 msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
 msgstr "Installatie van <strong>%1$s %2$s</strong> voorbereiden."
-
-#: wp-admin/includes/class-wp-upgrader.php:1294
-msgid "<strong>The parent theme could not be found.</strong> You will need to install the parent theme, <strong>%s</strong>, before you can use this child theme."
-msgstr "<strong>Het hoofd thema kon niet worden gevonden.</strong> Je moet het hoofd thema installeren, <strong>%s</strong>, voordat je dit child thema kunt gebruiken."
 
 #: wp-admin/includes/class-wp-upgrader.php:1287
 msgid "This theme requires a parent theme. Checking if it is installed&#8230;"
@@ -4401,6 +4397,10 @@ msgstr "Het hoofdthema, <strong>%1$s %2$s</strong>, is op dit moment ge&iuml;nst
 msgid "Successfully installed the parent theme, <strong>%1$s %2$s</strong>."
 msgstr "Succesvol het hoofdthema ge&#239;nstaleerd, <strong>%1$s %2$s</strong>."
 
+#: wp-admin/includes/class-wp-upgrader.php:1294
+msgid "<strong>The parent theme could not be found.</strong> You will need to install the parent theme, <strong>%s</strong>, before you can use this child theme."
+msgstr "<strong>Het hoofdthema kon niet worden gevonden.</strong> Je moet het hoofdthema installeren, <strong>%s</strong>, voordat je dit subthema kunt gebruiken."
+
 #: wp-admin/custom-header.php:118 wp-admin/custom-header.php:623
 #: wp-admin/custom-header.php:628
 msgid "Header Text"
@@ -4412,7 +4412,7 @@ msgstr "Laat de header tekst en je afbeelding zien."
 
 #: wp-admin/includes/theme.php:176 wp-admin/includes/update.php:446
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
-msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Bekijk versie %4$s details</a> of <a href=\"%5$s\">nu bijwerken</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a> of <a href=\"%5$s\">nu bijwerken</a>."
 
 #: wp-admin/includes/plugin.php:168
 msgid "By %s."
@@ -4484,14 +4484,14 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "1"
 
-#: wp-admin/includes/theme.php:173 wp-admin/includes/update.php:444
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this theme.</em>"
-msgstr "Er is een nieuwe versie beschikbaar van %1$s . <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Bekijk versie %4$s details</a>. <em>Automatische updates zijn niet beschikbaar voor dit thema.</em>"
-
 #. translators: 1: month number (01, 02, etc.), 2: month abbreviation
 #: wp-admin/includes/template.php:719
 msgid "%1$s-%2$s"
 msgstr "%1$s-%2$s"
+
+#: wp-admin/includes/theme.php:173 wp-admin/includes/update.php:444
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this theme.</em>"
+msgstr "Er is een nieuwe versie beschikbaar van %1$s . <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a>. <em>Automatisch bijwerken is niet beschikbaar voor dit thema.</em>"
 
 #: wp-admin/install.php:110 wp-admin/install.php:288
 msgctxt "Howdy"
@@ -4522,10 +4522,6 @@ msgstr "Je hebt onvoldoende rechten om deze site te verwijderen."
 msgid "Thank you for using %s, your site has been deleted. Happy trails to you until we meet again."
 msgstr "Bedankt voor het gebruik van %s, je site is verwijderd. Hopelijk tot een volgende keer."
 
-#: wp-admin/ms-delete-site.php:78
-msgid "Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked."
-msgstr "Bedankt. Controleer je e-mail voor een link om je actie te bevestigen. Je site wordt niet verwijderd totdat op de link wordt geklikt om de actie te bevestigen."
-
 #: wp-admin/ms-delete-site.php:83
 msgid "Remember, once deleted your site cannot be restored."
 msgstr "Onthoudt dat als deze website eenmaal is verwijderd het niet kan worden hersteld."
@@ -4549,6 +4545,10 @@ msgstr "Als je de %s website niet meer wilt gebruiken, kun je deze verwijderen m
 #: wp-admin/ms-delete-site.php:23
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
 msgstr "De link waarop je hebt geklikt is verouderd. Een andere optie selecteren."
+
+#: wp-admin/ms-delete-site.php:78
+msgid "Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked."
+msgstr "Bedankt. Je e-mail controleren voor een link om je actie te bevestigen. Je site wordt niet verwijderd totdat op de link wordt geklikt om de actie te bevestigen."
 
 #: wp-admin/includes/ms.php:36
 msgid "This file is too big. Files must be less than %1$s KB in size."
@@ -4639,10 +4639,6 @@ msgid "Delete this theme"
 msgstr "Dit thema verwijderen"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:498
-msgid "Visit theme homepage"
-msgstr "Themahomepage bezoeken"
-
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:498
 msgid "Visit Theme Site"
 msgstr "Themawebsite bezoeken"
 
@@ -4702,6 +4698,10 @@ msgstr "Geen thema's gevonden."
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:231
 msgid "You do not appear to have any themes available at this time."
 msgstr "Het lijkt erop dat er geen thema's beschikbaar zijn op dit moment."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:498
+msgid "Visit theme homepage"
+msgstr "Thema-homepagina bezoeken"
 
 #: wp-admin/my-sites.php:31
 msgid "The primary site you chose does not exist."
@@ -4851,7 +4851,7 @@ msgstr "Je zou nu je web.config moeten bijwerken."
 
 #: wp-admin/includes/plugin-install.php:567
 msgid "Plugin Homepage &#187;"
-msgstr "Plugin homepage &#187;"
+msgstr "Plugin-homepagina &#187;"
 
 #. translators: 1: table name, 2: error message,
 #: wp-admin/maint/repair.php:111
@@ -5257,10 +5257,6 @@ msgstr "Pagina&#39;s beheren"
 msgid "You can hide/display columns based on your needs and decide how many users to list per screen using the Screen Options tab."
 msgstr "Je kunt kolommen tonen/verbergen naar eigen inzicht en beslissen hoeveel berichten worden getoond per scherm met gebruik van de Scherminstellingen tab."
 
-#: wp-admin/edit.php:209
-msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
-msgstr "<strong>Snel bewerken</strong> geeft toegang tot de metadata van je bericht, en laat je berichtdetails bijwerken zonder het scherm te verlaten."
-
 #: wp-admin/users.php:47
 msgid "Hovering over a row in the users list will display action links that allow you to manage users. You can perform the following actions:"
 msgstr "Hoveren over een rij in de gebruikerslijst toont actielinks die je toestaan gebruikers te beheren. Je hebt de keuze uit de volgende acties:"
@@ -5284,6 +5280,10 @@ msgstr "<strong>Voorbeeld</strong> toont hoe je concept-bericht eruit ziet als j
 #: wp-admin/edit.php:208
 msgid "<strong>Edit</strong> takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
 msgstr "<strong>Bewerken</strong> brengt je naar het bewerkscherm van dat bericht. Je kunt dat scherm ook bereiken door op de berichttitel te klikken."
+
+#: wp-admin/edit.php:209
+msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
+msgstr "<strong>Snel bewerken</strong> geeft toegang tot de metadata van je bericht en laat je de berichtdetails bijwerken zonder het scherm te verlaten."
 
 #: wp-admin/user-new.php:171
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
@@ -5408,7 +5408,7 @@ msgstr "De %s tabel is ok&#233;."
 
 #: wp-admin/update-core.php:306
 msgid "View version %1$s details."
-msgstr "Details van versie %1$s bekijken"
+msgstr "Details van versie %1$s bekijken."
 
 #: wp-admin/includes/import.php:195
 msgid "Tumblr"
@@ -5420,7 +5420,7 @@ msgstr "Installeer de Tumblr importeerfunctie om berichten &amp; media van Tumbl
 
 #: wp-admin/includes/dashboard.php:1293
 msgid "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> or learn how to <a href=\"%3$s\" class=\"browse-happy-link\">browse happy</a>"
-msgstr "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> of leer hoe je goed en veilig kunt <a href=\"%3$s\" class=\"browse-happy-link\">bladeren</a>"
+msgstr "<a href=\"%1$s\" class=\"update-browser-link\">%2$s bijwerken</a> of leer hoe je goed en veilig kunt <a href=\"%3$s\" class=\"browse-happy-link\">bladeren</a>"
 
 #. translators: %1$s is link start tag, %2$s is link end tag, %3$d is width,
 #. %4$d is height
@@ -5438,7 +5438,7 @@ msgstr "Audio, video, of een ander bestand"
 
 #: wp-admin/options.php:159
 msgid "<strong>ERROR</strong>: options page not found."
-msgstr "<strong>MISLUKT</strong>: de opties pagina is niet gevonden."
+msgstr "<strong>FOUT</strong>: de opties pagina is niet gevonden."
 
 #: wp-admin/includes/file.php:1115
 msgid "<strong>ERROR:</strong> There was an error connecting to the server, Please verify the settings are correct."
@@ -5904,10 +5904,6 @@ msgstr "Recente rockers"
 msgid "Internationalization"
 msgstr "Internationalisatie"
 
-#: wp-admin/credits.php:97
-msgid "Want to see your name in lights on this page? <a href=\"%s\">Get involved in WordPress</a>."
-msgstr "Wil jij jouw naam uitgelicht zien staan op deze pagina? <a href=\"%s\">Zorg er dan voor dat je betrokken raakt bij WordPress</a>."
-
 #: wp-admin/credits.php:38
 msgid "WordPress is created by a <a href=\"%1$s\">worldwide team</a> of passionate individuals. <a href=\"%2$s\">Get involved in WordPress</a>."
 msgstr "WordPress is gemaakt door een <a href=\"%1$s\">wereldwijd team</a> van gepassioneerde individuen. <a href=\"%2$s\">Help mee aan WordPress</a>."
@@ -5920,6 +5916,10 @@ msgstr "Credits"
 #: wp-admin/credits.php:113
 msgid "Core Contributors to WordPress %s"
 msgstr "Core bijdragers aan WordPress %s"
+
+#: wp-admin/credits.php:97
+msgid "Want to see your name in lights on this page? <a href=\"%s\">Get involved in WordPress</a>."
+msgstr "Wil je je naam uitgelicht zien staan op deze pagina? <a href=\"%s\">Zorg er dan voor dat je betrokken raakt bij WordPress</a>."
 
 #: wp-admin/includes/dashboard.php:34
 msgid "Your browser is out of date!"
@@ -6101,7 +6101,7 @@ msgstr "Dit is een bestand in je huidige hoofdthema."
 
 #: wp-admin/theme-editor.php:212
 msgid "This child theme inherits templates from a parent theme, %s."
-msgstr "Dit child thema overerft templates van een hoofdthema, %s."
+msgstr "Dit subthema overerft templates van een hoofdthema, %s."
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:328
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:402
@@ -6180,7 +6180,7 @@ msgstr "Update pakket niet beschikbaar."
 
 #: wp-admin/includes/update.php:343
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin.</em>"
-msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Bekijk de versie %4$s details</a>. <em>Automatisch updaten is niet beschikbaar voor deze plugin.</em>"
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Details van %4$s bekijken</a>. <em>Automatisch bijwerken is niet beschikbaar voor deze plugin.</em>"
 
 #: wp-admin/export.php:186 wp-admin/export.php:223 wp-admin/export.php:255
 msgid "Date range:"
@@ -6251,7 +6251,7 @@ msgstr "Geïnstalleerde thema's zoeken"
 
 #: wp-admin/update-core.php:345
 msgid "<strong>Please Note:</strong> Any customizations you have made to theme files will be lost. Please consider using <a href=\"%s\">child themes</a> for modifications."
-msgstr "<strong>Let op:</strong> Alle aanpassingen die je aan een thema maakt raak je kwijt. De oplossing is een  <a href=\"%s\">child thema</a> te maken om aanpassingen in te maken."
+msgstr "<strong>Let op:</strong> Alle aanpassingen die je aan een thema maakt raak je kwijt. De oplossing is een <a href=\"%s\">subthema</a> te maken om daar aanpassingen in te maken."
 
 #: wp-admin/includes/class-wp-posts-list-table.php:366
 msgctxt "posts"
@@ -6469,17 +6469,17 @@ msgstr "Geef je FTP inloggegevens op om verder te gaan."
 msgid "If you do not remember your credentials, you should contact your web host."
 msgstr "Wanneer je deze gegevens niet meer weet, kun je contact opnemen met je webhost."
 
-#: wp-admin/user-edit.php:39
-msgid "Your profile contains information about you (your &#8220;account&#8221;) as well as some personal options related to using WordPress."
-msgstr "Je profiel bevat informatie over jou (jouw &#8220;account&#8221;) evenals een aantal persoonlijke opties met betrekking tot het gebruik van WordPress."
-
 #: wp-admin/theme-install.php:79
 msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s folder via FTP into your <code>/wp-content/themes</code> directory."
 msgstr "Je kunt een thema handmatig uploaden als je deze reeds als ZIP-archief hebt gedownload (zorg ervoor dat het van een betrouwbare en originele bron afkomstig is). Je kunt het ook doen op de ouderwetse manier en de gedownloade thema's map via FTP naar je <code>/wp-content/themes</code> directory uploaden."
 
+#: wp-admin/user-edit.php:39
+msgid "Your profile contains information about you (your &#8220;account&#8221;) as well as some personal options related to using WordPress."
+msgstr "Je profiel bevat informatie over jou (je &#8220;account&#8221;) evenals een aantal persoonlijke opties met betrekking tot het gebruik van WordPress."
+
 #: wp-admin/edit-form-advanced.php:452
 msgid "<strong>Send Trackbacks</strong> &mdash; Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. Enter the URL(s) you want to send trackbacks. If you link to other WordPress sites they&#8217;ll be notified automatically using pingbacks, and this field is unnecessary."
-msgstr "<strong>Trackbacks verzenden</strong> - Met trackbacks kan je andere blogsystemen inlichten dat je naar hen linkt. Voer de links in waarnaar je trackbacks wilt verzenden. Andere WordPress sites waar je naar verwijst, worden automatisch ingelicht met behulp van pingbacks. Voor deze sites is dit veld niet nodig."
+msgstr "<strong>Trackbacks verzenden</strong> - Met trackbacks kun je andere blogsystemen inlichten dat je naar hen linkt. Voer de links in waarnaar je trackbacks wilt verzenden. Andere WordPress sites waar je naar verwijst, worden automatisch ingelicht met behulp van pingbacks. Voor deze sites is dit veld niet nodig."
 
 #: wp-admin/user-new.php:195
 msgid "Administrators have access to all the administration features."
@@ -6499,7 +6499,7 @@ msgstr "Het verwijderen van een link is permanent aangezien er nog geen prullenb
 
 #: wp-admin/plugin-editor.php:133
 msgid "You can use the editor to make changes to any of your plugins&#8217; individual PHP files. Be aware that if you make changes, plugins updates will overwrite your customizations."
-msgstr "Je kunt gebruik maken van de editor om wijzigingen in &#233;&#233;n van de PHP bestanden van je plugins te maken. Hou er rekening mee dat wijzigingen overschreven worden bij een update van de plugin."
+msgstr "Je kunt gebruik maken van de editor om wijzigingen in &#233;&#233;n van de PHP-bestanden van je plugins te maken. Hou er rekening mee dat wijzigingen overschreven worden bij het bijwerken van de plugin."
 
 #: wp-admin/edit-tags.php:253
 msgid "<strong>Slug</strong> &mdash; The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
@@ -6539,7 +6539,7 @@ msgstr "Je kunt de reactie modereren vanaf dit scherm via het Status vak, waar j
 
 #: wp-admin/comment.php:45
 msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
-msgstr "Je kunt een reactie bewerken. Dit is kan handig zijn bij gemaakte typefouten."
+msgstr "Je kunt een reactie bewerken mocht dat nodig zijn. Dit kan handig zijn bij gemaakte typefouten."
 
 #: wp-admin/nav-menus.php:748
 msgid "Enter menu name here"
@@ -8508,10 +8508,6 @@ msgstr "Geen plugins gevonden."
 msgid "You are not allowed to edit this item."
 msgstr "Je hebt geen toestemming om dit item te bewerken."
 
-#: wp-admin/ms-delete-site.php:13 wp-admin/my-sites.php:13
-msgid "Multisite support is not enabled."
-msgstr "Multiwebsite ondersteuning is niet geactiveerd."
-
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:44
 msgid "Mature"
 msgstr "Volwassen"
@@ -8528,14 +8524,6 @@ msgstr "Netwerk deactiveren"
 #: wp-admin/post.php:120
 msgid "You can&#8217;t edit this item because it is in the Trash. Please restore it and try again."
 msgstr "Niet mogelijk om dit item te bewerken omdat het in de prullenbak zit. Herstel het item en probeer het opnieuw."
-
-#: wp-admin/includes/user.php:130
-msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
-msgstr "<strong>MISLUKT</strong>: wachtwoorden mogen niet het teken \"\\\" bevatten."
-
-#: wp-admin/includes/user.php:134
-msgid "<strong>ERROR</strong>: Please enter the same password in both password fields."
-msgstr "<strong>MISLUKT</strong>: gebruik hetzelfde wachtwoord in beide wachtwoordvelden."
 
 #: wp-admin/user-new.php:98
 msgid "[%s] Joining confirmation"
@@ -8570,10 +8558,6 @@ msgstr "Voorpagina: %s"
 #: wp-admin/options-discussion.php:150 wp-admin/options-discussion.php:151
 msgid "Comment Moderation"
 msgstr "Reacties modereren"
-
-#: wp-admin/options-general.php:83
-msgid "This address is used for admin purposes, like new user notification."
-msgstr "<br />Dit adres is voor beheerdoeleinden, zoals notificatie van nieuwe gebruikers."
 
 #: wp-admin/link-manager.php:93
 msgid "Search Links"
@@ -8614,18 +8598,6 @@ msgstr "Geneste reacties toestaan tot %s niveaus diep"
 #: wp-admin/options-discussion.php:146
 msgid "Comment author must have a previously approved comment"
 msgstr "De afzender moet een eerder toegelaten reactie geplaatst hebben"
-
-#: wp-admin/includes/update-core.php:870
-msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist PHP versie %2$s of hoger en MySQL versie %3$s of hoger. Je gebruikt PHP versie: %4$s en MySQL versie %5$s."
-
-#: wp-admin/includes/update-core.php:872
-msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
-msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist PHP versie %2$s of hoger. Je gebruikt versie: %3$s."
-
-#: wp-admin/includes/update-core.php:874
-msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist MySQL versie %2$s of hoger. Je gebruikt versie: %3$s."
 
 #: wp-admin/includes/theme-install.php:204
 msgid "Theme Install"
@@ -8914,10 +8886,6 @@ msgstr "Kleurenschema beheren"
 msgid "File edited successfully."
 msgstr "Bestand succesvol bijgewerkt."
 
-#: wp-admin/install.php:177
-msgid "Your Email"
-msgstr "Jouw e-mailadres"
-
 #: wp-admin/options-discussion.php:154
 msgid "When a comment contains any of these words in its content, name, URL, email, or IP, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Wanneer een reactie &#233;&#233;n of meer van deze woorden bevat in de inhoud, naam, URL, e-mail of IP-adres, wordt het in de <a href=\"edit-comments.php?comment_status=moderated\">moderatiewachtrij</a> opgehouden. E&#233;n woord of IP-adres per regel. Het houdt ook rekening met woorden in woorden. &#8220;press&#8221; wordt ook gevonden binnen &#8220;WordPress&#8221;."
@@ -8935,10 +8903,6 @@ msgstr "De plugin %1$s is <strong>uitgeschakeld</strong> als gevolg van een fout
 msgid "Invalid item ID."
 msgstr "Ongeldig item-ID."
 
-#: wp-admin/includes/user.php:154
-msgid "<strong>ERROR</strong>: Please enter an email address."
-msgstr "<strong>MISLUKT</strong>: Voer een e-mailadres in."
-
 #: wp-admin/options-discussion.php:128 wp-admin/options-discussion.php:129
 msgid "Email me whenever"
 msgstr "Verstuur een e-mailbericht wanneer"
@@ -8951,9 +8915,45 @@ msgstr "Eén kolom"
 msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their email address."
 msgstr "Voor gebruikers zonder eigen avatar, kan een algemeen logo worden getoond of een gegenereerd logo gebaseerd op hun e-mailadres."
 
+#: wp-admin/ms-delete-site.php:13 wp-admin/my-sites.php:13
+msgid "Multisite support is not enabled."
+msgstr "Multisite-ondersteuning is niet geactiveerd."
+
+#: wp-admin/includes/update-core.php:870
+msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist PHP-versie %2$s of hoger en MySQL-versie %3$s of hoger. Je gebruikt PHP-versie: %4$s en MySQL-versie %5$s."
+
+#: wp-admin/includes/update-core.php:872
+msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist PHP-versie %2$s of hoger. Je gebruikt versie: %3$s."
+
+#: wp-admin/includes/update-core.php:874
+msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "De bijgewerkte versie kan niet worden ge&#239;nstalleerd. WordPress %1$s vereist MySQL-versie %2$s of hoger. Je gebruikt versie: %3$s."
+
+#: wp-admin/install.php:177
+msgid "Your Email"
+msgstr "Je e-mailadres"
+
 #: wp-admin/options-general.php:162
 msgid "Choose a city in the same timezone as you."
-msgstr "Kies een plaats in jouw tijdzone."
+msgstr "Kies een plaats in je tijdzone."
+
+#: wp-admin/options-general.php:83
+msgid "This address is used for admin purposes, like new user notification."
+msgstr "Dit adres is voor beheerdoeleinden, zoals meldingen van nieuwe gebruikers."
+
+#: wp-admin/includes/user.php:130
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>FOUT</strong>: wachtwoorden mogen niet het teken \"\\\" bevatten."
+
+#: wp-admin/includes/user.php:134
+msgid "<strong>ERROR</strong>: Please enter the same password in both password fields."
+msgstr "<strong>FOUT</strong>: gebruik hetzelfde wachtwoord in beide wachtwoordvelden."
+
+#: wp-admin/includes/user.php:154
+msgid "<strong>ERROR</strong>: Please enter an email address."
+msgstr "<strong>FOUT</strong>: Voer een e-mailadres in."
 
 #: wp-admin/edit.php:216 wp-admin/includes/class-wp-list-table.php:464
 msgid "Bulk Actions"
@@ -10733,10 +10733,6 @@ msgstr "kind"
 msgid "Add media files from your computer"
 msgstr "Mediabestanden van je computer toevoegen"
 
-#: wp-admin/includes/media.php:1227
-msgid "Location of the uploaded file."
-msgstr "Lokatie van het geuploade bestand."
-
 #: wp-admin/includes/image-edit.php:147
 msgid "All sizes except thumbnail"
 msgstr "Alle formaten, behalve de thumbnail"
@@ -10840,6 +10836,10 @@ msgstr "<strong>Waarschuwing:</strong> Deze plugin is <strong>niet gemarkeerd al
 #: wp-admin/includes/plugin-install.php:286
 msgid "If you have a plugin in a .zip format, you may install it by uploading it here."
 msgstr "Wanneer je een plugin in zipformaat hebt, kun je deze installeren door het hier te uploaden."
+
+#: wp-admin/includes/media.php:1227
+msgid "Location of the uploaded file."
+msgstr "Locatie van het geuploade bestand."
 
 #: wp-admin/includes/media.php:2429 wp-admin/includes/nav-menu.php:346
 #: wp-admin/includes/nav-menu.php:620
