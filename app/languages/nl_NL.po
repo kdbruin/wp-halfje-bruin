@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (4.4.x) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-01-01 11:26:25+0000\n"
+"PO-Revision-Date: 2016-01-16 11:28:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1172,10 +1172,6 @@ msgstr "Inhoud:"
 msgid "Default shortcuts,"
 msgstr "Standaard sneltoetsen,"
 
-#: wp-includes/class-wp-editor.php:1042
-msgid "Additional shortcuts,"
-msgstr "Extra sneltoesten"
-
 #: wp-includes/class-wp-editor.php:1044
 msgid "Inline toolbar (when an image, link or preview is selected)"
 msgstr "Inline toolbar (als een afbeelding, link of voorbeeld is geselecteerd)"
@@ -1183,6 +1179,10 @@ msgstr "Inline toolbar (als een afbeelding, link of voorbeeld is geselecteerd)"
 #: wp-includes/class-wp-xmlrpc-server.php:542
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new articles"
 msgstr "Sta link-meldingen van andere blogs toe (pingbacks en trackbacks) op nieuwe artikelen"
+
+#: wp-includes/class-wp-editor.php:1042
+msgid "Additional shortcuts,"
+msgstr "Extra sneltoetsen,"
 
 #: wp-includes/class-wp-customize-section.php:236
 #: wp-includes/customize/class-wp-customize-themes-section.php:55

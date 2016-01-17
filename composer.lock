@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b624873214619d56e82acc155dd54d55",
-    "content-hash": "a8f972dd8ffc4329a444cc72c8bbbf47",
+    "hash": "0eaafd51717693a8429e73d852f0f6d2",
+    "content-hash": "ad5826463e99ec4ecb2518b3a3b935ff",
     "packages": [
         {
             "name": "composer/installers",
@@ -223,15 +223,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.4",
+            "version": "4.4.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "trunk"
+                "reference": "tags/4.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -306,7 +306,7 @@
         },
         {
             "name": "wpackagist-plugin/crayon-syntax-highlighter",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/crayon-syntax-highlighter/",
@@ -346,15 +346,15 @@
         },
         {
             "name": "wpackagist-plugin/enable-media-replace",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/enable-media-replace/",
-                "reference": "tags/3.0.3"
+                "reference": "tags/3.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.0.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
