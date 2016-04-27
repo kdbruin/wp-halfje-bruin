@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-03-21 08:12:25+0000\n"
+"PO-Revision-Date: 2016-04-24 13:27:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.1.0-alpha\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
 "Project-Id-Version: Network Admin\n"
 
 #. translators: 1: theme name, 2: theme author
@@ -38,7 +38,7 @@ msgstr "Sitebeheerder"
 
 #: wp-admin/network/site-new.php:204
 msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
-msgstr "Alleen kleine letters (a-z), cijfers en koppeltekens mogen zijn toegestaan."
+msgstr "Alleen kleine letters (a-z), cijfers en koppeltekens zijn toegestaan."
 
 #. translators: 1: site url 2: host name 3. www
 #: wp-admin/includes/network.php:227
@@ -211,7 +211,7 @@ msgstr "Activeer %s"
 #. translators: %s: theme name
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:414
 msgid "Network Enable %s"
-msgstr "Thema %s is voor netwerk geactiveerd"
+msgstr "%s voor netwerk activeren"
 
 #. translators: %s: theme name
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:433
@@ -221,7 +221,7 @@ msgstr "Deactiveer %s"
 #. translators: %s: theme name
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:436
 msgid "Network Disable %s"
-msgstr "Thema %s is voor netwerk gedeactiveerd"
+msgstr "%s voor netwerk deactiveren"
 
 #. translators: %s: theme name
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:452
@@ -349,11 +349,11 @@ msgstr "Je staat op het punt om de website %s te verwijderen."
 
 #: wp-admin/network/sites.php:67
 msgid "You are about to mark the site %s as spam."
-msgstr "Je staat op het punt de site %s te markeren als geen spam. "
+msgstr "Je staat op het punt de site %s te markeren als spam. "
 
 #: wp-admin/network/sites.php:66
 msgid "You are about to unspam the site %s."
-msgstr "Je staat op het punt de site %s te markeren als geen spam."
+msgstr "Je staat op het punt de site %s te demarkeren als spam."
 
 #: wp-admin/network/sites.php:65
 msgid "You are about to archive the site %s."
@@ -789,7 +789,7 @@ msgstr "Nieuwe toevoegen"
 
 #: wp-admin/network/sites.php:40
 msgid "Clicking on bold headings can re-sort this table."
-msgstr "Klikken op de vette koppen kan deze tabel hersorteren."
+msgstr "Klikken op de koppen kan deze tabel hersorteren."
 
 #: wp-admin/network/sites.php:37
 msgid "Delete which is a permanent action after the confirmation screens."
@@ -801,7 +801,7 @@ msgstr "Thema&#39;s kunnen worden geactiveerd per site door de netwerkbeheerder 
 
 #: wp-admin/network/sites.php:34
 msgid "An Edit link to a separate Edit Site screen."
-msgstr "Een Link Bewerken naar een apart Site wijzigen scherm."
+msgstr "De Bewerken link verwijst naar een apart site wijzigenscherm."
 
 #: wp-admin/network/site-new.php:26
 msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
@@ -1015,7 +1015,7 @@ msgstr "Het site-ID wordt intern gebruikt en wordt niet getoond aan de voorkant 
 
 #: wp-admin/network/sites.php:33
 msgid "Hovering over each site reveals seven options (three for the primary site):"
-msgstr "Met de muis over je site heen gaan toont zeven opties (drie voor de primaire site):"
+msgstr "Als je met de muis over je site heen gaat worden zeven opties (drie voor de primaire site) getoond:"
 
 #: wp-admin/network/settings.php:32
 msgid "Operational settings has fields for the network&#8217;s name and admin email."

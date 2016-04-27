@@ -1,14 +1,14 @@
-# Translation of Development (4.5.x) in Dutch
-# This file is distributed under the same license as the Development (4.5.x) package.
+# Translation of 4.5.x in Dutch
+# This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-12 12:37:45+0000\n"
+"PO-Revision-Date: 2016-04-24 13:10:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.1.0-alpha\n"
-"Project-Id-Version: Development (4.5.x)\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: 4.5.x\n"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -172,7 +172,7 @@ msgstr "%1$s %2$s %3$s %4$s Feed"
 msgid "<strong>ERROR</strong>: Invalid username, email address or incorrect password."
 msgstr "<strong>FOUT:</strong> Ongeldige gebruikersnaam, e-mailadres of foutief wachtwoord."
 
-#: wp-includes/post-template.php:1539
+#: wp-includes/post-template.php:1536
 msgctxt "post password form"
 msgid "Enter"
 msgstr "Enter"
@@ -212,11 +212,11 @@ msgstr "Kies logo"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: version number,
 #. 4: __construct() method
-#: wp-includes/functions.php:3721
+#: wp-includes/functions.php:3717
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "De aangeroepen constuctiemethode voor %1$s in %2$s is <strong>niet meer in gebruik</strong> sinds versie %3$s. Maak gebruik van: %4$s."
 
-#: wp-includes/functions.php:5046
+#: wp-includes/functions.php:5042
 msgid "Close dialog"
 msgstr "Dialoogvenster sluiten"
 
@@ -351,11 +351,11 @@ msgid "https://codex.wordpress.org/Debugging_a_WordPress_Network"
 msgstr "https://codex.wordpress.org/Debugging_a_WordPress_Network"
 
 #. translators: %s: Codex URL
-#: wp-includes/functions.php:3898
+#: wp-includes/functions.php:3894
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Lees alles over <a href=\"%s\">foutopsporing in WordPress</a> voor meer informatie."
 
-#: wp-includes/functions.php:3899
+#: wp-includes/functions.php:3895
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 
@@ -564,38 +564,38 @@ msgstr "Sitetaal:"
 msgid "Author:"
 msgstr "Auteur:"
 
-#: wp-includes/wp-db.php:1538
+#: wp-includes/wp-db.php:1546
 msgid "Are you sure that you have typed the correct hostname?"
 msgstr "Weet je zeker dat je de juiste hostnaam hebt opgegeven?"
 
-#: wp-includes/wp-db.php:1539 wp-includes/wp-db.php:1642
+#: wp-includes/wp-db.php:1547 wp-includes/wp-db.php:1650
 msgid "Are you sure that the database server is running?"
 msgstr "Weet je zeker dat de databaseserver draait?"
 
 #. translators: %s: support forums URL
-#: wp-includes/wp-db.php:1544 wp-includes/wp-db.php:1648
+#: wp-includes/wp-db.php:1552 wp-includes/wp-db.php:1656
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Wanneer je niet bekend bent met deze terminologie kun je beter contact opnemen met de hostingprovider. Als je nog steeds hulp nodig hebt kun je het <a href=\"%s\">WordPress supportforum</a> bezoeken."
 
-#: wp-includes/wp-db.php:1633
+#: wp-includes/wp-db.php:1641
 msgid "Error reconnecting to the database"
 msgstr "Fout bij herstellen verbinding met database"
 
 #. translators: %s: database host
-#: wp-includes/wp-db.php:1637
+#: wp-includes/wp-db.php:1645
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
 msgstr "Dit betekent dat we het contact met de databaseserver bij %s hebben verloren. Dit kan betekenen dat de hostingprovider databaseserver down is."
 
-#: wp-includes/wp-db.php:1643
+#: wp-includes/wp-db.php:1651
 msgid "Are you sure that the database server is not under particularly heavy load?"
 msgstr "Weet je zeker dat de database server niet te zwaar belast is?"
 
 #. translators: 1: wp-config.php. 2: database host
-#: wp-includes/wp-db.php:1531
+#: wp-includes/wp-db.php:1539
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "Dit betekent dat de gebruikersnaam en wachtwoord in je %1$s bestand onjuist is of we kunnen geen verbinding maken met de database server via %2$s. Wellicht is de database server van je hosting offline."
 
-#: wp-includes/wp-db.php:1537
+#: wp-includes/wp-db.php:1545
 msgid "Are you sure you have the correct username and password?"
 msgstr "Weet je zeker dat je de juiste gebruikersnaam en wachtwoord hebt?"
 
@@ -1261,7 +1261,7 @@ msgid "Preformatted"
 msgstr "Vooraf opgemaakt"
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
-#: wp-includes/functions.php:3725
+#: wp-includes/functions.php:3721
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "De aangeroepen constructor methode voor %1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik %3$s in plaats daarvan."
 
@@ -1844,7 +1844,7 @@ msgid "Site Preview"
 msgstr "Site voorbeeld"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1628 wp-includes/post-template.php:1664
+#: wp-includes/post-template.php:1625 wp-includes/post-template.php:1661
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "j F Y H:i:s"
@@ -3206,7 +3206,7 @@ msgid "https://wordpress.org/"
 msgstr "https://nl.wordpress.org/"
 
 #: wp-includes/admin-bar.php:145 wp-includes/wp-db.php:1085
-#: wp-includes/wp-db.php:1545 wp-includes/wp-db.php:1649 wp-login.php:789
+#: wp-includes/wp-db.php:1553 wp-includes/wp-db.php:1657 wp-login.php:789
 msgid "https://wordpress.org/support/"
 msgstr "https://nl.forums.wordpress.org/"
 
@@ -3555,7 +3555,7 @@ msgstr "De themamap \"%s\" bestaat niet."
 msgid "ERROR: This is not a valid feed template."
 msgstr "FOUT: Dit is geen geldig feed-template."
 
-#: wp-includes/post-template.php:1538
+#: wp-includes/post-template.php:1535
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "De inhoud is beveiligd met een wachtwoord. Om deze te kunnen bekijken, vul het wachtwoord hieronder in:"
 
@@ -3658,7 +3658,7 @@ msgstr[1] "%s jaar"
 msgid "#%d (no title)"
 msgstr "#%d (geen titel)"
 
-#: wp-includes/post-template.php:1738
+#: wp-includes/post-template.php:1735
 msgid "JavaScript must be enabled to use this feature."
 msgstr "Deze functie werkt alleen als JavaScript is ingeschakeld."
 
@@ -3702,13 +3702,13 @@ msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contac
 msgstr "<strong>FOUT</strong>: Niet mogelijk om je te registeren&hellip;, neem contact op met de <a href=\"mailto:%s\">webmaster</a>."
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1630
+#: wp-includes/post-template.php:1627
 msgctxt "post revision title extra"
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Automatisch opgeslagen]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1632
+#: wp-includes/post-template.php:1629
 msgctxt "post revision title extra"
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Huidige revisie]"
@@ -3731,13 +3731,13 @@ msgstr "Is het e-mailadres correct ingevoerd? Je hebt het volgende ingevoerd: %s
 msgid "The site you were looking for, %s, does not exist, but you can create it now!"
 msgstr "De site waar je naar op zoek bent: %s bestaat niet, maar je kunt deze nu aanmaken."
 
-#: wp-includes/functions.php:5059
+#: wp-includes/functions.php:5055
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
 msgstr "De inlogpagina opent in een nieuw venster. Na het inloggen kun je dit venster sluiten en terugkeren naar deze pagina."
 
 #. translators: post revision title: 1: author avatar, 2: author name, 3: time
 #. ago, 4: date
-#: wp-includes/post-template.php:1674
+#: wp-includes/post-template.php:1671
 msgctxt "post revision title"
 msgid "%1$s %2$s, %3$s ago (%4$s)"
 msgstr "%1$s %2$s, %3$s geleden (%4$s)"
@@ -3761,7 +3761,7 @@ msgctxt "submit button"
 msgid "Search"
 msgstr "Zoeken"
 
-#: wp-includes/functions.php:5057 wp-includes/script-loader.php:448
+#: wp-includes/functions.php:5053 wp-includes/script-loader.php:448
 msgid "Session expired"
 msgstr "Sessie verlopen"
 
@@ -4813,12 +4813,12 @@ msgstr "Supportforums"
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:3598
+#: wp-includes/functions.php:3594
 msgid "Database Error"
 msgstr "Databasefout"
 
-#: wp-includes/functions.php:3602 wp-includes/ms-load.php:286
-#: wp-includes/wp-db.php:1527
+#: wp-includes/functions.php:3598 wp-includes/ms-load.php:286
+#: wp-includes/wp-db.php:1535
 msgid "Error establishing a database connection"
 msgstr "Fout bij het maken van de databaseconnectie"
 
@@ -4987,11 +4987,11 @@ msgstr "Voorwaardelijke query tags werken niet voordat de query is uitgevoerd. D
 msgid "The user is already active."
 msgstr "De gebruiker is al geactiveerd."
 
-#: wp-includes/functions.php:3901
+#: wp-includes/functions.php:3897
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s werd <strong>verkeerd</strong> aangeroepen. %2$s %3$s"
 
-#: wp-includes/functions.php:3896
+#: wp-includes/functions.php:3892
 msgid "(This message was added in version %s.)"
 msgstr "(Dit bericht is toegevoegd in versie %s.)"
 
@@ -6196,7 +6196,7 @@ msgstr "nieuwe WordPress loop"
 msgid "Last updated"
 msgstr "Laatst bijgewerkt"
 
-#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1442
+#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1439
 msgid "Missing Attachment"
 msgstr "Ontbrekende bijlage"
 
@@ -6252,67 +6252,67 @@ msgstr ", "
 msgid "%s is a protected WP option and may not be modified"
 msgstr "%s is een beveiligde WP-optie en kan niet worden gewijzigd"
 
-#: wp-includes/functions.php:1891 wp-includes/functions.php:2151
+#: wp-includes/functions.php:1888 wp-includes/functions.php:2147
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Kan map %s niet aanmaken. Is de bovenliggende map beschrijfbaar door de server?"
 
-#: wp-includes/functions.php:2115
+#: wp-includes/functions.php:2111
 msgid "Empty filename"
 msgstr "Lege bestandsnaam"
 
-#: wp-includes/functions.php:2157
+#: wp-includes/functions.php:2153
 msgid "Could not write file %s"
 msgstr "Bestand %s kan niet opgeslagen worden"
 
-#: wp-includes/functions.php:2498
+#: wp-includes/functions.php:2494
 msgid "You are attempting to log out of %s"
 msgstr "Je probeert uit te loggen van %s"
 
-#: wp-includes/functions.php:2507
+#: wp-includes/functions.php:2503
 msgid "WordPress Failure Notice"
 msgstr "WordPress-foutmelding"
 
-#: wp-includes/functions.php:2500
+#: wp-includes/functions.php:2496
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Weet je zeker dat je wilt <a href='%s'>uitloggen</a>?"
 
-#: wp-includes/functions.php:2504 wp-includes/ms-functions.php:1915
+#: wp-includes/functions.php:2500 wp-includes/ms-functions.php:1915
 msgid "Please try again."
 msgstr "Opnieuw proberen."
 
-#: wp-includes/functions.php:2626
+#: wp-includes/functions.php:2622
 msgid "&laquo; Back"
 msgstr "&laquo; Terug"
 
-#: wp-includes/functions.php:2638 wp-load.php:92
+#: wp-includes/functions.php:2634 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fout"
 
-#: wp-includes/functions.php:3662 wp-includes/functions.php:3786
+#: wp-includes/functions.php:3658 wp-includes/functions.php:3782
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik in plaats daarvan %3$s."
 
-#: wp-includes/functions.php:3664 wp-includes/functions.php:3788
+#: wp-includes/functions.php:3660 wp-includes/functions.php:3784
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s, zonder beschikbaar alternatief."
 
-#: wp-includes/functions.php:3846
+#: wp-includes/functions.php:3842
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s werd aangeroepen met een argument dat <strong>verouderd</strong> is sinds versie %2$s. %3$s"
 
-#: wp-includes/functions.php:3848
+#: wp-includes/functions.php:3844
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s werd aangeroepen met een argument dat <strong>verouderd</strong> is sinds versie %2$s, zonder beschikbaar alternatief."
 
-#: wp-includes/functions.php:4408
+#: wp-includes/functions.php:4404
 msgid "Select a city"
 msgstr "Een plaats selecteren"
 
-#: wp-includes/functions.php:4453 wp-includes/functions.php:4457
+#: wp-includes/functions.php:4449 wp-includes/functions.php:4453
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:4461
+#: wp-includes/functions.php:4457
 msgid "Manual Offsets"
 msgstr "Handmatige compensatie"
 
@@ -6995,23 +6995,23 @@ msgstr "Priv&#233;: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Er is geen samenvatting omdat dit bericht is beveiligd."
 
-#: wp-includes/post-template.php:838
+#: wp-includes/post-template.php:835
 msgid "Next page"
 msgstr "Volgende pagina"
 
-#: wp-includes/post-template.php:839
+#: wp-includes/post-template.php:836
 msgid "Previous page"
 msgstr "Vorige pagina"
 
-#: wp-includes/post-template.php:1277
+#: wp-includes/post-template.php:1274
 msgid "Home"
 msgstr "Home"
 
-#: wp-includes/post-template.php:1681
+#: wp-includes/post-template.php:1678
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Automatisch opgeslagen]"
 
-#: wp-includes/post-template.php:1682
+#: wp-includes/post-template.php:1679
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Huidige revisie]"
 
@@ -7300,7 +7300,7 @@ msgstr "<strong>FOUT</strong>: Geen wachtwoord opgegeven."
 msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
 msgstr "<strong>FOUT</strong>: Je account is gemarkeerd als spammer."
 
-#: wp-includes/functions.php:5058 wp-includes/user.php:278
+#: wp-includes/functions.php:5054 wp-includes/user.php:278
 msgid "Please log in again."
 msgstr "Graag opnieuw inloggen."
 
@@ -7308,7 +7308,7 @@ msgstr "Graag opnieuw inloggen."
 msgid "Sidebar %d"
 msgstr "Zijbalk %d"
 
-#: wp-includes/wp-db.php:3142
+#: wp-includes/wp-db.php:3150
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>FOUT</strong>: WordPress %1$s vereist MySQL %2$s of hoger"
 
@@ -7615,7 +7615,7 @@ msgid "Website"
 msgstr "Website"
 
 #: wp-includes/admin-bar.php:734 wp-includes/class-wp-customize-widgets.php:418
-#: wp-includes/functions.php:3539
+#: wp-includes/functions.php:3535
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -7699,7 +7699,7 @@ msgstr "Tags: "
 msgid "Comments (%s)"
 msgstr "Reacties (%s)"
 
-#: wp-includes/post-template.php:832
+#: wp-includes/post-template.php:829
 msgid "Pages:"
 msgstr "Pagina&#39;s:"
 
@@ -7811,7 +7811,7 @@ msgctxt "noun"
 msgid "Comment"
 msgstr "Reactie"
 
-#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2502
+#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2498
 msgid "Are you sure you want to do this?"
 msgstr "Weet je zeker dat je dit wilt doen?"
 
@@ -7957,7 +7957,7 @@ msgstr "Anoniem"
 msgid "RSS"
 msgstr "RSS"
 
-#: wp-includes/functions.php:2119
+#: wp-includes/functions.php:2115
 msgid "Invalid file type"
 msgstr "Ongeldig bestandstype"
 
@@ -8164,7 +8164,7 @@ msgstr "Alle categorie&#235;n"
 
 #: wp-includes/script-loader.php:133 wp-includes/script-loader.php:288
 msgid "Dismiss"
-msgstr "Verbergen"
+msgstr "Negeren"
 
 #: wp-includes/admin-bar.php:808 wp-includes/admin-bar.php:809
 #: wp-includes/class-wp-editor.php:1433 wp-includes/media.php:3339
@@ -8196,7 +8196,7 @@ msgstr "Geen categorie"
 msgid "Email: %s"
 msgstr "E-mailadres: %s"
 
-#: wp-includes/post-template.php:1143 wp-includes/theme-compat/sidebar.php:90
+#: wp-includes/post-template.php:1140 wp-includes/theme-compat/sidebar.php:90
 #: wp-includes/widgets/class-wp-widget-pages.php:31
 #: wp-includes/widgets/class-wp-widget-pages.php:55
 msgid "Pages"
@@ -8253,7 +8253,7 @@ msgstr "Er is een fout opgetreden bij de activering"
 msgid "Username:"
 msgstr "Gebruikersnaam:"
 
-#: wp-activate.php:116 wp-includes/post-template.php:1539
+#: wp-activate.php:116 wp-includes/post-template.php:1536
 msgid "Password:"
 msgstr "Wachtwoord:"
 
