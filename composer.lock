@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dc1bf33985568fb522e11528335a7032",
-    "content-hash": "4fd1cd8bb4f0edc2ec7a44caeafae900",
+    "hash": "49665e0d01fd53d1659ccd5e1dd363c7",
+    "content-hash": "c69086fc8b9dcaee1f992dc85a3f04ea",
     "packages": [
         {
             "name": "composer/installers",
@@ -211,10 +211,10 @@
         },
         {
             "name": "wordpressNL",
-            "version": "4.5.1",
+            "version": "4.5.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-4.5.1.zip",
+                "url": "https://downloads.wordpress.org/release/nl_NL/wordpress-4.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -245,15 +245,15 @@
         },
         {
             "name": "wpackagist-plugin/backupwordpress",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/backupwordpress/",
-                "reference": "tags/3.6.0"
+                "reference": "tags/3.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.6.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -308,7 +308,7 @@
         },
         {
             "name": "wpackagist-plugin/crayon-syntax-highlighter",
-            "version": "2.8.3",
+            "version": "2.8.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/crayon-syntax-highlighter/",

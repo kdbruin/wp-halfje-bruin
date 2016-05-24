@@ -26,7 +26,7 @@ msgid "0"
 msgstr "Europe/Amsterdam"
 
 #. translators: %s: wp_add_inline_script()
-#: wp-admin/about.php:163
+#: wp-admin/about.php:166
 msgid "Better support has been added for script header/footer dependencies. New %s enables adding extra code to registered scripts."
 msgstr "Betere ondersteuning is toegevoegd voor header/footer script-afhankelijkheden. Nieuw %s activeert het toevoegen van extra code voor geregistreerde scripts."
 
@@ -39,98 +39,98 @@ msgid "Release Deputy"
 msgstr "Release Deputy"
 
 #. translators: %s: URL to customizer
-#: wp-admin/about.php:83
+#: wp-admin/about.php:86
 msgid "Preview mobile, tablet, and desktop views directly in the <a href=\"%s\" class=\"load-customize\">customizer</a>."
 msgstr "Bekijk voorvertoning van mobiel, tablet en desktop direct in de <a href=\"%s\" class=\"load-customize\">customizer</a>."
 
-#: wp-admin/about.php:87
+#: wp-admin/about.php:90
 msgid "Preview mobile, tablet, and desktop views directly in the customizer."
 msgstr "Bekijk voorvertoning van mobiel, tablet en desktop direct in de customizer."
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:80
 msgid "Make sure your site looks great on all screens!"
 msgstr "Zorg ervoor dat jouw site er fantastisch uitziet op alle schermen."
 
 #. translators: %s: URL to the development post of the new feature
-#: wp-admin/about.php:173
+#: wp-admin/about.php:176
 msgid "Embed templates have been split into parts and can be <a href=\"%s\">directly overridden by themes</a> via the template hierarchy."
 msgstr "Templates voor insluiten zijn gesplitst en kunnen <a href=\"%s\">direct worden overschreven door thema's</a> via de template-hiërarchie."
 
-#: wp-admin/about.php:169
+#: wp-admin/about.php:172
 msgid "Better Embed Templates"
 msgstr "Verbeterde templates voor insluiten"
 
 #. translators: 1: URL to Menus section of the customizer, 2: URL to Widgets
 #. section of the customizer
-#: wp-admin/about.php:133
+#: wp-admin/about.php:136
 msgid "See it in action with <a href=\"%1$s\" class=\"load-customize\">Menus</a> or <a href=\"%2$s\" class=\"load-customize\">Widgets</a>."
 msgstr "Zie het werkend met <a href=\"%1$s\" class=\"load-customize\">Menu's</a> of <a href=\"%2$s\" class=\"load-customize\">Widgets</a>."
 
-#: wp-admin/about.php:152
+#: wp-admin/about.php:155
 msgid "JavaScript Library Updates"
 msgstr "Updates voor JavaScript-bibliotheken"
 
-#: wp-admin/about.php:153
+#: wp-admin/about.php:156
 msgid "jQuery 1.12.3, jQuery Migrate 1.4.0, Backbone 1.2.3, and Underscore 1.8.3 are bundled."
 msgstr "jQuery 1.12.3, jQuery Migrate 1.4.0, Backbone 1.2.3, en Underscore 1.8.3 zijn gebundeld."
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:162
 msgid "Script Loader Improvements"
 msgstr "Scriptloader verbeteringen"
 
 #. translators: %s: URL to the development post of the new feature
-#: wp-admin/about.php:120
+#: wp-admin/about.php:123
 msgid "The customizer now supports a <a href=\"%s\">comprehensive framework</a> for rendering parts of the preview without rewriting your PHP code in JavaScript."
 msgstr "De customizer bevat nu ondersteuning van een <a href=\"%s\">uitgebreid framework</a> voor het genereren van de voorvertoning zonder dat de PHP-code moet worden herschreven in JavaScript."
 
 #. translators: %s: URL to Menus section of the customizer
-#: wp-admin/about.php:127
+#: wp-admin/about.php:130
 msgid "See it in action with <a href=\"%s\" class=\"load-customize\">Menus</a>."
 msgstr "Bekijk het in actie met <a href=\"%s\" class=\"load-customize\">Menu's</a>."
 
-#: wp-admin/about.php:103
+#: wp-admin/about.php:106
 msgid "The Twenty Fifteen and Twenty Sixteen themes have been updated to support custom logos, which can be found in the Site Identity section of the customizer."
 msgstr "De thema's Twenty Fifteen en Twenty Sixteen zijn bijgewerkt met ondersteuning voor aangepaste logo's. Dit kan worden aangepast via de site-instellingen in de customizer."
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:145
 msgid "Smart Image Resizing"
 msgstr "Intelligent herschalen afbeelding"
 
 #. translators: %s: URL to the development post of the new feature
-#: wp-admin/about.php:146
+#: wp-admin/about.php:149
 msgid "Generated images now load up to 50&#37; faster with no noticeable quality loss. <a href=\"%s\">It&#8217;s really cool</a>."
 msgstr "Gegenereerde afbeeldingen laden nu tot 50&#37; sneller zonder zichtbaar kwaliteitsverlies. <a href=\"%s\">Echt heel mooi</a>."
 
-#: wp-admin/about.php:116
+#: wp-admin/about.php:119
 msgid "Selective Refresh"
 msgstr "Selectief verversen"
 
 #. translators: %s: URL to Site Identity section of the customizer
-#: wp-admin/about.php:99
+#: wp-admin/about.php:102
 msgid "Your theme supports custom logos! Try it out right now in the <a href=\"%s\" class=\"load-customize\">Site Identity</a> section of the customizer."
 msgstr "Het thema biedt ondersteuning voor aangepaste logo's. Probeer het gelijk uit in de <a href=\"%s\" class=\"load-customize\">Site instellingen</a> sectie van de customizer."
 
-#: wp-admin/about.php:93
+#: wp-admin/about.php:96
 msgid "Custom Logos"
 msgstr "Aangepaste logo's"
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:97
 msgid "Themes can now support logos for your business or brand."
 msgstr "Thema's ondersteunen nu logo's voor je bedrijf of merk."
 
-#: wp-admin/about.php:66
+#: wp-admin/about.php:69
 msgid "Do you enjoy using formatting shortcuts for lists and headings? Now they&#8217;re even more useful, with horizontal lines and <code>&lt;code&gt;</code>."
 msgstr "Ook zo tevreden met het gebruik snelkoppelingen voor formatteren van lijsten en koppen? Nu zijn ze nog bruikbaarder met horizontale lijnen en <code>%lt;code&gt;</code>."
 
-#: wp-admin/about.php:73
+#: wp-admin/about.php:76
 msgid "Customization Improvements"
 msgstr "Verbeteringen voor de Customizer"
 
-#: wp-admin/about.php:76
+#: wp-admin/about.php:79
 msgid "Live Responsive Previews"
 msgstr "Live Responsive voorvertoningen"
 
-#: wp-admin/about.php:61
+#: wp-admin/about.php:64
 msgid "Stay focused on your writing with a less distracting interface that keeps you in place and allows you to easily link to your content."
 msgstr "Blijf gefocust op het schrijven met een afleidingsvrije modus. Het biedt de mogelijkheid om eenvoudig naar de inhoud te linken."
 
@@ -138,11 +138,11 @@ msgstr "Blijf gefocust op het schrijven met een afleidingsvrije modus. Het biedt
 msgid "Thank you for updating! WordPress %s streamlines your workflow, whether you&#8217;re writing or building your site."
 msgstr "Bedankt voor het bijwerken. WordPress %s stroomlijnt de workflow wanneer je schrijft of bouwt aan je site."
 
-#: wp-admin/about.php:57
+#: wp-admin/about.php:60
 msgid "Editing Improvements"
 msgstr "Verbeteringen voor bewerken"
 
-#: wp-admin/about.php:60
+#: wp-admin/about.php:63
 msgid "Inline Linking"
 msgstr "Inline linken"
 
@@ -636,7 +636,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Nu ingesteld op: %s)"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:208
+#: wp-admin/about.php:211
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Versie %s</strong> heeft een beveiligingsprobleem opgelost."
 
@@ -658,15 +658,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Profiel foto"
 
-#: wp-admin/about.php:199
+#: wp-admin/about.php:202
 msgid "Maintenance Releases"
 msgstr "Onderhoudsreleases"
 
-#: wp-admin/about.php:202
+#: wp-admin/about.php:205
 msgid "Security Releases"
 msgstr "Beveiligingsreleases"
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:42 wp-admin/about.php:208
 msgid "Maintenance and Security Releases"
 msgstr "Onderhoud en beveiligingsreleases"
 
@@ -1254,7 +1254,7 @@ msgstr "In antwoord op %s."
 msgid "The current theme does not support uploading a custom header image."
 msgstr "Het huidige thema ondersteunt helaas geen aangepaste kopafbeelding."
 
-#: wp-admin/about.php:65
+#: wp-admin/about.php:68
 msgid "Formatting Shortcuts"
 msgstr "Opmaak snelkoppelingen"
 
@@ -5018,27 +5018,27 @@ msgstr "Toon toolbar tijdens bekijken van de site"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:217
+#: wp-admin/about.php:220
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Versie %1$s</strong> was gericht op een beveiligingsprobleem en een bepaalde %2$s bug."
 msgstr[1] "<strong>Versie %1$s</strong> was gericht op een beveiligingsprobleem en bepaalde %2$s bugs."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:45 wp-admin/about.php:225
+#: wp-admin/about.php:44 wp-admin/about.php:48 wp-admin/about.php:228
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Voor meer informatie, bezoek de  <a href=\"%s\">versie opmerkingen</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:221
+#: wp-admin/about.php:224
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Versie%1$s</strong> was gericht op enkele beveiligingsproblemen en herstelde %2$s bug."
 msgstr[1] "<strong>Versie %1$s</strong> was gericht op enkele beveiligingsproblemen en herstelde %2$s bugs."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:43 wp-admin/about.php:213
+#: wp-admin/about.php:46 wp-admin/about.php:216
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Versie %1$s</strong> bevat %2$s bugfix."
@@ -5048,7 +5048,7 @@ msgstr[1] "<strong>Versie %1$s</strong> bevat %2$s bugfixes."
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab in the upper corner."
 msgstr "Welkom bij het WordPress Dashboard. Dit is het scherm dat wordt getoond zodra een gebruiker inlogt op de website. Dit geeft je toegang tot alle beheerfuncties van WordPress. Bij elk scherm zijn helpschermen beschikbaar door te klikken op de Helptab in de rechterbovenhoek."
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:207
 msgid "Maintenance and Security Release"
 msgstr "Onderhouds- en veiligheidsversie"
 
@@ -5056,16 +5056,16 @@ msgstr "Onderhouds- en veiligheidsversie"
 msgid "What&#8217;s New"
 msgstr "Wat is nieuw"
 
-#: wp-admin/about.php:201
+#: wp-admin/about.php:204
 msgid "Security Release"
 msgstr "Beveiligingsversie"
 
-#: wp-admin/about.php:42 wp-admin/about.php:198
+#: wp-admin/about.php:201
 msgid "Maintenance Release"
 msgstr "Onderhoudsversie"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:210
+#: wp-admin/about.php:43 wp-admin/about.php:213
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Versie %s</strong> lost enkele beveiligingsproblemen op."
 
@@ -5073,7 +5073,7 @@ msgstr "<strong>Versie %s</strong> lost enkele beveiligingsproblemen op."
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Dit scherm stelt je in staat om je permalinkstructuur te kiezen. Je kunt uit de diverse mogelijkheden kiezen of een eigen structuur gebruiken."
 
-#: wp-admin/about.php:183
+#: wp-admin/about.php:186
 msgid "Return to Updates"
 msgstr "Terug naar updates"
 
@@ -5365,11 +5365,11 @@ msgstr "Het direct insluiten van de wp-admin/includes/template.php voor het gebr
 msgid "Welcome to WordPress %s"
 msgstr "Welkom bij WordPress %s"
 
-#: wp-admin/about.php:186
+#: wp-admin/about.php:189
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Ga naar Dashboard &rarr; Home"
 
-#: wp-admin/about.php:183
+#: wp-admin/about.php:186
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Terugkeren naar het Dashboard &rarr; Updates"
 
@@ -5377,7 +5377,7 @@ msgstr "Terugkeren naar het Dashboard &rarr; Updates"
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "WordPress is gemaakt door een wereldwijd team van enthousiaste en gepassioneerde mensen."
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:115
 msgid "Under the Hood"
 msgstr "Onder de motorkap"
 
@@ -7388,7 +7388,7 @@ msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
 msgstr[0] "Verplicht <span class=\"count\">(%s)</span>"
 msgstr[1] "Verplicht <span class=\"count\">(%s)</span>"
 
-#: wp-admin/about.php:186
+#: wp-admin/about.php:189
 msgid "Go to Dashboard"
 msgstr "Naar het dashboard"
 

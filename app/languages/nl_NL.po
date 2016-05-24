@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-24 13:10:41+0000\n"
+"PO-Revision-Date: 2016-05-13 08:12:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,7 +92,7 @@ msgstr "<a href=\"%1$s\" aria-label=\"%2$s\">Ingelogd als %3$s</a>. <a href=\"%4
 #. translators: %s: user name
 #: wp-includes/comment-template.php:2161
 msgid "Logged in as %s. Edit your profile."
-msgstr "Ingelogd als %s. Bewerk je profiel."
+msgstr "Ingelogd als %s. Je profiel bewerken."
 
 #. translators: 1: VHOST, 2: SUBDOMAIN_INSTALL, 3: wp-config.php, 4:
 #. is_subdomain_install()
@@ -236,11 +236,11 @@ msgstr "%s is niet toegestaan"
 #: wp-includes/class-wp-customize-manager.php:1972
 #: wp-includes/class-wp-customize-manager.php:1977
 msgid "Select logo"
-msgstr "Selecteer logo"
+msgstr "Logo selecteren"
 
 #: wp-includes/class-wp-customize-manager.php:1973
 msgid "Change logo"
-msgstr "Verander logo"
+msgstr "Logo veranderen"
 
 #: wp-includes/comment.php:235
 msgctxt "comment status"
@@ -928,12 +928,12 @@ msgstr "Deze code kopiëren en plakken naar je site voor insluiten."
 
 #: wp-includes/embed.php:1049
 msgid "Close sharing dialog"
-msgstr "Sluit delen"
+msgstr "Delen sluiten"
 
 #. translators: %s: 'document_title_separator' filter name
 #: wp-includes/feed.php:102 wp-includes/feed.php:128
 msgid "Use the %s filter instead."
-msgstr "Gebruik in plaats daarvan het %s-filter."
+msgstr "Het %s-filter hiervoor in plaats gebruiken."
 
 #: wp-includes/embed.php:981
 msgid "%s <span class=\"screen-reader-text\">Comment</span>"
@@ -943,7 +943,7 @@ msgstr[1] "%s <span class=\"screen-reader-text\">reacties</span>"
 
 #: wp-includes/embed.php:1005
 msgid "Open sharing dialog"
-msgstr "Open delen"
+msgstr "Delen openen"
 
 #: wp-includes/embed.php:1027
 msgid "WordPress Embed"
@@ -4277,7 +4277,7 @@ msgstr "Selecteren"
 #: wp-includes/customize/class-wp-customize-theme-control.php:85
 #: wp-includes/customize/class-wp-customize-themes-section.php:67
 msgid "Customize"
-msgstr "Aanpassen"
+msgstr "Customizer"
 
 #: wp-includes/class-wp-xmlrpc-server.php:668
 msgid "Insufficient arguments passed to this XML-RPC method."
@@ -7398,7 +7398,7 @@ msgstr "Gebruikersregistratie is momenteel niet toegestaan."
 
 #: wp-login.php:856
 msgid "Check your email for the confirmation link."
-msgstr "Je e-mailbox controleren voor de bevestigingslink."
+msgstr "Controleer je e-mailbox voor de bevestigingslink."
 
 #: wp-login.php:858
 msgid "Check your email for your new password."
