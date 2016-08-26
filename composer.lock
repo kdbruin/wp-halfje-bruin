@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b5be3d54fb7558a7da35e034035002c",
-    "content-hash": "6cdecbef820be4ff33e597aa4b497d3d",
+    "hash": "f511c7cffe15e40d872cffbe9826458b",
+    "content-hash": "636ba2e3efd9f3c745d6cb8a6d949b2e",
     "packages": [
         {
             "name": "composer/installers",
@@ -199,8 +199,7 @@
                 {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com",
-                    "role": "Developer"
+                    "homepage": "http://www.vancelucas.com"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",

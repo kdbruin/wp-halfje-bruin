@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-08-15 15:24:57+0000\n"
+"PO-Revision-Date: 2016-08-19 09:02:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,7 +71,7 @@ msgstr "Meta Registration API"
 
 #: wp-admin/about.php:139
 msgid "The HTTP API now leverages the Requests library, improving HTTP standard support and adding case-insensitive headers, parallel HTTP requests, and support for Internationalized Domain Names."
-msgstr "De HTTP API maakt nu gebruik van de Requests-bibliotheek, waarmee de standaard HTTP-ondersteuning verbetert en hoofdlettergevoelige headers worden toegevoegd, evenals parallelle HTTP-requests en support voor internationale domeinnamen."
+msgstr "De HTTP API maakt nu gebruik van de Requests-bibliotheek, waarmee de standaard HTTP-ondersteuning verbetert en niet-hoofdlettergevoelige headers worden toegevoegd, evenals parallelle HTTP-requests en support voor internationale domeinnamen."
 
 #. translators: 1: WP_Term_Query, 2: WP_Post_Type
 #: wp-admin/about.php:144
@@ -90,7 +90,7 @@ msgstr "Robuuste HTTP ondersteuning"
 
 #: wp-admin/about.php:117
 msgid "As you type, WordPress saves your content to the browser. Recovering saved content is even easier with WordPress 4.6."
-msgstr "Terwijl je typt bewaart WordPress je inhoud in de browser. Herstellen van bewaarde inhoud is nog makkelijker met WordPress 4.6."
+msgstr "Terwijl je typt, bewaart WordPress je inhoud in de browser. Herstellen van bewaarde inhoud is nog makkelijker met WordPress 4.6."
 
 #: wp-admin/about.php:128
 msgid "Resource Hints"
@@ -218,7 +218,7 @@ msgstr "Nieuwe gebruikers worden automatisch een wachtwoord toegekend. Dit wacht
 #: wp-admin/includes/update.php:739
 msgctxt "plugin"
 msgid "%s was successfully deleted."
-msgstr "%s werd verwijderd."
+msgstr "%s is verwijderd."
 
 #: wp-admin/plugins.php:374
 msgid "The search for installed plugins will search for terms in their name, description, or author."
@@ -6458,7 +6458,7 @@ msgstr "Geïnstalleerde thema's zoeken"
 
 #: wp-admin/update-core.php:349
 msgid "<strong>Please Note:</strong> Any customizations you have made to theme files will be lost. Please consider using <a href=\"%s\">child themes</a> for modifications."
-msgstr "<strong>Let op:</strong> Alle aanpassingen die je aan een thema maakt raak je kwijt. De oplossing is een <a href=\"%s\">subthema</a> te maken om daar aanpassingen in te maken."
+msgstr "<strong>Let op:</strong> Alle aanpassingen die je aan een thema maakt, raak je kwijt. De oplossing is een <a href=\"%s\">subthema</a> te maken om daar aanpassingen in te maken."
 
 #: wp-admin/includes/class-wp-posts-list-table.php:366
 msgctxt "posts"
