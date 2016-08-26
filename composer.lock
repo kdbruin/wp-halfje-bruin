@@ -199,7 +199,8 @@
                 {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
+                    "homepage": "http://www.vancelucas.com",
+                    "role": "Developer"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -470,26 +471,23 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.1",
+            "version": "0.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.1"
+                "reference": "tags/0.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
-            "replace": {
-                "wpackagist/wordpress-importer": "self.version"
-            },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wordpress-importer/"
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "wpackagist-theme/gridsby",
