@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "15b5efd3c706714cfa7725ba339fc628",
-    "content-hash": "cd5efafed449f1ba555c8e2ab007b451",
+    "hash": "a7a7ee94a054b5e78dc66057a1d562b3",
+    "content-hash": "14f69b4e8d8220f6312af3f6ece63b30",
     "packages": [
         {
             "name": "composer/installers",
@@ -233,15 +233,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.8",
+            "version": "4.4.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.8"
+                "reference": "tags/4.4.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -313,15 +313,15 @@
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "2.85",
+            "version": "2.86",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "trunk"
+                "reference": "tags/2.86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.2.86.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -333,15 +333,15 @@
         },
         {
             "name": "wpackagist-plugin/enable-media-replace",
-            "version": "3.0.4",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enable-media-replace/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.0.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -373,15 +373,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.0.5",
+            "version": "2.0.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.0.5"
+                "reference": "tags/2.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.0.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.0.10.zip",
                 "reference": null,
                 "shasum": null
             },
