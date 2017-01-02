@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-06 15:00:00+0000\n"
+"PO-Revision-Date: 2016-12-09 12:37:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -136,7 +136,7 @@ msgstr "Zichtbare iconen worden getoond om aan te geven welke delen van jouw sit
 
 #: wp-admin/about.php:93
 msgid "Edit Shortcuts"
-msgstr "Bewerk snelkoppelingen"
+msgstr "Snelkoppelingen bewerken"
 
 #: wp-admin/about.php:74
 msgid "To help give you a solid base to build from, individual themes can provide starter content that appears when you go to customize your brand new site. This can range from placing a business information widget in the best location to providing a sample menu with social icon links to a static front page complete with beautiful images. Don&#8217;t worry - nothing new will appear on the live site until you&#8217;re ready to save and publish your initial theme setup."
@@ -168,7 +168,7 @@ msgstr "We introduceren Twenty Seventeen"
 
 #: wp-admin/about.php:37 wp-admin/credits.php:23 wp-admin/freedoms.php:22
 msgid "Thank you for updating to the latest version! WordPress %s helps you get your site set up the way you want it."
-msgstr "Bedankt voor het updaten naar de nieuwste versie! WordPress %s helpt je bij het opzetten van je site zoals jij dat wilt."
+msgstr "Bedankt voor het bijwerken naar de laatste versie! WordPress %s helpt je bij het opzetten van je site zoals jij dat wilt."
 
 #: wp-admin/users.php:167 wp-admin/users.php:207
 msgid "Sorry, you are not allowed to delete users."
@@ -2166,7 +2166,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\">Documen
 
 #: wp-admin/update-core.php:183
 msgid "<strong>Important:</strong> before updating, please <a href=\"https://codex.wordpress.org/WordPress_Backups\">back up your database and files</a>. For help with updates, visit the <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress</a> Codex page."
-msgstr "<strong>Belangrijk:</strong> voordat je WordPress gaat bijwerken, bezoek eerst de codex over <a href=\"https://codex.wordpress.org/WordPress_Backups\">database en bestanden backuppen</a>. Voor verdere ondersteuning met bijwerken, bezoek de <a href=\"https://codex.wordpress.org/Updating_WordPress\">WordPress updaten</a> Codex pagina."
+msgstr "<strong>Belangrijk:</strong> voordat je WordPress gaat bijwerken, bezoek eerst de codex over <a href=\"https://codex.wordpress.org/WordPress_Backups\">database en bestanden backuppen</a>. Voor verdere ondersteuning met bijwerken, bezoek de <a href=\"https://codex.wordpress.org/Updating_WordPress\">WordPress bijwerken</a> Codex pagina."
 
 #: wp-admin/theme-install.php:114
 msgid "<a href=\"https://codex.wordpress.org/Using_Themes#Adding_New_Themes\">Documentation on Adding New Themes</a>"
@@ -5442,7 +5442,7 @@ msgstr "Welkom bij WordPress %1$s. <a href=\"%2$s\">Meer leren</a>."
 
 #: wp-admin/about.php:234
 msgid "Return to Updates"
-msgstr "Terug naar updates"
+msgstr "Terug naar WordPress bijwerken"
 
 #: wp-admin/media-new.php:47
 msgid "You can upload media files here without creating a post first. This allows you to upload files to use with posts and pages later and/or to get a web link for a particular file that you can share. There are three options for uploading files:"
@@ -5722,7 +5722,7 @@ msgstr "Welkom bij WordPress %s"
 
 #: wp-admin/about.php:234
 msgid "Return to Dashboard &rarr; Updates"
-msgstr "Terugkeren naar het Dashboard &rarr; Updates"
+msgstr "Terugkeren naar het Dashboard &rarr; WordPress bijwerken"
 
 #: wp-admin/about.php:237
 msgid "Go to Dashboard &rarr; Home"
@@ -6515,7 +6515,7 @@ msgstr "Bijwerken plugin mislukt."
 #. 4: version number
 #: wp-admin/includes/update.php:391
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View version %4$s details</a>. <em>Automatic update is unavailable for this plugin.</em>"
-msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" %3$s>Details van %4$s bekijken</a>. <em>Automatisch updaten is niet beschikbaar voor deze plugin.</em>"
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" %3$s>Details van %4$s bekijken</a>. <em>Automatisch bijwerken is niet beschikbaar voor deze plugin.</em>"
 
 #: wp-admin/includes/class-theme-upgrader-skin.php:26 wp-admin/update.php:179
 msgid "Update Theme"
@@ -7980,7 +7980,7 @@ msgstr "De nieuwe versie (update) uitpakken"
 
 #: wp-admin/update-core.php:105
 msgid "Hide this update"
-msgstr "Verberg deze update"
+msgstr "Deze update verbergen"
 
 #: wp-admin/themes.php:309
 msgid "Broken Themes"

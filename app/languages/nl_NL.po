@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-07 13:26:25+0000\n"
+"PO-Revision-Date: 2016-12-14 14:03:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -301,22 +301,22 @@ msgctxt "Theme starter content"
 msgid "Archives"
 msgstr "Archieven"
 
-#: wp-includes/theme.php:2063
+#: wp-includes/theme.php:2068
 msgctxt "Theme starter content"
 msgid "This is an example of a homepage section. Homepage sections can be any page other than the homepage itself, including the page that shows your latest blog posts."
 msgstr "Dit is een voorbeeld van een homepage sectie. Homepage secties kunnen elke pagina zijn behalve de homepage zelf. Ook de pagina die je meest recente berichten toont kan een homepage sectie zijn. "
 
-#: wp-includes/theme.php:2057
+#: wp-includes/theme.php:2062
 msgctxt "Theme starter content"
 msgid "News"
 msgstr "Nieuws"
 
-#: wp-includes/theme.php:2049
+#: wp-includes/theme.php:2054
 msgctxt "Theme starter content"
 msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
 msgstr "Dit is een pagina met wat contactinformatie, zoals een adres en een telefoonnummer. Je kunt ook met behulp van een plugin een contact formulier toevoegen."
 
-#: wp-includes/theme.php:2044
+#: wp-includes/theme.php:2049
 msgctxt "Theme starter content"
 msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
 msgstr "Je bent misschien wel een kunstenaar die zichzelf en zijn werk hier wil voorstellen of misschien heb je een bedrijf met een missie om te beschrijven."
@@ -331,7 +331,7 @@ msgctxt "Theme starter content"
 msgid "Recent Comments"
 msgstr "Recente reacties"
 
-#: wp-includes/theme.php:2039
+#: wp-includes/theme.php:2044
 msgctxt "Theme starter content"
 msgid "Welcome to your site! This is your homepage, which is what most visitors will see when they come to your site for the first time."
 msgstr "Welkom op je site! Dit is je homepage, dat is wat de meeste bezoekers zullen zien als ze voor het eerst op je site komen."
@@ -406,27 +406,27 @@ msgstr "Je hebt geen toestemming on revisies te bekijken van dit bericht."
 msgid "Sorry, you are not allowed to read comments without a post."
 msgstr "Je hebt geen toestemming om reacties zonder bericht te lezen."
 
-#: wp-includes/theme.php:2019
+#: wp-includes/theme.php:2024
 msgctxt "Theme starter content"
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: wp-includes/theme.php:2015
+#: wp-includes/theme.php:2020
 msgctxt "Theme starter content"
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: wp-includes/theme.php:2007
+#: wp-includes/theme.php:2012
 msgctxt "Theme starter content"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: wp-includes/theme.php:2003
+#: wp-includes/theme.php:2008
 msgctxt "Theme starter content"
 msgid "Foursquare"
 msgstr "Foursquare"
 
-#: wp-includes/theme.php:2031
+#: wp-includes/theme.php:2036
 msgctxt "Theme starter content"
 msgid "YouTube"
 msgstr "YouTube"
@@ -464,73 +464,73 @@ msgstr "Je hebt geen toestemming om het %s aangepast veld te bewerken."
 msgid "Reassign the deleted user's posts and links to this user ID."
 msgstr "Ken de links en berichten van de verwijderde gebruiker toe aan deze gebruiker ID."
 
-#: wp-includes/class-wp-customize-manager.php:3843
+#: wp-includes/class-wp-customize-manager.php:3850
 msgid "This theme doesn't support video headers on this page. Navigate to the front page or another page that supports video headers."
 msgstr "Dit thema ondersteunt geen video headers op deze pagina. Ga naar de homepage of een andere pagina die video headers ondersteunt."
 
-#: wp-includes/class-wp-customize-manager.php:3925
+#: wp-includes/class-wp-customize-manager.php:3932
 msgid "No video selected"
 msgstr "Geen video geselecteerd"
 
-#: wp-includes/class-wp-customize-manager.php:3923
-#: wp-includes/class-wp-customize-manager.php:3926
+#: wp-includes/class-wp-customize-manager.php:3930
+#: wp-includes/class-wp-customize-manager.php:3933
 msgid "Select Video"
 msgstr "Video selecteren"
 
-#: wp-includes/class-wp-customize-manager.php:3924
+#: wp-includes/class-wp-customize-manager.php:3931
 msgid "Change Video"
 msgstr "Video wijzigen"
 
-#: wp-includes/class-wp-customize-manager.php:3927
+#: wp-includes/class-wp-customize-manager.php:3934
 msgid "Choose Video"
 msgstr "Video kiezen"
 
-#: wp-includes/theme.php:2062
+#: wp-includes/theme.php:2067
 msgctxt "Theme starter content"
 msgid "A homepage section"
 msgstr "Een homepagina sectie."
 
-#: wp-includes/theme.php:1995
+#: wp-includes/theme.php:2000
 msgctxt "Theme starter content"
 msgid "Email"
 msgstr "E-mail"
 
-#: wp-includes/theme.php:2011
+#: wp-includes/theme.php:2016
 msgctxt "Theme starter content"
 msgid "Instagram"
 msgstr "Instagram"
 
-#: wp-includes/theme.php:2053
+#: wp-includes/theme.php:2058
 msgctxt "Theme starter content"
 msgid "Blog"
 msgstr "Blog"
 
-#: wp-includes/theme.php:2043
+#: wp-includes/theme.php:2048
 msgctxt "Theme starter content"
 msgid "About"
 msgstr "Over ons"
 
-#: wp-includes/theme.php:2048
+#: wp-includes/theme.php:2053
 msgctxt "Theme starter content"
 msgid "Contact"
 msgstr "Contact"
 
-#: wp-includes/theme.php:2038
+#: wp-includes/theme.php:1970 wp-includes/theme.php:2043
 msgctxt "Theme starter content"
 msgid "Home"
 msgstr "Home"
 
-#: wp-includes/theme.php:2023
+#: wp-includes/theme.php:2028
 msgctxt "Theme starter content"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: wp-includes/theme.php:1999
+#: wp-includes/theme.php:2004
 msgctxt "Theme starter content"
 msgid "Facebook"
 msgstr "Facebook"
 
-#: wp-includes/theme.php:2027
+#: wp-includes/theme.php:2032
 msgctxt "Theme starter content"
 msgid "Yelp"
 msgstr "Yelp"
@@ -611,7 +611,7 @@ msgstr "Besturing verbergen"
 msgid "Document Preview"
 msgstr "Voorvertoning document"
 
-#: wp-includes/class-wp-customize-manager.php:3838
+#: wp-includes/class-wp-customize-manager.php:3845
 msgid "Header Media"
 msgstr "Header media"
 
@@ -645,15 +645,15 @@ msgstr "Beschrijving voor de bijlage zoals deze staat in de database."
 msgid "HTML caption for the attachment, transformed for display."
 msgstr "HTML titel voor de bijlage, aangepast voor weergave."
 
-#: wp-includes/class-wp-customize-manager.php:4119
+#: wp-includes/class-wp-customize-manager.php:4126
 msgid "CSS allows you to customize the appearance and layout of your site with code. Separate CSS is saved for each of your themes. In the editing area the Tab key enters a tab character. To move below this area by pressing Tab, press the Esc key followed by the Tab key."
 msgstr "Met CSS kun je het uiterlijk en de layout van je site met code aanpassen. CSS wordt voor elk van je thema's apart opgeslagen. In het editing gebied geeft de Tab toets een tab karakter. Om onder dit gebied verder te gaan met behulp van de Tab toets, gebruik dan de Escape toets gevolgd door de Tab toets."
 
-#: wp-includes/class-wp-customize-manager.php:4308
+#: wp-includes/class-wp-customize-manager.php:4315
 msgid "Please enter a valid YouTube URL."
 msgstr "Voer een geldige YouTube URL in."
 
-#: wp-includes/class-wp-customize-manager.php:3935
+#: wp-includes/class-wp-customize-manager.php:3942
 msgid "Or, enter a YouTube URL:"
 msgstr "Of voer een YouTube URL in:"
 
@@ -719,11 +719,11 @@ msgstr "Resultaat beperken tot berichten met één of meer specifieke slugs."
 msgid "Comment is required."
 msgstr "Reactie is verplicht."
 
-#: wp-includes/class-wp-customize-nav-menus.php:797
+#: wp-includes/class-wp-customize-nav-menus.php:796
 msgid "Status is forbidden"
 msgstr "Status is verboden"
 
-#: wp-includes/class-wp-customize-nav-menus.php:794
+#: wp-includes/class-wp-customize-nav-menus.php:793
 msgid "Empty title"
 msgstr "Lege titel"
 
@@ -1657,11 +1657,11 @@ msgstr "Media items zoeken..."
 msgid "ERROR: This is not a valid feed."
 msgstr "FOUT: Dit is geen geldige feed."
 
-#: wp-includes/customize/class-wp-customize-selective-refresh.php:190
+#: wp-includes/customize/class-wp-customize-selective-refresh.php:188
 msgid "Click to edit this element."
 msgstr "Klikken om dit element te bewerken."
 
-#: wp-includes/customize/class-wp-customize-selective-refresh.php:187
+#: wp-includes/customize/class-wp-customize-selective-refresh.php:185
 msgid "Click to edit this menu."
 msgstr "Klik om dit menu te bewerken."
 
@@ -1669,33 +1669,29 @@ msgstr "Klik om dit menu te bewerken."
 msgid "While you can crop images to your liking after clicking <strong>Add new image</strong>, we recommend matching the size of your video."
 msgstr "Je kunt afbeeldingen bijsnijden naar wens nadat je op <strong>Voeg nieuwe afbeelding toe</strong> hebt geklikt, maar we raden aan om deze overeen te laten komen met de afmeting van je video."
 
-#: wp-includes/customize/class-wp-customize-custom-css-setting.php:202
+#: wp-includes/customize/class-wp-customize-custom-css-setting.php:196
 msgid "Your double quotes <code>\"</code> are uneven. Make sure there is a closing <code>\"</code> for every opening <code>\"</code>."
 msgstr "Je dubbele quotes <code>\"</code> zijn ongelijk. Zorg er voor dat een afsluitende <code>\"</code> is voor elke openende <code>\"</code>."
 
-#: wp-includes/customize/class-wp-customize-custom-css-setting.php:196
-msgid "Your single quotes <code>'</code> are uneven. Make sure there is a closing <code>'</code> for every opening <code>'</code>."
-msgstr "Je enkele quotes <code>'</code> zijn ongelijk. Zorg er voor dat een afsluitende <code>'</code> is voor elke openende <code>'</code>."
-
-#: wp-includes/customize/class-wp-customize-custom-css-setting.php:221
+#: wp-includes/customize/class-wp-customize-custom-css-setting.php:215
 msgid "There is an extra <code>*/</code>, indicating an end to a comment.  Be sure that there is an opening <code>/*</code> for every closing <code>*/</code>."
 msgstr "Er is een extra <code>*/</code>, die het einde van commentaar aangeeft. Zorg er voor dat er een openende <code>/*</code> is voor elke afsluitende <code>*/</code>."
 
-#: wp-includes/customize/class-wp-customize-custom-css-setting.php:218
+#: wp-includes/customize/class-wp-customize-custom-css-setting.php:212
 msgid "There is %s unclosed code comment. Close each comment with <code>*/</code>."
 msgid_plural "There are %s unclosed code comments. Close each comment with <code>*/</code>."
 msgstr[0] "Er is %s niet afgesloten code commentaar. Sluit elk commentaar af met <code>*/</code>."
 msgstr[1] "Er zijn %s niet afgesloten code commentaren. Sluit elk commentaar af met <code>*/</code>."
 
-#: wp-includes/customize/class-wp-customize-custom-css-setting.php:225
+#: wp-includes/customize/class-wp-customize-custom-css-setting.php:219
 msgid "Imbalanced/unclosed character errors can be caused by <code>content: \"\";</code> declarations. You may need to remove this or add it to a custom CSS file."
 msgstr "Ongebalanceerde/ongesloten karakterfouten kunnen veroorzaakt worden door <code>content: \"\";</code> declaraties. Je moet dit mogelijk verwijderen, of het aan een custom CSS bestand toevoegen."
 
-#: wp-includes/customize/class-wp-customize-selective-refresh.php:189
+#: wp-includes/customize/class-wp-customize-selective-refresh.php:187
 msgid "Click to edit the site title."
 msgstr "Klikken hier om de sitetitel te bewerken."
 
-#: wp-includes/customize/class-wp-customize-selective-refresh.php:188
+#: wp-includes/customize/class-wp-customize-selective-refresh.php:186
 msgid "Click to edit this widget."
 msgstr "Klikken om deze widget te bewerken."
 
@@ -1757,12 +1753,12 @@ msgstr "Je bericht kon niet worden geplaatst."
 msgid "No widgets found."
 msgstr "Geen widgets gevonden."
 
-#: wp-includes/class-wp-customize-nav-menus.php:879
+#: wp-includes/class-wp-customize-nav-menus.php:878
 msgid "Post"
 msgstr "Bericht"
 
 #. translators: %1$s is the post type name and %2$s is the error message.
-#: wp-includes/class-wp-customize-nav-menus.php:884
+#: wp-includes/class-wp-customize-nav-menus.php:883
 msgid "%1$s could not be created: %2$s"
 msgstr "%1$s kon niet gecreëerd worden: %2$s"
 
@@ -1775,52 +1771,52 @@ msgid "There are no widget areas on the page shown, however other pages in this 
 msgstr "Er zijn geen widget gebieden op de getoonde pagina, maar andere pagina's in dit thema hebben ze wel."
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:4284
+#: wp-includes/class-wp-customize-manager.php:4291
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Alleen %1$s of %2$s bestanden kunnen worden gebruikt als video header. Converteer je videobestand en probeer het opnieuw, of upload je video naar YouTube en koppel het met de optie hieronder."
 
-#: wp-includes/class-wp-customize-manager.php:4278
+#: wp-includes/class-wp-customize-manager.php:4285
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "Deze video is te groot om als video header te gebruiken.Gebruik een kortere video, of optimaliseer de compressie-instellingen en upload je video als deze kleiner is dan 8MB. Of upload je video naar YouTube en link deze met de optie hieronder."
 
-#: wp-includes/class-wp-customize-manager.php:4238
+#: wp-includes/class-wp-customize-manager.php:4245
 msgid "Unrecognized background setting."
 msgstr "Onbekende achtergrondinstelling."
 
-#: wp-includes/class-wp-customize-manager.php:4122
+#: wp-includes/class-wp-customize-manager.php:4129
 msgid "(link opens in a new window)"
 msgstr "(link opent in een nieuw venster)"
 
-#: wp-includes/class-wp-customize-manager.php:4121
+#: wp-includes/class-wp-customize-manager.php:4128
 msgid "Learn more about CSS"
 msgstr "Leer meer over CSS"
 
-#: wp-includes/class-wp-customize-manager.php:4115
+#: wp-includes/class-wp-customize-manager.php:4122
 msgid "Additional CSS"
 msgstr "Extra CSS"
 
-#: wp-includes/class-wp-customize-manager.php:4221
+#: wp-includes/class-wp-customize-manager.php:4228
 msgid "Invalid value for background position X."
 msgstr "Onjuiste waarde voor achtergrondpositie X."
 
-#: wp-includes/class-wp-customize-manager.php:4229
-#: wp-includes/class-wp-customize-manager.php:4233
+#: wp-includes/class-wp-customize-manager.php:4236
+#: wp-includes/class-wp-customize-manager.php:4240
 msgid "Invalid value for background size."
 msgstr "Onbekende waarde voor achtergrondgrootte."
 
-#: wp-includes/class-wp-customize-manager.php:4225
+#: wp-includes/class-wp-customize-manager.php:4232
 msgid "Invalid value for background position Y."
 msgstr "Ongeldige waarde voor achtergrondpositie Y."
 
-#: wp-includes/class-wp-customize-manager.php:4217
+#: wp-includes/class-wp-customize-manager.php:4224
 msgid "Invalid value for background attachment."
 msgstr "Ongeldige waarde voor achtergrondaanhechting."
 
-#: wp-includes/class-wp-customize-manager.php:4213
+#: wp-includes/class-wp-customize-manager.php:4220
 msgid "Invalid value for background repeat."
 msgstr "Ongeldige waarde voor achtergrondherhaling."
 
-#: wp-includes/class-wp-customize-manager.php:4128
+#: wp-includes/class-wp-customize-manager.php:4135
 msgid ""
 "You can add your own CSS here.\n"
 "\n"
@@ -1830,80 +1826,80 @@ msgstr ""
 "\n"
 "Klik op het help icoon om meer te leren."
 
-#: wp-includes/class-wp-customize-manager.php:3984
+#: wp-includes/class-wp-customize-manager.php:3991
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "Herhaal"
 
-#: wp-includes/class-wp-customize-manager.php:3983
-#: wp-includes/class-wp-customize-manager.php:4022
+#: wp-includes/class-wp-customize-manager.php:3990
+#: wp-includes/class-wp-customize-manager.php:4029
 msgid "Fit to Screen"
 msgstr "Passend op scherm"
 
-#: wp-includes/class-wp-customize-manager.php:4021
+#: wp-includes/class-wp-customize-manager.php:4028
 msgid "Original"
 msgstr "Origineel"
 
-#: wp-includes/class-wp-customize-manager.php:3985
+#: wp-includes/class-wp-customize-manager.php:3992
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "Aangepast"
 
-#: wp-includes/class-wp-customize-manager.php:4017
+#: wp-includes/class-wp-customize-manager.php:4024
 msgid "Image Size"
 msgstr "Formaat van de afbeelding"
 
-#: wp-includes/class-wp-customize-manager.php:4002
+#: wp-includes/class-wp-customize-manager.php:4009
 #: wp-includes/customize/class-wp-customize-background-position-control.php:69
 msgid "Image Position"
 msgstr "Positie van de afbeelding"
 
-#: wp-includes/class-wp-customize-manager.php:4046
+#: wp-includes/class-wp-customize-manager.php:4053
 msgid "Scroll with Page"
 msgstr "Scroll met pagina"
 
-#: wp-includes/class-wp-customize-manager.php:4034
+#: wp-includes/class-wp-customize-manager.php:4041
 msgid "Repeat Background Image"
 msgstr "Herhaal achtergrondafbeelding."
 
-#: wp-includes/class-wp-customize-manager.php:3981
+#: wp-includes/class-wp-customize-manager.php:3988
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "Standaard"
 
-#: wp-includes/class-wp-customize-manager.php:3917
+#: wp-includes/class-wp-customize-manager.php:3924
 msgid "Header Video"
 msgstr "Header Video"
 
-#: wp-includes/class-wp-customize-manager.php:3977
+#: wp-includes/class-wp-customize-manager.php:3984
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "Opgeslagen instelling"
 
 #. translators: 1: .mp4, 2: header height in pixels
-#: wp-includes/class-wp-customize-manager.php:3864
+#: wp-includes/class-wp-customize-manager.php:3871
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "Je video uploaden in %1$s formaat en minimaliseer de bestandsgrootte voor de beste resultaten. Je thema beveelt een hoogte aan van %2$s pixels."
 
 #. translators: 1: .mp4, 2: header width in pixels
-#: wp-includes/class-wp-customize-manager.php:3857
+#: wp-includes/class-wp-customize-manager.php:3864
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "Je video uploaden in %1$s formaat en minimaliseer de bestandsgrootte voor de beste resultaten. Je thema beveelt een breedte aan van %2$s pixels."
 
-#: wp-includes/class-wp-customize-manager.php:3839
+#: wp-includes/class-wp-customize-manager.php:3846
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "Wanneer je een video toevoegt, wordt de afbeelding als vervangend beeld gebruikt terwijl de video laadt."
 
 #. translators: 1: .mp4, 2: header size in pixels
-#: wp-includes/class-wp-customize-manager.php:3850
+#: wp-includes/class-wp-customize-manager.php:3857
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "Je video uploaden in %1$s formaat en minimaliseer de bestandsgrootte voor de beste resultaten. Je thema beveelt afmetingen aan van %2$s pixels."
 
-#: wp-includes/class-wp-customize-manager.php:1984
+#: wp-includes/class-wp-customize-manager.php:1991
 msgid "Setting does not exist or is unrecognized."
 msgstr "Instelling bestaat niet of wordt niet herkend."
 
-#: wp-includes/class-wp-customize-manager.php:1989
+#: wp-includes/class-wp-customize-manager.php:1996
 msgid "Unauthorized to modify setting due to capability."
 msgstr "Ongeautoriseerd om instelling aan te passen vanwege rechten."
 
@@ -1920,11 +1916,11 @@ msgstr "Nieuwe pagina titel"
 msgid "New page title&hellip;"
 msgstr "Nieuwe pagina titel&hellip;"
 
-#: wp-includes/class-wp-customize-manager.php:1806
+#: wp-includes/class-wp-customize-manager.php:1784
 msgid "This form is not live-previewable."
 msgstr "Dit formulier heeft geen live voorbeeld."
 
-#: wp-includes/class-wp-customize-manager.php:1805
+#: wp-includes/class-wp-customize-manager.php:1783
 msgid "This link is not live-previewable."
 msgstr "Dit formulier heeft geen live voorbeeld. "
 
@@ -2313,19 +2309,19 @@ msgstr "Je hebt geen toestemming om een categorie toe te voegen."
 msgid "Sorry, you are not allowed to list users."
 msgstr "Je hebt geen toestemming om de gebruikerslijst te bekijken."
 
-#: wp-includes/class-wp-customize-manager.php:2012
+#: wp-includes/class-wp-customize-manager.php:2019
 #: wp-includes/class-wp-customize-setting.php:549
 msgid "Invalid value."
 msgstr "Ongeldige waarde."
 
-#: wp-includes/class-wp-customize-manager.php:2341
+#: wp-includes/class-wp-customize-manager.php:2348
 msgid "There is %s invalid setting."
 msgid_plural "There are %s invalid settings."
 msgstr[0] "Er is %s ongeldige instelling."
 msgstr[1] "Er zijn %s ongeldige instellingen."
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:586
+#: wp-includes/class-wp-customize-nav-menus.php:585
 msgid "You can also place menus in <a href=\"%s\">widget areas</a> with the &#8220;Custom Menu&#8221; widget."
 msgstr "Je kunt ook menu's in <a href=\"%s\">widgetgebieden</a> plaatsen met de widget &#8220;Aangepast menu &#8221;."
 
@@ -2401,7 +2397,7 @@ msgstr "De constante %1$s <strong>is verouderd</strong>. Maak gebruik van de boo
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
-#: wp-includes/class-wp-customize-manager.php:2933
+#: wp-includes/class-wp-customize-manager.php:2940
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "Handmatig %1$s verwijderen zal PHP-waarschuwingen veroorzaken. Gebruik in plaats hiervan het %2$s-filter."
 
@@ -2501,7 +2497,7 @@ msgstr "Enter"
 msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "Feed %1$s %2$s %3$s %4$s"
 
-#: wp-includes/class-wp-customize-manager.php:3777
+#: wp-includes/class-wp-customize-manager.php:3784
 msgid "No logo selected"
 msgstr "Geen logo geselecteerd"
 
@@ -2509,7 +2505,7 @@ msgstr "Geen logo geselecteerd"
 msgid "Close dialog"
 msgstr "Dialoogvenster sluiten"
 
-#: wp-includes/class-wp-customize-manager.php:3779
+#: wp-includes/class-wp-customize-manager.php:3786
 msgid "Choose logo"
 msgstr "Logo kiezen"
 
@@ -2520,7 +2516,7 @@ msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</str
 msgstr "De aangeroepen constructiemethode voor %1$s in %2$s is <strong>niet meer in gebruik</strong> sinds versie %3$s. Gebruik in plaats daarvan: %4$s."
 
 #. translators: %s: document.write()
-#: wp-includes/customize/class-wp-customize-selective-refresh.php:192
+#: wp-includes/customize/class-wp-customize-selective-refresh.php:190
 msgid "%s is forbidden"
 msgstr "%s is niet toegestaan"
 
@@ -2528,12 +2524,12 @@ msgstr "%s is niet toegestaan"
 msgid "Partial render must echo the content or return the content string (or array), but not both."
 msgstr "Gedeeltelijke verwerking moet de inhoud of de inhoudelijke regel (of array) teruggeven, maar niet beide."
 
-#: wp-includes/class-wp-customize-manager.php:3774
+#: wp-includes/class-wp-customize-manager.php:3781
 msgid "Change logo"
 msgstr "Logo veranderen"
 
-#: wp-includes/class-wp-customize-manager.php:3773
-#: wp-includes/class-wp-customize-manager.php:3778
+#: wp-includes/class-wp-customize-manager.php:3780
+#: wp-includes/class-wp-customize-manager.php:3785
 msgid "Select logo"
 msgstr "Kies logo"
 
@@ -2568,7 +2564,7 @@ msgctxt "comment status"
 msgid "Trash"
 msgstr "Prullenbak"
 
-#: wp-includes/class-wp-customize-manager.php:3765
+#: wp-includes/class-wp-customize-manager.php:3772
 msgid "Logo"
 msgstr "Logo"
 
@@ -2580,18 +2576,18 @@ msgstr "https://codex.wordpress.org/Child_Themes"
 msgid "Paste URL or type to search"
 msgstr "Plak URL of type om te zoeken"
 
-#. translators: 1: index.php, 2: Codex URL, 3: style.css
-#: wp-includes/class-wp-theme.php:274
-msgid "Template is missing. Standalone themes need to have a %1$s template file. <a href=\"%2$s\">Child themes</a> need to have a Template header in the %3$s stylesheet."
-msgstr "Template niet aanwezig. Thema's moeten een %1$s templatebestand hebben. <a href=\"%2$s\">Subthema's</a> moeten een template hebben in het %3$s stylesheet."
-
 #: wp-includes/class-wp-metadata-lazyloader.php:81
 #: wp-includes/class-wp-metadata-lazyloader.php:122
 msgid "Invalid object type"
 msgstr "Ongeldig object-type"
 
-#: wp-includes/class-wp-customize-manager.php:3732
-#: wp-includes/class-wp-customize-manager.php:3809
+#. translators: 1: index.php, 2: Codex URL, 3: style.css
+#: wp-includes/class-wp-theme.php:274
+msgid "Template is missing. Standalone themes need to have a %1$s template file. <a href=\"%2$s\">Child themes</a> need to have a Template header in the %3$s stylesheet."
+msgstr "Template niet aanwezig. Thema's moeten een %1$s templatebestand hebben. <a href=\"%2$s\">Child thema's</a> moeten een template header hebben in de %3$s stylesheet."
+
+#: wp-includes/class-wp-customize-manager.php:3739
+#: wp-includes/class-wp-customize-manager.php:3816
 msgid "Display Site Title and Tagline"
 msgstr "Sitetitel en ondertitel tonen"
 
@@ -2599,20 +2595,20 @@ msgstr "Sitetitel en ondertitel tonen"
 msgid "Comment Submission Failure"
 msgstr "Plaatsen van reactie mislukt"
 
-#: wp-includes/class-wp-customize-manager.php:1804
-#: wp-includes/customize/class-wp-customize-selective-refresh.php:186
+#: wp-includes/class-wp-customize-manager.php:1782
+#: wp-includes/customize/class-wp-customize-selective-refresh.php:184
 msgid "Shift-click to edit this element."
 msgstr "Shift-klik om dit element te bewerken."
 
-#: wp-includes/class-wp-customize-manager.php:3604
+#: wp-includes/class-wp-customize-manager.php:3611
 msgid "Enter desktop preview mode"
 msgstr "Toon voorvertoning voor desktop"
 
-#: wp-includes/class-wp-customize-manager.php:3611
+#: wp-includes/class-wp-customize-manager.php:3618
 msgid "Enter mobile preview mode"
 msgstr "Toon voorvertoning voor mobiel"
 
-#: wp-includes/class-wp-customize-manager.php:3608
+#: wp-includes/class-wp-customize-manager.php:3615
 msgid "Enter tablet preview mode"
 msgstr "Toon voorvertoning voor tablet"
 
@@ -3274,7 +3270,7 @@ msgid "Press return or enter to open this section"
 msgstr "Druk op Return of Enter om deze sectie te openen"
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:3276
+#: wp-includes/class-wp-customize-manager.php:3283
 msgid "Live Preview: %s"
 msgstr "Live voorbeeld: %s"
 
@@ -3297,7 +3293,7 @@ msgstr "Helaas, je niet het recht om thema-opties op deze site te bewerken."
 msgid "The post type %1$s is not registered, so it may not be reliable to check the capability \"%2$s\" against a post of that type."
 msgstr "Berichttype %1$s is niet geregistreerd waardoor het niet betrouwbaar is om het recht \"%2$s\" te controleren tegen een bericht van dit type."
 
-#: wp-includes/class-wp-customize-nav-menus.php:973
+#: wp-includes/class-wp-customize-nav-menus.php:972
 #: wp-includes/class-wp-customize-widgets.php:786
 msgid "Clear Results"
 msgstr "Resultaten opschonen"
@@ -3307,7 +3303,7 @@ msgid "The following formatting shortcuts are replaced when pressing Enter. Pres
 msgstr "De volgende shortcuts worden vervangen na het klikken op Enter. Klik op Escape of de Undo-knop om het ongedaan te maken."
 
 #. translators: %s: Title of a section with menu items
-#: wp-includes/class-wp-customize-nav-menus.php:1023
+#: wp-includes/class-wp-customize-nav-menus.php:1022
 msgid "Toggle section: %s"
 msgstr "Sectie wisselen: %s"
 
@@ -3320,7 +3316,7 @@ msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1057
+#: wp-includes/class-wp-customize-nav-menus.php:1056
 msgid "Toggle section: Custom Links"
 msgstr "Sectie wisselen: aangepaste links"
 
@@ -3368,7 +3364,7 @@ msgstr "Voorbeeld als app-icoon"
 msgid "As an app icon"
 msgstr "Als app-icoon"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1019
+#: wp-includes/class-wp-customize-nav-menus.php:1018
 msgid "No items"
 msgstr "Geen items"
 
@@ -3420,21 +3416,21 @@ msgstr "Afbeelding verbergen"
 msgid "Hide header image"
 msgstr "Headerafbeelding verbergen"
 
-#: wp-includes/class-wp-customize-manager.php:3746
+#: wp-includes/class-wp-customize-manager.php:3753
 msgid "Site Icon"
 msgstr "Favicon"
 
 #. translators: %s: site icon size in pixels
-#: wp-includes/class-wp-customize-manager.php:3749
+#: wp-includes/class-wp-customize-manager.php:3756
 msgid "The Site Icon is used as a browser and app icon for your site. Icons must be square, and at least %s pixels wide and tall."
 msgstr "Het favicon wordt gebruikt als browser- en app-icoon voor de site. Iconen moeten vierkant zijn, en minimaal %s pixels breed en hoog."
 
-#: wp-includes/class-wp-customize-manager.php:3697
+#: wp-includes/class-wp-customize-manager.php:3704
 msgid "Site Identity"
 msgstr "Site-identiteit"
 
 #. translators: 1: Title of a menu item, 2: Type of a menu item
-#: wp-includes/class-wp-customize-nav-menus.php:918
+#: wp-includes/class-wp-customize-nav-menus.php:917
 msgid "Add to menu: %1$s (%2$s)"
 msgstr "Aan menu toevoegen: %1$s (%2$s)"
 
@@ -3520,7 +3516,7 @@ msgstr "De %s-directory van de ontwikkelrepository moet gebruikt worden voor RTL
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "De aangeroepen constructormethode voor %1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik %3$s in plaats daarvan."
 
-#: wp-includes/class-wp-customize-nav-menus.php:565
+#: wp-includes/class-wp-customize-nav-menus.php:564
 msgid "Menus can be displayed in locations defined by your theme."
 msgstr "Menu&#39;s kunnen weergegeven worden op locaties, gedefinieerd door het thema."
 
@@ -3530,7 +3526,7 @@ msgid "Reorder menu items"
 msgstr "Menu-items herschikken"
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:563
+#: wp-includes/class-wp-customize-nav-menus.php:562
 msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Custom Menu&#8221; widget."
 msgstr "Menu's kunnen weergegeven worden op locaties, gedefinieerd door het thema of in <a href=\"%s\">widgetgebieden</a> door het toevoegen van een &#8220;aangepast menu&#8221;-widget."
 
@@ -3755,61 +3751,61 @@ msgstr "Menu opties"
 msgid "Customizing"
 msgstr "Aan het aanpassen"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1073
+#: wp-includes/class-wp-customize-nav-menus.php:1072
 msgid "Add to Menu"
 msgstr "Aan menu toevoegen"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1055
+#: wp-includes/class-wp-customize-nav-menus.php:1054
 msgid "Custom Links"
 msgstr "Aangepaste links"
 
-#: wp-includes/class-wp-customize-nav-menus.php:969
+#: wp-includes/class-wp-customize-nav-menus.php:968
 #: wp-includes/class-wp-customize-widgets.php:787
 msgid "The search results will be updated as you type."
 msgstr "De zoekresultaten worden bijgewerkt tijdens het typen."
 
-#: wp-includes/class-wp-customize-nav-menus.php:968
+#: wp-includes/class-wp-customize-nav-menus.php:967
 msgid "Search menu items&hellip;"
 msgstr "Menu-items zoeken&hellip; "
 
-#: wp-includes/class-wp-customize-nav-menus.php:962
+#: wp-includes/class-wp-customize-nav-menus.php:961
 msgid "Add Menu Items"
 msgstr "Menu-items toevoegen"
 
-#: wp-includes/class-wp-customize-nav-menus.php:967
+#: wp-includes/class-wp-customize-nav-menus.php:966
 msgid "Search Menu Items"
 msgstr "Menu-items doorzoeken"
 
-#: wp-includes/class-wp-customize-nav-menus.php:676
+#: wp-includes/class-wp-customize-nav-menus.php:675
 msgid "Add a Menu"
 msgstr "Menu toevoegen"
 
-#: wp-includes/class-wp-customize-nav-menus.php:688
+#: wp-includes/class-wp-customize-nav-menus.php:687
 msgid "New menu name"
 msgstr "Nieuwe menunaam"
 
 #. translators: &#9656; is the unicode right-pointing triangle, and %s is the
 #. section title in the Customizer
 #: wp-includes/class-wp-customize-nav-menus.php:428
-#: wp-includes/class-wp-customize-nav-menus.php:959
+#: wp-includes/class-wp-customize-nav-menus.php:958
 #: wp-includes/class-wp-customize-section.php:246
 #: wp-includes/class-wp-customize-widgets.php:777
 msgid "Customizing &#9656; %s"
 msgstr "Aan het aanpassen &#9656; %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:934
+#: wp-includes/class-wp-customize-nav-menus.php:933
 msgid "Move one level down"
 msgstr "Één niveau omlaag verplaatsen"
 
-#: wp-includes/class-wp-customize-nav-menus.php:933
+#: wp-includes/class-wp-customize-nav-menus.php:932
 msgid "Move one level up"
 msgstr "Één niveau omhoog verplaatsen"
 
-#: wp-includes/class-wp-customize-nav-menus.php:590
+#: wp-includes/class-wp-customize-nav-menus.php:589
 msgid "Menu Locations"
 msgstr "Menulocaties"
 
-#: wp-includes/class-wp-customize-nav-menus.php:560
+#: wp-includes/class-wp-customize-nav-menus.php:559
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
 msgstr "Dit paneel wordt gebruikt voor het beheren van navigatiemenu's voor inhoud die je al gepubliceerd hebt op de site. Je kunt menu's aanmaken en items voor bestaande inhoud toevoegen, zoals pagina's, berichten, categorieën, tags, opmaak of aangepaste links."
 
@@ -3914,7 +3910,7 @@ msgctxt "nav menu home label"
 msgid "Home"
 msgstr "Home"
 
-#: wp-includes/class-wp-customize-nav-menus.php:791
+#: wp-includes/class-wp-customize-nav-menus.php:790
 msgid "Unknown post type"
 msgstr "Onbekend posttype"
 
@@ -4056,17 +4052,17 @@ msgstr[0] "%1$s reactie op %2$s"
 msgstr[1] "%1$s reacties op %2$s"
 
 #. translators: %s: number of menu locations
-#: wp-includes/class-wp-customize-nav-menus.php:582
+#: wp-includes/class-wp-customize-nav-menus.php:581
 msgid "Your theme supports %s menu. Select which menu appears in each location."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Je thema ondersteunt nu %s menu. Selecteer welk menu moet worden getoond."
 msgstr[1] "Je thema ondersteunt nu %s menu’s. Selecteer per locatie welk menu moet worden getoond."
 
-#: wp-includes/class-wp-customize-nav-menus.php:579
+#: wp-includes/class-wp-customize-nav-menus.php:578
 msgid "Your theme supports one menu. Select which menu you would like to use."
 msgstr "Je thema ondersteunt één menu. Selecteer het menu dat je wilt gebruiken."
 
-#: wp-includes/theme.php:2950
+#: wp-includes/theme.php:2955
 msgid "Customizer"
 msgstr "Customizer"
 
@@ -4273,7 +4269,7 @@ msgid_plural "%1$s Comments<span class=\"screen-reader-text\"> on %2$s</span>"
 msgstr[0] "%1$s Reactie<span class=\"screen-reader-text\"> op %2$s</span>"
 msgstr[1] "%1$s Reacties<span class=\"screen-reader-text\"> op %2$s</span>"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1068
+#: wp-includes/class-wp-customize-nav-menus.php:1067
 #: wp-includes/class-wp-editor.php:1452 wp-includes/media-template.php:817
 msgid "Link Text"
 msgstr "Linktekst"
@@ -4313,7 +4309,7 @@ msgid "Distraction-free writing mode"
 msgstr "Afleidingsvrije modus"
 
 #. translators: 1: Theme support 2: hook name
-#: wp-includes/theme.php:2398
+#: wp-includes/theme.php:2403
 msgid "Theme support for %1$s should be registered before the %2$s hook."
 msgstr "Themaondersteuning voor %1$s moet geregistreerd worden voor de hook %2$s."
 
@@ -4360,7 +4356,7 @@ msgstr "De volgende waarde beschrijft geen geldige datum: maand %1$s, dag %2$s."
 msgid "%s must set a database connection for use with escaping."
 msgstr "%s moet een databaseconnectie instellen voor het gebruik van 'escaping'."
 
-#: wp-includes/theme.php:2242
+#: wp-includes/theme.php:2247
 msgid "You need to pass an array of types."
 msgstr "Je moet een array van types meegeven."
 
@@ -4841,7 +4837,7 @@ msgstr "Je kunt afbeeldingen naar wens bijsnijden na het klikken op <strong>Nieu
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "(WordPress kon geen beveiligde verbinding maken met WordPress.org. Neem contact op met de serverbeheerder.)"
 
-#: wp-includes/class-wp-customize-widgets.php:1133
+#: wp-includes/class-wp-customize-widgets.php:1128
 msgid "Shift-click to edit this widget."
 msgstr "Shift-klik om deze widget te bewerken."
 
@@ -5284,7 +5280,7 @@ msgstr "%s, en %s"
 msgid "%s and %s"
 msgstr "%s en %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:953
+#: wp-includes/class-wp-customize-nav-menus.php:952
 #: wp-includes/class-wp-customize-panel.php:368
 #: wp-includes/class-wp-customize-section.php:368
 #: wp-includes/class-wp-customize-widgets.php:772
@@ -5641,12 +5637,12 @@ msgstr "Paginascheiding"
 msgid "Restore last draft"
 msgstr "Laatste concept terugzetten"
 
-#: wp-includes/class-wp-customize-nav-menus.php:931
+#: wp-includes/class-wp-customize-nav-menus.php:930
 #: wp-includes/class-wp-customize-widgets.php:701
 msgid "Move up"
 msgstr "Omhoog verplaatsen"
 
-#: wp-includes/class-wp-customize-nav-menus.php:932
+#: wp-includes/class-wp-customize-nav-menus.php:931
 #: wp-includes/class-wp-customize-widgets.php:700
 msgid "Move down"
 msgstr "Omlaag verplaatsen"
@@ -6525,11 +6521,11 @@ msgstr "Spring naar werkbalk"
 msgid "Hex Value"
 msgstr "Hex-waarde"
 
-#: wp-includes/class-wp-customize-manager.php:3816
+#: wp-includes/class-wp-customize-manager.php:3823
 msgid "Header Text Color"
 msgstr "Headertekstkleur"
 
-#: wp-includes/class-wp-customize-manager.php:3793
+#: wp-includes/class-wp-customize-manager.php:3800
 msgid "Colors"
 msgstr "Kleuren"
 
@@ -6568,7 +6564,7 @@ msgstr "Je kunt een priv&#137;bericht niet sticky maken."
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "Je hebt geen toestemming om deze pagina te publiceren."
 
-#: wp-includes/class-wp-customize-manager.php:3870
+#: wp-includes/class-wp-customize-manager.php:3877
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "Kopafbeelding"
@@ -6609,15 +6605,15 @@ msgstr "Gebruikersnaam moet minimaal 4 tekens lang zijn."
 msgid "Site name must be at least 4 characters."
 msgstr "Sitenaam moet minimaal 4 tekens lang zijn."
 
-#: wp-includes/class-wp-customize-manager.php:4085
+#: wp-includes/class-wp-customize-manager.php:4092
 msgid "A static page"
 msgstr "Een statische pagina"
 
-#: wp-includes/class-wp-customize-manager.php:3831
+#: wp-includes/class-wp-customize-manager.php:3838
 msgid "Background Color"
 msgstr "Achtergrondkleur"
 
-#: wp-includes/class-wp-customize-manager.php:3952
+#: wp-includes/class-wp-customize-manager.php:3959
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "Achtergrondafbeelding"
@@ -6634,15 +6630,15 @@ msgstr "Afbeelding verwijderen"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Je hebt geen toestemming om deze reactie te bewerken."
 
-#: wp-includes/class-wp-customize-manager.php:4107
+#: wp-includes/class-wp-customize-manager.php:4114
 msgid "Posts page"
 msgstr "Berichtenpagina"
 
-#: wp-includes/class-wp-customize-manager.php:4095
+#: wp-includes/class-wp-customize-manager.php:4102
 msgid "Front page"
 msgstr "Startpagina"
 
-#: wp-includes/class-wp-customize-manager.php:3775
+#: wp-includes/class-wp-customize-manager.php:3782
 #: wp-includes/class-wp-customize-widgets.php:730
 #: wp-includes/class-wp-editor.php:1052
 #: wp-includes/customize/class-wp-customize-image-control.php:37
@@ -6769,34 +6765,34 @@ msgstr "Het thema  \"%s\" is geen geldig hoofdthema."
 msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
 msgstr "FOUT: De themamap is leeg of bestaat niet. Graag de installatie controleren."
 
-#: wp-includes/class-wp-customize-manager.php:4084
+#: wp-includes/class-wp-customize-manager.php:4091
 msgid "Your latest posts"
 msgstr "Je laatste berichten"
 
-#: wp-includes/class-wp-customize-manager.php:3719
+#: wp-includes/class-wp-customize-manager.php:3726
 msgid "Tagline"
 msgstr "Ondertitel"
 
 #: wp-includes/class-wp-customize-control.php:551
-#: wp-includes/class-wp-customize-nav-menus.php:596
+#: wp-includes/class-wp-customize-nav-menus.php:595
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:143
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Selecteren &mdash;"
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:3273
+#: wp-includes/class-wp-customize-manager.php:3280
 msgid "Customize: %s"
 msgstr "%s aanpassen"
 
-#: wp-includes/class-wp-customize-manager.php:4067
+#: wp-includes/class-wp-customize-manager.php:4074
 msgid "Static Front Page"
 msgstr "Statische startpagina"
 
-#: wp-includes/class-wp-customize-manager.php:4069
+#: wp-includes/class-wp-customize-manager.php:4076
 msgid "Your theme supports a static front page."
 msgstr "Het thema ondersteunt een statische startpagina."
 
-#: wp-includes/class-wp-customize-manager.php:4080
+#: wp-includes/class-wp-customize-manager.php:4087
 msgid "Front page displays"
 msgstr "Startpagina toont"
 
@@ -6967,7 +6963,7 @@ msgstr "Configuratiebestand aanmaken"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Je kunt een %s-bestand aanmaken via de web-interface, maar dit werkt niet voor alle servertypes. De veiligste manier is om het bestand handmatig aan te maken."
 
-#: wp-includes/class-wp-customize-manager.php:4120
+#: wp-includes/class-wp-customize-manager.php:4127
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS"
 
@@ -8093,7 +8089,7 @@ msgid "One response to %s"
 msgstr "Eén reactie op %s"
 
 #: wp-includes/admin-bar.php:789
-#: wp-includes/class-wp-customize-nav-menus.php:568
+#: wp-includes/class-wp-customize-nav-menus.php:567
 msgid "Menus"
 msgstr "Menu&#39;s"
 
@@ -8721,7 +8717,7 @@ msgstr "Rij"
 
 #: wp-includes/class-wp-editor.php:1033 wp-includes/script-loader.php:463
 #: wp-includes/script-loader.php:574 wp-includes/script-loader.php:583
-#: wp-includes/script-loader.php:752 wp-includes/theme.php:2949
+#: wp-includes/script-loader.php:752 wp-includes/theme.php:2954
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "De wijzigingen zullen verloren gaan als je deze pagina nu verlaat."
 
@@ -9751,8 +9747,8 @@ msgstr "Bestand %s kan niet worden opgeslagen"
 msgid "Protected Comments: Please enter your password to view comments."
 msgstr "Beveiligde reacties: voer je wachtwoord in om de reacties te kunnen bekijken."
 
-#: wp-includes/class-wp-customize-manager.php:3982
-#: wp-includes/class-wp-customize-manager.php:4023
+#: wp-includes/class-wp-customize-manager.php:3989
+#: wp-includes/class-wp-customize-manager.php:4030
 msgid "Fill Screen"
 msgstr "Schermvullend"
 
@@ -9886,7 +9882,7 @@ msgstr "Sta toe dat bezoekers kunnen reageren op nieuwe artikelen"
 msgid "Height"
 msgstr "Hoogte"
 
-#: wp-includes/class-wp-customize-manager.php:3776
+#: wp-includes/class-wp-customize-manager.php:3783
 #: wp-includes/customize/class-wp-customize-color-control.php:54
 #: wp-includes/customize/class-wp-customize-image-control.php:38
 #: wp-includes/customize/class-wp-customize-media-control.php:62
@@ -10100,7 +10096,7 @@ msgstr "<strong>FOUT</strong>: Dit e-mailadres is al geregistreerd. Kies een and
 msgid "Plugin:"
 msgstr "Plugin:"
 
-#: wp-includes/class-wp-customize-manager.php:3708
+#: wp-includes/class-wp-customize-manager.php:3715
 #: wp-includes/class-wp-xmlrpc-server.php:479
 msgid "Site Title"
 msgstr "Sitetitel"
@@ -10151,7 +10147,7 @@ msgstr "Geen"
 msgid "Author"
 msgstr "Auteur"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1064
+#: wp-includes/class-wp-customize-nav-menus.php:1063
 #: wp-includes/class-wp-editor.php:1448
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:91
 #: wp-includes/media-template.php:373 wp-includes/media-template.php:554
@@ -10387,7 +10383,7 @@ msgid "Update"
 msgstr "Bijwerken"
 
 #: wp-includes/class-wp-customize-control.php:598
-#: wp-includes/class-wp-customize-nav-menus.php:1033
+#: wp-includes/class-wp-customize-nav-menus.php:1032
 msgid "Add"
 msgstr "Toevoegen"
 
@@ -10532,10 +10528,6 @@ msgstr "Concept opslaan"
 msgid "Description"
 msgstr "Omschrijving"
 
-#: wp-includes/revision.php:36
-msgid "Excerpt"
-msgstr "Uittreksel"
-
 #: wp-includes/class-wp-customize-widgets.php:728
 #: wp-includes/class-wp-editor.php:1055 wp-includes/media.php:3446
 msgid "Apply"
@@ -10548,6 +10540,10 @@ msgstr "Categorieën doorzoeken"
 #: wp-includes/taxonomy.php:111
 msgid "Link Categories"
 msgstr "Linkcategorieën"
+
+#: wp-includes/revision.php:36
+msgid "Excerpt"
+msgstr "Samenvatting"
 
 #: wp-includes/class-wp-editor.php:900 wp-includes/media-template.php:379
 #: wp-includes/media-template.php:560 wp-includes/revision.php:34
