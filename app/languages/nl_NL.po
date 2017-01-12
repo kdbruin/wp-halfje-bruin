@@ -1,15 +1,15 @@
-# Translation of WordPress - Development in Dutch
-# This file is distributed under the same license as the WordPress - Development package.
+# Translation of WordPress - 4.7.x in Dutch
+# This file is distributed under the same license as the WordPress - 4.7.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-14 14:03:31+0000\n"
+"PO-Revision-Date: 2017-01-08 18:36:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.0-alpha\n"
 "Language: nl\n"
-"Project-Id-Version: WordPress - Development\n"
+"Project-Id-Version: WordPress - 4.7.x\n"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -84,11 +84,11 @@ msgstr "Moet waar zijn, omdat revisies geen prullenbak hebben."
 msgid "An alphanumeric identifier for the status."
 msgstr "Een alfanumerieke identificatie voor de status."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1294
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1301
 msgid "Limit response to comments published after a given ISO8601 compliant date."
 msgstr "Reactie beperken tot reacties gepubliceerd na een gegeven ISO8601 datum."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1323
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1330
 msgid "Limit response to comments published before a given ISO8601 compliant date."
 msgstr "Reactie beperken tot reacties gepubliceerd voor een gegeven ISO8601 datum."
 
@@ -206,23 +206,23 @@ msgstr "Ongeldige status."
 msgid "Cannot view status."
 msgstr "Niet mogelijk status te bekijken."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:463
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:468
 msgid "URL to the original attachment file."
 msgstr "URL naar het originele bijlagebestand."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:435
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:440
 msgid "Attachment type."
 msgstr "Type bijlage."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:413
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:418
 msgid "The attachment description."
 msgstr "Beschrijving van de bijlage."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:443
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:448
 msgid "The attachment MIME type."
 msgstr "MIME-type van de bijlage."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:391
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:396
 msgid "The attachment caption."
 msgstr "Het onderschrift van de bijlage."
 
@@ -272,7 +272,7 @@ msgid "Invalid date."
 msgstr "Ongeldige datum."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:486
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:680
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:687
 msgid "Invalid comment content."
 msgstr "Ongeldige reactie-inhoud"
 
@@ -296,52 +296,52 @@ msgstr "De video wordt afgespeeld."
 msgid "Video is paused."
 msgstr "De video werd gepauzeerd."
 
-#: wp-includes/theme.php:1946
+#: wp-includes/theme.php:1952
 msgctxt "Theme starter content"
 msgid "Archives"
 msgstr "Archieven"
 
-#: wp-includes/theme.php:2068
+#: wp-includes/theme.php:2074
 msgctxt "Theme starter content"
 msgid "This is an example of a homepage section. Homepage sections can be any page other than the homepage itself, including the page that shows your latest blog posts."
 msgstr "Dit is een voorbeeld van een homepage sectie. Homepage secties kunnen elke pagina zijn behalve de homepage zelf. Ook de pagina die je meest recente berichten toont kan een homepage sectie zijn. "
 
-#: wp-includes/theme.php:2062
+#: wp-includes/theme.php:2068
 msgctxt "Theme starter content"
 msgid "News"
 msgstr "Nieuws"
 
-#: wp-includes/theme.php:2054
+#: wp-includes/theme.php:2060
 msgctxt "Theme starter content"
 msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
 msgstr "Dit is een pagina met wat contactinformatie, zoals een adres en een telefoonnummer. Je kunt ook met behulp van een plugin een contact formulier toevoegen."
 
-#: wp-includes/theme.php:2049
+#: wp-includes/theme.php:2055
 msgctxt "Theme starter content"
 msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
 msgstr "Je bent misschien wel een kunstenaar die zichzelf en zijn werk hier wil voorstellen of misschien heb je een bedrijf met een missie om te beschrijven."
 
-#: wp-includes/theme.php:1961
+#: wp-includes/theme.php:1967
 msgctxt "Theme starter content"
 msgid "Recent Posts"
 msgstr "Recente berichten"
 
-#: wp-includes/theme.php:1958
+#: wp-includes/theme.php:1964
 msgctxt "Theme starter content"
 msgid "Recent Comments"
 msgstr "Recente reacties"
 
-#: wp-includes/theme.php:2044
+#: wp-includes/theme.php:2050
 msgctxt "Theme starter content"
 msgid "Welcome to your site! This is your homepage, which is what most visitors will see when they come to your site for the first time."
 msgstr "Welkom op je site! Dit is je homepage, dat is wat de meeste bezoekers zullen zien als ze voor het eerst op je site komen."
 
-#: wp-includes/theme.php:1955
+#: wp-includes/theme.php:1961
 msgctxt "Theme starter content"
 msgid "Meta"
 msgstr "Meta"
 
-#: wp-includes/theme.php:1949
+#: wp-includes/theme.php:1955
 msgctxt "Theme starter content"
 msgid "Calendar"
 msgstr "Kalender"
@@ -363,7 +363,7 @@ msgstr "Je hebt geen toestemming om gebruikers te sorteren volgens deze paramete
 msgid "Sorry, you are not allowed to filter users by role."
 msgstr "Je hebt geen toestemming om gebruikers te filteren op rol."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:748
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:755
 msgid "Sorry, you are not allowed to delete this comment."
 msgstr "Je hebt geen toestemming om deze reactie te verwijderen."
 
@@ -400,54 +400,54 @@ msgstr "Je hebt geen toestemming om deze reactie te bekijken."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:126
 msgid "Sorry, you are not allowed to view revisions of this post."
-msgstr "Je hebt geen toestemming on revisies te bekijken van dit bericht."
+msgstr "Je hebt geen toestemming om revisies te bekijken van dit bericht."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:122
 msgid "Sorry, you are not allowed to read comments without a post."
 msgstr "Je hebt geen toestemming om reacties zonder bericht te lezen."
 
-#: wp-includes/theme.php:2024
+#: wp-includes/theme.php:2030
 msgctxt "Theme starter content"
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: wp-includes/theme.php:2020
+#: wp-includes/theme.php:2026
 msgctxt "Theme starter content"
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: wp-includes/theme.php:2012
+#: wp-includes/theme.php:2018
 msgctxt "Theme starter content"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: wp-includes/theme.php:2008
+#: wp-includes/theme.php:2014
 msgctxt "Theme starter content"
 msgid "Foursquare"
 msgstr "Foursquare"
 
-#: wp-includes/theme.php:2036
+#: wp-includes/theme.php:2042
 msgctxt "Theme starter content"
 msgid "YouTube"
 msgstr "YouTube"
 
-#: wp-includes/theme.php:1942
+#: wp-includes/theme.php:1948
 msgctxt "Theme starter content"
 msgid "About This Site"
 msgstr "Over deze site"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1273
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:462
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:603
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:466
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:607
 msgid "Sorry, you are not allowed to make posts sticky."
 msgstr "Je hebt geen toestemming om berichten sticky te maken."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:470
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:607
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:474
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:611
 msgid "Sorry, you are not allowed to assign the provided terms."
 msgstr "Je hebt geen toestemming om de opgegeven termen toe te wijzen."
 
-#: wp-includes/theme.php:1943
+#: wp-includes/theme.php:1949
 msgctxt "Theme starter content"
 msgid "This may be a good place to introduce yourself and your site or include some credits."
 msgstr "Dit kan een goede plek zijn om jezelf en je site te introduceren of wat credits op te nemen."
@@ -464,118 +464,118 @@ msgstr "Je hebt geen toestemming om het %s aangepast veld te bewerken."
 msgid "Reassign the deleted user's posts and links to this user ID."
 msgstr "Ken de links en berichten van de verwijderde gebruiker toe aan deze gebruiker ID."
 
-#: wp-includes/class-wp-customize-manager.php:3850
+#: wp-includes/class-wp-customize-manager.php:3851
 msgid "This theme doesn't support video headers on this page. Navigate to the front page or another page that supports video headers."
 msgstr "Dit thema ondersteunt geen video headers op deze pagina. Ga naar de homepage of een andere pagina die video headers ondersteunt."
 
-#: wp-includes/class-wp-customize-manager.php:3932
+#: wp-includes/class-wp-customize-manager.php:3933
 msgid "No video selected"
 msgstr "Geen video geselecteerd"
 
-#: wp-includes/class-wp-customize-manager.php:3930
-#: wp-includes/class-wp-customize-manager.php:3933
+#: wp-includes/class-wp-customize-manager.php:3931
+#: wp-includes/class-wp-customize-manager.php:3934
 msgid "Select Video"
 msgstr "Video selecteren"
 
-#: wp-includes/class-wp-customize-manager.php:3931
+#: wp-includes/class-wp-customize-manager.php:3932
 msgid "Change Video"
 msgstr "Video wijzigen"
 
-#: wp-includes/class-wp-customize-manager.php:3934
+#: wp-includes/class-wp-customize-manager.php:3935
 msgid "Choose Video"
 msgstr "Video kiezen"
 
-#: wp-includes/theme.php:2067
+#: wp-includes/theme.php:2073
 msgctxt "Theme starter content"
 msgid "A homepage section"
 msgstr "Een homepagina sectie."
 
-#: wp-includes/theme.php:2000
+#: wp-includes/theme.php:2006
 msgctxt "Theme starter content"
 msgid "Email"
 msgstr "E-mail"
 
-#: wp-includes/theme.php:2016
+#: wp-includes/theme.php:2022
 msgctxt "Theme starter content"
 msgid "Instagram"
 msgstr "Instagram"
 
-#: wp-includes/theme.php:2058
+#: wp-includes/theme.php:2064
 msgctxt "Theme starter content"
 msgid "Blog"
 msgstr "Blog"
 
-#: wp-includes/theme.php:2048
+#: wp-includes/theme.php:2054
 msgctxt "Theme starter content"
 msgid "About"
 msgstr "Over ons"
 
-#: wp-includes/theme.php:2053
+#: wp-includes/theme.php:2059
 msgctxt "Theme starter content"
 msgid "Contact"
 msgstr "Contact"
 
-#: wp-includes/theme.php:1970 wp-includes/theme.php:2043
+#: wp-includes/theme.php:1976 wp-includes/theme.php:2049
 msgctxt "Theme starter content"
 msgid "Home"
 msgstr "Home"
 
-#: wp-includes/theme.php:2028
+#: wp-includes/theme.php:2034
 msgctxt "Theme starter content"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: wp-includes/theme.php:2004
+#: wp-includes/theme.php:2010
 msgctxt "Theme starter content"
 msgid "Facebook"
 msgstr "Facebook"
 
-#: wp-includes/theme.php:2032
+#: wp-includes/theme.php:2038
 msgctxt "Theme starter content"
 msgid "Yelp"
 msgstr "Yelp"
 
-#: wp-includes/theme.php:1938
+#: wp-includes/theme.php:1944
 msgctxt "Theme starter content"
 msgid "Saturday &amp; Sunday: 11:00AM&ndash;3:00PM"
 msgstr "Zaterdag &amp; zondag: 11:00&ndash;15:00"
 
-#: wp-includes/theme.php:1938
+#: wp-includes/theme.php:1944
 msgctxt "Theme starter content"
 msgid "Monday&mdash;Friday: 9:00AM&ndash;5:00PM"
 msgstr "Maandag&mdash;vrijdag: 9:00&ndash;17:00"
 
-#: wp-includes/theme.php:1936
+#: wp-includes/theme.php:1942
 msgctxt "Theme starter content"
 msgid "123 Main Street"
 msgstr "Hoofdstraat 123"
 
-#: wp-includes/theme.php:1937
+#: wp-includes/theme.php:1943
 msgctxt "Theme starter content"
 msgid "Hours"
 msgstr "Uren"
 
-#: wp-includes/theme.php:1952
+#: wp-includes/theme.php:1958
 msgctxt "Theme starter content"
 msgid "Categories"
 msgstr "Categorieën"
 
-#: wp-includes/theme.php:1964
+#: wp-includes/theme.php:1970
 msgctxt "Theme starter content"
 msgid "Search"
 msgstr "Zoeken"
 
-#: wp-includes/theme.php:1936
+#: wp-includes/theme.php:1942
 msgctxt "Theme starter content"
 msgid "New York, NY 10001"
 msgstr "New York, NY 10001"
 
-#: wp-includes/theme.php:1935
+#: wp-includes/theme.php:1941
 msgctxt "Theme starter content"
 msgid "Address"
 msgstr "Adres"
 
-#: wp-includes/theme.php:1933
+#: wp-includes/theme.php:1939
 msgctxt "Theme starter content"
 msgid "Find Us"
 msgstr "Vind ons"
@@ -611,7 +611,7 @@ msgstr "Besturing verbergen"
 msgid "Document Preview"
 msgstr "Voorvertoning document"
 
-#: wp-includes/class-wp-customize-manager.php:3845
+#: wp-includes/class-wp-customize-manager.php:3846
 msgid "Header Media"
 msgstr "Header media"
 
@@ -629,31 +629,31 @@ msgctxt "default site language"
 msgid "Site Default"
 msgstr "Site Standaard"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:426
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:431
 msgid "HTML description for the object, transformed for display."
 msgstr "HTML beschrijving voor het object, aangepast voor weergave."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:421
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:426
 msgid "Description for the object, as it exists in the database."
 msgstr "Beschrijving van het object, zoals het bestaat in de database."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:399
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:404
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "Beschrijving voor de bijlage zoals deze staat in de database."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:404
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:409
 msgid "HTML caption for the attachment, transformed for display."
 msgstr "HTML titel voor de bijlage, aangepast voor weergave."
 
-#: wp-includes/class-wp-customize-manager.php:4126
+#: wp-includes/class-wp-customize-manager.php:4127
 msgid "CSS allows you to customize the appearance and layout of your site with code. Separate CSS is saved for each of your themes. In the editing area the Tab key enters a tab character. To move below this area by pressing Tab, press the Esc key followed by the Tab key."
 msgstr "Met CSS kun je het uiterlijk en de layout van je site met code aanpassen. CSS wordt voor elk van je thema's apart opgeslagen. In het editing gebied geeft de Tab toets een tab karakter. Om onder dit gebied verder te gaan met behulp van de Tab toets, gebruik dan de Escape toets gevolgd door de Tab toets."
 
-#: wp-includes/class-wp-customize-manager.php:4315
+#: wp-includes/class-wp-customize-manager.php:4316
 msgid "Please enter a valid YouTube URL."
 msgstr "Voer een geldige YouTube URL in."
 
-#: wp-includes/class-wp-customize-manager.php:3942
+#: wp-includes/class-wp-customize-manager.php:3943
 msgid "Or, enter a YouTube URL:"
 msgstr "Of voer een YouTube URL in:"
 
@@ -669,11 +669,11 @@ msgstr "Gebruikers kunnen niet in de prullenbak gegooid worden. Zet force=true o
 msgid "Revisions do not support trashing. Set force=true to delete."
 msgstr "Revisies kunnen niet in de prullenbak worden geplaatst. Stel force=true in om te verwijderen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:794
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:801
 msgid "The comment does not support trashing. Set force=true to delete."
 msgstr "De reactie kan niet in de prullenbak worden geplaatst. Stel force=true in om te verwijderen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:778
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:782
 msgid "The post does not support trashing. Set force=true to delete."
 msgstr "Het bericht kan niet in de prullenbak worden geplaatst. Stel force=true in om te verwijderen."
 
@@ -685,21 +685,21 @@ msgstr "Hoofdmenu uitvouwen"
 msgid "Collapse Main menu"
 msgstr "Hoofdmenu invouwen"
 
-#: wp-includes/rest-api/class-wp-rest-request.php:692
+#: wp-includes/rest-api/class-wp-rest-request.php:697
 msgid "Invalid JSON body passed."
 msgstr "Ongeldige JSON body doorgegeven."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2126
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2136
 msgid "Limit result set to all items except those that have the specified term assigned in the %s taxonomy."
 msgstr "Beperk resultaat tot alle items behalve degenen die de gespecificeerde term hebben in de %s taxonomie."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:531
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:688
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:695
 msgid "Comment field exceeds maximum length allowed."
 msgstr "Reactie is langer dan de maximum toegestane lengte."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2100
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2110
 msgid "Limit result set to posts assigned one or more statuses."
 msgstr "Gelimiteerd resultaat ingesteld op berichten toegewezen aan een of meerdere statussen."
 
@@ -711,7 +711,7 @@ msgstr "Locatie tonen"
 msgid "Taxonomies associated with post type."
 msgstr "Taxonomieën geassocieerd met post type."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2090
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2100
 msgid "Limit result set to posts with one or more specific slugs."
 msgstr "Resultaat beperken tot berichten met één of meer specifieke slugs."
 
@@ -903,13 +903,13 @@ msgstr "Resultaat beperken tot termen met een specifieke slug."
 msgid "Limit result set to terms assigned to a specific post."
 msgstr "Resultaat beperken tot termen welke verbonden zijn aan een specifiek bericht."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:946
-msgid "Limit result set to terms assigned to a specific parent."
-msgstr "Resultaat beperken set tot termen die zijn toegevoegd aan een specifiek hoofd term. "
-
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:924
 msgid "Sort collection by term attribute."
 msgstr "Collectie sorteren op term attribuut."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:946
+msgid "Limit result set to terms assigned to a specific parent."
+msgstr "Beperk resultaten tot termen die zijn toegewezen aan een specifieke hoofdterm."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:815
 msgid "Number of published posts for the term."
@@ -923,7 +923,7 @@ msgstr "HTML-beschrijving van de term."
 msgid "Unique identifier for the user."
 msgstr "Unieke sleutel voor de gebruiker."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2192
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2202
 msgid "Status is forbidden."
 msgstr "Status is verboden."
 
@@ -932,7 +932,7 @@ msgstr "Status is verboden."
 msgid "Invalid revision ID."
 msgstr "Ongeldige revisie-ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2137
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2147
 msgid "Limit result set to items that are sticky."
 msgstr "Het resultaat tot sticky items beperken."
 
@@ -954,19 +954,19 @@ msgid "Limit results to taxonomies associated with a specific post type."
 msgstr "Resultaten beperken tot taxonomieën welke verbonden zijn aan een specifiek berichttype."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1957
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1967
 msgid "The terms assigned to the object in the %s taxonomy."
 msgstr "De termen toegekend aan het object in de %s taxonomie."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1347
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2039
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1354
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2049
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:908
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1306
 msgid "Offset the result set by a specific number of items."
 msgstr "Offset het resultaat met een specifiek aantal items."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2116
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2126
 msgid "Limit result set to all items that have the specified term assigned in the %s taxonomy."
 msgstr "Resultaten beperken tot alle items welke de specifieke term hebben toegewezen in de %s taxonomie."
 
@@ -974,170 +974,170 @@ msgstr "Resultaten beperken tot alle items welke de specifieke term hebben toege
 msgid "Limit result set to users with a specific slug."
 msgstr "Resultaat beperken tot gebruikers met een bepaalde slug."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2080
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2090
 msgid "Limit result set to all items except those of a particular parent ID."
 msgstr "Resultaten beperken tot alle items behalve die met een bepaalde parent ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2033
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2043
 msgid "Limit result set to posts with a specific menu_order value."
 msgstr "Resultaat beperken tot berichten met een specifieke menu_order waarde."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2072
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2082
 msgid "Limit result set to those of particular parent IDs."
 msgstr "Resultaten beperken tot die van specifieke hoofd ID's."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1998
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2008
 msgid "Ensure result set excludes posts assigned to specific authors."
 msgstr "Zorg dragen dat resultaten berichten uitsluiten die zijn toegekend aan specifieke auteurs."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1990
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2000
 msgid "Limit result set to posts assigned to specific authors."
 msgstr "Resultaten beperken tot berichten die toegekend zijn aan specifieke auteurs."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1923
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1933
 msgid "The format for the object."
 msgstr "Het formaat voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1946
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1956
 msgid "The theme file to use to display the object."
 msgstr "Het themabestand om dit object weer te geven."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1728
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1732
 msgid "A password to protect access to the content and excerpt."
 msgstr "Een wachtwoord om toegang tot de inhoud en samenvatting af te schermen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1905
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1909
 msgid "Whether or not the object can be pinged."
 msgstr "Of een object al dan niet kan worden gepingd."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1939
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1949
 msgid "Whether or not the object should be treated as sticky."
 msgstr "Of een object al dan niet moet worden behandeld als sticky."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1899
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1903
 msgid "Whether or not comments are open on the object."
 msgstr "Of reacties al dan niet toegestaan zijn op het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1891
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1895
 msgid "The ID of the featured media for the object."
 msgstr "Het ID van de uitgelichte afbeelding voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1880
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1884
 msgid "Whether the excerpt is protected with a password."
 msgstr "Of de samenvatting al dan niet is beschermd met een wachtwoord."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1874
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1878
 msgid "HTML excerpt for the object, transformed for display."
 msgstr "HTML samenvatting voor het object, omgezet voor vertoning."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1914
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1918
 msgid "The order of the object in relation to other object of its type."
 msgstr "De volgorde van het object in relatie tot een ander object van hetzelfde type."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1799
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1803
 msgid "The title for the object."
 msgstr "De titel voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1853
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1857
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:402
 msgid "The ID for the author of the object."
 msgstr "Het ID voor de auteur van het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1842
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1846
 msgid "Whether the content is protected with a password."
 msgstr "Of de inhoud beschermd is met een wachtwoord."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1722
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1726
 msgid "Type of Post for the object."
 msgstr "Type bericht voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1716
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1720
 msgid "A named status for the object."
 msgstr "Een status voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1708
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1712
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:446
 msgid "An alphanumeric identifier for the object unique to its type."
 msgstr "Een alfanumerieke sleutel voor het object, uniek voor het type."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1812
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1816
 msgid "HTML title for the object, transformed for display."
 msgstr "HTML titel voor het object, omgezet voor vertoning."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1807
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1811
 msgid "Title for the object, as it exists in the database."
 msgstr "Titel voor het object, zoals het in de database bestaat."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1861
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1865
 msgid "The excerpt for the object."
 msgstr "De samenvatting van het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1869
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1873
 msgid "Excerpt for the object, as it exists in the database."
 msgstr "Samenvatting voor het object, zoals het in de database bestaat."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1667
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1671
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:419
 msgid "GUID for the object, as it exists in the database."
 msgstr "GUID voor het object, zoals het in de database bestaat."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1205
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1649
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1212
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1653
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:407
 msgid "The date the object was published, in the site's timezone."
 msgstr "De datum waarop het object gepubliceerd is, in de tijdzone van de site."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1006
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1010
 msgid "A password protected post can not be set to sticky."
 msgstr "Een bericht dat met een wachtwoord beschermd is, kan niet op sticky gezet worden."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:999
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1003
 msgid "A sticky post can not be password protected."
 msgstr "Een sticky bericht kan niet met een wachtwoord beschermd worden."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1694
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1698
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:429
 msgid "The date the object was last modified, in the site's timezone."
 msgstr "De datum waarop het object voor het laatst aangepast is, in tijdzone van de site."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1108
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1112
 msgid "Invalid featured media ID."
 msgstr "Ongeldig ID van uitgelicht media."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1701
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1705
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:435
 msgid "The date the object was last modified, as GMT."
 msgstr "De datum waarop het object het laatst is aangepast, in GMT."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1017
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1021
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:144
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:182
 msgid "Invalid post parent ID."
 msgstr "Ongeldige bericht hoofd ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1673
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1677
 msgid "GUID for the object, transformed for display."
 msgstr "GUID voor het object, omgezet voor vertoning."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1661
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1665
 msgid "The globally unique identifier for the object."
 msgstr "De globaal unieke identifier voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1211
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1655
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1218
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1659
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:413
 msgid "The date the object was published, as GMT."
 msgstr "De datum waarop het object is gepubliceerd, in GMT."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:783
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:787
 msgid "The post has already been deleted."
 msgstr "Dit bericht is al verwijderd."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:487
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:491
 msgid "Cannot create existing post."
 msgstr "Kan het bestaande bericht niet aanmaken."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:995
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:999
 msgid "A post can not be sticky and have a password."
 msgstr "Een bericht kan niet sticky zijn en een wachtwoord hebben."
 
@@ -1150,18 +1150,18 @@ msgstr "Je hebt geen toestemming om reacties te bewerken."
 msgid "Sorry, you are not allowed to create new users."
 msgstr "Je hebt geen toestemming om nieuwe gebruikers aan te maken."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:368
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:372
 msgid "Incorrect post password."
 msgstr "Wachtwoord van bericht is incorrect."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:73
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:95
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1420
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:88
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1427
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:86
 msgid "The password for the post if it is password protected."
 msgstr "Het wachtwoord voor het bericht als deze met een wachtwoord is beveiligd."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:148
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:152
 msgid "You need to define a search term to order by relevance."
 msgstr "Je moet een zoekterm definiëren om op relevantie te kunnen sorteren."
 
@@ -1240,168 +1240,168 @@ msgstr "Scope waaronder de aanvraag gedaan wordt; bepaalt de velden die aanwezig
 msgid "The register_routes() method must be overridden"
 msgstr "De register_routes() methode moet overschreven worden"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1362
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2051
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1369
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2061
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1319
 msgid "Sort collection by object attribute."
 msgstr "Verzameling rangschikken op basis van het attribuut van het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1378
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1385
 msgid "Limit result set to comments of specific parent IDs."
 msgstr "Resultaten beperken tot reacties van specifieke ouder ID's."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1405
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1412
 msgid "Limit result set to comments assigned a specific status. Requires authorization."
 msgstr "Resultaten beperken tot reacties met een specifieke status. Autorisatie vereist."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1413
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1420
 msgid "Limit result set to comments assigned a specific type. Requires authorization."
 msgstr "Resultaten beperken tot reacties toegewezen aan een specifiek type. Autorisatie vereist."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1396
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1403
 msgid "Limit result set to comments assigned to specific post IDs."
 msgstr "Resultaten beperken tot reacties die zijn toegewezen aan specifieke bericht-ID's."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1352
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2044
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1359
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2054
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:914
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1312
 msgid "Order sort attribute ascending or descending."
 msgstr "Sorteerattribuut oplopend of aflopend rangschikken."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1387
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1394
 msgid "Ensure result set excludes specific parent IDs."
 msgstr "Vaststellen dat resultaten specifieke hoofd ID's uitsluiten."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1338
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2023
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1345
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2033
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:898
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1297
 msgid "Limit result set to specific IDs."
 msgstr "Resultaten beperken tot specifieke ID's."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1267
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1274
 msgid "Avatar URLs for the object author."
 msgstr "Avatar URLs voor de auteur van het object."
 
 #. translators: %d: avatar image size in pixels
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1259
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1266
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1253
 msgid "Avatar URL with image size of %d pixels."
 msgstr "Avatar URL met afbeeldingsgrootte van %d pixels."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1244
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1251
 msgid "Type of Comment for the object."
 msgstr "Type Reactie voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1308
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1315
 msgid "Ensure result set excludes comments assigned to specific user IDs. Requires authorization."
 msgstr "Zorg dat resultaat reacties van een specifieke gebruiker uitsluit. Autorisatie vereist."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1983
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1993
 msgid "Limit response to posts published after a given ISO8601 compliant date."
 msgstr "Beperk reactie tot berichten die gepubliceerd zijn na een gegeven ISO8601-conforme datum."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1329
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2014
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1336
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2024
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:889
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1288
 msgid "Ensure result set excludes specific IDs."
 msgstr "Vaststellen dat de resultaten specifieke ID's niet bevat."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2008
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2018
 msgid "Limit response to posts published before a given ISO8601 compliant date."
 msgstr "Reacties op berichten die gepubliceerd zijn voor een gegeven ISO8601-conforme datum beperken."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1300
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1307
 msgid "Limit result set to comments assigned to specific user IDs. Requires authorization."
 msgstr "Resultaten beperken tot reacties toegewezen aan specifieke gebruiker-ID's. Autorisatie vereist."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1317
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1324
 msgid "Limit result set to that from a specific author email. Requires authorization."
 msgstr "Resultaten beperken tot die van een specifiek e-mailadres van de auteur. Autorisatie vereist."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1184
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1823
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1191
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1827
 msgid "The content for the object."
 msgstr "De inhoud voor het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1236
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1243
 msgid "State of the object."
 msgstr "Objectstatus."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1192
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1831
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1199
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1835
 msgid "Content for the object, as it exists in the database."
 msgstr "Inhoud van het object, zoals deze bestaat in de database."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1197
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1836
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1204
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1840
 msgid "HTML content for the object, transformed for display."
 msgstr "HTML-inhoud van het object, omgezet voor weergave."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1230
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1237
 msgid "The ID of the associated post object."
 msgstr "Het ID van het geassocieerde bericht object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1217
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1687
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1224
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1691
 msgid "URL to the object."
 msgstr "Webadres naar het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1224
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1739
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1231
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1743
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:441
 msgid "The ID for the parent of the object."
 msgstr "Het ID van het bovenliggend object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:807
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:814
 msgid "The comment cannot be deleted."
 msgstr "De reactie kan niet worden verwijderd."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1162
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1169
 msgid "Display name for the object author."
 msgstr "Weergavenaam van het auteur object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1135
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1681
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1142
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1685
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:424
 msgid "Unique identifier for the object."
 msgstr "Unieke identificatie van het object."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1170
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1177
 msgid "URL for the object author."
 msgstr "URL van het auteurobject."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1176
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1183
 msgid "User agent for the object author."
 msgstr "User-agent van het auteurobject."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:798
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:805
 msgid "The comment has already been trashed."
 msgstr "De reactie is al weggegooid."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1063
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1070
 msgid "Invalid comment author ID."
 msgstr "Ongeldig ID van de reactie-auteur."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1141
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1148
 msgid "The ID of the user object, if author was a user."
 msgstr "ID van het auteurobject, als de auteur een gebruiker is."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1146
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1153
 msgid "Email address for the object author."
 msgstr "E-mailadres van het auteurobject."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1156
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1163
 msgid "IP address for the object author."
 msgstr "IP adres van het auteurobject."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:694
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:701
 msgid "Updating comment failed."
 msgstr "Reactie aanpassen mislukt."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:672
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:679
 msgid "Updating comment status failed."
 msgstr "Bijwerken van de status van de reactie is mislukt."
 
@@ -1417,7 +1417,7 @@ msgstr "Kan geen bestaande reactie aanmaken."
 msgid "Creating comment failed."
 msgstr "Creëren van de reactie is mislukt."
 
-#: wp-includes/comment.php:3062
+#: wp-includes/comment.php:3057
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:379
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:396
 msgid "Sorry, you must be logged in to comment."
@@ -1427,59 +1427,59 @@ msgstr "Je moet ingelogd zijn om te kunnen reageren."
 msgid "Query parameter not permitted: %s"
 msgstr "Queryparameter niet toegestaan: %s"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:487
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:687
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:492
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:692
 msgid "No data supplied."
 msgstr "Geen gegevens verstrekt."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:92
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:107
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:111
 msgid "Whether to bypass trash and force deletion."
 msgstr "Of de prullenbak overgeslagen moet worden en dus permanent verwijderd moet worden."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:526
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:531
 msgid "Could not open file handle."
 msgstr "Kon file handle niet openen."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:510
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:697
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:515
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:702
 msgid "Content hash did not match expected."
 msgstr "De hash van de inhoud was niet zoals verwacht."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:495
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:500
 msgid "No Content-Disposition supplied."
 msgstr "Geen Content-Disposition meegegeven."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:491
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:496
 msgid "No Content-Type supplied."
 msgstr "Geen Content-Type meegegeven."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:501
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:506
 msgid "Invalid Content-Disposition supplied. Content-Disposition needs to be formatted as `attachment; filename=\"image.png\"` or similar."
 msgstr "Incorrecte Content-Disposition meegegeven. Content-Disposition moet geformatteerd worden als `attachment; filename=\"image.png\"` of iets wat er op lijkt."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:642
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:647
 msgid "Limit result set to attachments of a particular media type."
 msgstr "Resultaten beperken tot bijlagen met een specifiek mediatype."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:649
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:654
 msgid "Limit result set to attachments of a particular MIME type."
 msgstr "Resultaten beperken tot bijlagen met een specifiek MIME-type."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:457
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:462
 msgid "The ID for the associated post of the attachment."
 msgstr "Het ID van het bericht waar de bijlage bij hoort."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:70
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:75
 msgid "Sorry, you are not allowed to upload media on this site."
 msgstr "Je hebt geen toestemming om media te uploaden op deze site."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:79
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:84
 msgid "Sorry, you are not allowed to upload media to this post."
 msgstr "Je hebt geen toestemming om media te uploaden voor dit bericht."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:98
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:205
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:103
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:210
 msgid "Invalid parent type."
 msgstr "Ongeldig hoofdtype."
 
@@ -1491,11 +1491,11 @@ msgstr "Pagina-attributen"
 msgid "The REST API can no longer be completely disabled, the rest_authentication_errors can be used to restrict access to the API, instead."
 msgstr "De REST API kan niet meer volledig uitgeschakeld worden, gebruik rest_authentication_errors om toegang tot de API te weigeren."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:450
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:455
 msgid "Details about the media file, specific to its type."
 msgstr "Informatie over het media bestand, specifiek voor zijn type."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:382
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:387
 msgid "Alternative text to display when attachment is not displayed."
 msgstr "Alternatieve tekst om weer te geven als de bijlage niet weergegeven kan worden."
 
@@ -1578,7 +1578,7 @@ msgstr "Changesets"
 
 #. translators: post revision title: 1: author avatar, 2: author name, 3: time
 #. ago, 4: date
-#: wp-includes/post-template.php:1742
+#: wp-includes/post-template.php:1746
 msgid "%1$s %2$s, %3$s ago (%4$s)"
 msgstr "%1$s %2$s, %3$s geleden (%4$s)"
 
@@ -1649,7 +1649,7 @@ msgstr "Gebruikersnaam of e-mailadres"
 msgid "Site title."
 msgstr "Site titel."
 
-#: wp-includes/media.php:3450
+#: wp-includes/media.php:3448
 msgid "Search media items..."
 msgstr "Media items zoeken..."
 
@@ -1771,52 +1771,52 @@ msgid "There are no widget areas on the page shown, however other pages in this 
 msgstr "Er zijn geen widget gebieden op de getoonde pagina, maar andere pagina's in dit thema hebben ze wel."
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:4291
+#: wp-includes/class-wp-customize-manager.php:4292
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Alleen %1$s of %2$s bestanden kunnen worden gebruikt als video header. Converteer je videobestand en probeer het opnieuw, of upload je video naar YouTube en koppel het met de optie hieronder."
 
-#: wp-includes/class-wp-customize-manager.php:4285
+#: wp-includes/class-wp-customize-manager.php:4286
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "Deze video is te groot om als video header te gebruiken.Gebruik een kortere video, of optimaliseer de compressie-instellingen en upload je video als deze kleiner is dan 8MB. Of upload je video naar YouTube en link deze met de optie hieronder."
 
-#: wp-includes/class-wp-customize-manager.php:4245
+#: wp-includes/class-wp-customize-manager.php:4246
 msgid "Unrecognized background setting."
 msgstr "Onbekende achtergrondinstelling."
 
-#: wp-includes/class-wp-customize-manager.php:4129
+#: wp-includes/class-wp-customize-manager.php:4130
 msgid "(link opens in a new window)"
 msgstr "(link opent in een nieuw venster)"
 
-#: wp-includes/class-wp-customize-manager.php:4128
+#: wp-includes/class-wp-customize-manager.php:4129
 msgid "Learn more about CSS"
 msgstr "Leer meer over CSS"
 
-#: wp-includes/class-wp-customize-manager.php:4122
+#: wp-includes/class-wp-customize-manager.php:4123
 msgid "Additional CSS"
 msgstr "Extra CSS"
 
-#: wp-includes/class-wp-customize-manager.php:4228
+#: wp-includes/class-wp-customize-manager.php:4229
 msgid "Invalid value for background position X."
 msgstr "Onjuiste waarde voor achtergrondpositie X."
 
-#: wp-includes/class-wp-customize-manager.php:4236
-#: wp-includes/class-wp-customize-manager.php:4240
+#: wp-includes/class-wp-customize-manager.php:4237
+#: wp-includes/class-wp-customize-manager.php:4241
 msgid "Invalid value for background size."
 msgstr "Onbekende waarde voor achtergrondgrootte."
 
-#: wp-includes/class-wp-customize-manager.php:4232
+#: wp-includes/class-wp-customize-manager.php:4233
 msgid "Invalid value for background position Y."
 msgstr "Ongeldige waarde voor achtergrondpositie Y."
 
-#: wp-includes/class-wp-customize-manager.php:4224
+#: wp-includes/class-wp-customize-manager.php:4225
 msgid "Invalid value for background attachment."
 msgstr "Ongeldige waarde voor achtergrondaanhechting."
 
-#: wp-includes/class-wp-customize-manager.php:4220
+#: wp-includes/class-wp-customize-manager.php:4221
 msgid "Invalid value for background repeat."
 msgstr "Ongeldige waarde voor achtergrondherhaling."
 
-#: wp-includes/class-wp-customize-manager.php:4135
+#: wp-includes/class-wp-customize-manager.php:4136
 msgid ""
 "You can add your own CSS here.\n"
 "\n"
@@ -1826,80 +1826,80 @@ msgstr ""
 "\n"
 "Klik op het help icoon om meer te leren."
 
-#: wp-includes/class-wp-customize-manager.php:3991
+#: wp-includes/class-wp-customize-manager.php:3992
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "Herhaal"
 
-#: wp-includes/class-wp-customize-manager.php:3990
-#: wp-includes/class-wp-customize-manager.php:4029
+#: wp-includes/class-wp-customize-manager.php:3991
+#: wp-includes/class-wp-customize-manager.php:4030
 msgid "Fit to Screen"
 msgstr "Passend op scherm"
 
-#: wp-includes/class-wp-customize-manager.php:4028
+#: wp-includes/class-wp-customize-manager.php:4029
 msgid "Original"
 msgstr "Origineel"
 
-#: wp-includes/class-wp-customize-manager.php:3992
+#: wp-includes/class-wp-customize-manager.php:3993
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "Aangepast"
 
-#: wp-includes/class-wp-customize-manager.php:4024
+#: wp-includes/class-wp-customize-manager.php:4025
 msgid "Image Size"
 msgstr "Formaat van de afbeelding"
 
-#: wp-includes/class-wp-customize-manager.php:4009
+#: wp-includes/class-wp-customize-manager.php:4010
 #: wp-includes/customize/class-wp-customize-background-position-control.php:69
 msgid "Image Position"
 msgstr "Positie van de afbeelding"
 
-#: wp-includes/class-wp-customize-manager.php:4053
+#: wp-includes/class-wp-customize-manager.php:4054
 msgid "Scroll with Page"
 msgstr "Scroll met pagina"
 
-#: wp-includes/class-wp-customize-manager.php:4041
+#: wp-includes/class-wp-customize-manager.php:4042
 msgid "Repeat Background Image"
 msgstr "Herhaal achtergrondafbeelding."
 
-#: wp-includes/class-wp-customize-manager.php:3988
+#: wp-includes/class-wp-customize-manager.php:3989
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "Standaard"
 
-#: wp-includes/class-wp-customize-manager.php:3924
+#: wp-includes/class-wp-customize-manager.php:3925
 msgid "Header Video"
 msgstr "Header Video"
 
-#: wp-includes/class-wp-customize-manager.php:3984
+#: wp-includes/class-wp-customize-manager.php:3985
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "Opgeslagen instelling"
 
 #. translators: 1: .mp4, 2: header height in pixels
-#: wp-includes/class-wp-customize-manager.php:3871
+#: wp-includes/class-wp-customize-manager.php:3872
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "Je video uploaden in %1$s formaat en minimaliseer de bestandsgrootte voor de beste resultaten. Je thema beveelt een hoogte aan van %2$s pixels."
 
 #. translators: 1: .mp4, 2: header width in pixels
-#: wp-includes/class-wp-customize-manager.php:3864
+#: wp-includes/class-wp-customize-manager.php:3865
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "Je video uploaden in %1$s formaat en minimaliseer de bestandsgrootte voor de beste resultaten. Je thema beveelt een breedte aan van %2$s pixels."
 
-#: wp-includes/class-wp-customize-manager.php:3846
+#: wp-includes/class-wp-customize-manager.php:3847
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "Wanneer je een video toevoegt, wordt de afbeelding als vervangend beeld gebruikt terwijl de video laadt."
 
 #. translators: 1: .mp4, 2: header size in pixels
-#: wp-includes/class-wp-customize-manager.php:3857
+#: wp-includes/class-wp-customize-manager.php:3858
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "Je video uploaden in %1$s formaat en minimaliseer de bestandsgrootte voor de beste resultaten. Je thema beveelt afmetingen aan van %2$s pixels."
 
-#: wp-includes/class-wp-customize-manager.php:1991
+#: wp-includes/class-wp-customize-manager.php:1992
 msgid "Setting does not exist or is unrecognized."
 msgstr "Instelling bestaat niet of wordt niet herkend."
 
-#: wp-includes/class-wp-customize-manager.php:1996
+#: wp-includes/class-wp-customize-manager.php:1997
 msgid "Unauthorized to modify setting due to capability."
 msgstr "Ongeautoriseerd om instelling aan te passen vanwege rechten."
 
@@ -1916,11 +1916,11 @@ msgstr "Nieuwe pagina titel"
 msgid "New page title&hellip;"
 msgstr "Nieuwe pagina titel&hellip;"
 
-#: wp-includes/class-wp-customize-manager.php:1784
+#: wp-includes/class-wp-customize-manager.php:1785
 msgid "This form is not live-previewable."
 msgstr "Dit formulier heeft geen live voorbeeld."
 
-#: wp-includes/class-wp-customize-manager.php:1783
+#: wp-includes/class-wp-customize-manager.php:1784
 msgid "This link is not live-previewable."
 msgstr "Dit formulier heeft geen live voorbeeld. "
 
@@ -1937,7 +1937,7 @@ msgstr "Ongeldige changeset UUID"
 msgid "PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension."
 msgstr "PHP XML extensie niet beschikbaar. Neem contact op met je hosting provider om de PHP XML extensie te laten activeren."
 
-#: wp-includes/class-wp-customize-manager.php:1564
+#: wp-includes/class-wp-customize-manager.php:1565
 msgid "Unauthorized. You may remove the customize_messenger_channel param to preview as frontend."
 msgstr "Ongeautoriseerd. Je kan de customize_messenger_channel  parameter verwijderen voor een voorbeeldweergave."
 
@@ -1955,7 +1955,7 @@ msgstr "%s nu installeren"
 msgid "Edit selected menu"
 msgstr "Geselecteerd menu bewerken"
 
-#: wp-includes/class-wp-editor.php:1073
+#: wp-includes/class-wp-editor.php:1075
 msgid "Warning: the link has been inserted but may have errors. Please test it."
 msgstr "Waarschuwing: de link is toegevoegd, maar kan fouten bevatten. Graag goed testen."
 
@@ -1963,7 +1963,7 @@ msgstr "Waarschuwing: de link is toegevoegd, maar kan fouten bevatten. Graag goe
 msgid "Search Results"
 msgstr "Zoekresultaten"
 
-#: wp-includes/class-wp-editor.php:1032
+#: wp-includes/class-wp-editor.php:1034
 msgid "Rich Text Area. Press Control-Option-H for help."
 msgstr "Verrijkt tekstgebied. Druk op Control-Option-H voor hulp."
 
@@ -2004,7 +2004,7 @@ msgstr "Tijdschuifbalk"
 msgid "Volume Slider"
 msgstr "Volumeschuifbalk"
 
-#: wp-includes/taxonomy.php:1977 wp-includes/taxonomy.php:2599
+#: wp-includes/taxonomy.php:1979 wp-includes/taxonomy.php:2601
 msgid "A name is required for this term."
 msgstr "Een naam is vereist voor deze term."
 
@@ -2114,31 +2114,31 @@ msgctxt "Comment number declension: on or off"
 msgid "off"
 msgstr "off"
 
-#: wp-includes/class-wp-theme.php:789
+#: wp-includes/class-wp-theme.php:790
 msgid "Responsive Layout"
 msgstr "Responsive layout"
 
-#: wp-includes/class-wp-theme.php:790
+#: wp-includes/class-wp-theme.php:791
 msgid "Photoblogging"
 msgstr "Fotobloggen"
 
-#: wp-includes/class-wp-theme.php:786
+#: wp-includes/class-wp-theme.php:787
 msgid "Tan"
 msgstr "Getint"
 
-#: wp-includes/class-wp-theme.php:787
+#: wp-includes/class-wp-theme.php:788
 msgid "Dark"
 msgstr "Donker"
 
-#: wp-includes/class-wp-theme.php:790
+#: wp-includes/class-wp-theme.php:791
 msgid "Seasonal"
 msgstr "Seizoensgebonden"
 
-#: wp-includes/class-wp-theme.php:788
+#: wp-includes/class-wp-theme.php:789
 msgid "Fixed Layout"
 msgstr "Vaste layout"
 
-#: wp-includes/class-wp-theme.php:788
+#: wp-includes/class-wp-theme.php:789
 msgid "Fluid Layout"
 msgstr "Vloeiende layout"
 
@@ -2149,8 +2149,8 @@ msgstr "Installatie mislukt: %s"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1640
 #: wp-includes/class-wp-xmlrpc-server.php:4777
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:717
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:763
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:721
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:767
 msgid "Sorry, you are not allowed to delete this post."
 msgstr "Je hebt geen toestemming om dit bericht te verwijderen."
 
@@ -2309,12 +2309,12 @@ msgstr "Je hebt geen toestemming om een categorie toe te voegen."
 msgid "Sorry, you are not allowed to list users."
 msgstr "Je hebt geen toestemming om de gebruikerslijst te bekijken."
 
-#: wp-includes/class-wp-customize-manager.php:2019
+#: wp-includes/class-wp-customize-manager.php:2020
 #: wp-includes/class-wp-customize-setting.php:549
 msgid "Invalid value."
 msgstr "Ongeldige waarde."
 
-#: wp-includes/class-wp-customize-manager.php:2348
+#: wp-includes/class-wp-customize-manager.php:2349
 msgid "There is %s invalid setting."
 msgid_plural "There are %s invalid settings."
 msgstr[0] "Er is %s ongeldige instelling."
@@ -2337,7 +2337,7 @@ msgstr "Je hebt geen toestemming om deze site aan te passen."
 msgid "Do not pass %1$s tags to %2$s."
 msgstr "Geef niet de %1$s tags door aan %2$s."
 
-#: wp-includes/class-wp-editor.php:1056
+#: wp-includes/class-wp-editor.php:1058
 msgid "Link options"
 msgstr "Linkinstellingen"
 
@@ -2359,7 +2359,7 @@ msgstr "%s is vereist om metadata van afbeeldingen te verwijderen."
 msgid "Plugin details"
 msgstr "Plugin-gegevens"
 
-#: wp-includes/media.php:3451
+#: wp-includes/media.php:3449
 msgid "No media files found."
 msgstr "Geen mediabestanden gevonden."
 
@@ -2397,11 +2397,11 @@ msgstr "De constante %1$s <strong>is verouderd</strong>. Maak gebruik van de boo
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
-#: wp-includes/class-wp-customize-manager.php:2940
+#: wp-includes/class-wp-customize-manager.php:2941
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "Handmatig %1$s verwijderen zal PHP-waarschuwingen veroorzaken. Gebruik in plaats hiervan het %2$s-filter."
 
-#: wp-includes/class-wp-editor.php:1081
+#: wp-includes/class-wp-editor.php:1083
 msgid "The next group of formatting shortcuts are applied as you type or when you insert them around plain text in the same paragraph. Press Escape or the Undo button to undo."
 msgstr "De volgende groep formatteringssnelkoppelingen worden toegepast, zodra je ze typt of wanneer deze worden ingevoegd rondom platte tekst in dezelfde paragraaf. Klik op Escape of de knop 'Ongedaan maken' om te herstellen."
 
@@ -2497,21 +2497,21 @@ msgstr "Enter"
 msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "Feed %1$s %2$s %3$s %4$s"
 
-#: wp-includes/class-wp-customize-manager.php:3784
+#: wp-includes/class-wp-customize-manager.php:3785
 msgid "No logo selected"
 msgstr "Geen logo geselecteerd"
 
-#: wp-includes/functions.php:5212
+#: wp-includes/functions.php:5257
 msgid "Close dialog"
 msgstr "Dialoogvenster sluiten"
 
-#: wp-includes/class-wp-customize-manager.php:3786
+#: wp-includes/class-wp-customize-manager.php:3787
 msgid "Choose logo"
 msgstr "Logo kiezen"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: version number,
 #. 4: __construct() method
-#: wp-includes/functions.php:3845
+#: wp-includes/functions.php:3890
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "De aangeroepen constructiemethode voor %1$s in %2$s is <strong>niet meer in gebruik</strong> sinds versie %3$s. Gebruik in plaats daarvan: %4$s."
 
@@ -2524,12 +2524,12 @@ msgstr "%s is niet toegestaan"
 msgid "Partial render must echo the content or return the content string (or array), but not both."
 msgstr "Gedeeltelijke verwerking moet de inhoud of de inhoudelijke regel (of array) teruggeven, maar niet beide."
 
-#: wp-includes/class-wp-customize-manager.php:3781
+#: wp-includes/class-wp-customize-manager.php:3782
 msgid "Change logo"
 msgstr "Logo veranderen"
 
-#: wp-includes/class-wp-customize-manager.php:3780
-#: wp-includes/class-wp-customize-manager.php:3785
+#: wp-includes/class-wp-customize-manager.php:3781
+#: wp-includes/class-wp-customize-manager.php:3786
 msgid "Select logo"
 msgstr "Kies logo"
 
@@ -2543,19 +2543,19 @@ msgctxt "comment status"
 msgid "Approved"
 msgstr "Goedgekeurd"
 
-#: wp-includes/comment.php:1138
+#: wp-includes/comment.php:1132
 msgid "<strong>ERROR</strong>: your name is too long."
 msgstr "<strong>FOUT</strong>: je naam is te lang."
 
-#: wp-includes/comment.php:1142
+#: wp-includes/comment.php:1136
 msgid "<strong>ERROR</strong>: your email address is too long."
 msgstr "<strong>FOUT</strong>: je e-mailadres is te lang."
 
-#: wp-includes/comment.php:1146
+#: wp-includes/comment.php:1140
 msgid "<strong>ERROR</strong>: your url is too long."
 msgstr "<strong>FOUT</strong>: je url is te lang."
 
-#: wp-includes/comment.php:1150
+#: wp-includes/comment.php:1144
 msgid "<strong>ERROR</strong>: your comment is too long."
 msgstr "<strong>FOUT</strong>: je reactie is te lang."
 
@@ -2564,7 +2564,7 @@ msgctxt "comment status"
 msgid "Trash"
 msgstr "Prullenbak"
 
-#: wp-includes/class-wp-customize-manager.php:3772
+#: wp-includes/class-wp-customize-manager.php:3773
 msgid "Logo"
 msgstr "Logo"
 
@@ -2572,7 +2572,7 @@ msgstr "Logo"
 msgid "https://codex.wordpress.org/Child_Themes"
 msgstr "https://codex.wordpress.org/Child_Themes"
 
-#: wp-includes/class-wp-editor.php:1054
+#: wp-includes/class-wp-editor.php:1056
 msgid "Paste URL or type to search"
 msgstr "Plak URL of type om te zoeken"
 
@@ -2586,8 +2586,8 @@ msgstr "Ongeldig object-type"
 msgid "Template is missing. Standalone themes need to have a %1$s template file. <a href=\"%2$s\">Child themes</a> need to have a Template header in the %3$s stylesheet."
 msgstr "Template niet aanwezig. Thema's moeten een %1$s templatebestand hebben. <a href=\"%2$s\">Child thema's</a> moeten een template header hebben in de %3$s stylesheet."
 
-#: wp-includes/class-wp-customize-manager.php:3739
-#: wp-includes/class-wp-customize-manager.php:3816
+#: wp-includes/class-wp-customize-manager.php:3740
+#: wp-includes/class-wp-customize-manager.php:3817
 msgid "Display Site Title and Tagline"
 msgstr "Sitetitel en ondertitel tonen"
 
@@ -2595,20 +2595,20 @@ msgstr "Sitetitel en ondertitel tonen"
 msgid "Comment Submission Failure"
 msgstr "Plaatsen van reactie mislukt"
 
-#: wp-includes/class-wp-customize-manager.php:1782
+#: wp-includes/class-wp-customize-manager.php:1783
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:184
 msgid "Shift-click to edit this element."
 msgstr "Shift-klik om dit element te bewerken."
 
-#: wp-includes/class-wp-customize-manager.php:3611
+#: wp-includes/class-wp-customize-manager.php:3612
 msgid "Enter desktop preview mode"
 msgstr "Toon voorvertoning voor desktop"
 
-#: wp-includes/class-wp-customize-manager.php:3618
+#: wp-includes/class-wp-customize-manager.php:3619
 msgid "Enter mobile preview mode"
 msgstr "Toon voorvertoning voor mobiel"
 
-#: wp-includes/class-wp-customize-manager.php:3615
+#: wp-includes/class-wp-customize-manager.php:3616
 msgid "Enter tablet preview mode"
 msgstr "Toon voorvertoning voor tablet"
 
@@ -2616,7 +2616,7 @@ msgstr "Toon voorvertoning voor tablet"
 msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
 msgstr "<strong>FOUT</strong>: Helaas, deze gebruikersnaam is niet toegestaan."
 
-#: wp-includes/rest-api/class-wp-rest-request.php:899
+#: wp-includes/rest-api/class-wp-rest-request.php:908
 msgid "Invalid parameter."
 msgstr "Ongeldige parameter."
 
@@ -2641,12 +2641,12 @@ msgstr "https://codex.wordpress.org/Debugging_a_WordPress_Network"
 msgid "Read the <a href=\"%s\" target=\"_blank\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
 msgstr "Lees het <a href=\"%s\" target=\"_blank\">bevindingenrapport</a>. Sommige instructies kunnen helpen bepalen wat er fout is gegaan."
 
-#: wp-includes/functions.php:4088
+#: wp-includes/functions.php:4133
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 
 #. translators: %s: Codex URL
-#: wp-includes/functions.php:4087
+#: wp-includes/functions.php:4132
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Lees alles over <a href=\"%s\">foutopsporing in WordPress</a> voor meer informatie."
 
@@ -2842,16 +2842,16 @@ msgstr "Oeps. Deze insluiting kan niet gevonden worden."
 msgid "Site Language:"
 msgstr "Sitetaal:"
 
-#: wp-mail.php:227
+#: wp-mail.php:233
 msgid "Posted title:"
 msgstr "Gepubliceerde titel:"
 
 #. translators: %s: the message ID
-#: wp-mail.php:240
+#: wp-mail.php:246
 msgid "Mission complete. Message %s deleted."
 msgstr "Missie volbracht; bericht %s verwijderd."
 
-#: wp-mail.php:226
+#: wp-mail.php:232
 msgid "Author:"
 msgstr "Auteur:"
 
@@ -3005,13 +3005,13 @@ msgstr "De handler voor deze route is ongeldig"
 msgid "JSONP support is disabled on this site."
 msgstr "JSONP ondersteuning is uitgeschakeld op deze site."
 
-#: wp-includes/rest-api/class-wp-rest-request.php:842
-#: wp-includes/rest-api/class-wp-rest-request.php:909
+#: wp-includes/rest-api/class-wp-rest-request.php:851
+#: wp-includes/rest-api/class-wp-rest-request.php:918
 msgid "Invalid parameter(s): %s"
 msgstr "Ongeldige parameter(s): %s"
 
-#: wp-includes/rest-api/class-wp-rest-request.php:881
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:153
+#: wp-includes/rest-api/class-wp-rest-request.php:890
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:157
 msgid "Missing parameter(s): %s"
 msgstr "Ontbrekende parameter(s): %s"
 
@@ -3270,7 +3270,7 @@ msgid "Press return or enter to open this section"
 msgstr "Druk op Return of Enter om deze sectie te openen"
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:3283
+#: wp-includes/class-wp-customize-manager.php:3284
 msgid "Live Preview: %s"
 msgstr "Live voorbeeld: %s"
 
@@ -3298,7 +3298,7 @@ msgstr "Berichttype %1$s is niet geregistreerd waardoor het niet betrouwbaar is 
 msgid "Clear Results"
 msgstr "Resultaten opschonen"
 
-#: wp-includes/class-wp-editor.php:1079
+#: wp-includes/class-wp-editor.php:1081
 msgid "The following formatting shortcuts are replaced when pressing Enter. Press Escape or the Undo button to undo."
 msgstr "De volgende shortcuts worden vervangen na het klikken op Enter. Klik op Escape of de Undo-knop om het ongedaan te maken."
 
@@ -3416,16 +3416,16 @@ msgstr "Afbeelding verbergen"
 msgid "Hide header image"
 msgstr "Headerafbeelding verbergen"
 
-#: wp-includes/class-wp-customize-manager.php:3753
+#: wp-includes/class-wp-customize-manager.php:3754
 msgid "Site Icon"
 msgstr "Favicon"
 
 #. translators: %s: site icon size in pixels
-#: wp-includes/class-wp-customize-manager.php:3756
+#: wp-includes/class-wp-customize-manager.php:3757
 msgid "The Site Icon is used as a browser and app icon for your site. Icons must be square, and at least %s pixels wide and tall."
 msgstr "Het favicon wordt gebruikt als browser- en app-icoon voor de site. Iconen moeten vierkant zijn, en minimaal %s pixels breed en hoog."
 
-#: wp-includes/class-wp-customize-manager.php:3704
+#: wp-includes/class-wp-customize-manager.php:3705
 msgid "Site Identity"
 msgstr "Site-identiteit"
 
@@ -3434,7 +3434,7 @@ msgstr "Site-identiteit"
 msgid "Add to menu: %1$s (%2$s)"
 msgstr "Aan menu toevoegen: %1$s (%2$s)"
 
-#: wp-includes/class-wp-editor.php:1077
+#: wp-includes/class-wp-editor.php:1079
 msgid "When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo."
 msgstr "Bij het starten van een nieuwe alinea met één van de volgende opmaak-sneltoetsen, gevolgd door een spatie, zal de opmaak automatisch worden toegepast. Druk op Backspace of Escape om dit terug te draaien."
 
@@ -3478,7 +3478,7 @@ msgstr "(naamloos)"
 msgid "Add or remove menu items"
 msgstr "Menu-items toevoegen of verwijderen"
 
-#: wp-includes/class-wp-editor.php:845
+#: wp-includes/class-wp-editor.php:847
 msgctxt "HTML tag"
 msgid "Preformatted"
 msgstr "Vooraf opgemaakt"
@@ -3512,7 +3512,7 @@ msgid "The %s directory of the develop repository must be used for RTL."
 msgstr "De %s-directory van de ontwikkelrepository moet gebruikt worden voor RTL."
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
-#: wp-includes/functions.php:3849
+#: wp-includes/functions.php:3894
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "De aangeroepen constructormethode voor %1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik %3$s in plaats daarvan."
 
@@ -3705,19 +3705,19 @@ msgctxt "Comma-separated list of words to texturize in your language"
 msgid "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 msgstr "'s ,'n ,'t "
 
-#: wp-includes/class-wp-editor.php:1070
+#: wp-includes/class-wp-editor.php:1072
 msgid "Ctrl + letter:"
 msgstr "Ctrl + letter:"
 
-#: wp-includes/class-wp-editor.php:1069
+#: wp-includes/class-wp-editor.php:1071
 msgid "Cmd + letter:"
 msgstr "Cmd + letter:"
 
-#: wp-includes/class-wp-editor.php:1068
+#: wp-includes/class-wp-editor.php:1070
 msgid "Shift + Alt + letter:"
 msgstr "Shift + Alt + letter:"
 
-#: wp-includes/class-wp-editor.php:1067
+#: wp-includes/class-wp-editor.php:1069
 msgid "Ctrl + Alt + letter:"
 msgstr "Ctrl + Alt + letter:"
 
@@ -3725,11 +3725,11 @@ msgstr "Ctrl + Alt + letter:"
 msgid "Content:"
 msgstr "Inhoud:"
 
-#: wp-includes/class-wp-editor.php:1063
+#: wp-includes/class-wp-editor.php:1065
 msgid "Inline toolbar (when an image, link or preview is selected)"
 msgstr "Inline toolbar (als een afbeelding, link of voorbeeld is geselecteerd)"
 
-#: wp-includes/class-wp-editor.php:1061
+#: wp-includes/class-wp-editor.php:1063
 msgid "Additional shortcuts,"
 msgstr "Extra sneltoetsen,"
 
@@ -3737,7 +3737,7 @@ msgstr "Extra sneltoetsen,"
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new articles"
 msgstr "Sta linkmeldingen van andere blogs toe (pingbacks en trackbacks) op nieuwe artikelen"
 
-#: wp-includes/class-wp-editor.php:1060
+#: wp-includes/class-wp-editor.php:1062
 msgid "Default shortcuts,"
 msgstr "Standaard sneltoetsen,"
 
@@ -3935,7 +3935,7 @@ msgstr "Linkrelatie (XFN)"
 msgid "CSS Classes"
 msgstr "CSS-classes"
 
-#: wp-includes/class-wp-editor.php:1457
+#: wp-includes/class-wp-editor.php:1459
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:105
 #: wp-includes/media-template.php:1005
 msgid "Open link in a new tab"
@@ -4062,7 +4062,7 @@ msgstr[1] "Je thema ondersteunt nu %s menu’s. Selecteer per locatie welk menu 
 msgid "Your theme supports one menu. Select which menu you would like to use."
 msgstr "Je thema ondersteunt één menu. Selecteer het menu dat je wilt gebruiken."
 
-#: wp-includes/theme.php:2955
+#: wp-includes/theme.php:2961
 msgid "Customizer"
 msgstr "Customizer"
 
@@ -4122,12 +4122,12 @@ msgstr "Sitevoorbeeld"
 msgid "Update completed successfully."
 msgstr "Bijwerken is met succes afgerond."
 
-#: wp-includes/taxonomy.php:3492
+#: wp-includes/taxonomy.php:3494
 msgid "Could not split shared term."
 msgstr "Gedeelde term kon niet gesplitst worden."
 
 #. translators: revision date format, see https://secure.php.net/date
-#: wp-includes/post-template.php:1696 wp-includes/post-template.php:1732
+#: wp-includes/post-template.php:1700 wp-includes/post-template.php:1736
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "j F Y H:i:s"
@@ -4217,7 +4217,7 @@ msgstr ""
 "\n"
 "--Het team van SITE_NAME"
 
-#: wp-includes/media.php:3417
+#: wp-includes/media.php:3415
 msgid "Drag and drop to reorder media files."
 msgstr "Versleep om mediabestanden te herschikken."
 
@@ -4270,7 +4270,7 @@ msgstr[0] "%1$s Reactie<span class=\"screen-reader-text\"> op %2$s</span>"
 msgstr[1] "%1$s Reacties<span class=\"screen-reader-text\"> op %2$s</span>"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1067
-#: wp-includes/class-wp-editor.php:1452 wp-includes/media-template.php:817
+#: wp-includes/class-wp-editor.php:1454 wp-includes/media-template.php:817
 msgid "Link Text"
 msgstr "Linktekst"
 
@@ -4304,12 +4304,12 @@ msgstr "Live voorbeeld"
 msgid "No categories found."
 msgstr "Geen categorieën gevonden."
 
-#: wp-includes/class-wp-editor.php:1050 wp-includes/script-loader.php:99
+#: wp-includes/class-wp-editor.php:1052 wp-includes/script-loader.php:99
 msgid "Distraction-free writing mode"
 msgstr "Afleidingsvrije modus"
 
 #. translators: 1: Theme support 2: hook name
-#: wp-includes/theme.php:2403
+#: wp-includes/theme.php:2409
 msgid "Theme support for %1$s should be registered before the %2$s hook."
 msgstr "Themaondersteuning voor %1$s moet geregistreerd worden voor de hook %2$s."
 
@@ -4321,27 +4321,27 @@ msgstr "Widget omhoog verplaatsen"
 msgid "Widget moved down"
 msgstr "Widget omlaag verplaatsen"
 
-#: wp-includes/class-wp-editor.php:1075
+#: wp-includes/class-wp-editor.php:1077
 msgid "To move focus to other buttons use Tab or the arrow keys. To return focus to the editor press Escape or use one of the buttons."
 msgstr "Maak gebruik van tab-toets of pijltjestoetsen om de focus naar andere knoppen te verplaatsen. Druk op Escape of maak gebruik van &#233;&#233;n van de knoppen om de focus terug te krijgen op de editor."
 
-#: wp-includes/class-wp-editor.php:1064
+#: wp-includes/class-wp-editor.php:1066
 msgid "Editor menu (when enabled)"
 msgstr "Editor-menu (indien ingeschakeld)"
 
-#: wp-includes/class-wp-editor.php:1065
+#: wp-includes/class-wp-editor.php:1067
 msgid "Editor toolbar"
 msgstr "Editor-werkbalk"
 
-#: wp-includes/class-wp-editor.php:1066
+#: wp-includes/class-wp-editor.php:1068
 msgid "Elements path"
 msgstr "Element-pad"
 
-#: wp-includes/class-wp-editor.php:1062
+#: wp-includes/class-wp-editor.php:1064
 msgid "Focus shortcuts:"
 msgstr "Focus-sneltoets:"
 
-#: wp-includes/class-wp-editor.php:1031
+#: wp-includes/class-wp-editor.php:1033
 msgid "Rich Text Area. Press Alt-Shift-H for help."
 msgstr "Rich text-gebied. Druk op Alt-Shift-H voor hulp."
 
@@ -4356,11 +4356,11 @@ msgstr "De volgende waarde beschrijft geen geldige datum: maand %1$s, dag %2$s."
 msgid "%s must set a database connection for use with escaping."
 msgstr "%s moet een databaseconnectie instellen voor het gebruik van 'escaping'."
 
-#: wp-includes/theme.php:2247
+#: wp-includes/theme.php:2253
 msgid "You need to pass an array of types."
 msgstr "Je moet een array van types meegeven."
 
-#: wp-includes/taxonomy.php:2065
+#: wp-includes/taxonomy.php:2067
 msgid "A term with the name provided already exists in this taxonomy."
 msgstr "Een term met deze naam en slug bestaat al in deze taxonomie."
 
@@ -4390,7 +4390,7 @@ msgstr "Reactie: %s"
 msgid "URL: %s"
 msgstr "URL: %s"
 
-#: wp-includes/media.php:3435
+#: wp-includes/media.php:3433
 msgctxt "noun"
 msgid "Trash"
 msgstr "Prullenbak"
@@ -4430,12 +4430,12 @@ msgctxt "verb"
 msgid "Trash"
 msgstr "Prullenbak"
 
-#: wp-includes/class-wp-editor.php:1002
+#: wp-includes/class-wp-editor.php:1004
 msgctxt "horizontal table cell alignment"
 msgid "H Align"
 msgstr "H-uitlijning"
 
-#: wp-includes/class-wp-editor.php:1007
+#: wp-includes/class-wp-editor.php:1009
 msgctxt "vertical table cell alignment"
 msgid "V Align"
 msgstr "V-uitlijning"
@@ -4465,7 +4465,7 @@ msgstr "Auteur: %s"
 msgid "Category: %s"
 msgstr "Categorie: %s"
 
-#: wp-includes/class-wp-editor.php:1051
+#: wp-includes/class-wp-editor.php:1053
 msgid "No alignment"
 msgstr "Geen uitlijning"
 
@@ -4515,7 +4515,7 @@ msgctxt "post format archive title"
 msgid "Images"
 msgstr "Afbeeldingen"
 
-#: wp-includes/class-wp-editor.php:973
+#: wp-includes/class-wp-editor.php:975
 msgid "Border color"
 msgstr "Randkleur"
 
@@ -4555,7 +4555,7 @@ msgctxt "post format archive title"
 msgid "Quotes"
 msgstr "Citaten"
 
-#: wp-includes/class-wp-editor.php:965
+#: wp-includes/class-wp-editor.php:967
 msgid "Add to Dictionary"
 msgstr "Aan woordenboek toevoegen"
 
@@ -4563,20 +4563,20 @@ msgstr "Aan woordenboek toevoegen"
 msgid "No file selected"
 msgstr "Geen bestand geselecteerd"
 
-#: wp-includes/class-wp-editor.php:947
+#: wp-includes/class-wp-editor.php:949
 msgid "No color"
 msgstr "Geen kleur"
 
-#: wp-includes/class-wp-editor.php:946
+#: wp-includes/class-wp-editor.php:948
 msgctxt "label for custom color"
 msgid "Custom..."
 msgstr "Aangepast..."
 
-#: wp-includes/class-wp-editor.php:944
+#: wp-includes/class-wp-editor.php:946
 msgid "Color"
 msgstr "Kleur"
 
-#: wp-includes/class-wp-editor.php:945
+#: wp-includes/class-wp-editor.php:947
 msgid "Custom color"
 msgstr "Aangepaste kleur"
 
@@ -4617,12 +4617,12 @@ msgctxt "post type general name"
 msgid "Media"
 msgstr "Media"
 
-#: wp-includes/class-wp-editor.php:1043
+#: wp-includes/class-wp-editor.php:1045
 msgctxt "TinyMCE menu"
 msgid "Format"
 msgstr "Stijl"
 
-#: wp-includes/class-wp-editor.php:883
+#: wp-includes/class-wp-editor.php:885
 msgctxt "list style"
 msgid "Default"
 msgstr "Standaard"
@@ -4636,15 +4636,15 @@ msgstr "Nieuwe toevoegen"
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>WordPress is succesvol bijgewerkt.</strong> Log opnieuw in om te zien wat er nieuw is."
 
-#: wp-includes/media.php:3442
+#: wp-includes/media.php:3440
 msgid "Trash Selected"
 msgstr "Selectie verwijderen"
 
-#: wp-includes/media.php:3443
+#: wp-includes/media.php:3441
 msgid "Untrash Selected"
 msgstr "Selectie uit de prullenbak halen"
 
-#: wp-includes/media.php:3439
+#: wp-includes/media.php:3437
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -4660,21 +4660,21 @@ msgstr "Uit de prullenbak halen"
 msgid "Press return or enter to open this panel"
 msgstr "Druk op return of enter om dit paneel te openen"
 
-#: wp-includes/media.php:3441
+#: wp-includes/media.php:3439
 msgid "Cancel Selection"
 msgstr "Selectie annuleren"
 
-#: wp-includes/media.php:3444
+#: wp-includes/media.php:3442
 msgid "Delete Selected"
 msgstr "Selectie verwijderen"
 
-#: wp-includes/media.php:3440
+#: wp-includes/media.php:3438
 msgid "Bulk Select"
 msgstr "Bulkselectie"
 
 #. translators: %s: taxonomy label, %l: list of terms formatted as per
 #. $term_template
-#: wp-includes/taxonomy.php:3977
+#: wp-includes/taxonomy.php:3979
 msgid "%s: %l."
 msgstr "%s: %l"
 
@@ -4720,7 +4720,7 @@ msgstr "Geüpload op: "
 msgid "Uploaded To"
 msgstr "Geüpload naar"
 
-#: wp-includes/media.php:3431
+#: wp-includes/media.php:3429
 msgid "All dates"
 msgstr "Alle datums"
 
@@ -4752,15 +4752,15 @@ msgstr "Lijstweergave"
 msgid "Grid View"
 msgstr "Rasterweergave"
 
-#: wp-includes/media.php:3447
+#: wp-includes/media.php:3445
 msgid "Filter by date"
 msgstr "Op datum filteren"
 
-#: wp-includes/media.php:3448
+#: wp-includes/media.php:3446
 msgid "Filter by type"
 msgstr "Op type filteren"
 
-#: wp-includes/media.php:3449
+#: wp-includes/media.php:3447
 msgid "Search Media"
 msgstr "Media zoeken"
 
@@ -4768,15 +4768,15 @@ msgstr "Media zoeken"
 msgid "Edit more details"
 msgstr "Overige details bewerken"
 
-#: wp-includes/class-wp-editor.php:1478
+#: wp-includes/class-wp-editor.php:1480
 msgid "Search or use up and down arrow keys to select an item."
 msgstr "Zoek, of gebruik de pijltjestoetsen omhoog en omlaag om een item te selecteren."
 
-#: wp-includes/media.php:3434
+#: wp-includes/media.php:3432
 msgid "Unattached"
 msgstr "Niet-gekoppeld"
 
-#: wp-includes/media.php:3438 wp-includes/script-loader.php:80
+#: wp-includes/media.php:3436 wp-includes/script-loader.php:80
 msgid ""
 "You are about to permanently delete these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -4800,11 +4800,11 @@ msgstr "Vorig media-item bewerken"
 msgid "Edit next media item"
 msgstr "Volgend media-item bewerken"
 
-#: wp-includes/class-wp-editor.php:1049
+#: wp-includes/class-wp-editor.php:1051
 msgid "Read more..."
 msgstr "Verder lezen..."
 
-#: wp-includes/class-wp-editor.php:1034
+#: wp-includes/class-wp-editor.php:1036
 msgid "Your browser does not support direct access to the clipboard. Please use keyboard shortcuts or your browser&#8217;s edit menu instead."
 msgstr "De browser ondersteunt geen directe toegang tot het klembord. Gebruik in plaats daarvan een sneltoets of het menu Bewerken van de browser."
 
@@ -4812,7 +4812,7 @@ msgstr "De browser ondersteunt geen directe toegang tot het klembord. Gebruik in
 msgid "Widgets are independent sections of content that can be placed into widgetized areas provided by your theme (commonly called sidebars)."
 msgstr "Widgets zijn onafhankelijke gedeeltes met inhoud die in de widgetruimtes van je thema geplaatst kunnen worden."
 
-#: wp-includes/comment.php:3102
+#: wp-includes/comment.php:3097
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>FOUT</strong>: de reactie kon niet worden opgeslagen. Probeer het later nog een keer."
 
@@ -4841,12 +4841,12 @@ msgstr "(WordPress kon geen beveiligde verbinding maken met WordPress.org. Neem 
 msgid "Shift-click to edit this widget."
 msgstr "Shift-klik om deze widget te bewerken."
 
-#: wp-includes/class-wp-editor.php:846
+#: wp-includes/class-wp-editor.php:848
 msgctxt "HTML tag"
 msgid "Address"
 msgstr "Adres"
 
-#: wp-includes/class-wp-editor.php:1030
+#: wp-includes/class-wp-editor.php:1032
 msgid "If you&#8217;re looking to paste rich content from Microsoft Word, try turning this option off. The editor will clean up text pasted from Word automatically."
 msgstr "Probeer deze optie eens uit te zetten als je tekst wilt kopiëren vanuit Microsoft Word. De editor zal tekst automatisch opschonen na het plakken vanuit Word."
 
@@ -4855,7 +4855,7 @@ msgstr "Probeer deze optie eens uit te zetten als je tekst wilt kopiëren vanuit
 msgid "While you can crop images to your liking after clicking <strong>Add new image</strong>, your theme recommends a header size of %s pixels."
 msgstr "Je kunt afbeeldingen naar wens bijsnijden na het klikken op <strong>Nieuwe afbeelding toevoegen</strong>. Het thema beveelt een headergrootte aan van %s pixels."
 
-#: wp-includes/class-wp-editor.php:1059
+#: wp-includes/class-wp-editor.php:1061
 msgid "Keyboard Shortcuts"
 msgstr "Toetscombinaties"
 
@@ -4869,7 +4869,7 @@ msgstr "<strong>FOUT</strong>: Cookies zijn geblokkeerd vanwege onverwachte uitv
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
 msgstr "<strong>FOUT</strong>: Cookies zijn geblokkeerd of worden niet ondersteund door de browser. Je moet <a href=\"%s\">cookies inschakelen</a> om WordPress te kunnen gebruiken."
 
-#: wp-includes/class-wp-editor.php:1006
+#: wp-includes/class-wp-editor.php:1008
 msgctxt "table cell alignment attribute"
 msgid "None"
 msgstr "Geen"
@@ -4905,7 +4905,7 @@ msgstr "Videolijst tonen"
 msgid "Edit Original"
 msgstr "Origineel bewerken"
 
-#: wp-includes/class-wp-editor.php:996
+#: wp-includes/class-wp-editor.php:998
 msgid "Split table cell"
 msgstr "Tabelcellen splitsen"
 
@@ -4913,31 +4913,31 @@ msgstr "Tabelcellen splitsen"
 msgid "Custom Size"
 msgstr "Aangepaste afmetingen"
 
-#: wp-includes/media-template.php:238 wp-includes/media.php:3486
+#: wp-includes/media-template.php:238 wp-includes/media.php:3484
 msgid "Suggested image dimensions:"
 msgstr "Voorgestelde afbeeldingsafmetingen:"
 
-#: wp-includes/media.php:3511
+#: wp-includes/media.php:3509
 msgid "Add to Audio Playlist"
 msgstr "Aan audio-afspeellijst toevoegen"
 
-#: wp-includes/media.php:3510
+#: wp-includes/media.php:3508
 msgid "Add to audio playlist"
 msgstr "Aan audio-afspeellijst toevoegen"
 
-#: wp-includes/media.php:3509
+#: wp-includes/media.php:3507
 msgid "Update audio playlist"
 msgstr "Audio-afspeellijst bijwerken"
 
-#: wp-includes/media.php:3508
+#: wp-includes/media.php:3506
 msgid "Insert audio playlist"
 msgstr "Audio-afspeellijst invoegen"
 
-#: wp-includes/media.php:3507
+#: wp-includes/media.php:3505
 msgid "&#8592; Cancel Audio Playlist"
 msgstr "&#8592; Audio-afspeellijst annuleren"
 
-#: wp-includes/media.php:3506
+#: wp-includes/media.php:3504
 msgid "Edit Audio Playlist"
 msgstr "Audio-afspeellijst bewerken"
 
@@ -4949,7 +4949,7 @@ msgstr "CSS-klasse afbeelding"
 msgid "Advanced Options"
 msgstr "Geavanceerde instellingen"
 
-#: wp-includes/class-wp-editor.php:859
+#: wp-includes/class-wp-editor.php:861
 msgid "Font Sizes"
 msgstr "Lettergrootte"
 
@@ -4961,7 +4961,7 @@ msgstr "Weergave-instellingen"
 msgid "Image Title Attribute"
 msgstr "Attribuut afbeeldingstitel"
 
-#: wp-includes/class-wp-editor.php:858
+#: wp-includes/class-wp-editor.php:860
 msgid "Font Family"
 msgstr "Fontfamilie"
 
@@ -4969,7 +4969,7 @@ msgstr "Fontfamilie"
 msgid "Link CSS Class"
 msgstr "Link CSS-class"
 
-#: wp-includes/media.php:3487
+#: wp-includes/media.php:3485
 msgid "There has been an error cropping your image."
 msgstr "Er is een fout opgetreden tijdens het bijsnijden van de afbeelding."
 
@@ -4995,7 +4995,7 @@ msgstr "Widgets zoeken"
 msgid "Search widgets&hellip;"
 msgstr "Widgets zoeken&hellip;"
 
-#: wp-includes/class-wp-editor.php:831
+#: wp-includes/class-wp-editor.php:833
 msgctxt "TinyMCE"
 msgid "Headings"
 msgstr "Koppen"
@@ -5022,7 +5022,7 @@ msgstr "Automatisch"
 msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
 msgstr "Sporen (ondertiteling, koppen, beschrijvingen, hoofdstukken of metadata)"
 
-#: wp-includes/media.php:3485
+#: wp-includes/media.php:3483
 msgid "Cropping&hellip;"
 msgstr "Bijsnijden&hellip;"
 
@@ -5030,233 +5030,233 @@ msgstr "Bijsnijden&hellip;"
 msgid "Move to another area&hellip;"
 msgstr "Naar ander gebied verplaatsen&hellip;"
 
-#: wp-includes/class-wp-editor.php:882
+#: wp-includes/class-wp-editor.php:884
 msgctxt "list style"
 msgid "Square"
 msgstr "Vierkant"
 
-#: wp-includes/class-wp-editor.php:884
+#: wp-includes/class-wp-editor.php:886
 msgctxt "list style"
 msgid "Circle"
 msgstr "Cirkel"
 
-#: wp-includes/class-wp-editor.php:893
+#: wp-includes/class-wp-editor.php:895
 msgctxt "Name of link anchor (TinyMCE)"
 msgid "Name"
 msgstr "Naam"
 
-#: wp-includes/class-wp-editor.php:894
+#: wp-includes/class-wp-editor.php:896
 msgctxt "Link anchor (TinyMCE)"
 msgid "Anchor"
 msgstr "Anker"
 
-#: wp-includes/class-wp-editor.php:895
+#: wp-includes/class-wp-editor.php:897
 msgctxt "Link anchors (TinyMCE)"
 msgid "Anchors"
 msgstr "Ankers"
 
-#: wp-includes/class-wp-editor.php:952
+#: wp-includes/class-wp-editor.php:954
 msgctxt "find/replace"
 msgid "Next"
 msgstr "Volgende"
 
 #. translators: previous
-#: wp-includes/class-wp-editor.php:954
+#: wp-includes/class-wp-editor.php:956
 msgctxt "find/replace"
 msgid "Prev"
 msgstr "Vorige"
 
-#: wp-includes/class-wp-editor.php:1041
+#: wp-includes/class-wp-editor.php:1043
 msgctxt "TinyMCE menu"
 msgid "View"
 msgstr "Bekijken"
 
-#: wp-includes/class-wp-editor.php:1042
+#: wp-includes/class-wp-editor.php:1044
 msgctxt "TinyMCE menu"
 msgid "Table"
 msgstr "Tabel"
 
-#: wp-includes/class-wp-editor.php:843
+#: wp-includes/class-wp-editor.php:845
 msgctxt "HTML tag"
 msgid "Div"
 msgstr "Div"
 
-#: wp-includes/class-wp-editor.php:844
+#: wp-includes/class-wp-editor.php:846
 msgctxt "HTML tag"
 msgid "Pre"
 msgstr "Pre"
 
-#: wp-includes/class-wp-editor.php:977
+#: wp-includes/class-wp-editor.php:979
 msgctxt "table column"
 msgid "Column"
 msgstr "Kolom"
 
-#: wp-includes/class-wp-editor.php:1018
+#: wp-includes/class-wp-editor.php:1020
 msgctxt "table cell scope attribute"
 msgid "Scope"
 msgstr "Bereik"
 
-#: wp-includes/class-wp-editor.php:880 wp-includes/script-loader.php:112
+#: wp-includes/class-wp-editor.php:882 wp-includes/script-loader.php:112
 msgid "Bulleted list"
 msgstr "Opsommingslijst"
 
-#: wp-includes/class-wp-editor.php:885
+#: wp-includes/class-wp-editor.php:887
 msgctxt "list style"
 msgid "Disc"
 msgstr "Schijf"
 
 #. translators: block tags
-#: wp-includes/class-wp-editor.php:840
+#: wp-includes/class-wp-editor.php:842
 msgctxt "TinyMCE"
 msgid "Blocks"
 msgstr "Blokken"
 
-#: wp-includes/class-wp-editor.php:951
+#: wp-includes/class-wp-editor.php:953
 msgctxt "find/replace"
 msgid "Replace"
 msgstr "Vervangen"
 
-#: wp-includes/class-wp-editor.php:958
+#: wp-includes/class-wp-editor.php:960
 msgctxt "find/replace"
 msgid "Find"
 msgstr "Zoeken"
 
-#: wp-includes/class-wp-editor.php:959
+#: wp-includes/class-wp-editor.php:961
 msgctxt "find/replace"
 msgid "Replace all"
 msgstr "Alles vervangen"
 
-#: wp-includes/class-wp-editor.php:964
+#: wp-includes/class-wp-editor.php:966
 msgctxt "spellcheck"
 msgid "Ignore"
 msgstr "Negeren"
 
-#: wp-includes/class-wp-editor.php:978
+#: wp-includes/class-wp-editor.php:980
 msgctxt "table columns"
 msgid "Cols"
 msgstr "Kolommen"
 
-#: wp-includes/class-wp-editor.php:979
+#: wp-includes/class-wp-editor.php:981
 msgctxt "table cell"
 msgid "Cell"
 msgstr "Cel"
 
-#: wp-includes/class-wp-editor.php:962
+#: wp-includes/class-wp-editor.php:964
 msgctxt "spellcheck"
 msgid "Finish"
 msgstr "Afronden"
 
-#: wp-includes/class-wp-editor.php:963
+#: wp-includes/class-wp-editor.php:965
 msgctxt "spellcheck"
 msgid "Ignore all"
 msgstr "Alles negeren"
 
-#: wp-includes/class-wp-editor.php:955
+#: wp-includes/class-wp-editor.php:957
 msgctxt "find/replace"
 msgid "Whole words"
 msgstr "Volledige woorden"
 
 #. translators: word count
-#: wp-includes/class-wp-editor.php:1029
+#: wp-includes/class-wp-editor.php:1031
 msgid "Words: %s"
 msgstr "Woorden: %s"
 
-#: wp-includes/class-wp-editor.php:1037
+#: wp-includes/class-wp-editor.php:1039
 msgctxt "TinyMCE menu"
 msgid "Insert"
 msgstr "Invoegen"
 
-#: wp-includes/class-wp-editor.php:1038
+#: wp-includes/class-wp-editor.php:1040
 msgctxt "TinyMCE menu"
 msgid "File"
 msgstr "Bestand"
 
-#: wp-includes/class-wp-editor.php:1039
+#: wp-includes/class-wp-editor.php:1041
 msgctxt "TinyMCE menu"
 msgid "Edit"
 msgstr "Bewerken"
 
-#: wp-includes/class-wp-editor.php:983
+#: wp-includes/class-wp-editor.php:985
 msgctxt "table footer"
 msgid "Footer"
 msgstr "Footer"
 
-#: wp-includes/class-wp-editor.php:887
+#: wp-includes/class-wp-editor.php:889
 msgctxt "list style"
 msgid "Lower Alpha"
 msgstr "Alfabetisch"
 
-#: wp-includes/class-wp-editor.php:888
+#: wp-includes/class-wp-editor.php:890
 msgctxt "list style"
 msgid "Upper Alpha"
 msgstr "Hoofdletter alfabetisch"
 
-#: wp-includes/class-wp-editor.php:1025
+#: wp-includes/class-wp-editor.php:1027
 msgctxt "editor button"
 msgid "Show blocks"
 msgstr "Blokken weergeven"
 
-#: wp-includes/class-wp-editor.php:848
+#: wp-includes/class-wp-editor.php:850
 msgctxt "HTML elements"
 msgid "Inline"
 msgstr "Inline"
 
-#: wp-includes/class-wp-editor.php:982
+#: wp-includes/class-wp-editor.php:984
 msgctxt "table body"
 msgid "Body"
 msgstr "Body"
 
-#: wp-includes/class-wp-editor.php:890
+#: wp-includes/class-wp-editor.php:892
 msgctxt "list style"
 msgid "Lower Roman"
 msgstr "Klein Romeins"
 
-#: wp-includes/class-wp-editor.php:886
+#: wp-includes/class-wp-editor.php:888
 msgctxt "list style"
 msgid "Lower Greek"
 msgstr "Klein Grieks"
 
-#: wp-includes/class-wp-editor.php:981
+#: wp-includes/class-wp-editor.php:983
 msgctxt "table header"
 msgid "Header"
 msgstr "Header"
 
-#: wp-includes/class-wp-editor.php:929
+#: wp-includes/class-wp-editor.php:931
 msgctxt "editor button"
 msgid "Left to right"
 msgstr "Van links naar rechts"
 
-#: wp-includes/class-wp-editor.php:928
+#: wp-includes/class-wp-editor.php:930
 msgctxt "editor button"
 msgid "Right to left"
 msgstr "Van rechts naar links"
 
-#: wp-includes/class-wp-editor.php:957
+#: wp-includes/class-wp-editor.php:959
 msgctxt "find/replace"
 msgid "Replace with"
 msgstr "Vervangen door"
 
-#: wp-includes/class-wp-editor.php:829
+#: wp-includes/class-wp-editor.php:831
 msgctxt "TinyMCE"
 msgid "Formats"
 msgstr "Stijlen"
 
-#: wp-includes/class-wp-editor.php:1020
+#: wp-includes/class-wp-editor.php:1022
 msgctxt "TinyMCE"
 msgid "Insert template"
 msgstr "Template invoegen"
 
-#: wp-includes/class-wp-editor.php:1040
+#: wp-includes/class-wp-editor.php:1042
 msgctxt "TinyMCE menu"
 msgid "Tools"
 msgstr "Extra"
 
-#: wp-includes/class-wp-editor.php:889
+#: wp-includes/class-wp-editor.php:891
 msgctxt "list style"
 msgid "Upper Roman"
 msgstr "Groot Romeins"
 
-#: wp-includes/class-wp-editor.php:1021
+#: wp-includes/class-wp-editor.php:1023
 msgctxt "TinyMCE"
 msgid "Templates"
 msgstr "Templates"
@@ -5285,7 +5285,7 @@ msgstr "%s en %s"
 #: wp-includes/class-wp-customize-section.php:368
 #: wp-includes/class-wp-customize-widgets.php:772
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:75
-#: wp-includes/media.php:3411
+#: wp-includes/media.php:3409
 msgid "Back"
 msgstr "Terug"
 
@@ -5293,8 +5293,8 @@ msgstr "Terug"
 msgid "Show Images"
 msgstr "Afbeeldingen weergeven"
 
-#: wp-includes/media.php:3476 wp-includes/media.php:3493
-#: wp-includes/media.php:3499
+#: wp-includes/media.php:3474 wp-includes/media.php:3491
+#: wp-includes/media.php:3497
 msgid "Cancel Edit"
 msgstr "Bewerken annuleren"
 
@@ -5302,12 +5302,12 @@ msgstr "Bewerken annuleren"
 msgid "Autoplay"
 msgstr "Automatisch afspelen"
 
-#: wp-includes/media.php:3497
+#: wp-includes/media.php:3495
 msgid "Replace Video"
 msgstr "Video vervangen"
 
 #: wp-includes/customize/class-wp-customize-image-control.php:41
-#: wp-includes/media.php:3480
+#: wp-includes/media.php:3478
 msgid "Choose Image"
 msgstr "Afbeelding kiezen"
 
@@ -5315,23 +5315,23 @@ msgstr "Afbeelding kiezen"
 msgid "Show Tracklist"
 msgstr "Afspeellijst weergeven"
 
-#: wp-includes/media.php:3427
+#: wp-includes/media.php:3425
 msgid "Create a new playlist"
 msgstr "Een nieuwe afspeellijst aanmaken"
 
-#: wp-includes/media.php:3475
+#: wp-includes/media.php:3473
 msgid "Replace Image"
 msgstr "Afbeelding vervangen"
 
-#: wp-includes/media.php:3481
+#: wp-includes/media.php:3479
 msgid "Select and Crop"
 msgstr "Selecteren en bijsnijden"
 
-#: wp-includes/media.php:3482
+#: wp-includes/media.php:3480
 msgid "Skip Cropping"
 msgstr "Bijsnijden overslaan"
 
-#: wp-includes/media.php:3483
+#: wp-includes/media.php:3481
 msgid "Crop Image"
 msgstr "Afbeelding bijsnijden"
 
@@ -5340,7 +5340,7 @@ msgctxt "Search widget"
 msgid "Search"
 msgstr "Zoeken"
 
-#: wp-includes/media.php:3484
+#: wp-includes/media.php:3482
 msgid "Crop your image"
 msgstr "Afbeelding bijsnijden"
 
@@ -5364,7 +5364,7 @@ msgstr "Het query argument %s moet een waarde bevatten."
 msgid "Poster Image"
 msgstr "Posterafbeelding"
 
-#: wp-includes/media.php:3500
+#: wp-includes/media.php:3498
 msgid "Select Poster Image"
 msgstr "Posterafbeelding selecteren"
 
@@ -5372,15 +5372,15 @@ msgstr "Posterafbeelding selecteren"
 msgid "Invalid menu ID."
 msgstr "Ongeldig menu-ID"
 
-#: wp-includes/media.php:3491
+#: wp-includes/media.php:3489
 msgid "Replace Audio"
 msgstr "Audio vervangen"
 
-#: wp-includes/media.php:3492
+#: wp-includes/media.php:3490
 msgid "Add Audio Source"
 msgstr "Audiobron toevoegen"
 
-#: wp-includes/media.php:3498
+#: wp-includes/media.php:3496
 msgid "Add Video Source"
 msgstr "Videobron toevoegen"
 
@@ -5388,63 +5388,63 @@ msgstr "Videobron toevoegen"
 msgid "Playlist Settings"
 msgstr "Afspeellijstinstellingen"
 
-#: wp-includes/media.php:3521
+#: wp-includes/media.php:3519
 msgid "Add to Video Playlist"
 msgstr "Toevoegen aan video-afspeellijst"
 
-#: wp-includes/media.php:3520
+#: wp-includes/media.php:3518
 msgid "Add to video playlist"
 msgstr "Toevoegen aan video-afspeellijst"
 
-#: wp-includes/media.php:3519
+#: wp-includes/media.php:3517
 msgid "Update video playlist"
 msgstr "Video-afspeellijst bijwerken"
 
-#: wp-includes/media.php:3518
+#: wp-includes/media.php:3516
 msgid "Insert video playlist"
 msgstr "Video-afspeellijst invoegen"
 
-#: wp-includes/media.php:3517
+#: wp-includes/media.php:3515
 msgid "&#8592; Cancel Video Playlist"
 msgstr "&#8592; Video-afspeellijst annuleren"
 
-#: wp-includes/media.php:3516
+#: wp-includes/media.php:3514
 msgid "Edit Video Playlist"
 msgstr "Video-afspeellijst bewerken"
 
-#: wp-includes/media.php:3515
+#: wp-includes/media.php:3513
 msgid "Create Video Playlist"
 msgstr "Video-afspeellijst aanmaken"
 
-#: wp-includes/media.php:3505
+#: wp-includes/media.php:3503
 msgid "Create Audio Playlist"
 msgstr "Audio-afspeellijst aanmaken"
 
-#: wp-includes/media.php:3496
+#: wp-includes/media.php:3494
 msgid "Video Details"
 msgstr "Videodetails"
 
-#: wp-includes/media.php:3490
+#: wp-includes/media.php:3488
 msgid "Audio Details"
 msgstr "Audiodetails"
 
-#: wp-includes/media.php:3474
+#: wp-includes/media.php:3472
 msgid "Image Details"
 msgstr "Afbeeldingsdetails"
 
-#: wp-includes/media.php:3428
+#: wp-includes/media.php:3426
 msgid "Create a new video playlist"
 msgstr "Een nieuwe video-afspeellijst aanmaken"
 
-#: wp-includes/media.php:3501
+#: wp-includes/media.php:3499
 msgid "Add Subtitles"
 msgstr "Ondertiteling toevoegen"
 
-#: wp-includes/media.php:3504
+#: wp-includes/media.php:3502
 msgid "Drag and drop to reorder tracks."
 msgstr "Versleep om de tracks te herschikken."
 
-#: wp-includes/media.php:3514
+#: wp-includes/media.php:3512
 msgid "Drag and drop to reorder videos."
 msgstr "Versleep om video's te herschikken."
 
@@ -5452,11 +5452,11 @@ msgstr "Versleep om video's te herschikken."
 msgid "Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "Hint: het wachtwoord moet minimaal twaalf tekens lang zijn. Gebruik hoofd- en kleine letters, nummers en tekens zoals ! \" ? $ % ^ &amp; ) om het sterker te maken."
 
-#: wp-includes/class-wp-editor.php:930
+#: wp-includes/class-wp-editor.php:932
 msgid "Emoticons"
 msgstr "Emoticons"
 
-#: wp-includes/class-wp-editor.php:915
+#: wp-includes/class-wp-editor.php:917
 msgid "Style"
 msgstr "Stijl"
 
@@ -5465,51 +5465,51 @@ msgstr "Stijl"
 msgid "https://wordpress.org/"
 msgstr "https://nl.wordpress.org/"
 
-#: wp-includes/class-wp-editor.php:881 wp-includes/script-loader.php:114
+#: wp-includes/class-wp-editor.php:883 wp-includes/script-loader.php:114
 msgid "Numbered list"
 msgstr "Genummerde lijst"
 
-#: wp-includes/class-wp-editor.php:863
+#: wp-includes/class-wp-editor.php:865
 msgid "Align left"
 msgstr "Links uitlijnen"
 
-#: wp-includes/class-wp-editor.php:878
+#: wp-includes/class-wp-editor.php:880
 msgid "Visual aids"
 msgstr "Visuele ondersteuning"
 
-#: wp-includes/class-wp-editor.php:927
+#: wp-includes/class-wp-editor.php:929
 msgid "Special character"
 msgstr "Speciaal karakter"
 
-#: wp-includes/class-wp-editor.php:857
+#: wp-includes/class-wp-editor.php:859
 msgid "Source code"
 msgstr "Broncode"
 
-#: wp-includes/class-wp-editor.php:899
+#: wp-includes/class-wp-editor.php:901
 msgid "Robots"
 msgstr "Robots"
 
-#: wp-includes/class-wp-editor.php:938
+#: wp-includes/class-wp-editor.php:940
 msgid "Horizontal line"
 msgstr "Horizontale lijn"
 
-#: wp-includes/class-wp-editor.php:918
+#: wp-includes/class-wp-editor.php:920
 msgid "Insert date/time"
 msgstr "Datum/tijd invoegen"
 
-#: wp-includes/class-wp-editor.php:923
+#: wp-includes/class-wp-editor.php:925
 msgid "Insert video"
 msgstr "Video toevoegen"
 
-#: wp-includes/class-wp-editor.php:924
+#: wp-includes/class-wp-editor.php:926
 msgid "Embed"
 msgstr "Insluiten"
 
-#: wp-includes/media-template.php:889 wp-includes/media.php:3409
+#: wp-includes/media-template.php:889 wp-includes/media.php:3407
 msgid "Replace"
 msgstr "Vervangen"
 
-#: wp-includes/class-wp-editor.php:976
+#: wp-includes/class-wp-editor.php:978
 msgid "Rows"
 msgstr "Rijen"
 
@@ -5522,7 +5522,7 @@ msgstr "Geen afbeelding ingesteld"
 msgid "Add a Widget"
 msgstr "Widget toevoegen"
 
-#: wp-includes/class-wp-editor.php:921
+#: wp-includes/class-wp-editor.php:923
 msgid "Alternative source"
 msgstr "Alternatieve bron"
 
@@ -5531,39 +5531,39 @@ msgstr "Alternatieve bron"
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "Er is een fout opgetreden. Vernieuw de pagina en probeer het opnieuw."
 
-#: wp-includes/class-wp-editor.php:864
+#: wp-includes/class-wp-editor.php:866
 msgid "Justify"
 msgstr "Uitvullen"
 
-#: wp-includes/class-wp-editor.php:933
+#: wp-includes/class-wp-editor.php:935
 msgid "Paste as text"
 msgstr "Plakken als tekst"
 
-#: wp-includes/class-wp-editor.php:1024
+#: wp-includes/class-wp-editor.php:1026
 msgid "Text color"
 msgstr "Tekstkleur"
 
-#: wp-includes/class-wp-editor.php:992
+#: wp-includes/class-wp-editor.php:994
 msgid "Delete column"
 msgstr "Kolom verwijderen"
 
-#: wp-includes/class-wp-editor.php:1026
+#: wp-includes/class-wp-editor.php:1028
 msgid "Show invisible characters"
 msgstr "Onzichtbare karakters weergeven"
 
-#: wp-includes/class-wp-editor.php:862
+#: wp-includes/class-wp-editor.php:864
 msgid "Align right"
 msgstr "Rechts uitlijnen"
 
-#: wp-includes/class-wp-editor.php:919
+#: wp-includes/class-wp-editor.php:921
 msgid "Insert/edit video"
 msgstr "Video invoegen/bewerken"
 
-#: wp-includes/class-wp-editor.php:950
+#: wp-includes/class-wp-editor.php:952
 msgid "Could not find the specified string."
 msgstr "Kan de opgegeven tekenreeks niet vinden."
 
-#: wp-includes/class-wp-editor.php:917 wp-includes/script-loader.php:111
+#: wp-includes/class-wp-editor.php:919 wp-includes/script-loader.php:111
 msgid "Insert image"
 msgstr "Afbeelding invoegen"
 
@@ -5572,7 +5572,7 @@ msgctxt "custom headers"
 msgid "Previously uploaded"
 msgstr "Eerder geüpload"
 
-#: wp-includes/class-wp-editor.php:960
+#: wp-includes/class-wp-editor.php:962
 msgid "Match case"
 msgstr "Hoofdlettergevoelig"
 
@@ -5597,23 +5597,23 @@ msgctxt "custom headers"
 msgid "Suggested"
 msgstr "Aangeraden"
 
-#: wp-includes/class-wp-editor.php:902
+#: wp-includes/class-wp-editor.php:904
 msgid "Encoding"
 msgstr "Codering"
 
-#: wp-includes/class-wp-editor.php:968
+#: wp-includes/class-wp-editor.php:970
 msgid "Insert table"
 msgstr "Tabel invoegen"
 
-#: wp-includes/class-wp-editor.php:1016
+#: wp-includes/class-wp-editor.php:1018
 msgid "Cell padding"
 msgstr "Celuitvulling"
 
-#: wp-includes/class-wp-editor.php:1017
+#: wp-includes/class-wp-editor.php:1019
 msgid "Cell spacing"
 msgstr "Celspatie"
 
-#: wp-includes/class-wp-editor.php:1023
+#: wp-includes/class-wp-editor.php:1025
 msgid "Background color"
 msgstr "Achtergrondkleur"
 
@@ -5621,19 +5621,19 @@ msgstr "Achtergrondkleur"
 msgid "Select an area to move this widget into:"
 msgstr "Een plek selecteren voor deze widget:"
 
-#: wp-includes/class-wp-editor.php:980
+#: wp-includes/class-wp-editor.php:982
 msgid "Header cell"
 msgstr "Headercel"
 
-#: wp-includes/class-wp-editor.php:1014
+#: wp-includes/class-wp-editor.php:1016
 msgid "Row type"
 msgstr "Rijtype"
 
-#: wp-includes/class-wp-editor.php:932
+#: wp-includes/class-wp-editor.php:934
 msgid "Page break"
 msgstr "Paginascheiding"
 
-#: wp-includes/class-wp-editor.php:940
+#: wp-includes/class-wp-editor.php:942
 msgid "Restore last draft"
 msgstr "Laatste concept terugzetten"
 
@@ -5647,39 +5647,39 @@ msgstr "Omhoog verplaatsen"
 msgid "Move down"
 msgstr "Omlaag verplaatsen"
 
-#: wp-includes/class-wp-editor.php:1012
+#: wp-includes/class-wp-editor.php:1014
 msgid "Row group"
 msgstr "Rijgroep"
 
-#: wp-includes/class-wp-editor.php:1015
+#: wp-includes/class-wp-editor.php:1017
 msgid "Cell type"
 msgstr "Celtype"
 
-#: wp-includes/class-wp-editor.php:922
+#: wp-includes/class-wp-editor.php:924
 msgid "Paste your embed code below:"
 msgstr "Plak je insluitcode hieronder:"
 
-#: wp-includes/class-wp-editor.php:1013
+#: wp-includes/class-wp-editor.php:1015
 msgid "Column group"
 msgstr "Kolomgroep"
 
-#: wp-includes/class-wp-editor.php:865
+#: wp-includes/class-wp-editor.php:867
 msgid "Increase indent"
 msgstr "Inspringen vergroten"
 
-#: wp-includes/class-wp-editor.php:853
+#: wp-includes/class-wp-editor.php:855
 msgid "Clear formatting"
 msgstr "Opmaak verwijderen"
 
-#: wp-includes/class-wp-editor.php:866
+#: wp-includes/class-wp-editor.php:868
 msgid "Decrease indent"
 msgstr "Inspringen verkleinen"
 
-#: wp-includes/class-wp-editor.php:956
+#: wp-includes/class-wp-editor.php:958
 msgid "Find and replace"
 msgstr "Zoeken en vervangen"
 
-#: wp-includes/class-wp-editor.php:1047 wp-includes/script-loader.php:120
+#: wp-includes/class-wp-editor.php:1049 wp-includes/script-loader.php:120
 msgid "Insert Read More tag"
 msgstr "Lees-meer-tag invoegen"
 
@@ -5687,11 +5687,11 @@ msgstr "Lees-meer-tag invoegen"
 msgid "Current header"
 msgstr "Huidige kopafbeelding"
 
-#: wp-includes/class-wp-editor.php:1046
+#: wp-includes/class-wp-editor.php:1048
 msgid "Toolbar Toggle"
 msgstr "Toolbar weergeven/verbergen"
 
-#: wp-includes/class-wp-editor.php:901
+#: wp-includes/class-wp-editor.php:903
 msgid "Keywords"
 msgstr "Trefwoorden"
 
@@ -5702,15 +5702,15 @@ msgstr "Trefwoorden"
 msgid "https://wordpress.org/support/"
 msgstr "https://nl.wordpress.org/support/"
 
-#: wp-includes/class-wp-editor.php:931
+#: wp-includes/class-wp-editor.php:933
 msgid "Nonbreaking space"
 msgstr "Harde spatie"
 
-#: wp-includes/class-wp-editor.php:1030
+#: wp-includes/class-wp-editor.php:1032
 msgid "Paste is now in plain text mode. Contents will now be pasted as plain text until you toggle this option off."
 msgstr "Plakken gebeurt in platte tekst. Inhoud wordt nu als platte tekst ingevoegd totdat je deze functie uitschakelt."
 
-#: wp-includes/class-wp-editor.php:861
+#: wp-includes/class-wp-editor.php:863
 msgid "Align center"
 msgstr "Centreren"
 
@@ -5951,12 +5951,12 @@ msgstr[1] "%s jaar"
 msgid "#%d (no title)"
 msgstr "#%d (geen titel)"
 
-#: wp-includes/post-template.php:1808
+#: wp-includes/post-template.php:1812
 msgid "JavaScript must be enabled to use this feature."
 msgstr "Deze functie werkt alleen als JavaScript is ingeschakeld."
 
 #. translators: localized date format, see https://secure.php.net/date
-#: wp-includes/class-wp-locale.php:398 wp-includes/media.php:3087
+#: wp-includes/class-wp-locale.php:398 wp-includes/media.php:3088
 msgid "F j, Y"
 msgstr "j F Y"
 
@@ -6013,7 +6013,7 @@ msgstr "%1$s %2$s, %3$s @ %4$s:%5$s"
 msgid "The site you were looking for, %s, does not exist, but you can create it now!"
 msgstr "De site waar je naar zocht %s bestaat niet, maar je kunt hem nu aanmaken."
 
-#: wp-includes/functions.php:5225
+#: wp-includes/functions.php:5270
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
 msgstr "De inlogpagina wordt in een nieuw venster geopend. Na het inloggen kun je dat venster sluiten en naar deze pagina terugkeren."
 
@@ -6038,7 +6038,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Zoeken &hellip;"
 
-#: wp-includes/functions.php:5223 wp-includes/script-loader.php:470
+#: wp-includes/functions.php:5268 wp-includes/script-loader.php:470
 msgid "Session expired"
 msgstr "Sessie verlopen"
 
@@ -6086,11 +6086,11 @@ msgstr "Een onderschrift toevoegen&hellip;"
 #. If there is not a word you can use in your language to avoid issues with
 #. the 		   lack of plural support here, turn it into "selected: %d" then
 #. translate it.
-#: wp-includes/media.php:3416
+#: wp-includes/media.php:3414
 msgid "%d selected"
 msgstr "%d geselecteerd"
 
-#: wp-includes/media.php:3457
+#: wp-includes/media.php:3455
 msgid "Insert from URL"
 msgstr "Invoegen via URL"
 
@@ -6099,15 +6099,15 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "Willekeurig"
 
-#: wp-includes/media-template.php:1233 wp-includes/media.php:3432
+#: wp-includes/media-template.php:1233 wp-includes/media.php:3430
 msgid "No items found."
 msgstr "Niets gevonden."
 
-#: wp-includes/media.php:3470
+#: wp-includes/media.php:3468
 msgid "Add to Gallery"
 msgstr "Aan de galerij toevoegen"
 
-#: wp-includes/media.php:3471
+#: wp-includes/media.php:3469
 msgid "Reverse order"
 msgstr "Volgorde omkeren"
 
@@ -6125,11 +6125,11 @@ msgid "Sorry, that file cannot be edited."
 msgstr "Het bewerken van dit bestand is niet mogelijk."
 
 #: wp-includes/media-template.php:438 wp-includes/media-template.php:541
-#: wp-includes/media.php:3445
+#: wp-includes/media.php:3443
 msgid "Delete Permanently"
 msgstr "Permanent verwijderen"
 
-#: wp-includes/media.php:3437
+#: wp-includes/media.php:3435
 msgid ""
 "You are about to permanently delete this item.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -6195,7 +6195,7 @@ msgstr "In pagina invoegen"
 msgid "Uploaded to this page"
 msgstr "Ge&#252;pload naar deze pagina"
 
-#: wp-includes/media.php:3430
+#: wp-includes/media.php:3428
 msgid "All media items"
 msgstr "Alle mediabestanden"
 
@@ -6207,7 +6207,7 @@ msgstr "Audio"
 msgid "Uploaded to this post"
 msgstr "Ge&#252;pload naar dit bericht"
 
-#: wp-includes/media.php:3429
+#: wp-includes/media.php:3427
 msgid "&#8592; Return to library"
 msgstr "&#8592; Terug naar bibliotheek"
 
@@ -6216,7 +6216,7 @@ msgstr "&#8592; Terug naar bibliotheek"
 msgid "Custom URL"
 msgstr "Aangepaste URL"
 
-#: wp-includes/media-template.php:498 wp-includes/media.php:3454
+#: wp-includes/media-template.php:498 wp-includes/media.php:3452
 msgid "Attachment Details"
 msgstr "Bijlagedetails"
 
@@ -6230,15 +6230,15 @@ msgid "Alt Text"
 msgstr "Alt-tekst"
 
 #: wp-includes/media-template.php:693 wp-includes/media-template.php:768
-#: wp-includes/media-template.php:942 wp-includes/media.php:3149
+#: wp-includes/media-template.php:942 wp-includes/media.php:3150
 msgid "Large"
 msgstr "Groot"
 
-#: wp-includes/media.php:3421
+#: wp-includes/media.php:3419
 msgid "Upload Images"
 msgstr "Afbeeldingen uploaden"
 
-#: wp-includes/media.php:3466
+#: wp-includes/media.php:3464
 msgid "&#8592; Cancel Gallery"
 msgstr "&#8592; Galerij annuleren"
 
@@ -6254,7 +6254,7 @@ msgstr "Weergave-instellingen bijlagen"
 msgid "WordPress &rsaquo; Success"
 msgstr "WordPress &rsaquo; succes"
 
-#: wp-includes/media.php:3420
+#: wp-includes/media.php:3418
 msgid "Upload Files"
 msgstr "Bestanden uploaden"
 
@@ -6262,7 +6262,7 @@ msgstr "Bestanden uploaden"
 msgid "Drop files anywhere to upload"
 msgstr "Bestanden hierheen verslepen"
 
-#: wp-includes/media.php:3467
+#: wp-includes/media.php:3465
 msgid "Insert gallery"
 msgstr "Galerij invoegen"
 
@@ -6270,11 +6270,11 @@ msgstr "Galerij invoegen"
 msgid "Drop files to upload"
 msgstr "Sleep bestanden om te uploaden"
 
-#: wp-includes/media.php:3424
+#: wp-includes/media.php:3422
 msgid "Media Library"
 msgstr "Mediabibliotheek"
 
-#: wp-includes/media.php:3464
+#: wp-includes/media.php:3462
 msgid "Create Gallery"
 msgstr "Galerij aanmaken"
 
@@ -6357,7 +6357,7 @@ msgstr "Dit audiobestand omschrijven&hellip;"
 msgid "Describe this video&hellip;"
 msgstr "Deze video omschrijven&hellip;"
 
-#: wp-includes/media.php:3468
+#: wp-includes/media.php:3466
 msgid "Update gallery"
 msgstr "Galerij bijwerken"
 
@@ -6416,7 +6416,7 @@ msgstr "Niet mogelijk afbeeldinggrootte uit te lezen."
 msgid "View Attachment Page"
 msgstr "Bijlagepagina tonen"
 
-#: wp-includes/media.php:3426
+#: wp-includes/media.php:3424
 msgid "Create a new gallery"
 msgstr "Een nieuwe galerij aanmaken"
 
@@ -6424,7 +6424,7 @@ msgstr "Een nieuwe galerij aanmaken"
 msgid "Insert into post"
 msgstr "Invoegen in bericht"
 
-#: wp-includes/media.php:3469
+#: wp-includes/media.php:3467
 msgid "Add to gallery"
 msgstr "Aan galerij toevoegen"
 
@@ -6446,11 +6446,11 @@ msgctxt "Display name based on first name and last name"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: wp-includes/media.php:3425
+#: wp-includes/media.php:3423
 msgid "Insert Media"
 msgstr "Media invoegen"
 
-#: wp-includes/taxonomy.php:2309
+#: wp-includes/taxonomy.php:2311
 msgid "Could not insert term relationship into the database"
 msgstr "Niet mogelijk termrelatie in de database in te voegen"
 
@@ -6521,11 +6521,11 @@ msgstr "Spring naar werkbalk"
 msgid "Hex Value"
 msgstr "Hex-waarde"
 
-#: wp-includes/class-wp-customize-manager.php:3823
+#: wp-includes/class-wp-customize-manager.php:3824
 msgid "Header Text Color"
 msgstr "Headertekstkleur"
 
-#: wp-includes/class-wp-customize-manager.php:3800
+#: wp-includes/class-wp-customize-manager.php:3801
 msgid "Colors"
 msgstr "Kleuren"
 
@@ -6564,7 +6564,7 @@ msgstr "Je kunt een priv&#137;bericht niet sticky maken."
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "Je hebt geen toestemming om deze pagina te publiceren."
 
-#: wp-includes/class-wp-customize-manager.php:3877
+#: wp-includes/class-wp-customize-manager.php:3878
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "Kopafbeelding"
@@ -6605,15 +6605,15 @@ msgstr "Gebruikersnaam moet minimaal 4 tekens lang zijn."
 msgid "Site name must be at least 4 characters."
 msgstr "Sitenaam moet minimaal 4 tekens lang zijn."
 
-#: wp-includes/class-wp-customize-manager.php:4092
+#: wp-includes/class-wp-customize-manager.php:4093
 msgid "A static page"
 msgstr "Een statische pagina"
 
-#: wp-includes/class-wp-customize-manager.php:3838
+#: wp-includes/class-wp-customize-manager.php:3839
 msgid "Background Color"
 msgstr "Achtergrondkleur"
 
-#: wp-includes/class-wp-customize-manager.php:3959
+#: wp-includes/class-wp-customize-manager.php:3960
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "Achtergrondafbeelding"
@@ -6630,21 +6630,21 @@ msgstr "Afbeelding verwijderen"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Je hebt geen toestemming om deze reactie te bewerken."
 
-#: wp-includes/class-wp-customize-manager.php:4114
+#: wp-includes/class-wp-customize-manager.php:4115
 msgid "Posts page"
 msgstr "Berichtenpagina"
 
-#: wp-includes/class-wp-customize-manager.php:4102
+#: wp-includes/class-wp-customize-manager.php:4103
 msgid "Front page"
 msgstr "Startpagina"
 
-#: wp-includes/class-wp-customize-manager.php:3782
+#: wp-includes/class-wp-customize-manager.php:3783
 #: wp-includes/class-wp-customize-widgets.php:730
-#: wp-includes/class-wp-editor.php:1052
+#: wp-includes/class-wp-editor.php:1054
 #: wp-includes/customize/class-wp-customize-image-control.php:37
 #: wp-includes/customize/class-wp-customize-media-control.php:63
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:144
-#: wp-includes/media-template.php:471 wp-includes/media.php:3410
+#: wp-includes/media-template.php:471 wp-includes/media.php:3408
 msgid "Remove"
 msgstr "Verwijderen"
 
@@ -6668,8 +6668,8 @@ msgstr "Uitgelichte afbeelding"
 #: wp-includes/taxonomy.php:419 wp-includes/taxonomy.php:639
 #: wp-includes/taxonomy.php:730 wp-includes/taxonomy.php:894
 #: wp-includes/taxonomy.php:1114 wp-includes/taxonomy.php:1867
-#: wp-includes/taxonomy.php:1959 wp-includes/taxonomy.php:2220
-#: wp-includes/taxonomy.php:2362 wp-includes/taxonomy.php:2562
+#: wp-includes/taxonomy.php:1961 wp-includes/taxonomy.php:2222
+#: wp-includes/taxonomy.php:2364 wp-includes/taxonomy.php:2564
 msgid "Invalid taxonomy."
 msgstr "Ongeldige taxonomie."
 
@@ -6687,15 +6687,15 @@ msgid "Sorry, you are not allowed to edit terms in this taxonomy."
 msgstr "Je hebt geen toestemming om de termen te wijzigen in deze taxonomie."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1904
-#: wp-includes/class-wp-xmlrpc-server.php:2003 wp-includes/taxonomy.php:1983
-#: wp-includes/taxonomy.php:2603
+#: wp-includes/class-wp-xmlrpc-server.php:2003 wp-includes/taxonomy.php:1985
+#: wp-includes/taxonomy.php:2605
 msgid "Parent term does not exist."
 msgstr "Hoofdterm bestaat niet."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1429
 #: wp-includes/class-wp-xmlrpc-server.php:1979
 #: wp-includes/class-wp-xmlrpc-server.php:2070
-#: wp-includes/class-wp-xmlrpc-server.php:2142 wp-includes/taxonomy.php:1974
+#: wp-includes/class-wp-xmlrpc-server.php:2142 wp-includes/taxonomy.php:1976
 msgid "Invalid term ID."
 msgstr "Ongeldig term-ID."
 
@@ -6765,11 +6765,11 @@ msgstr "Het thema  \"%s\" is geen geldig hoofdthema."
 msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
 msgstr "FOUT: De themamap is leeg of bestaat niet. Graag de installatie controleren."
 
-#: wp-includes/class-wp-customize-manager.php:4091
+#: wp-includes/class-wp-customize-manager.php:4092
 msgid "Your latest posts"
 msgstr "Je laatste berichten"
 
-#: wp-includes/class-wp-customize-manager.php:3726
+#: wp-includes/class-wp-customize-manager.php:3727
 msgid "Tagline"
 msgstr "Ondertitel"
 
@@ -6780,19 +6780,19 @@ msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Selecteren &mdash;"
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:3280
+#: wp-includes/class-wp-customize-manager.php:3281
 msgid "Customize: %s"
 msgstr "%s aanpassen"
 
-#: wp-includes/class-wp-customize-manager.php:4074
+#: wp-includes/class-wp-customize-manager.php:4075
 msgid "Static Front Page"
 msgstr "Statische startpagina"
 
-#: wp-includes/class-wp-customize-manager.php:4076
+#: wp-includes/class-wp-customize-manager.php:4077
 msgid "Your theme supports a static front page."
 msgstr "Het thema ondersteunt een statische startpagina."
 
-#: wp-includes/class-wp-customize-manager.php:4087
+#: wp-includes/class-wp-customize-manager.php:4088
 msgid "Front page displays"
 msgstr "Startpagina toont"
 
@@ -6823,8 +6823,8 @@ msgstr "Standaard linktype voor afbeelding"
 #: wp-includes/class-wp-xmlrpc-server.php:5850
 #: wp-includes/class-wp-xmlrpc-server.php:6021
 #: wp-includes/class-wp-xmlrpc-server.php:6075
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:362
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:595
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:366
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:599
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Je hebt geen toestemming dit bericht te bewerken."
 
@@ -6840,14 +6840,14 @@ msgstr "Site bewerken"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1646
 #: wp-includes/class-wp-xmlrpc-server.php:4783
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:794
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:798
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:253
 msgid "The post cannot be deleted."
 msgstr "Het bericht kan niet worden verwijderd."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1351
 #: wp-includes/class-wp-xmlrpc-server.php:4941
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:982
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:986
 msgid "Invalid author ID."
 msgstr "Ongeldig auteurs-ID."
 
@@ -6856,7 +6856,7 @@ msgid "Sorry, you are not allowed to create password protected posts in this pos
 msgstr "Je hebt geen toestemming om een beveiligd bericht te maken voor dit berichttype."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1327
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1071
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1075
 msgid "Sorry, you are not allowed to create private posts in this post type."
 msgstr "Je hebt geen toestemming om privéberichten te maken met dit berichttype."
 
@@ -6870,7 +6870,7 @@ msgstr "Sorry, één van de geselecteerde taxonomieën wordt niet ondersteund vo
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:81
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:79
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:130
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:129
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:133
 msgid "Sorry, you are not allowed to edit posts in this post type."
 msgstr "Je hebt geen toestemming om berichten van dit berichttype te bewerken."
 
@@ -6884,8 +6884,8 @@ msgstr "Je hebt geen toestemming om een term toe te voegen aan één van de opge
 
 #: wp-includes/class-wp-xmlrpc-server.php:1346
 #: wp-includes/class-wp-xmlrpc-server.php:4930
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:458
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:466
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:462
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:470
 msgid "Sorry, you are not allowed to create posts as this user."
 msgstr "Je hebt geen toestemming om berichten aan te maken als deze gebruiker."
 
@@ -6963,7 +6963,7 @@ msgstr "Configuratiebestand aanmaken"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Je kunt een %s-bestand aanmaken via de web-interface, maar dit werkt niet voor alle servertypes. De veiligste manier is om het bestand handmatig aan te maken."
 
-#: wp-includes/class-wp-customize-manager.php:4127
+#: wp-includes/class-wp-customize-manager.php:4128
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS"
 
@@ -7050,15 +7050,15 @@ msgstr "%s overschrijdt de maximale uploadgrootte voor deze site."
 msgid "Feedback"
 msgstr "Terugkoppeling"
 
-#: wp-includes/comment.php:3072
+#: wp-includes/comment.php:3067
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>FOUT</strong>: je hebt een ongeldig e-mailadres opgegeven."
 
-#: wp-includes/comment.php:3070
+#: wp-includes/comment.php:3065
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>FOUT</strong>: vul de verplichte velden in (naam, e-mail)."
 
-#: wp-includes/comment.php:3077
+#: wp-includes/comment.php:3072
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>FOUT</strong>: schrijf een reactie."
 
@@ -7086,12 +7086,12 @@ msgstr "Supportforums"
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:3722 wp-includes/ms-load.php:462
+#: wp-includes/functions.php:3767 wp-includes/ms-load.php:462
 #: wp-includes/wp-db.php:1583
 msgid "Error establishing a database connection"
 msgstr "Fout bij het maken van de databaseconnectie"
 
-#: wp-includes/functions.php:3718
+#: wp-includes/functions.php:3763
 msgid "Database Error"
 msgstr "Databasefout"
 
@@ -7208,7 +7208,7 @@ msgstr "Berichtnavigatie"
 msgid "Comments navigation"
 msgstr "Reactienavigatie"
 
-#: wp-includes/class-wp-editor.php:920
+#: wp-includes/class-wp-editor.php:922
 msgid "Poster"
 msgstr "Schrijver"
 
@@ -7233,11 +7233,11 @@ msgctxt "post format"
 msgid "Format"
 msgstr "Berichttype"
 
-#: wp-includes/class-wp-editor.php:1446
+#: wp-includes/class-wp-editor.php:1448
 msgid "Enter the destination URL"
 msgstr "Geef de URL van de bestemming"
 
-#: wp-includes/class-wp-editor.php:1460
+#: wp-includes/class-wp-editor.php:1462
 msgid "Or link to existing content"
 msgstr "Of link naar bestaande inhoud"
 
@@ -7262,13 +7262,13 @@ msgid "The user is already active."
 msgstr "De gebruiker is al geactiveerd."
 
 #. translators: %s: version number
-#: wp-includes/functions.php:4084
+#: wp-includes/functions.php:4129
 msgid "(This message was added in version %s.)"
 msgstr "(Dit bericht is toegevoegd in versie %s.)"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message
-#: wp-includes/functions.php:4091
+#: wp-includes/functions.php:4136
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s werd <strong>verkeerd</strong> aangeroepen. %2$s %3$s"
 
@@ -7300,7 +7300,7 @@ msgstr "Audio"
 msgid "Invalid post format."
 msgstr "Ongeldig berichtformat."
 
-#: wp-includes/class-wp-editor.php:1477
+#: wp-includes/class-wp-editor.php:1479
 msgid "No search term specified. Showing recent items."
 msgstr "Geen zoektekst gespecificeerd. Recente berichten worden getoond."
 
@@ -7472,7 +7472,7 @@ msgstr "Mijn profiel wijzigen"
 msgid "Invalid post."
 msgstr "Ongeldig bericht."
 
-#: wp-includes/class-wp-theme.php:789
+#: wp-includes/class-wp-theme.php:790
 msgid "Blavatar"
 msgstr "Blavatar"
 
@@ -7822,7 +7822,7 @@ msgstr "Je hebt geen toestemming om de details van deze site te bekijken."
 msgid "Sorry, you must be able to edit posts on this site in order to view tags."
 msgstr "Je moet toestemming hebben om berichten te bewerken om tags te kunnen bekijken."
 
-#: wp-includes/load.php:529
+#: wp-includes/load.php:536
 msgid "The site you have requested is not installed properly. Please contact the system administrator."
 msgstr "De site die je hebt aangevraagd is niet correct ge&#239;nstalleerd. Neem contact op met de systeembeheerder."
 
@@ -7846,7 +7846,7 @@ msgstr "Het ingevulde WordPress-adres is geen geldige URL. Voer een geldige URL 
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Het ingevoerde e-mailadres blijkt niet een geldig e-mailadres te zijn. Voer een geldig e-mailadres in."
 
-#: wp-includes/taxonomy.php:2062
+#: wp-includes/taxonomy.php:2064
 msgid "A term with the name provided already exists with this parent."
 msgstr "Een term met de opgegeven naam bestaat al met deze hoofdnaam."
 
@@ -7875,7 +7875,7 @@ msgstr "De afmetingen van de geschaalde afbeelding konden niet worden berekend"
 msgid "You are logged in already. No need to register again!"
 msgstr "Je bent al ingelogd. Je hoeft je dus niet opnieuw te registreren."
 
-#: wp-mail.php:15
+#: wp-mail.php:15 wp-mail.php:20
 msgid "This action has been disabled by the administrator."
 msgstr "Deze handeling is uitgeschakeld door de beheerder."
 
@@ -8118,8 +8118,8 @@ msgstr "Pagina verwijderen mislukt."
 #: wp-includes/class-wp-xmlrpc-server.php:3430
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:351
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:654
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:744
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:769
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:751
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:776
 msgid "Invalid comment ID."
 msgstr "Ongeldig reactie-ID."
 
@@ -8148,9 +8148,10 @@ msgstr "Ongeldige reactiestatus."
 #: wp-includes/class-wp-xmlrpc-server.php:6191 wp-includes/post.php:3012
 #: wp-includes/post.php:3546
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:357
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:431
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:627
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:739
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:670
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:435
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:631
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:743
 #: wp-includes/revision.php:292
 msgid "Invalid post ID."
 msgstr "Ongeldig bericht-ID."
@@ -8249,11 +8250,11 @@ msgid "Comment author name and email are required."
 msgstr "Naam en e-mailadres zijn verplicht bij het plaatsen van een reactie."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1332
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1077
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1081
 msgid "Sorry, you are not allowed to publish posts in this post type."
 msgstr "Je hebt geen toestemming om berichten te publiceren van dit posttype."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:599
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:603
 msgid "Sorry, you are not allowed to update posts as this user."
 msgstr "Je hebt geen toestemming om berichten te bewerken als deze gebruiker."
 
@@ -8293,7 +8294,7 @@ msgstr "Je hebt geen toestemming om de berichtauteur te bewerken."
 msgid "Sorry, you are not allowed to change the page author as this user."
 msgstr "Je hebt geen toestemming om de auteur van deze pagina te wijzigen."
 
-#: wp-includes/class-wp-theme.php:784
+#: wp-includes/class-wp-theme.php:785
 msgid "Gray"
 msgstr "Grijs"
 
@@ -8327,7 +8328,7 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Prullenbak <span class=\"count\">(%s)</span>"
 msgstr[1] "Prullenbak <span class=\"count\">(%s)</span>"
 
-#: wp-includes/class-wp-editor.php:908
+#: wp-includes/class-wp-editor.php:910
 msgid "General"
 msgstr "Algemeen"
 
@@ -8443,7 +8444,7 @@ msgstr[0] "%s dag"
 msgstr[1] "%s dagen"
 
 #. translators: used between list items, there is a space after the comma
-#: wp-includes/class-wp-theme.php:741
+#: wp-includes/class-wp-theme.php:742
 msgid ", "
 msgstr ", "
 
@@ -8461,24 +8462,24 @@ msgid "Empty filename"
 msgstr "Lege bestandsnaam"
 
 #. translators: %s: site name
-#: wp-includes/functions.php:2538
+#: wp-includes/functions.php:2583
 msgid "You are attempting to log out of %s"
 msgstr "Je probeert uit te loggen van %s"
 
 #. translators: %s: logout URL
-#: wp-includes/functions.php:2545
+#: wp-includes/functions.php:2590
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Weet je zeker dat je wilt <a href='%s'>uitloggen</a>?"
 
-#: wp-includes/functions.php:2679
+#: wp-includes/functions.php:2724
 msgid "&laquo; Back"
 msgstr "&laquo; Terug"
 
-#: wp-includes/functions.php:4618 wp-includes/functions.php:4622
+#: wp-includes/functions.php:4663 wp-includes/functions.php:4667
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:4626
+#: wp-includes/functions.php:4671
 msgid "Manual Offsets"
 msgstr "Handmatige compensatie"
 
@@ -8506,7 +8507,7 @@ msgid "Page not found"
 msgstr "Pagina niet gevonden"
 
 #. translators: 1: month name, 2: 4-digit year
-#: wp-includes/general-template.php:1743 wp-includes/media.php:3345
+#: wp-includes/general-template.php:1743 wp-includes/media.php:3343
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
@@ -8691,135 +8692,135 @@ msgstr "vr"
 msgid "Sat"
 msgstr "za"
 
-#: wp-includes/class-wp-editor.php:907
+#: wp-includes/class-wp-editor.php:909
 msgid "Insert/edit image"
 msgstr "Afbeelding invoegen/bewerken"
 
-#: wp-includes/class-wp-editor.php:991
+#: wp-includes/class-wp-editor.php:993
 msgid "Delete row"
 msgstr "Rij verwijderen"
 
-#: wp-includes/class-wp-editor.php:995
+#: wp-includes/class-wp-editor.php:997
 msgid "Merge table cells"
 msgstr "Tabelcellen samenvoegen"
 
-#: wp-includes/class-wp-editor.php:994
+#: wp-includes/class-wp-editor.php:996
 msgid "Copy table row"
 msgstr "Tabelrij kopi&euml;ren"
 
-#: wp-includes/class-wp-editor.php:969
+#: wp-includes/class-wp-editor.php:971
 msgid "Delete table"
 msgstr "Tabel verwijderen"
 
-#: wp-includes/class-wp-editor.php:975
+#: wp-includes/class-wp-editor.php:977
 msgid "Row"
 msgstr "Rij"
 
-#: wp-includes/class-wp-editor.php:1033 wp-includes/script-loader.php:463
+#: wp-includes/class-wp-editor.php:1035 wp-includes/script-loader.php:463
 #: wp-includes/script-loader.php:574 wp-includes/script-loader.php:583
-#: wp-includes/script-loader.php:752 wp-includes/theme.php:2954
+#: wp-includes/script-loader.php:752 wp-includes/theme.php:2960
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "De wijzigingen zullen verloren gaan als je deze pagina nu verlaat."
 
-#: wp-includes/class-wp-editor.php:898
+#: wp-includes/class-wp-editor.php:900
 msgid "Document properties"
 msgstr "Documenteigenschappen"
 
-#: wp-includes/class-wp-editor.php:832
+#: wp-includes/class-wp-editor.php:834
 msgid "Heading 1"
 msgstr "Koptekst 1"
 
-#: wp-includes/class-wp-editor.php:833
+#: wp-includes/class-wp-editor.php:835
 msgid "Heading 2"
 msgstr "Koptekst 2"
 
-#: wp-includes/class-wp-editor.php:834
+#: wp-includes/class-wp-editor.php:836
 msgid "Heading 3"
 msgstr "Koptekst 3"
 
-#: wp-includes/class-wp-editor.php:835
+#: wp-includes/class-wp-editor.php:837
 msgid "Heading 4"
 msgstr "Koptekst 4"
 
-#: wp-includes/class-wp-editor.php:836
+#: wp-includes/class-wp-editor.php:838
 msgid "Heading 5"
 msgstr "Koptekst 5"
 
-#: wp-includes/class-wp-editor.php:837
+#: wp-includes/class-wp-editor.php:839
 msgid "Heading 6"
 msgstr "Koptekst 6"
 
-#: wp-includes/class-wp-editor.php:842 wp-includes/script-loader.php:105
+#: wp-includes/class-wp-editor.php:844 wp-includes/script-loader.php:105
 msgid "Blockquote"
 msgstr "Blockquote"
 
-#: wp-includes/class-wp-editor.php:856 wp-includes/script-loader.php:118
+#: wp-includes/class-wp-editor.php:858 wp-includes/script-loader.php:118
 msgid "Code"
 msgstr "Code"
 
-#: wp-includes/class-wp-editor.php:854 wp-includes/script-loader.php:100
+#: wp-includes/class-wp-editor.php:856 wp-includes/script-loader.php:100
 msgid "Bold"
 msgstr "Vet"
 
-#: wp-includes/class-wp-editor.php:855 wp-includes/script-loader.php:102
+#: wp-includes/class-wp-editor.php:857 wp-includes/script-loader.php:102
 msgid "Italic"
 msgstr "Cursief"
 
-#: wp-includes/class-wp-editor.php:849
+#: wp-includes/class-wp-editor.php:851
 msgid "Underline"
 msgstr "Onderstreept"
 
-#: wp-includes/class-wp-editor.php:850
+#: wp-includes/class-wp-editor.php:852
 msgid "Strikethrough"
 msgstr "Doorgehaald"
 
-#: wp-includes/class-wp-editor.php:851
+#: wp-includes/class-wp-editor.php:853
 msgid "Subscript"
 msgstr "Subscript"
 
-#: wp-includes/class-wp-editor.php:852
+#: wp-includes/class-wp-editor.php:854
 msgid "Superscript"
 msgstr "Superscript"
 
-#: wp-includes/class-wp-editor.php:868
+#: wp-includes/class-wp-editor.php:870
 msgid "Cut"
 msgstr "Knippen"
 
-#: wp-includes/class-wp-editor.php:869
+#: wp-includes/class-wp-editor.php:871
 msgid "Copy"
 msgstr "Kopi&#235;ren"
 
-#: wp-includes/class-wp-editor.php:870
+#: wp-includes/class-wp-editor.php:872
 msgid "Paste"
 msgstr "Plakken"
 
-#: wp-includes/class-wp-editor.php:828
+#: wp-includes/class-wp-editor.php:830
 msgid "New document"
 msgstr "Nieuw document"
 
-#: wp-includes/class-wp-editor.php:911
+#: wp-includes/class-wp-editor.php:913
 msgid "Border"
 msgstr "Rand"
 
-#: wp-includes/class-wp-editor.php:916
+#: wp-includes/class-wp-editor.php:918
 msgid "Dimensions"
 msgstr "Afmetingen"
 
-#: wp-includes/class-wp-editor.php:1008
+#: wp-includes/class-wp-editor.php:1010
 #: wp-includes/customize/class-wp-customize-background-position-control.php:46
 msgid "Top"
 msgstr "Bovenkant"
 
-#: wp-includes/class-wp-editor.php:1009
+#: wp-includes/class-wp-editor.php:1011
 msgid "Middle"
 msgstr "Midden"
 
-#: wp-includes/class-wp-editor.php:1010
+#: wp-includes/class-wp-editor.php:1012
 #: wp-includes/customize/class-wp-customize-background-position-control.php:56
 msgid "Bottom"
 msgstr "Onderkant"
 
-#: wp-includes/class-wp-editor.php:912
+#: wp-includes/class-wp-editor.php:914
 msgid "Constrain proportions"
 msgstr "Afmetingen beperken"
 
@@ -8835,7 +8836,7 @@ msgstr "Uitlijnen"
 msgid "Background"
 msgstr "Achtergrond"
 
-#: wp-includes/class-wp-editor.php:937 wp-includes/script-loader.php:352
+#: wp-includes/class-wp-editor.php:939 wp-includes/script-loader.php:352
 msgid "Fullscreen"
 msgstr "Volledig scherm"
 
@@ -8855,19 +8856,19 @@ msgstr "Linksonder"
 msgid "Bottom Right"
 msgstr "Rechtsonder"
 
-#: wp-includes/class-wp-editor.php:910
+#: wp-includes/class-wp-editor.php:912
 msgid "Source"
 msgstr "Bron"
 
-#: wp-includes/class-wp-editor.php:1071
+#: wp-includes/class-wp-editor.php:1073
 msgid "Letter"
 msgstr "Letter"
 
-#: wp-includes/class-wp-editor.php:1072
+#: wp-includes/class-wp-editor.php:1074
 msgid "Action"
 msgstr "Actie"
 
-#: wp-includes/class-wp-editor.php:961
+#: wp-includes/class-wp-editor.php:963
 msgid "Check Spelling"
 msgstr "Spelling controleren"
 
@@ -8955,7 +8956,7 @@ msgstr "Ontbrekende bijlage"
 
 #. translators: %s: revision date
 #. translators: %s: revision date with author avatar
-#: wp-includes/post-template.php:1700 wp-includes/post-template.php:1752
+#: wp-includes/post-template.php:1704 wp-includes/post-template.php:1756
 msgid "%s [Current Revision]"
 msgstr "%1$s [Huidige revisie]"
 
@@ -9096,12 +9097,12 @@ msgstr "Opslaan&#8230;"
 msgid "Saving Draft&#8230;"
 msgstr "Concept bewaren&#8230;"
 
-#: wp-includes/taxonomy.php:726 wp-includes/taxonomy.php:2575
-#: wp-includes/taxonomy.php:3846
+#: wp-includes/taxonomy.php:726 wp-includes/taxonomy.php:2577
+#: wp-includes/taxonomy.php:3848
 msgid "Empty Term"
 msgstr "Lege term"
 
-#: wp-includes/taxonomy.php:2086
+#: wp-includes/taxonomy.php:2088
 msgid "Could not insert term into the database"
 msgstr "Kan term niet in de database invoegen"
 
@@ -9155,7 +9156,7 @@ msgid "Registration complete. Please check your email."
 msgstr "Registratie afgerond. Controleer je e-mail."
 
 #. translators: Post author email address
-#: wp-mail.php:122
+#: wp-mail.php:128
 msgid "Author is %s"
 msgstr "Auteur is %s"
 
@@ -9218,7 +9219,7 @@ msgstr "Er was een probleem, corrigeer onderstaand formulier en probeer opnieuw.
 msgid "New User Registration: %s"
 msgstr "Nieuwe gebruikersregistratie: %s"
 
-#: wp-includes/class-wp-editor.php:935
+#: wp-includes/class-wp-editor.php:937
 msgid "Print"
 msgstr "Afdrukken"
 
@@ -9275,7 +9276,7 @@ msgstr "Pagina-ID&#39;s , gescheiden door komma&#39;s."
 msgid "Your blogroll"
 msgstr "Je blogroll"
 
-#: wp-includes/class-wp-editor.php:941 wp-includes/class-wp-editor.php:1442
+#: wp-includes/class-wp-editor.php:943 wp-includes/class-wp-editor.php:1444
 #: wp-includes/script-loader.php:428
 msgid "Insert/edit link"
 msgstr "Link invoegen/bewerken"
@@ -9284,7 +9285,7 @@ msgstr "Link invoegen/bewerken"
 msgid "Insert link"
 msgstr "Link invoegen"
 
-#: wp-includes/class-wp-editor.php:942
+#: wp-includes/class-wp-editor.php:944
 msgid "Remove link"
 msgstr "Link verwijderen"
 
@@ -9313,12 +9314,12 @@ msgstr "Linkbeschrijving tonen"
 msgid "Show Link Rating"
 msgstr "Linkwaardering tonen"
 
-#: wp-includes/functions.php:4573
+#: wp-includes/functions.php:4618
 msgid "Select a city"
 msgstr "Een plaats selecteren"
 
 #. translators: %s: POP3 error
-#: wp-mail.php:232
+#: wp-mail.php:238
 msgid "Oops: %s"
 msgstr "Oeps: %s"
 
@@ -9351,11 +9352,11 @@ msgstr "Inhoud, titel en samenvatting zijn leeg."
 msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
 msgstr "Dit e-mailadres is al in gebruik. Controleer je mailbox voor een activatiebericht. Het zal vrijgegeven worden in een paar dagen als je niets doet."
 
-#: wp-mail.php:54
+#: wp-mail.php:60
 msgid "There doesn&#8217;t seem to be any new mail."
 msgstr "Het lijkt erop dat er geen nieuwe e-mail is."
 
-#: wp-includes/class-wp-editor.php:871
+#: wp-includes/class-wp-editor.php:873
 msgid "Select all"
 msgstr "Alles selecteren"
 
@@ -9363,27 +9364,27 @@ msgstr "Alles selecteren"
 msgid "That username is already activated."
 msgstr "Deze gebruikersnaam is al geactiveerd."
 
-#: wp-includes/class-wp-editor.php:985
+#: wp-includes/class-wp-editor.php:987
 msgid "Insert row before"
 msgstr "Rij boven invoegen"
 
-#: wp-includes/class-wp-editor.php:986
+#: wp-includes/class-wp-editor.php:988
 msgid "Insert row after"
 msgstr "Rij onder invoegen"
 
-#: wp-includes/class-wp-editor.php:987
+#: wp-includes/class-wp-editor.php:989
 msgid "Insert column before"
 msgstr "Kolom links invoegen"
 
-#: wp-includes/class-wp-editor.php:988
+#: wp-includes/class-wp-editor.php:990
 msgid "Insert column after"
 msgstr "Kolom rechts invoegen"
 
-#: wp-includes/class-wp-editor.php:989
+#: wp-includes/class-wp-editor.php:991
 msgid "Paste table row before"
 msgstr "Tabelrij boven plakken"
 
-#: wp-includes/class-wp-editor.php:990
+#: wp-includes/class-wp-editor.php:992
 msgid "Paste table row after"
 msgstr "Tabelrij onder plakken"
 
@@ -9392,7 +9393,7 @@ msgstr "Tabelrij onder plakken"
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s berichten in %3$s Feed"
 
-#: wp-includes/media.php:3465
+#: wp-includes/media.php:3463
 msgid "Edit Gallery"
 msgstr "Galerij bewerken"
 
@@ -9416,15 +9417,15 @@ msgid "But, before you can start using your new username, <strong>you must activ
 msgstr "Voordat je kunt starten met je nieuwe gebruikersnaam, <strong>moet je deze eerst activeren</strong>."
 
 #. translators: 1: Taxonomy term slug
-#: wp-includes/taxonomy.php:2661
+#: wp-includes/taxonomy.php:2663
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
 msgstr "De slug (permalink) \"%s\" is al in gebruik door een andere term"
 
-#: wp-includes/taxonomy.php:4048
+#: wp-includes/taxonomy.php:4050
 msgid "Invalid object ID"
 msgstr "Ongeldig object-ID"
 
-#: wp-includes/class-wp-editor.php:939
+#: wp-includes/class-wp-editor.php:941
 msgid "Horizontal space"
 msgstr "Horizontale ruimte"
 
@@ -9455,7 +9456,7 @@ msgstr "Vorig bericht"
 msgid "Next Post"
 msgstr "Volgend bericht"
 
-#: wp-includes/class-wp-editor.php:1048
+#: wp-includes/class-wp-editor.php:1050
 msgid "Insert Page Break tag"
 msgstr "Pagina-afbreektag invoegen"
 
@@ -9467,11 +9468,11 @@ msgstr "Linkrelatie"
 msgid "Mute"
 msgstr "Afbreken"
 
-#: wp-includes/class-wp-editor.php:913
+#: wp-includes/class-wp-editor.php:915
 msgid "Vertical space"
 msgstr "Verticale ruimte"
 
-#: wp-includes/class-wp-editor.php:841
+#: wp-includes/class-wp-editor.php:843
 msgid "Paragraph"
 msgstr "Alinea"
 
@@ -9480,7 +9481,7 @@ msgstr "Alinea"
 msgid "Comments for %1$s searching on %2$s"
 msgstr "Reacties op %1$s zoeken op %2$s"
 
-#: wp-includes/functions.php:2559
+#: wp-includes/functions.php:2604
 msgid "WordPress Failure Notice"
 msgstr "WordPress-foutmelding"
 
@@ -9500,7 +9501,7 @@ msgstr "Geef de RSS-feed een titel (optioneel):"
 msgid "Automatically add paragraphs"
 msgstr "Automatisch alinea's toevoegen"
 
-#: wp-includes/comment.php:2101
+#: wp-includes/comment.php:2095
 msgid "Could not update comment status"
 msgstr "De reactiestatus kan niet bijgewerkt worden"
 
@@ -9509,19 +9510,19 @@ msgstr "De reactiestatus kan niet bijgewerkt worden"
 msgid "Duplicate comment detected; it looks as though you&#8217;ve already said that!"
 msgstr "Dubbele reactie ontdekt: het lijkt erop dat je dit al hebt gezegd."
 
-#: wp-includes/class-wp-editor.php:993
+#: wp-includes/class-wp-editor.php:995
 msgid "Cut table row"
 msgstr "Tabelrij knippen"
 
-#: wp-includes/class-wp-editor.php:971
+#: wp-includes/class-wp-editor.php:973
 msgid "Table row properties"
 msgstr "Eigenschappen tabelrij"
 
-#: wp-includes/class-wp-editor.php:972
+#: wp-includes/class-wp-editor.php:974
 msgid "Table cell properties"
 msgstr "Eigenschappen tabelcel"
 
-#: wp-includes/class-wp-editor.php:970
+#: wp-includes/class-wp-editor.php:972
 msgid "Table properties"
 msgstr "Tabeleigenschappen"
 
@@ -9552,21 +9553,21 @@ msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s Reactiesfeed"
 
 #. translators: 1: PHP function name, 2: version number
-#: wp-includes/functions.php:3978
+#: wp-includes/functions.php:4023
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s werd aangeroepen met een argument dat <strong>verouderd</strong> is sinds versie %2$s, zonder beschikbaar alternatief."
 
 #. translators: 1: PHP function name, 2: version number
 #. translators: 1: PHP file name, 2: version number
 #. translators: 1: WordPress hook name, 2: version number
-#: wp-includes/functions.php:3786 wp-includes/functions.php:3914
-#: wp-includes/functions.php:4037
+#: wp-includes/functions.php:3831 wp-includes/functions.php:3959
+#: wp-includes/functions.php:4082
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s, zonder beschikbaar alternatief."
 
 #. translators: %s: revision date
 #. translators: %s: revision date with author avatar
-#: wp-includes/post-template.php:1698 wp-includes/post-template.php:1750
+#: wp-includes/post-template.php:1702 wp-includes/post-template.php:1754
 msgid "%s [Autosave]"
 msgstr "%1$s [Automatisch opgeslagen]"
 
@@ -9638,7 +9639,7 @@ msgstr "<strong>FOUT</strong>: WordPress %1$s vereist MySQL %2$s of hoger"
 msgid "Enter the RSS feed URL here:"
 msgstr "Voer de URL van de RSS-feed hier in:"
 
-#: wp-includes/functions.php:5224 wp-includes/user.php:280
+#: wp-includes/functions.php:5269 wp-includes/user.php:280
 msgid "Please log in again."
 msgstr "Graag opnieuw inloggen."
 
@@ -9647,18 +9648,18 @@ msgstr "Graag opnieuw inloggen."
 #. translators: 1: PHP file name, 2: version number, 3: alternative file name
 #. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
 #. name
-#: wp-includes/functions.php:3783 wp-includes/functions.php:3911
-#: wp-includes/functions.php:4034
+#: wp-includes/functions.php:3828 wp-includes/functions.php:3956
+#: wp-includes/functions.php:4079
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik in plaats daarvan %3$s."
 
 #. translators: 1: PHP function name, 2: version number, 3: optional message
 #. regarding the change
-#: wp-includes/functions.php:3975
+#: wp-includes/functions.php:4020
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s werd aangeroepen met een argument dat <strong>verouderd</strong> is sinds versie %2$s. %3$s"
 
-#: wp-mail.php:34
+#: wp-mail.php:40
 msgid "Slow down cowboy, no need to check for new mails so often!"
 msgstr "Rustig aan vriend, je hoeft je mail niet zo vaak te controleren."
 
@@ -9719,7 +9720,7 @@ msgstr "Revisie"
 msgid "That username is currently reserved but may be available in a couple of days."
 msgstr "Deze gebruikersnaam is momenteel gereserveerd, maar kan binnen een paar dagen beschikbaar komen."
 
-#: wp-includes/class-wp-editor.php:914
+#: wp-includes/class-wp-editor.php:916
 msgid "Image description"
 msgstr "Afbeeldingsomschrijving"
 
@@ -9731,11 +9732,11 @@ msgstr "Sitebeheerder"
 msgid "Remember Me"
 msgstr "Onthoud mij"
 
-#: wp-includes/functions.php:2691 wp-load.php:92
+#: wp-includes/functions.php:2736 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; fout"
 
-#: wp-includes/functions.php:2554 wp-includes/ms-functions.php:1970
+#: wp-includes/functions.php:2599 wp-includes/ms-functions.php:1970
 msgid "Please try again."
 msgstr "Probeer het opnieuw."
 
@@ -9747,8 +9748,8 @@ msgstr "Bestand %s kan niet worden opgeslagen"
 msgid "Protected Comments: Please enter your password to view comments."
 msgstr "Beveiligde reacties: voer je wachtwoord in om de reacties te kunnen bekijken."
 
-#: wp-includes/class-wp-customize-manager.php:3989
-#: wp-includes/class-wp-customize-manager.php:4030
+#: wp-includes/class-wp-customize-manager.php:3990
+#: wp-includes/class-wp-customize-manager.php:4031
 msgid "Fill Screen"
 msgstr "Schermvullend"
 
@@ -9780,7 +9781,7 @@ msgstr "Controleer je e-mail voor het nieuwe wachtwoord."
 msgid "Check your email for the confirmation link."
 msgstr "Controleer je e-mail voor de bevestigingslink."
 
-#: wp-includes/class-wp-theme.php:783
+#: wp-includes/class-wp-theme.php:784
 msgid "Blue"
 msgstr "Blauw"
 
@@ -9799,51 +9800,51 @@ msgctxt "page"
 msgid "Add New"
 msgstr "Nieuwe pagina"
 
-#: wp-includes/class-wp-theme.php:783
+#: wp-includes/class-wp-theme.php:784
 msgid "Black"
 msgstr "Zwart"
 
-#: wp-includes/class-wp-theme.php:783
+#: wp-includes/class-wp-theme.php:784
 msgid "Brown"
 msgstr "Bruin"
 
-#: wp-includes/class-wp-theme.php:784
+#: wp-includes/class-wp-theme.php:785
 msgid "Green"
 msgstr "Groen"
 
-#: wp-includes/class-wp-theme.php:784
+#: wp-includes/class-wp-theme.php:785
 msgid "Orange"
 msgstr "Oranje"
 
-#: wp-includes/class-wp-theme.php:785
+#: wp-includes/class-wp-theme.php:786
 msgid "Pink"
 msgstr "Roze"
 
-#: wp-includes/class-wp-theme.php:785
+#: wp-includes/class-wp-theme.php:786
 msgid "Purple"
 msgstr "Paars"
 
-#: wp-includes/class-wp-theme.php:785
+#: wp-includes/class-wp-theme.php:786
 msgid "Red"
 msgstr "Rood"
 
-#: wp-includes/class-wp-theme.php:786
+#: wp-includes/class-wp-theme.php:787
 msgid "Silver"
 msgstr "Zilver"
 
-#: wp-includes/class-wp-theme.php:786
+#: wp-includes/class-wp-theme.php:787
 msgid "White"
 msgstr "Wit"
 
-#: wp-includes/class-wp-theme.php:787
+#: wp-includes/class-wp-theme.php:788
 msgid "Yellow"
 msgstr "Geel"
 
-#: wp-includes/class-wp-theme.php:787
+#: wp-includes/class-wp-theme.php:788
 msgid "Light"
 msgstr "Licht "
 
-#: wp-includes/class-wp-editor.php:999 wp-includes/media-template.php:962
+#: wp-includes/class-wp-editor.php:1001 wp-includes/media-template.php:962
 msgid "Width"
 msgstr "Breedte"
 
@@ -9878,11 +9879,11 @@ msgstr "Instellingen"
 msgid "Allow people to post comments on new articles"
 msgstr "Sta toe dat bezoekers kunnen reageren op nieuwe artikelen"
 
-#: wp-includes/class-wp-editor.php:998 wp-includes/media-template.php:962
+#: wp-includes/class-wp-editor.php:1000 wp-includes/media-template.php:962
 msgid "Height"
 msgstr "Hoogte"
 
-#: wp-includes/class-wp-customize-manager.php:3783
+#: wp-includes/class-wp-customize-manager.php:3784
 #: wp-includes/customize/class-wp-customize-color-control.php:54
 #: wp-includes/customize/class-wp-customize-image-control.php:38
 #: wp-includes/customize/class-wp-customize-media-control.php:62
@@ -9909,7 +9910,7 @@ msgid "Strength indicator"
 msgstr "Sterkte-indicator"
 
 #: wp-includes/admin-bar.php:783 wp-includes/class-wp-customize-widgets.php:421
-#: wp-includes/functions.php:3659
+#: wp-includes/functions.php:3704
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -10096,7 +10097,7 @@ msgstr "<strong>FOUT</strong>: Dit e-mailadres is al geregistreerd. Kies een and
 msgid "Plugin:"
 msgstr "Plugin:"
 
-#: wp-includes/class-wp-customize-manager.php:3715
+#: wp-includes/class-wp-customize-manager.php:3716
 #: wp-includes/class-wp-xmlrpc-server.php:479
 msgid "Site Title"
 msgstr "Sitetitel"
@@ -10117,7 +10118,7 @@ msgstr "Gebruik van de gebruikerslevels in plugins en thema&#39;s is niet meer m
 msgid "Separate tags with commas"
 msgstr "Tags scheiden door komma's"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3553 wp-includes/comment.php:2988
+#: wp-includes/class-wp-xmlrpc-server.php:3553 wp-includes/comment.php:2983
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:449
 msgid "Sorry, comments are closed for this item."
 msgstr "Sorry, reacties op dit item zijn gesloten."
@@ -10143,15 +10144,15 @@ msgstr "Zoekresultaten voor &#8220;%s&#8221;"
 msgid "None"
 msgstr "Geen"
 
-#: wp-includes/class-wp-editor.php:904 wp-includes/theme-compat/sidebar.php:27
+#: wp-includes/class-wp-editor.php:906 wp-includes/theme-compat/sidebar.php:27
 msgid "Author"
 msgstr "Auteur"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1063
-#: wp-includes/class-wp-editor.php:1448
+#: wp-includes/class-wp-editor.php:1450
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:91
 #: wp-includes/media-template.php:373 wp-includes/media-template.php:554
-#: wp-includes/media.php:3403
+#: wp-includes/media.php:3401
 msgid "URL"
 msgstr "URL"
 
@@ -10166,7 +10167,7 @@ msgstr "Nee"
 
 #: wp-includes/class-walker-comment.php:244
 #: wp-includes/class-walker-comment.php:350
-#: wp-includes/class-wp-editor.php:1053
+#: wp-includes/class-wp-editor.php:1055
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -10174,7 +10175,7 @@ msgstr "Bewerken"
 msgid "Update Category"
 msgstr "Categorie bijwerken"
 
-#: wp-includes/class-wp-editor.php:872
+#: wp-includes/class-wp-editor.php:874
 msgid "Undo"
 msgstr "Ongedaan maken"
 
@@ -10186,11 +10187,11 @@ msgstr "Reacties"
 msgid "Publish"
 msgstr "Publiceren"
 
-#: wp-includes/class-wp-editor.php:936
+#: wp-includes/class-wp-editor.php:938
 msgid "Save"
 msgstr "Opslaan"
 
-#: wp-includes/class-wp-editor.php:909
+#: wp-includes/class-wp-editor.php:911
 msgid "Advanced"
 msgstr "Geavanceerd"
 
@@ -10225,7 +10226,7 @@ msgstr "Gebruikers"
 msgid "Done"
 msgstr "Klaar"
 
-#: wp-includes/class-wp-theme.php:734 wp-includes/comment-template.php:31
+#: wp-includes/class-wp-theme.php:735 wp-includes/comment-template.php:31
 msgid "Anonymous"
 msgstr "Anoniem"
 
@@ -10237,7 +10238,7 @@ msgstr "RSS"
 msgid "Invalid file type"
 msgstr "Ongeldig bestandstype"
 
-#: wp-includes/class-wp-editor.php:934 wp-includes/media-template.php:1244
+#: wp-includes/class-wp-editor.php:936 wp-includes/media-template.php:1244
 msgid "Preview"
 msgstr "Voorbeeld"
 
@@ -10245,8 +10246,8 @@ msgstr "Voorbeeld"
 msgid "Plugins"
 msgstr "Plugins"
 
-#: wp-includes/class-wp-editor.php:876 wp-includes/class-wp-editor.php:1489
-#: wp-includes/media.php:3407 wp-includes/script-loader.php:415
+#: wp-includes/class-wp-editor.php:878 wp-includes/class-wp-editor.php:1491
+#: wp-includes/media.php:3405 wp-includes/script-loader.php:415
 #: wp-includes/script-loader.php:465 wp-includes/script-loader.php:555
 msgid "Cancel"
 msgstr "Annuleren"
@@ -10286,12 +10287,12 @@ msgstr "Gebruikersnaam"
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: wp-includes/class-wp-editor.php:873
+#: wp-includes/class-wp-editor.php:875
 msgid "Redo"
 msgstr "Opnieuw"
 
 #: wp-includes/media-template.php:691 wp-includes/media-template.php:766
-#: wp-includes/media-template.php:940 wp-includes/media.php:3147
+#: wp-includes/media-template.php:940 wp-includes/media.php:3148
 msgid "Thumbnail"
 msgstr "Thumbnail"
 
@@ -10305,7 +10306,7 @@ msgstr "Bestand &#8220;%s&#8221; bestaat niet?"
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Bestand &#8220;%s&#8221; is geen afbeelding."
 
-#: wp-includes/media.php:3404
+#: wp-includes/media.php:3402
 msgid "Add Media"
 msgstr "Media toevoegen"
 
@@ -10313,21 +10314,21 @@ msgstr "Media toevoegen"
 msgid "Saved."
 msgstr "Opgeslagen."
 
-#: wp-includes/class-wp-editor.php:1003
+#: wp-includes/class-wp-editor.php:1005
 #: wp-includes/customize/class-wp-customize-background-position-control.php:50
 #: wp-includes/media-template.php:617 wp-includes/media-template.php:848
 #: wp-includes/media-template.php:914
 msgid "Left"
 msgstr "Links"
 
-#: wp-includes/class-wp-editor.php:1004
+#: wp-includes/class-wp-editor.php:1006
 #: wp-includes/customize/class-wp-customize-background-position-control.php:51
 #: wp-includes/media-template.php:620 wp-includes/media-template.php:851
 #: wp-includes/media-template.php:917
 msgid "Center"
 msgstr "Gecentreerd"
 
-#: wp-includes/class-wp-editor.php:1005
+#: wp-includes/class-wp-editor.php:1007
 #: wp-includes/customize/class-wp-customize-background-position-control.php:52
 #: wp-includes/media-template.php:623 wp-includes/media-template.php:854
 #: wp-includes/media-template.php:920
@@ -10335,7 +10336,7 @@ msgid "Right"
 msgstr "Rechts"
 
 #: wp-includes/media-template.php:692 wp-includes/media-template.php:767
-#: wp-includes/media-template.php:941 wp-includes/media.php:3148
+#: wp-includes/media-template.php:941 wp-includes/media.php:3149
 msgid "Medium"
 msgstr "Gemiddeld"
 
@@ -10344,7 +10345,7 @@ msgstr "Gemiddeld"
 msgid "Size"
 msgstr "Afmeting"
 
-#: wp-includes/class-wp-editor.php:1001 wp-includes/media-template.php:609
+#: wp-includes/class-wp-editor.php:1003 wp-includes/media-template.php:609
 msgid "Alignment"
 msgstr "Uitlijning"
 
@@ -10356,7 +10357,7 @@ msgstr "Opslaan als wachtend"
 msgid "Privately Published"
 msgstr "Gepubliceerd als priv&#233;"
 
-#: wp-includes/class-wp-editor.php:875 wp-includes/script-loader.php:554
+#: wp-includes/class-wp-editor.php:877 wp-includes/script-loader.php:554
 msgid "OK"
 msgstr "OK"
 
@@ -10377,7 +10378,7 @@ msgstr "Openbaar"
 msgid "Schedule"
 msgstr "Inplannen"
 
-#: wp-includes/media.php:3408 wp-includes/script-loader.php:429
+#: wp-includes/media.php:3406 wp-includes/script-loader.php:429
 #: wp-includes/script-loader.php:565 wp-includes/script-loader.php:641
 msgid "Update"
 msgstr "Bijwerken"
@@ -10392,7 +10393,7 @@ msgid "All Categories"
 msgstr "Alle categorie&#235;n"
 
 #: wp-includes/admin-bar.php:857 wp-includes/admin-bar.php:858
-#: wp-includes/class-wp-editor.php:1464 wp-includes/media.php:3405
+#: wp-includes/class-wp-editor.php:1466 wp-includes/media.php:3403
 msgid "Search"
 msgstr "Zoeken"
 
@@ -10412,13 +10413,13 @@ msgstr "Pagina bekijken"
 msgid "Uncategorized"
 msgstr "Geen categorie"
 
-#: wp-includes/class-wp-editor.php:877 wp-includes/class-wp-editor.php:1443
+#: wp-includes/class-wp-editor.php:879 wp-includes/class-wp-editor.php:1445
 #: wp-includes/script-loader.php:269 wp-includes/script-loader.php:351
 #: wp-includes/script-loader.php:466 wp-includes/script-loader.php:975
 msgid "Close"
 msgstr "Sluiten"
 
-#: wp-includes/media.php:3406
+#: wp-includes/media.php:3404
 msgid "Select"
 msgstr "Selecteren"
 
@@ -10430,7 +10431,7 @@ msgstr "Media bewerken"
 msgid "New Post"
 msgstr "Nieuw bericht"
 
-#: wp-includes/media.php:3114 wp-includes/script-loader.php:431
+#: wp-includes/media.php:3115 wp-includes/script-loader.php:431
 #: wp-includes/script-loader.php:612
 msgid "(no title)"
 msgstr "(geen titel)"
@@ -10443,17 +10444,17 @@ msgstr "Bericht bewerken"
 msgid "Number of comments to show:"
 msgstr "Aantal te tonen reacties:"
 
-#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2549
+#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2594
 msgid "Are you sure you want to do this?"
 msgstr "Weet je zeker dat je dit wilt doen?"
 
 #: wp-includes/media-template.php:327 wp-includes/media-template.php:525
-#: wp-includes/media.php:3477
+#: wp-includes/media.php:3475
 msgid "Edit Image"
 msgstr "Afbeelding bewerken"
 
 #: wp-includes/media-template.php:694 wp-includes/media-template.php:769
-#: wp-includes/media-template.php:943 wp-includes/media.php:3150
+#: wp-includes/media-template.php:943 wp-includes/media.php:3151
 msgid "Full Size"
 msgstr "Volledige grootte"
 
@@ -10480,7 +10481,7 @@ msgstr "Recente reacties"
 msgid "Links"
 msgstr "Links"
 
-#: wp-includes/class-wp-editor.php:1492 wp-includes/script-loader.php:430
+#: wp-includes/class-wp-editor.php:1494 wp-includes/script-loader.php:430
 msgid "Add Link"
 msgstr "Link toevoegen"
 
@@ -10496,7 +10497,7 @@ msgstr "Nieuwe pagina"
 msgid "Edit Link Category"
 msgstr "Linkcategorie bewerken"
 
-#: wp-includes/class-wp-editor.php:1000 wp-includes/media-template.php:395
+#: wp-includes/class-wp-editor.php:1002 wp-includes/media-template.php:395
 #: wp-includes/media-template.php:576 wp-includes/media-template.php:834
 #: wp-includes/media-template.php:899
 msgid "Caption"
@@ -10522,14 +10523,14 @@ msgstr "Zijbalk"
 msgid "Save Draft"
 msgstr "Concept opslaan"
 
-#: wp-includes/class-wp-editor.php:903
+#: wp-includes/class-wp-editor.php:905
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:128
 #: wp-includes/media-template.php:405 wp-includes/media-template.php:586
 msgid "Description"
 msgstr "Omschrijving"
 
 #: wp-includes/class-wp-customize-widgets.php:728
-#: wp-includes/class-wp-editor.php:1055 wp-includes/media.php:3446
+#: wp-includes/class-wp-editor.php:1057 wp-includes/media.php:3444
 msgid "Apply"
 msgstr "Toepassen"
 
@@ -10545,7 +10546,7 @@ msgstr "Linkcategorieën"
 msgid "Excerpt"
 msgstr "Samenvatting"
 
-#: wp-includes/class-wp-editor.php:900 wp-includes/media-template.php:379
+#: wp-includes/class-wp-editor.php:902 wp-includes/media-template.php:379
 #: wp-includes/media-template.php:560 wp-includes/revision.php:34
 #: wp-includes/script-loader.php:581
 msgid "Title"
@@ -10600,7 +10601,7 @@ msgstr "Vals aan het spelen?"
 msgid "Activation Key:"
 msgstr "Activeringscode:"
 
-#: wp-includes/class-wp-editor.php:1391
+#: wp-includes/class-wp-editor.php:1393
 msgid "Y/m/d"
 msgstr "j F Y"
 

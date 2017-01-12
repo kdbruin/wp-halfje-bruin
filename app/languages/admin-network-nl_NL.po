@@ -1,15 +1,15 @@
-# Translation of WordPress - Development - Administration - Network Admin in Dutch
-# This file is distributed under the same license as the WordPress - Development - Administration - Network Admin package.
+# Translation of WordPress - 4.7.x - Administration - Network Admin in Dutch
+# This file is distributed under the same license as the WordPress - 4.7.x - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-31 08:28:28+0000\n"
+"PO-Revision-Date: 2017-01-08 18:37:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.0-alpha\n"
 "Language: nl\n"
-"Project-Id-Version: WordPress - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 4.7.x - Administration - Network Admin\n"
 
 #: wp-admin/network/index.php:51 wp-admin/network/site-info.php:31
 #: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:30
@@ -883,7 +883,7 @@ msgstr "Waarschuwing:"
 
 #: wp-admin/network.php:29
 msgid "The Network creation panel is not for WordPress MU networks."
-msgstr "Het netwerk aanmaakpaneel is niet voor Wordpress MU netwerken."
+msgstr "Het netwerk aanmaakpaneel is niet voor WordPress MU netwerken."
 
 #: wp-admin/includes/network.php:128
 msgid "Return to Dashboard"
@@ -1382,7 +1382,7 @@ msgstr "De gebruikersnaam of het e-mailadres is al in gebruik."
 
 #: wp-admin/network/user-new.php:37
 msgid "Cannot create an empty user."
-msgstr "Aanmaken van lege gebruikers niet mogelijk."
+msgstr "Aanmaken van lege gebruiker niet mogelijk."
 
 #: wp-admin/network/sites.php:107
 msgid "Confirm"
