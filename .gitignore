@@ -1,4 +1,5 @@
 # General files
+.DS_Store
 
 # Ignore Composer installed files
 vendor
