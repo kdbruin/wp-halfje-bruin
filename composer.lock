@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a24573766e790ac424b0673599b0ea0d",
-    "content-hash": "c829179f3908972c29eacc573d6b9c96",
+    "content-hash": "318ec8d60f1a00f80db3c0ebdc4b556e",
     "packages": [
         {
             "name": "composer/installers",
@@ -112,7 +111,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -154,7 +153,7 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
+            "time": "2013-03-15T17:51:14+00:00"
         },
         {
             "name": "kdb/hb-plugin",
@@ -215,14 +214,14 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-01-31 16:18:39"
+            "time": "2014-01-31T16:18:39+00:00"
         },
         {
             "name": "wordpress",
-            "version": "4.7.3",
+            "version": "4.7.4",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-4.7.3.zip",
+                "url": "https://downloads.wordpress.org/release/wordpress-4.7.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -313,15 +312,15 @@
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "2.86",
+            "version": "2.87",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "tags/2.86"
+                "reference": "tags/2.87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.2.86.zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.2.87.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -373,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.0.11",
+            "version": "2.0.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.0.11"
+                "reference": "tags/2.0.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.0.11.zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.0.13.zip",
                 "reference": null,
                 "shasum": null
             },

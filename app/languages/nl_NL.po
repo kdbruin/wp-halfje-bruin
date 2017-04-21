@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.7.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-01-26 15:48:48+0000\n"
+"PO-Revision-Date: 2017-04-03 14:07:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +38,7 @@ msgstr ","
 
 #: wp-includes/option.php:1762
 msgid "This address is used for admin purposes, like new user notification."
-msgstr "Dit adres word gebruikt voor administratieve doeleinden, zoals meldingen voor nieuwe gebruikers."
+msgstr "Dit adres wordt gebruikt voor administratieve doeleinden, zoals meldingen voor nieuwe gebruikers."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:101
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:832
@@ -1028,13 +1028,13 @@ msgstr "Het ID van de uitgelichte afbeelding voor het object."
 msgid "Whether the excerpt is protected with a password."
 msgstr "Of de samenvatting al dan niet is beschermd met een wachtwoord."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1939
-msgid "HTML excerpt for the object, transformed for display."
-msgstr "HTML samenvatting voor het object, omgezet voor vertoning."
-
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1979
 msgid "The order of the object in relation to other object of its type."
 msgstr "De volgorde van het object in relatie tot een ander object van hetzelfde type."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1939
+msgid "HTML excerpt for the object, transformed for display."
+msgstr "HTML-samenvatting voor het object, omgezet voor vertoning."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1864
 msgid "The title for the object."
@@ -1062,10 +1062,6 @@ msgstr "Een status voor het object."
 msgid "An alphanumeric identifier for the object unique to its type."
 msgstr "Een alfanumerieke sleutel voor het object, uniek voor het type."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1877
-msgid "HTML title for the object, transformed for display."
-msgstr "HTML titel voor het object, omgezet voor vertoning."
-
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1872
 msgid "Title for the object, as it exists in the database."
 msgstr "Titel voor het object, zoals het in de database bestaat."
@@ -1077,6 +1073,10 @@ msgstr "De samenvatting van het object."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1934
 msgid "Excerpt for the object, as it exists in the database."
 msgstr "Samenvatting voor het object, zoals het in de database bestaat."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1877
+msgid "HTML title for the object, transformed for display."
+msgstr "HTML-titel voor het object, omgezet voor vertoning."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1732
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:488
@@ -2089,7 +2089,7 @@ msgstr "%s activeren"
 
 #: wp-includes/class-wp-xmlrpc-server.php:4434
 msgid "Sorry, you are not allowed to access user data on this site."
-msgstr "Sorry, je hebt geen toegang tot de gebruikers data op deze site."
+msgstr "Sorry, je hebt geen toegang tot de gebruikersdata op deze site."
 
 #: wp-includes/script-loader.php:708
 msgid "Number of plugins found: %d"
@@ -2230,7 +2230,7 @@ msgid "Are you sure you want to delete %s?"
 msgstr "Weet je zeker dat je %s wilt verwijderen?"
 
 #. translators: %s: site title
-#: wp-includes/pluggable.php:1720
+#: wp-includes/pluggable.php:1736
 msgid "[%s] Password Changed"
 msgstr "[%s] Wachtwoord gewijzigd"
 
@@ -2252,7 +2252,7 @@ msgstr ""
 "De wijzigingen die je in de reacties hebt gemaakt zullen verloren gaan."
 
 #. translators: %s: user name
-#: wp-includes/pluggable.php:1715
+#: wp-includes/pluggable.php:1731
 msgid "Password changed for user: %s"
 msgstr "Wachtwoord gewijzigd voor gebruiker: %s"
 
@@ -3004,10 +3004,6 @@ msgstr "Geen route gevonden die overeenkomt met de URL en aanvraagmethode"
 msgid "The handler for the route is invalid"
 msgstr "De handler voor deze route is ongeldig"
 
-#: wp-includes/rest-api/class-wp-rest-server.php:282
-msgid "JSONP support is disabled on this site."
-msgstr "JSONP ondersteuning is uitgeschakeld op deze site."
-
 #: wp-includes/rest-api/class-wp-rest-request.php:851
 #: wp-includes/rest-api/class-wp-rest-request.php:918
 msgid "Invalid parameter(s): %s"
@@ -3023,6 +3019,10 @@ msgstr "Ontbrekende parameter(s): %s"
 #: wp-includes/query.php:739
 msgid "In %1$s, use the %2$s method, not the %3$s function. See %4$s."
 msgstr "Gebruik in %1$s de %2$s-methode, niet de %3$s-functie. Zie %4$s."
+
+#: wp-includes/rest-api/class-wp-rest-server.php:282
+msgid "JSONP support is disabled on this site."
+msgstr "JSONP-ondersteuning is uitgeschakeld op deze site."
 
 #: wp-includes/post.php:1393
 msgid "Pages list"
@@ -3044,10 +3044,6 @@ msgstr "Pagina-archief"
 msgid "Post Archives"
 msgstr "Berichtenarchief"
 
-#: wp-includes/post.php:1392
-msgid "Posts list navigation"
-msgstr "Berichtenlijst navigatie"
-
 #: wp-includes/post.php:1391
 msgid "Filter posts list"
 msgstr "Berichten filteren"
@@ -3055,6 +3051,10 @@ msgstr "Berichten filteren"
 #: wp-includes/post.php:1391
 msgid "Filter pages list"
 msgstr "Pagina's filteren"
+
+#: wp-includes/post.php:1392
+msgid "Posts list navigation"
+msgstr "Berichtenlijst-navigatie"
 
 #: wp-includes/class-wp-customize-nav-menus.php:171
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:335
@@ -3457,7 +3457,7 @@ msgstr "De wachtwoord-reset-link lijkt ongeldig. Hieronder kun je een nieuwe lin
 msgid "Username may not be longer than 60 characters."
 msgstr "Gebruikersnaam mag niet langer zijn dan 60 tekens."
 
-#: wp-includes/pluggable.php:1790
+#: wp-includes/pluggable.php:1806
 msgid "To set your password, visit the following address:"
 msgstr "Bezoek het volgende adres om je wachtwoord in te stellen:"
 
@@ -4145,14 +4145,14 @@ msgstr "Aangepaste link"
 #. translators: 1: comment author, 2: author IP, 3: author domain
 #. translators: 1: Comment author name, 2: comment author's IP, 3: comment
 #. author IP's hostname
-#: wp-includes/pluggable.php:1457 wp-includes/pluggable.php:1617
+#: wp-includes/pluggable.php:1473 wp-includes/pluggable.php:1633
 msgid "Author: %1$s (IP: %2$s, %3$s)"
 msgstr "Auteur: %1$s (IP: %2$s, %3$s)"
 
 #. translators: 1: Trackback/pingback website name, 2: website IP, 3: website
 #. hostname
-#: wp-includes/pluggable.php:1436 wp-includes/pluggable.php:1447
-#: wp-includes/pluggable.php:1597 wp-includes/pluggable.php:1607
+#: wp-includes/pluggable.php:1452 wp-includes/pluggable.php:1463
+#: wp-includes/pluggable.php:1613 wp-includes/pluggable.php:1623
 msgid "Website: %1$s (IP: %2$s, %3$s)"
 msgstr "Website: %1$s (IP: %2$s, %3$s)"
 
@@ -4367,7 +4367,7 @@ msgstr "Je moet een array van types meegeven."
 msgid "A term with the name provided already exists in this taxonomy."
 msgstr "Een term met deze naam en slug bestaat al in deze taxonomie."
 
-#: wp-includes/pluggable.php:1461
+#: wp-includes/pluggable.php:1477
 msgid "You can see all comments on this post here:"
 msgstr "Hier kun je alle reacties op dit bericht zien:"
 
@@ -4381,15 +4381,15 @@ msgid "Previous"
 msgstr "Vorige"
 
 #. translators: 1: Comment text
-#: wp-includes/pluggable.php:1438 wp-includes/pluggable.php:1449
-#: wp-includes/pluggable.php:1460 wp-includes/pluggable.php:1623
+#: wp-includes/pluggable.php:1454 wp-includes/pluggable.php:1465
+#: wp-includes/pluggable.php:1476 wp-includes/pluggable.php:1639
 msgid "Comment: %s"
 msgstr "Reactie: %s"
 
 #. translators: 1: Trackback/pingback/comment author URL
-#: wp-includes/pluggable.php:1437 wp-includes/pluggable.php:1448
-#: wp-includes/pluggable.php:1459 wp-includes/pluggable.php:1599
-#: wp-includes/pluggable.php:1609 wp-includes/pluggable.php:1621
+#: wp-includes/pluggable.php:1453 wp-includes/pluggable.php:1464
+#: wp-includes/pluggable.php:1475 wp-includes/pluggable.php:1615
+#: wp-includes/pluggable.php:1625 wp-includes/pluggable.php:1637
 msgid "URL: %s"
 msgstr "URL: %s"
 
@@ -4420,11 +4420,11 @@ msgstr "Geïnstalleerd"
 msgid "Edit Selection"
 msgstr "Selectie bewerken"
 
-#: wp-includes/pluggable.php:1450
+#: wp-includes/pluggable.php:1466
 msgid "You can see all pingbacks on this post here:"
 msgstr "Hier kun je alle pingbacks op dit bericht zien:"
 
-#: wp-includes/pluggable.php:1439
+#: wp-includes/pluggable.php:1455
 msgid "You can see all trackbacks on this post here:"
 msgstr "Hier kun je alle trackbacks op dit bericht zien:"
 
@@ -5359,10 +5359,6 @@ msgstr "Artiest weergeven in afspeellijst"
 msgid "There are no associated subtitles."
 msgstr "Geen ondertitels beschikbaar."
 
-#: wp-includes/wp-db.php:1297
-msgid "The query argument of %s must have a placeholder."
-msgstr "Het query argument %s moet een waarde bevatten."
-
 #: wp-includes/media-template.php:1162
 msgid "Poster Image"
 msgstr "Posterafbeelding"
@@ -5454,6 +5450,10 @@ msgstr "Versleep om video's te herschikken."
 #: wp-includes/user.php:2040
 msgid "Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "Hint: het wachtwoord moet minimaal twaalf tekens lang zijn. Gebruik hoofd- en kleine letters, nummers en tekens zoals ! \" ? $ % ^ &amp; ) om het sterker te maken."
+
+#: wp-includes/wp-db.php:1297
+msgid "The query argument of %s must have a placeholder."
+msgstr "Het query-argument %s moet een waarde bevatten."
 
 #: wp-includes/class-wp-editor.php:932
 msgid "Emoticons"
@@ -7167,7 +7167,7 @@ msgstr "Gebruiker"
 msgid "View Category"
 msgstr "Categorie bekijken"
 
-#: wp-includes/pluggable.php:1043 wp-includes/pluggable.php:1086
+#: wp-includes/pluggable.php:1059 wp-includes/pluggable.php:1102
 msgid "You should specify a nonce action to be verified by using the first parameter."
 msgstr "Je moet een nonce-actie specificeren die kan worden geverifieerd door gebruik te maken van de eerste parameter."
 
@@ -7273,7 +7273,7 @@ msgstr "(Dit bericht is toegevoegd in versie %s.)"
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s werd <strong>verkeerd</strong> aangeroepen. %2$s %3$s"
 
-#: wp-includes/pluggable.php:1467
+#: wp-includes/pluggable.php:1483
 msgid "Permalink: %s"
 msgstr "Permalink: %s"
 
@@ -7640,7 +7640,7 @@ msgstr "Op dit moment zijn nieuwe registraties niet toegestaan."
 #. translators: 1: type of site sign-up; 2: network settings URL
 #: wp-signup.php:827
 msgid "Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; registrations. To change or disable registration go to your <a href=\"%s\">Options page</a>."
-msgstr "Hallo sitebeheerder! Op dit moment heb je &#8220;%s&#8221; registraties toegelaten. Ga naar de <a href=\"%s\">instellingen pagina</a> om de registratie-instellingen te wijzigen of uit te schakelen."
+msgstr "Hallo sitebeheerder! Op dit moment heb je &#8220;%s&#8221; registraties toegelaten. Ga naar de <a href=\"%s\">instellingenpagina</a> om de registratie-instellingen te wijzigen of uit te schakelen."
 
 #: wp-signup.php:240
 msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
@@ -7747,7 +7747,7 @@ msgstr "Beschrijving site "
 msgid "That site is currently reserved but may be available in a couple days."
 msgstr "Deze site is momenteel gereserveerd, maar komt wellicht binnenkort beschikbaar."
 
-#: wp-includes/pluggable.php:1758
+#: wp-includes/pluggable.php:1774
 msgid "New user registration on your site %s:"
 msgstr "Nieuwe gebruiker geregistreerd op de site %s:"
 
@@ -7791,10 +7791,6 @@ msgstr "Deze site is al actief."
 msgid "Could not create site."
 msgstr "Niet mogelijk site aan te maken."
 
-#: wp-includes/option.php:1749
-msgid "Site URL."
-msgstr "Site URL."
-
 #: wp-includes/ms-functions.php:616 wp-includes/ms-functions.php:1133
 msgid "Sorry, that site already exists!"
 msgstr "Sorry, deze site bestaat al!"
@@ -7822,6 +7818,10 @@ msgstr "Je hebt geen toestemming om de details van deze site te bekijken."
 #: wp-includes/class-wp-xmlrpc-server.php:3008
 msgid "Sorry, you must be able to edit posts on this site in order to view tags."
 msgstr "Je moet toestemming hebben om berichten te bewerken om tags te kunnen bekijken."
+
+#: wp-includes/option.php:1749
+msgid "Site URL."
+msgstr "Site-URL."
 
 #: wp-includes/load.php:536
 msgid "The site you have requested is not installed properly. Please contact the system administrator."
@@ -7974,26 +7974,26 @@ msgid "%d WordPress Update"
 msgstr "%d WordPress-update"
 
 #. translators: 1: Post title
-#: wp-includes/pluggable.php:1434
+#: wp-includes/pluggable.php:1450
 msgid "New trackback on your post \"%s\""
 msgstr "Nieuwe trackback op je bericht \"%s\""
 
 #. translators: 1: Post title
-#: wp-includes/pluggable.php:1614
+#: wp-includes/pluggable.php:1630
 msgid "A new comment on the post \"%s\" is waiting for your approval"
 msgstr "Een nieuwe reactie op het bericht \"%s\", wacht op goedkeuring."
 
 #. translators: 1: Post title
-#: wp-includes/pluggable.php:1445
+#: wp-includes/pluggable.php:1461
 msgid "New pingback on your post \"%s\""
 msgstr "Nieuwe pingback op bericht \"%s\""
 
 #. translators: 1: Post title
-#: wp-includes/pluggable.php:1594
+#: wp-includes/pluggable.php:1610
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
 msgstr "Een nieuwe trackback op bericht \"%s\" wacht op goedkeuring"
 
-#: wp-includes/pluggable.php:1455
+#: wp-includes/pluggable.php:1471
 msgid "New comment on your post \"%s\""
 msgstr "Nieuwe reactie op je bericht \"%s\""
 
@@ -8063,7 +8063,7 @@ msgid "If your site does not display, please contact the owner of this network."
 msgstr "Indien je site niet vertoond wordt, neem dan contact op met de eigenaar van dit netwerk."
 
 #. translators: 1: Post title
-#: wp-includes/pluggable.php:1604
+#: wp-includes/pluggable.php:1620
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
 msgstr "Een nieuwe pingback op het bericht \"%s\", wacht op goedkeuring"
 
@@ -8889,40 +8889,40 @@ msgid "PM"
 msgstr "PM"
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1463
+#: wp-includes/pluggable.php:1479
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Reactie: \"%2$s\""
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1441
+#: wp-includes/pluggable.php:1457
 msgid "[%1$s] Trackback: \"%2$s\""
 msgstr "[%1$s] Trackback: \"%2$s\""
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1452
+#: wp-includes/pluggable.php:1468
 msgid "[%1$s] Pingback: \"%2$s\""
 msgstr "[%1$s] Pingback: \"%2$s\""
 
 #. translators: Comment moderation. 1: Comment action URL
-#: wp-includes/pluggable.php:1471 wp-includes/pluggable.php:1632
+#: wp-includes/pluggable.php:1487 wp-includes/pluggable.php:1648
 msgid "Trash it: %s"
 msgstr "Naar de prullenbak: %s"
 
 #. translators: Comment moderation. 1: Comment action URL
-#: wp-includes/pluggable.php:1473 wp-includes/pluggable.php:1635
+#: wp-includes/pluggable.php:1489 wp-includes/pluggable.php:1651
 msgid "Delete it: %s"
 msgstr "Verwijderen: %s"
 
-#: wp-includes/pluggable.php:1759 wp-includes/pluggable.php:1789
+#: wp-includes/pluggable.php:1775 wp-includes/pluggable.php:1805
 #: wp-login.php:329
 msgid "Username: %s"
 msgstr "Gebruikersnaam: %s"
 
-#: wp-includes/pluggable.php:1762
+#: wp-includes/pluggable.php:1778
 msgid "[%s] New User Registration"
 msgstr "[%s] Registratie nieuwe gebruiker"
 
-#: wp-includes/pluggable.php:1795
+#: wp-includes/pluggable.php:1811
 msgid "[%s] Your username and password info"
 msgstr "[%s] Je gebruikersnaam en wachtwoord"
 
@@ -9244,7 +9244,7 @@ msgid "Comments Feed"
 msgstr "Reactiefeed"
 
 #. translators: Comment moderation. 1: Comment action URL
-#: wp-includes/pluggable.php:1475 wp-includes/pluggable.php:1639
+#: wp-includes/pluggable.php:1491 wp-includes/pluggable.php:1655
 msgid "Spam it: %s"
 msgstr "Markeren als spam: %s"
 
@@ -9290,7 +9290,7 @@ msgid "Unapproved"
 msgstr "Geweigerd"
 
 #. translators: Comment moderation. 1: Comment action URL
-#: wp-includes/pluggable.php:1628
+#: wp-includes/pluggable.php:1644
 msgid "Approve it: %s"
 msgstr "Toelaten: %s"
 
@@ -9319,10 +9319,6 @@ msgstr "Een plaats selecteren"
 msgid "Oops: %s"
 msgstr "Oeps: %s"
 
-#: wp-includes/deprecated.php:64
-msgid "new WordPress Loop"
-msgstr "nieuwe WordPress loop"
-
 #: wp-includes/script-loader.php:557
 msgid "Schedule for:"
 msgstr "Ingepland voor:"
@@ -9332,13 +9328,9 @@ msgstr "Ingepland voor:"
 msgid "Recent Posts"
 msgstr "Meest recente berichten"
 
-#: wp-includes/pluggable.php:1600
+#: wp-includes/pluggable.php:1616
 msgid "Trackback excerpt: "
 msgstr "Trackback samenvatting:"
-
-#: wp-includes/pluggable.php:1610
-msgid "Pingback excerpt: "
-msgstr "Pingback samenvatting:"
 
 #: wp-includes/post.php:3059
 msgid "Content, title, and excerpt are empty."
@@ -9426,7 +9418,7 @@ msgid "Horizontal space"
 msgstr "Horizontale ruimte"
 
 #. translators: Comment moderation. 1: Number of comments awaiting approval
-#: wp-includes/pluggable.php:1642
+#: wp-includes/pluggable.php:1658
 msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
 msgstr[0] "Er wacht %s reactie op goedkeuring. Ga naar het moderatiescherm:"
@@ -9577,7 +9569,7 @@ msgstr "De e-mail kon niet worden verzonden."
 
 #. translators: Comment moderation notification email subject. 1: Site name, 2:
 #. Post title
-#: wp-includes/pluggable.php:1647
+#: wp-includes/pluggable.php:1663
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Graag \"%2$s\" modereren"
 
@@ -9776,6 +9768,14 @@ msgstr "Controleer je e-mail voor het nieuwe wachtwoord."
 #: wp-login.php:861
 msgid "Check your email for the confirmation link."
 msgstr "Controleer je e-mail voor de bevestigingslink."
+
+#: wp-includes/deprecated.php:64
+msgid "new WordPress Loop"
+msgstr "nieuwe WordPress-loop"
+
+#: wp-includes/pluggable.php:1626
+msgid "Pingback excerpt: "
+msgstr "Pingback-samenvatting:"
 
 #: wp-includes/class-wp-theme.php:784
 msgid "Blue"
@@ -10455,8 +10455,8 @@ msgid "Full Size"
 msgstr "Volledige grootte"
 
 #. translators: 1: Comment author URL
-#: wp-includes/pluggable.php:1458 wp-includes/pluggable.php:1619
-#: wp-includes/pluggable.php:1760
+#: wp-includes/pluggable.php:1474 wp-includes/pluggable.php:1635
+#: wp-includes/pluggable.php:1776
 msgid "Email: %s"
 msgstr "E-mailadres: %s"
 
