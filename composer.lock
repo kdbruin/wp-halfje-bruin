@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a82f51995302861d22f4c40bcf856f0e",
+    "content-hash": "6fcffe6a9b012b634b9ef016925117d7",
     "packages": [
         {
             "name": "composer/installers",
@@ -225,10 +225,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.7.5",
+            "version": "4.8",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-4.7.5.zip",
+                "url": "https://downloads.wordpress.org/release/wordpress-4.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -259,15 +259,15 @@
         },
         {
             "name": "wpackagist-plugin/backupwordpress",
-            "version": "3.6.3.1",
+            "version": "3.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/backupwordpress/",
-                "reference": "tags/3.6.3.1"
+                "reference": "tags/3.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.6.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.6.4.zip",
                 "reference": null,
                 "shasum": null
             },
