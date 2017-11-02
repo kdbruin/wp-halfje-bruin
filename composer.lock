@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6df5fde6dce828800ea2f3cbfab3089",
+    "content-hash": "f3d9a196a7773c3e7d4428773836caef",
     "packages": [
         {
             "name": "composer/installers",
@@ -228,10 +228,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.8.2",
+            "version": "4.8.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-4.8.2.zip",
+                "url": "https://downloads.wordpress.org/release/wordpress-4.8.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -382,15 +382,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.0.15",
+            "version": "2.0.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.0.15"
+                "reference": "tags/2.0.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.0.15.zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.0.16.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -462,15 +462,15 @@
         },
         {
             "name": "wpackagist-plugin/series",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/series/",
-                "reference": "tags/1.0.0"
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/series.1.0.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/series.2.0.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -482,15 +482,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "4.10.2",
+            "version": "5.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/4.10.2"
+                "reference": "tags/5.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.4.10.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
