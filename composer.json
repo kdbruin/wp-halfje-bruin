@@ -9,10 +9,10 @@
       "package": {
         "name": "wordpress",
         "type": "webroot",
-        "version": "4.9.1",
+        "version": "4.9.2",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/release/wordpress-4.9.1.zip"
+          "url": "https://downloads.wordpress.org/release/wordpress-4.9.2.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.1.0"
@@ -26,7 +26,7 @@
   ],
   "require": {
     "php": ">=5.3.0",
-    "wordpress": "4.9.1",
+    "wordpress": "4.9.2",
     "fancyguy/webroot-installer": "1.1.0",
     "vlucas/phpdotenv": "1.0.6",
     "wpackagist-plugin/advanced-custom-fields": "4.4.12",
@@ -36,12 +36,12 @@
     "wpackagist-plugin/disqus-comment-system": "2.87",
     "wpackagist-plugin/enable-media-replace": "3.1.1",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.0.6",
-    "wpackagist-plugin/loco-translate": "2.0.16",
-    "wpackagist-plugin/php-compatibility-checker": "1.4.3",
-    "wpackagist-plugin/post-snippets": "2.5.3",
+    "wpackagist-plugin/loco-translate": "2.0.17",
+    "wpackagist-plugin/php-compatibility-checker": "1.4.4",
+    "wpackagist-plugin/post-snippets": "3.0.2",
     "wpackagist-plugin/ricg-responsive-images": "3.1.1",
     "wpackagist-plugin/series": "2.0.0",
-    "wpackagist-plugin/shortcodes-ultimate": "5.0.1",
+    "wpackagist-plugin/shortcodes-ultimate": "5.0.2",
     "wpackagist-plugin/wordpress-importer": "0.6.3",
     "kdb/hb-plugin": "dev-master",
     "wpackagist-theme/twentysixteen": "*",
