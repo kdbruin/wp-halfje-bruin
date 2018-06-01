@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad0f8fc0f5cc2b8055bd91725e076890",
+    "content-hash": "0a29ff9486ea9b7b272e1db02b0e2ca2",
     "packages": [
         {
             "name": "composer/installers",
@@ -231,10 +231,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.9.4",
+            "version": "4.9.6",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-4.9.4.zip",
+                "url": "https://downloads.wordpress.org/release/wordpress-4.9.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -325,15 +325,15 @@
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "3.0.13",
+            "version": "3.0.15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "tags/3.0.13"
+                "reference": "tags/3.0.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.3.0.13.zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.3.0.15.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -345,15 +345,15 @@
         },
         {
             "name": "wpackagist-plugin/enable-media-replace",
-            "version": "3.2",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enable-media-replace/",
-                "reference": "tags/3.2"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -385,15 +385,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.1.2"
+                "reference": "tags/2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.1.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.1.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -425,15 +425,15 @@
         },
         {
             "name": "wpackagist-plugin/post-snippets",
-            "version": "3.0.4",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-snippets/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-snippets.3.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/post-snippets.3.0.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -505,15 +505,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.3",
+            "version": "0.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.3"
+                "reference": "tags/0.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -545,15 +545,15 @@
         },
         {
             "name": "wpackagist-theme/twentysixteen",
-            "version": "1.4",
+            "version": "1.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentysixteen/",
-                "reference": "1.4"
+                "reference": "1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentysixteen.1.4.zip",
+                "url": "https://downloads.wordpress.org/theme/twentysixteen.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
