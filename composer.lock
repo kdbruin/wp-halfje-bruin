@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "34f36905a79cd1b7e60bab2970a3b775",
+    "content-hash": "a697dd1fe6ea5c73eb93f53900b9da7e",
     "packages": [
         {
             "name": "composer/installers",
@@ -231,10 +231,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.9.7",
+            "version": "4.9.8",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-4.9.7.zip",
+                "url": "https://downloads.wordpress.org/release/wordpress-4.9.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -385,15 +385,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/3.4.0"
+                "reference": "tags/3.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.5.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -545,15 +545,15 @@
         },
         {
             "name": "wpackagist-theme/atomic-blocks",
-            "version": "1.1.5",
+            "version": "1.1.7",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/atomic-blocks/",
-                "reference": "1.1.5"
+                "reference": "1.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/atomic-blocks.1.1.5.zip",
+                "url": "https://downloads.wordpress.org/theme/atomic-blocks.1.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
