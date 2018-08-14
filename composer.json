@@ -1,34 +1,31 @@
 {
+  "name": "halfje-bruin/halfje-bruin",
+  "description": "Halfje-Bruin WordPress site",
+  "authors": [
+    {
+      "name": "Kees de Bruin",
+      "homepage": "https://www.halfje-bruin.nl/"
+    }
+  ],
+  "type": "project",
   "repositories": [
     {
       "type":"composer",
       "url":"https://wpackagist.org"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "wordpress",
-        "type": "webroot",
-        "version": "4.9.8",
-        "dist": {
-          "type": "zip",
-          "url": "https://downloads.wordpress.org/release/wordpress-4.9.8.zip"
-        },
-        "require" : {
-          "fancyguy/webroot-installer": "1.1.0"
-        }
-      }
-    },
-    {
       "type": "vcs",
       "url": "git@git.home.lan:base/hb-plugin.git"
     }
   ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
   "require": {
     "php": ">=5.3.0",
-    "wordpress": "4.9.8",
-    "fancyguy/webroot-installer": "1.1.0",
+    "johnpbloch/wordpress": ">=4.9",
     "vlucas/phpdotenv": "^1.0.6",
+    "kdb/hb-plugin": "dev-master",
     "wpackagist-plugin/advanced-custom-fields": "^4.4.12",
     "wpackagist-plugin/backupwordpress": "^3.6.4",
     "wpackagist-plugin/classic-editor": "^0.4",
@@ -45,18 +42,22 @@
     "wpackagist-plugin/series": "^2.0.0",
     "wpackagist-plugin/shortcodes-ultimate": "^5.0.4",
     "wpackagist-plugin/wordpress-importer": "^0.6.4",
-    "kdb/hb-plugin": "dev-master",
     "wpackagist-theme/twentysixteen": "*",
     "wpackagist-theme/gridsby": "*",
     "wpackagist-theme/atomic-blocks": "*"
   },
   "extra": {
+    "wordpress-install-dir": "wp",
     "installer-paths": {
-      "app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "app/themes/{$name}/": ["type:wordpress-theme"]
-    },
-    "webroot-dir": "wp",
-    "webroot-package": "wordpress"
+      "app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
   }
 }
